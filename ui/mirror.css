@@ -12,10 +12,8 @@ body.mirror-ui{--bg:#101619;--panel:#182125;--line:#303e43;--text:#e9f0ee;--mute
 .mirror-ui .field-label{font-size:9px;letter-spacing:1.4px;color:var(--muted)}
 .mirror-ui .maker-toggle{min-height:48px;border-radius:8px;background:#111a1e;border:1px solid #3a4a50;padding:10px 12px;font-size:12px}
 .mirror-ui .maker-options{background:#1c282d;border:1px solid #4b6268;border-radius:8px;max-height:240px;overflow:auto;z-index:8}.mirror-ui .maker-option{min-height:44px}
-.mirror-search-label{display:flex;align-items:center;justify-content:space-between;margin:22px 0 8px;font-size:12px;color:#c4d3d2}.mirror-search-label kbd{font:11px monospace;border:1px solid #425359;border-radius:4px;padding:0 6px;color:#b1c3c4}
 .mirror-ui #ship-search{margin:0;width:100%;height:46px;border:1px solid #42565c;border-radius:8px;background:#101a1e;padding:0 12px;color:var(--text);font-size:12px}
 .mirror-ui #ship-search::placeholder{color:#91a5a9}.mirror-ui #ship-search:focus-visible{outline:2px solid var(--mint);outline-offset:3px;box-shadow:0 0 0 5px #b8f4d610}
-.mirror-suggestions{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 22px}.mirror-suggestions>span{width:100%;font-size:10px;color:var(--muted);margin-bottom:4px}.mirror-suggestions button{border:1px solid #3c5055;background:#202e32;color:#d0dfdb;border-radius:20px;padding:6px 10px;font-size:11px}.mirror-suggestions button:hover{border-color:var(--mint);color:var(--mint)}
 .mirror-ui .list-heading{margin-top:18px;color:var(--muted)}.mirror-ui .ship-list{max-height:clamp(160px,32vh,390px);scrollbar-width:thin;scrollbar-color:#526965 transparent}
 .mirror-ui .ship-row{min-height:54px;padding:9px 0;border-bottom:1px solid #2d3c41;gap:6px}.mirror-ui .ship-check{font-size:12px;min-width:0}.mirror-ui .ship-check>span{overflow-wrap:anywhere}.mirror-ui .ship-check input{width:16px;height:16px;accent-color:var(--mint);flex-shrink:0}.mirror-ui .search-maker{font-size:9px;color:var(--muted)}
 .mirror-ui .ship-row-actions{gap:3px;flex-shrink:0}.mirror-ui .ship-row-actions button{min-width:26px;min-height:32px;background:#25363a;border-radius:5px;font-size:16px}.mirror-ui .ship-row-actions input{width:32px;min-height:32px;font-size:11px}
@@ -25,8 +23,6 @@ body.mirror-ui{--bg:#101619;--panel:#182125;--line:#303e43;--text:#e9f0ee;--mute
 .mirror-ui .scene-heading{left:388px;top:33px;font-size:10px;letter-spacing:1.4px}.mirror-ui .view-tools{top:22px;right:24px;padding:5px;border-radius:10px;background:#182125ed}.mirror-ui .tool{min-width:36px;height:36px;font-size:18px}.mirror-ui #view-perspective,.mirror-ui #view-top{font-size:11px;font-weight:650}
 .mirror-ui .camera-tools{right:24px}.mirror-ui .statusbar{height:40px;background:#111a1e;color:#9db0b2;font-size:9px}.mirror-ui #viewport{bottom:40px}
 .mirror-welcome{position:absolute;left:calc(50% + 175px);top:43%;transform:translate(-50%,-50%);text-align:center;width:440px;pointer-events:none}
-.mirror-orbit{display:grid;place-items:center;width:62px;height:62px;border:1px solid #8db6a945;border-radius:50%;margin:0 auto 24px;color:var(--mint);font:28px monospace;box-shadow:0 0 0 12px #9ee8c803,0 0 0 24px #9ee8c803}
-.mirror-kicker{font-size:9px;letter-spacing:2.5px;color:#b2c8bf}.mirror-welcome h1{font-size:40px;line-height:1.18;letter-spacing:-1.5px;font-weight:500;margin:18px 0;color:#e5efea}.mirror-welcome p{font-size:13px;line-height:1.8;color:#a5b6b6;margin-bottom:24px}.mirror-browse{pointer-events:auto;background:var(--mint);color:#102b23;border-radius:8px;padding:13px 20px;font-size:12px;font-weight:650}.mirror-browse span{margin-left:20px}.mirror-browse:hover{background:#d2ffe8}.mirror-scale{display:block;font:8px monospace;letter-spacing:2px;color:#8ca7a1;margin-top:28px}
 .mirror-ui .fleet-tray{left:388px;bottom:62px;right:24px;border-radius:12px;padding:14px;max-width:none}.mirror-ui .fleet-chip{padding:9px;border-radius:7px;font-size:12px}.mirror-ui .fleet-chip .ship-focus{font-size:12px}.mirror-ui .fleet-chip>button{min-height:28px;min-width:24px}
 .mirror-ui .help-panel,.mirror-ui .transform-panel{top:86px}.mirror-ui .viewer-description{padding-top:38px}.mirror-ui button,.mirror-ui a{transition:background-color .15s,color .15s,border-color .15s}
 @media(min-width:761px){.mirror-ui .sidebar.closed{display:none}.mirror-ui .mobile-toggle{display:block;position:absolute;left:370px;top:24px;width:22px;min-width:22px;height:30px;background:#243438;z-index:5}.mirror-ui:has(.sidebar.closed) .mobile-toggle{left:16px}.mirror-ui:has(.sidebar.closed) .scene-heading{left:56px}.mirror-ui:has(.sidebar.closed) .mirror-welcome{left:50%}.mirror-ui:has(.sidebar.closed) .fleet-tray{left:24px}}
@@ -36,3 +32,34 @@ body.mirror-ui{--bg:#101619;--panel:#182125;--line:#303e43;--text:#e9f0ee;--mute
 @media(min-width:1101px){.mirror-ui .scene-heading{left:410px}.mirror-ui:has(.sidebar.closed) .scene-heading{left:56px}}
 @media(max-width:760px){.mirror-ui .navbar{flex-wrap:nowrap}.mirror-ui .navbar nav{display:none}.mirror-ui:has(.sidebar:not(.closed)) .camera-tools{visibility:hidden}}
 @media(max-width:760px){.mirror-ui .navbar{min-height:60px}.mirror-ui .navbar nav{display:none!important}.mirror-ui .brand{flex-shrink:0;white-space:nowrap}}
+
+/* Quiet hangar: keep instrumentation and task labels, remove promotional chrome. */
+.mirror-ui .panel-heading,.mirror-ui .brand small,.mirror-ui .nav-referral,
+.mirror-ui .scene-heading>span:not(#fleet-count),.mirror-ui .camera-label,
+.mirror-ui .statusbar .desktop-hint,.mirror-ui .statusbar>div:first-child,
+.mirror-ui .viewer-description{display:none}
+.mirror-ui .navbar{height:60px;min-height:60px;gap:40px;padding:0 24px;flex-wrap:nowrap}
+.mirror-ui .navbar nav{height:100%;width:auto;order:initial}
+.mirror-ui .brand{font-size:15px;letter-spacing:2px}
+.mirror-ui .navbar nav>a{font-size:12px}
+.mirror-ui .navbar nav>a:not(.nav-active):not([href$="about/"]){display:none}
+.mirror-ui #workspace{height:calc(100dvh - 60px)}
+.mirror-ui .panel{border-radius:7px;box-shadow:none}
+.mirror-ui .add-panel{padding:18px 18px 0}
+.mirror-ui .add-title{font-size:18px;font-weight:500;letter-spacing:0;margin:0 0 20px}
+.mirror-ui .field-label{display:none}
+.mirror-ui .maker-toggle{min-height:42px;border-radius:5px}
+.mirror-ui #ship-search{height:42px;margin-top:10px;border-radius:5px}
+.mirror-ui .quick-import{margin-top:16px;padding-top:12px}
+.mirror-ui #fleet-drop{padding:8px;border:1px solid var(--line);background:transparent;border-radius:5px;font-size:11px}
+.mirror-ui .load-footer{margin-top:12px;padding:12px 0}
+.mirror-ui .scene-heading{color:var(--muted);letter-spacing:1px}
+.mirror-ui .statusbar{height:28px;justify-content:flex-end;background:#111a1ec9}
+.mirror-ui #viewport{bottom:28px}
+.mirror-ui .statusbar #grid-status,.mirror-ui .status-separator{display:none}
+.mirror-ui .mirror-support>summary{font-size:10px;color:#91a5a9}
+.mirror-welcome{width:240px}
+.mirror-welcome h1{font-size:16px;line-height:1.5;letter-spacing:0;font-weight:400;color:var(--muted);margin:0 0 14px}
+.mirror-browse{pointer-events:auto;background:#182125;border:1px solid #526d64;border-radius:5px;color:var(--mint);padding:10px 16px;font-size:12px}
+.mirror-browse span{margin-left:16px}.mirror-browse:hover{background:#253a33}
+@media(max-width:760px){.mirror-ui .navbar{padding:0 16px}.mirror-ui .statusbar>div:last-child{display:flex}.mirror-ui .statusbar #scale-status{display:inline}.mirror-ui .scene-heading #fleet-count{display:inline}.mirror-ui .sidebar{bottom:42px}.mirror-ui .fleet-tray{bottom:42px}}
