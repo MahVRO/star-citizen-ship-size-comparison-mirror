@@ -1,11 +1,16 @@
 # Curated manufacturer logo library
 
-`../variants.json` maps catalogue codes to `mono`, `color` and `wordmark` artwork, including source URLs. A null entry means a trustworthy suitable variant was not found, not a broken file.
+`../variants.json` maps catalogue codes to `mono`, `color` (original-color or original-finish artwork) and `wordmark` variants with source URLs. Null means an unresolved source gap.
 
-- 19 monochrome logos: SharedIcons from The Star Citizen Wikis (pinned Git revision), plus the Vanduul logo hosted by Star Citizen Wiki.
-- 5 color logos: Crusader, Esperia, Gatac, Kruger, RSI. These are existing artwork, not recolored monochrome icons.
-- 13 wordmarks: Aegis, Anvil, Aopoa, Argo, Consolidated Outland, Crusader, Drake, Grey's Market, Greycat, Kruger, Origin, RSI and Tumbril.
+Current collection:
+- 19 monochrome logos, sourced from SharedIcons and Star Citizen Wiki.
+- 18 original-color/finish variants, including official metallic or grayscale artwork from RSI's ship-matrix API, the green Aopoa mark, and Mirai's red emblem with its name.
+- 17 wordmarks, including Mirai, MISC, Esperia and Gatac.
 
-Wordmarks are used in the selected manufacturer header; the gallery remains icon-only. Monochrome black vector artwork is rendered white for dark-background contrast. Color artwork keeps its source colors. Source art/trademarks belong to Cloud Imperium Games / their respective owners.
+Remaining source gaps: Argo color variant; Banu and Vanduul name-bearing wordmarks. Older Argo circle artwork is not substituted for the current mark.
 
-The old uploads under `../hover/` are retained for reference but are no longer selected by the UI. Add verified artwork to this library and update variants.json when extending the collection. File names include content hashes to avoid stale browser caches.
+Grid logos are monochrome by default; hover and selection use available original-finish artwork. Selected manufacturer headers can use name-bearing wordmarks. `../preview.html` compares every variant and links to its source.
+
+SVG wordmarks with large empty canvases are trimmed to artwork bounds. Default black lettering on Mirai/MISC and dark Gatac lettering is made light for dark UI; the original red, blue and green emblem colors are preserved. Those adaptations and unmodified source files are recorded in variants.json. Artwork and trademarks belong to Cloud Imperium Games / their respective owners.
+
+Old uploads under `../hover/` are retained but are no longer selected by the UI. Extend this library and variants.json to add verified artwork. Content hashes prevent stale asset caches.
