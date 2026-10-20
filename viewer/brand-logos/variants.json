@@ -1,0 +1,221 @@
+{
+  "AEGS": {
+    "mono": {
+      "file": "library/AEGS-mono-314ad9a77c.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-aegis.svg"
+    },
+    "color": null,
+    "wordmark": {
+      "file": "library/AEGS-wordmark-e0c69e623a.svg",
+      "source": "https://starcitizen.tools/File:Aegis_Dynamics_-_JP0904.svg",
+      "monochrome": true
+    }
+  },
+  "ANVL": {
+    "mono": {
+      "file": "library/ANVL-mono-88b475d7a9.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-anvil-aerospace.svg"
+    },
+    "color": null,
+    "wordmark": {
+      "file": "library/ANVL-wordmark-4019461346.svg",
+      "source": "https://starcitizen.tools/File:Anvil_Aerospace_-_JP0904.svg",
+      "monochrome": true
+    }
+  },
+  "XNAA": {
+    "mono": {
+      "file": "library/XNAA-mono-f206465284.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-aopoa.svg"
+    },
+    "color": null,
+    "wordmark": {
+      "file": "library/XNAA-wordmark-e4fdb25b2a.svg",
+      "source": "https://starcitizen.tools/File:Aopoa_-_JP0904.svg",
+      "monochrome": true
+    }
+  },
+  "ARGO": {
+    "mono": {
+      "file": "library/ARGO-mono-1769aa08b8.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-argo-astronautics.svg"
+    },
+    "color": null,
+    "wordmark": {
+      "file": "library/ARGO-wordmark-b437c7cfd8.svg",
+      "source": "https://starcitizen.tools/File:Argo_Astronautics_-_JP0904.svg",
+      "monochrome": true
+    }
+  },
+  "BANU": {
+    "mono": {
+      "file": "library/BANU-mono-2b51804d4c.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-banu.svg"
+    },
+    "color": null,
+    "wordmark": null
+  },
+  "CNOU": {
+    "mono": {
+      "file": "library/CNOU-mono-5af0c5f911.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-consolidated-outland.svg"
+    },
+    "color": null,
+    "wordmark": {
+      "file": "library/CNOU-wordmark-d6528b3aac.svg",
+      "source": "https://starcitizen.tools/File:Consolidated_Outland_-_JP0904.svg",
+      "monochrome": true
+    }
+  },
+  "CRUS": {
+    "mono": {
+      "file": "library/CRUS-mono-4096a72ee1.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-crusader.svg"
+    },
+    "color": {
+      "file": "library/CRUS-color-ea280a5fdd.svg",
+      "source": "https://starcitizen.tools/File:Crusader_Industries_-_JP0904.svg"
+    },
+    "wordmark": {
+      "file": "library/CRUS-wordmark-ea280a5fdd.svg",
+      "source": "https://starcitizen.tools/File:Crusader_Industries_-_JP0904.svg",
+      "monochrome": false
+    }
+  },
+  "DRAK": {
+    "mono": {
+      "file": "library/DRAK-mono-a5591e9c44.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-drake.svg"
+    },
+    "color": null,
+    "wordmark": {
+      "file": "library/DRAK-wordmark-58b1f4d726.svg",
+      "source": "https://starcitizen.tools/File:Drake_Interplanetary_-_JP0904.svg",
+      "monochrome": true
+    }
+  },
+  "ESPR": {
+    "mono": {
+      "file": "library/ESPR-mono-35ab563a4b.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-esperia.svg"
+    },
+    "color": {
+      "file": "library/ESPR-color-fe3705b84a.svg",
+      "source": "https://starcitizen.tools/File:Esperia_logo_new_colored.svg"
+    },
+    "wordmark": null
+  },
+  "GAMA": {
+    "mono": {
+      "file": "library/GAMA-mono-1fa4927d60.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-gatac.svg"
+    },
+    "color": {
+      "file": "library/GAMA-color-1a52cae456.svg",
+      "source": "https://starcitizen.tools/File:Gatac_Manufacture_-_logo.svg"
+    },
+    "wordmark": null
+  },
+  "GREY": {
+    "mono": {
+      "file": "library/GREY-mono-d19c71b568.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-greys-market.svg"
+    },
+    "color": null,
+    "wordmark": {
+      "file": "library/GREY-wordmark-671e9bfd19.png",
+      "source": "https://starcitizen.tools/File:Grey%27s_Market_logo_-_TP_BG.png",
+      "monochrome": true
+    }
+  },
+  "GRIN": {
+    "mono": {
+      "file": "library/GRIN-mono-2c7bd788bf.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-greycat.svg"
+    },
+    "color": null,
+    "wordmark": {
+      "file": "library/GRIN-wordmark-3c78b6150a.svg",
+      "source": "https://starcitizen.tools/File:Greycat_Industrial_-_JP0907.svg",
+      "monochrome": true
+    }
+  },
+  "KRIG": {
+    "mono": {
+      "file": "library/KRIG-mono-dd75a5b49c.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-kruger-intergalactic.svg"
+    },
+    "color": {
+      "file": "library/KRIG-color-58a170a985.svg",
+      "source": "https://starcitizen.tools/File:Kruger_logo_colored.svg"
+    },
+    "wordmark": {
+      "file": "library/KRIG-color-58a170a985.svg",
+      "source": "https://starcitizen.tools/File:Kruger_logo_colored.svg",
+      "monochrome": false
+    }
+  },
+  "MRAI": {
+    "mono": {
+      "file": "library/MRAI-mono-98cc1cd781.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-mirai.svg"
+    },
+    "color": null,
+    "wordmark": null
+  },
+  "MISC": {
+    "mono": {
+      "file": "library/MISC-mono-e1279089f8.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-misc.svg"
+    },
+    "color": null,
+    "wordmark": null
+  },
+  "ORIG": {
+    "mono": {
+      "file": "library/ORIG-mono-d2673110aa.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-origin.svg"
+    },
+    "color": null,
+    "wordmark": {
+      "file": "library/ORIG-wordmark-a0a6ceaece.svg",
+      "source": "https://starcitizen.tools/File:Origin_Jumpworks_-_JP0904.svg",
+      "monochrome": true
+    }
+  },
+  "RSI": {
+    "mono": {
+      "file": "library/RSI-mono-0156b6c865.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-rsi.svg"
+    },
+    "color": {
+      "file": "library/RSI-color-124116db19.png",
+      "source": "https://starcitizen.tools/File:RSISmall16by9.png"
+    },
+    "wordmark": {
+      "file": "library/RSI-color-124116db19.png",
+      "source": "https://starcitizen.tools/File:RSISmall16by9.png",
+      "monochrome": false
+    }
+  },
+  "TMBL": {
+    "mono": {
+      "file": "library/TMBL-mono-215ff0a88b.svg",
+      "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-tumbril.svg"
+    },
+    "color": null,
+    "wordmark": {
+      "file": "library/TMBL-wordmark-799b69e307.svg",
+      "source": "https://starcitizen.tools/File:Tumbril_logo.svg",
+      "monochrome": true
+    }
+  },
+  "VNCL": {
+    "mono": {
+      "file": "library/VNCL-mono-264dfc653c.svg",
+      "source": "https://starcitizen.tools/File:VNCLnav.svg"
+    },
+    "color": null,
+    "wordmark": null
+  }
+}
