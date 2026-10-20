@@ -44,3 +44,5 @@ Check desktop and mobile layouts, catalogue search and manufacturer selection, l
 Pages must serve the generated site from **gh-pages / (root)**, not the source branch `main`. The generated branch contains `index.html`, the models and `.nojekyll`.
 
 If Actions reports “The job was not started because your account is locked due to a billing issue”, no build steps ran: resolve the account billing restriction in GitHub settings. Changing the Python build cannot fix that restriction. A locally generated snapshot can still be pushed to `gh-pages`; Pages may also refuse deployment until GitHub removes the account restriction.
+
+With Playwright and Chromium installed, run `FLEET_VIEWER_URL=http://127.0.0.1:8000/star-citizen-ship-size-comparison-mirror/ node scripts/check_manufacturer_states.cjs` against a running mirror to check all 19 manufacturer hover/selection states, including manufacturers without separate color assets. The check verifies enlargement persists after clicking and leaving, with exactly one visible logo.

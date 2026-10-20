@@ -186,3 +186,6 @@ body.mirror-ui{--sidebar:352px}
 /* Retain the full hover treatment after pointer exit or selection. */
 .mirror-ui .maker-option.is-logo-preview,.mirror-ui .maker-option[aria-pressed=true]{overflow:visible}
 .mirror-ui .maker-option.has-custom-hover[aria-pressed=true]>.maker-hover-logo{transform:scale(1.12)}
+/* Apply the same active size to manufacturers without a separate color asset. */
+.mirror-ui .maker-option.has-curated-mono:not(.has-custom-hover):is(.is-logo-preview,[aria-pressed=true])>img:not(.maker-hover-logo){opacity:1;visibility:visible;filter:brightness(0) invert(1);transform:scale(1.12)}
+.mirror-ui .maker-option.has-custom-hover.is-logo-preview>.maker-hover-logo{transform:scale(1.12)}
