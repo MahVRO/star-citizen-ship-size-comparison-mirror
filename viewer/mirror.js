@@ -178,9 +178,6 @@
         count.setAttribute('aria-label', count.textContent + ' ships');
         button.append(count);
       });
-      // Show real catalogue content on arrival; do not auto-select or load a ship.
-      $('maker-options').hidden = false;
-      $('maker-toggle').setAttribute('aria-expanded', 'true');
       observer.disconnect();
     };
     const observer = new MutationObserver(enhance);
