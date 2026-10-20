@@ -44,6 +44,9 @@ def customize(output: Path, prefix: str) -> None:
     version = hashlib.sha256(manifest.encode() + (assets / 'brand-logos' / 'variants.json').read_bytes()).hexdigest()[:12]
     custom_js = destination / 'mirror.js'
     custom_js.write_text(custom_js.read_text().replace('__HOVER_LOGOS_VERSION__', version))
+    shutil.copytree(assets / 'ships', destination / 'ships', dirs_exist_ok=True)
+    ship_version = hashlib.sha256((assets / 'ships' / 'manifest.json').read_bytes()).hexdigest()[:12]
+    custom_js.write_text(custom_js.read_text().replace('__SHIP_ART_VERSION__', ship_version))
     index = output / 'index.html'
     html = index.read_text()
     viewer_version = hashlib.sha256(viewer.read_bytes()).hexdigest()[:12]

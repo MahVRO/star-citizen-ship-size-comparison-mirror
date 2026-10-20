@@ -46,3 +46,7 @@ Pages must serve the generated site from **gh-pages / (root)**, not the source b
 If Actions reports “The job was not started because your account is locked due to a billing issue”, no build steps ran: resolve the account billing restriction in GitHub settings. Changing the Python build cannot fix that restriction. A locally generated snapshot can still be pushed to `gh-pages`; Pages may also refuse deployment until GitHub removes the account restriction.
 
 With Playwright and Chromium installed, run `FLEET_VIEWER_URL=http://127.0.0.1:8000/star-citizen-ship-size-comparison-mirror/ node scripts/check_manufacturer_states.cjs` against a running mirror to check all 19 manufacturer hover/selection states, including manufacturers without separate color assets. The check verifies enlargement persists after clicking and leaving, with exactly one visible logo.
+
+Ship rows use bundled RSI thumbnails and the catalogue's model lengths. To refresh artwork after a catalogue update, run `MIRROR_OUTPUT=/path/to/built/mirror python3 scripts/update_ship_art.py`, then rebuild the UI layer. Artwork uses exact ship source paths or unique names within a manufacturer; unmatched models use a neutral fallback. See `ui/ships/manifest.json` for source URLs.
+
+With Playwright and Chromium installed, run `FLEET_VIEWER_URL=http://127.0.0.1:8000/star-citizen-ship-size-comparison-mirror/ node scripts/check_ship_panel.cjs` to check ship thumbnails, lengths, selection, quantities, loading/removal and mobile bounds.

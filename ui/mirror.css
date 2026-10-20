@@ -189,3 +189,29 @@ body.mirror-ui{--sidebar:352px}
 /* Apply the same active size to manufacturers without a separate color asset. */
 .mirror-ui .maker-option.has-curated-mono:not(.has-custom-hover):is(.is-logo-preview,[aria-pressed=true])>img:not(.maker-hover-logo){opacity:1;visibility:visible;filter:brightness(0) invert(1);transform:scale(1.12)}
 .mirror-ui .maker-option.has-custom-hover.is-logo-preview>.maker-hover-logo{transform:scale(1.12)}
+/* Ships: compact visual inventory, with the catalogue's real dimensions. */
+.mirror-ui .ship-list{gap:6px;padding:2px 3px 5px 0;scroll-padding:8px}
+.mirror-ui .ship-row{position:relative;min-height:76px;padding:10px 8px;border:1px solid #a8c5b714;border-radius:9px;background:#0d181c60;gap:6px;transition:background-color .18s,border-color .18s}
+.mirror-ui .ship-row:hover,.mirror-ui .ship-row:focus-within{background:#20312c70;border-color:#a8c5b736}
+.mirror-ui .ship-row:has(input[type=checkbox]:checked){background:#a8edc909;border-color:#a8edc958;box-shadow:inset 2px 0 #b8f4d6}
+.mirror-ui .ship-check{display:flex;gap:9px;align-items:center;flex:1;min-width:0;cursor:pointer}
+.mirror-ui .ship-check>input{width:13px;height:13px;flex-shrink:0;margin:0;opacity:.65}
+.mirror-ui .ship-check>input:checked{opacity:1}
+.mirror-ui .ship-art{display:grid;place-items:center;flex:0 0 54px;width:54px;height:46px;border-radius:5px;overflow:hidden;background:#091216;isolation:isolate}
+.mirror-ui .ship-art img{width:100%;height:100%;object-fit:cover;filter:saturate(.45);opacity:.85;transition:filter .18s,opacity .18s}
+.mirror-ui .ship-row:hover .ship-art img,.mirror-ui .ship-row:has(input:checked) .ship-art img{filter:none;opacity:1}
+.mirror-ui .ship-art.no-art::before{content:'◇';font:22px monospace;color:#6a8b7b}
+.mirror-ui .ship-check>span:not(.ship-art){font-size:11px;line-height:1.45;font-weight:500;overflow-wrap:anywhere;min-width:0}
+.mirror-ui .ship-length{display:block;color:#95afa1;font:10px/1.5 monospace;letter-spacing:.2px;margin-top:3px;font-weight:400}
+.mirror-ui .ship-check .search-maker{font-size:9px;color:#81998c;margin-top:2px}
+.mirror-ui .ship-row-actions{flex-shrink:0;opacity:.6;border-color:#a8c5b71c}
+.mirror-ui .ship-row:hover .ship-row-actions,.mirror-ui .ship-row:focus-within .ship-row-actions,.mirror-ui .ship-row:has(input:checked) .ship-row-actions{opacity:1}
+.mirror-ui .ship-row-actions button{min-width:23px;min-height:30px;line-height:1}
+.mirror-ui .ship-row-actions input{width:22px;min-height:30px}
+.mirror-ui .ship-row-actions .remove-model{color:#d99c8d;min-width:22px}
+.mirror-ui .list-heading{padding:0 2px;min-height:28px;margin:12px 0 6px}
+.mirror-ui .load-footer{position:sticky;bottom:0;background:#162125;z-index:2;gap:8px}
+.mirror-ui .load-footer .primary{white-space:nowrap;font-size:11px;padding:11px 12px}
+.mirror-ui .maker-options{max-height:220px}
+@media(max-width:760px){.mirror-ui .maker-options{max-height:170px}.mirror-ui .ship-list{max-height:36vh}.mirror-ui .ship-row{min-height:74px}}
+@media(prefers-reduced-motion:reduce){.mirror-ui .ship-row,.mirror-ui .ship-art img{transition:none}}
