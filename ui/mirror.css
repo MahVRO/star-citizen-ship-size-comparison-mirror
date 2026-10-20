@@ -179,3 +179,6 @@ body.mirror-ui{--sidebar:352px}
 .mirror-ui .maker-preview>span{color:var(--text);font-size:12px}
 .mirror-ui .maker-option:not(.is-logo-preview)>.maker-hover-logo{opacity:0;transform:none}
 .mirror-ui .maker-option.has-curated-mono:not(.is-logo-preview)>img:not(.maker-hover-logo){opacity:.8;filter:brightness(0) invert(1);transform:scale(.95)}
+/* A selected manufacturer keeps its color artwork; show exactly one logo. */
+.mirror-ui .maker-option.has-custom-hover[aria-pressed=true]>img:not(.maker-hover-logo){opacity:0;visibility:hidden}
+.mirror-ui .maker-option.has-custom-hover[aria-pressed=true]>.maker-hover-logo{opacity:1;visibility:visible;filter:none;transform:none}
