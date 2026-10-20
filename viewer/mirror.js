@@ -3,6 +3,10 @@
   const $ = id => document.getElementById(id);
   if (!$('workspace')) return;
   document.body.classList.add('mirror-ui');
+  // Catalogue interactions are inside the picker, not outside-click dismissals.
+  document.querySelector('.add-panel').addEventListener('pointerdown', event => {
+    event.stopPropagation();
+  });
   document.querySelector('.add-title').textContent = 'Catalogue';
   $('ship-search').placeholder = 'Search ships…';
   $('ship-search').setAttribute('aria-keyshortcuts', '/');
