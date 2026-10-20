@@ -2,6 +2,7 @@
 from concurrent.futures import ThreadPoolExecutor
 import json, os, re, struct, urllib.parse, urllib.request
 from pathlib import Path
+from customize_mirror import customize
 ORIGIN = 'https://fleet-viewer.com/'
 OUT = Path(os.environ.get('MIRROR_OUTPUT', 'public'))
 PREFIX = '/' + os.environ.get('GITHUB_REPOSITORY', 'MahVRO/star-citizen-ship-size-comparison-mirror').split('/')[-1] + '/'
@@ -78,7 +79,7 @@ with ThreadPoolExecutor(max_workers=8) as pool:
 for file in OUT.rglob('*'):
     if file.suffix not in ('.html', '.js', '.css'): continue
     text = file.read_text()
-    text = re.sub(r"""(["'])/(?!/)""", lambda m: m[1] + PREFIX, text)
+    text = re.sub(r"""(["'])/(?!/|>)""", lambda m: m[1] + PREFIX, text)
     text = text.replace('url(/', 'url(' + PREFIX)
     if file.suffix == '.html':
         text = re.sub(r'<meta name="robots"[^>]*>', '<meta name="robots" content="noindex, nofollow">', text)
@@ -89,3 +90,5 @@ ships = [s for m in catalog['manufacturers'] for s in m['ships']]
 assert all((OUT / s['path']).is_file() for s in ships)
 assert (OUT / 'viewer/vendor/build/three.core.js').is_file()
 print(f'Complete: {len(ships)} ships, {len(seen)} files, {sum(f.stat().st_size for f in OUT.rglob("*") if f.is_file()) / 1048576:.1f} MiB')
+
+customize(OUT, PREFIX)
