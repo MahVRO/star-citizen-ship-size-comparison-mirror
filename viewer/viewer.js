@@ -81,7 +81,7 @@ async function initCatalogue() {
     button.addEventListener('click', () => {
       currentMaker = maker; $('maker-value').textContent = maker.name;
       $('maker-emblem').replaceChildren(maker.logo ? imageLogo(maker) : document.createTextNode(maker.code));
-      $('maker-options').hidden = false; $('maker-toggle').setAttribute('aria-expanded', 'true');
+      $('maker-options').hidden = true; $('maker-toggle').setAttribute('aria-expanded', 'false');
       $('ship-section').hidden = false; $('ship-search').value = ''; renderShips(); $('maker-toggle').focus();
     });
     $('maker-options').append(button);
