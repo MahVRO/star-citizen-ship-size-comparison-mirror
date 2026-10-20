@@ -181,4 +181,8 @@ body.mirror-ui{--sidebar:352px}
 .mirror-ui .maker-option.has-curated-mono:not(.is-logo-preview)>img:not(.maker-hover-logo){opacity:.8;filter:brightness(0) invert(1);transform:scale(.95)}
 /* A selected manufacturer keeps its color artwork; show exactly one logo. */
 .mirror-ui .maker-option.has-custom-hover[aria-pressed=true]>img:not(.maker-hover-logo){opacity:0;visibility:hidden}
-.mirror-ui .maker-option.has-custom-hover[aria-pressed=true]>.maker-hover-logo{opacity:1;visibility:visible;filter:none;transform:none}
+.mirror-ui .maker-option.has-custom-hover[aria-pressed=true]>.maker-hover-logo{opacity:1;visibility:visible;filter:none;transform:scale(1.12)}
+
+/* Retain the full hover treatment after pointer exit or selection. */
+.mirror-ui .maker-option.is-logo-preview,.mirror-ui .maker-option[aria-pressed=true]{overflow:visible}
+.mirror-ui .maker-option.has-custom-hover[aria-pressed=true]>.maker-hover-logo{transform:scale(1.12)}

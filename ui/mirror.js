@@ -69,13 +69,10 @@
   const previewName = document.createElement('span');
   makerPreview.append(previewIcon, previewName);
   $('maker-toggle').append(makerPreview);
-  const clearPreview = button => {
-    button.classList.remove('is-logo-preview');
-    if (makerPreview.dataset.code === button.dataset.manufacturerCode) {
-      $('maker-toggle').classList.remove('is-previewing');
-    }
-  };
   const showPreview = (button, maker) => {
+    $('maker-options').querySelectorAll('.is-logo-preview').forEach(other => {
+      if (other !== button) other.classList.remove('is-logo-preview');
+    });
     button.classList.add('is-logo-preview');
     const art = curatedLogos[maker.code];
     const logo = art?.color || art?.mono;
@@ -129,10 +126,8 @@
           button.addEventListener('pointerenter', event => {
             if (event.pointerType !== 'touch') showPreview(button, maker);
           });
-          button.addEventListener('pointerleave', () => clearPreview(button));
           button.addEventListener('focus', () => { if (keyboardNavigation) showPreview(button, maker); });
-          button.addEventListener('blur', () => clearPreview(button));
-          button.addEventListener('click', () => clearPreview(button));
+          button.addEventListener('click', () => showPreview(button, maker));
         }
 
         if (button.querySelector('.maker-model-count')) return;
