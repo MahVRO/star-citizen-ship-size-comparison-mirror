@@ -63,3 +63,31 @@ body.mirror-ui{--bg:#101619;--panel:#182125;--line:#303e43;--text:#e9f0ee;--mute
 .mirror-browse{pointer-events:auto;background:#182125;border:1px solid #526d64;border-radius:5px;color:var(--mint);padding:10px 16px;font-size:12px}
 .mirror-browse span{margin-left:16px}.mirror-browse:hover{background:#253a33}
 @media(max-width:760px){.mirror-ui .navbar{padding:0 16px}.mirror-ui .statusbar>div:last-child{display:flex}.mirror-ui .statusbar #scale-status{display:inline}.mirror-ui .scene-heading #fleet-count{display:inline}.mirror-ui .sidebar{bottom:42px}.mirror-ui .fleet-tray{bottom:42px}}
+/* Catalogue: a bounded manufacturer picker and a dedicated model list. */
+.mirror-ui{--sidebar:360px}
+.mirror-ui .sidebar{width:var(--sidebar);bottom:20px}
+.mirror-ui .add-panel{display:flex;flex-direction:column;min-height:0;max-height:100%;padding:18px 16px 0}
+.mirror-ui .maker-picker{position:relative;flex-shrink:0}
+.mirror-ui .maker-toggle{height:48px;padding:10px 12px;border-color:#47605f}
+.mirror-ui .maker-emblem{width:28px;height:28px;display:grid;place-items:center;flex-shrink:0}
+.mirror-ui .maker-emblem img{max-width:26px;max-height:26px;object-fit:contain}
+.mirror-ui .maker-options{position:static;max-height:260px;border:1px solid #3c5156;border-radius:0 0 6px 6px;margin:0;padding:4px;background:#142025;box-shadow:none;scrollbar-width:thin;scrollbar-color:#526965 transparent}
+.mirror-ui .maker-filter{width:100%;height:40px;background:#111a1e;color:var(--text);border:1px solid #506a68;border-radius:6px 6px 0 0;margin-top:8px;padding:0 12px;font-size:12px}
+.mirror-ui .maker-option{display:flex;align-items:center;gap:12px;min-height:48px;padding:8px 10px;border-radius:4px;text-align:left;width:100%;font-size:12px}
+.mirror-ui .maker-option img{width:28px;height:28px;object-fit:contain;flex-shrink:0}
+.mirror-ui .maker-option>span{flex:1}.maker-model-count{margin-left:auto;color:#9eb6af;font:11px monospace;padding:3px 7px;background:#253735;border-radius:4px}
+.mirror-ui .maker-option:hover,.mirror-ui .maker-option[aria-pressed=true]{background:#293e38;color:var(--mint)}
+.maker-no-results{margin:0;padding:12px;font-size:12px;color:var(--muted)}
+.mirror-ui #ship-section{display:flex;flex-direction:column;min-height:100px;overflow:hidden;margin-top:8px}
+.mirror-ui .ship-list{max-height:clamp(160px,42vh,480px);overflow-y:auto;padding:2px 2px 4px;display:flex;flex-direction:column;gap:5px}
+.mirror-ui .ship-row{border:1px solid #304247;background:#142025;border-radius:6px;padding:10px 9px;min-height:58px;gap:8px}
+.mirror-ui .ship-row:has(input[type=checkbox]:checked){border-color:#5e8d7b;background:#20342e}
+.mirror-ui .ship-check{gap:9px;flex:1;font-size:12px;line-height:1.4}
+.mirror-ui .ship-row-actions button{min-width:28px;min-height:34px}
+.mirror-ui .ship-row-actions input{min-height:34px;width:32px;text-align:center;background:#0f191c;border:1px solid #40544f;border-radius:4px;color:var(--text)}
+.mirror-ui .quick-import,.mirror-ui .load-footer{flex-shrink:0}
+.mirror-ui .viewer-description,.mirror-ui>.site-footer,.mirror-ui .statusbar{display:none}
+.mirror-ui{overflow:hidden}.mirror-ui #viewport{bottom:0}.mirror-ui #workspace{min-height:0}
+.mirror-ui .fleet-tray{bottom:20px;left:410px}
+@media(min-width:761px){.mirror-ui .mobile-toggle{left:390px}.mirror-ui .scene-heading{left:426px}}
+@media(max-width:760px){.mirror-ui{--sidebar:360px}.mirror-ui .sidebar{width:min(360px,calc(100vw - 24px));bottom:12px}.mirror-ui .fleet-tray{left:12px;bottom:12px}.mirror-ui .maker-options{max-height:190px}.mirror-ui .ship-list{max-height:32vh}.mirror-ui .scene-heading{left:60px}}
