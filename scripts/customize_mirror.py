@@ -21,6 +21,7 @@ def customize(output: Path, prefix: str) -> None:
         "$('maker-options').hidden = false; $('maker-toggle').setAttribute('aria-expanded', 'true');",
     )
     viewer.write_text(source)
+    shutil.copytree(assets / 'brand-logos', destination / 'brand-logos', dirs_exist_ok=True)
     index = output / 'index.html'
     html = index.read_text()
     viewer_version = hashlib.sha256(viewer.read_bytes()).hexdigest()[:12]

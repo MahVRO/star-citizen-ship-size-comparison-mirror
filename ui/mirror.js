@@ -56,13 +56,15 @@
     galleryWasOpen = open;
   }).observe($('maker-options'), {attributes:true, attributeFilter:['hidden']});
   makerSearch.hidden = true;
+  const logoBase = new URL('brand-logos/', document.currentScript.src);
+  const colorLogos = {"CRUS": "CRUS-ea280a5fdd.svg", "ESPR": "ESPR-fe3705b84a.svg", "GAMA": "GAMA-1a52cae456.svg", "KRIG": "KRIG-58a170a985.svg", "RSI": "RSI-124116db19.png", "ARGO": "ARGO-bca78a1a48.jpg"};
   // Accent the original logo artwork; never recolor the logo pixels themselves.
   const manufacturerColors = {
-    AEGS: '#83b7cf', ANVL: '#d65d56', XNAA: '#c7a1df', ARGO: '#f39843',
-    BANU: '#c4a56a', CNOU: '#dd9a53', CRUS: '#73c0d4', DRAK: '#b9a96c',
-    ESPR: '#cf645d', GAMA: '#8fbfb3', GREY: '#c0bdad', GRIN: '#d6ac59',
-    KRIG: '#82adc5', MRAI: '#d0635c', MISC: '#81a9c8', ORIG: '#a7c7e2',
-    RSI: '#79b4df', TMBL: '#c2a16b', VNCL: '#d36c5d',
+    AEGS: '#83b7cf', ANVL: '#d65d56', XNAA: '#c7a1df', ARGO: '#48d8f2',
+    BANU: '#c4a56a', CNOU: '#dd9a53', CRUS: '#1684ee', DRAK: '#b9a96c',
+    ESPR: '#cf645d', GAMA: '#9d58b3', GREY: '#c0bdad', GRIN: '#d6ac59',
+    KRIG: '#ce5550', MRAI: '#d0635c', MISC: '#81a9c8', ORIG: '#a7c7e2',
+    RSI: '#f5a72a', TMBL: '#c2a16b', VNCL: '#d36c5d',
   };
   fetch(new URL('catalog.json', document.currentScript.src)).then(r => {
     if (!r.ok) throw new Error('Catalogue unavailable');
@@ -73,6 +75,11 @@
       if (buttons.length !== catalog.manufacturers.length) return;
       buttons.forEach((button, index) => {
         const maker = catalog.manufacturers[index];
+        const artwork = button.querySelector('img');
+        if (artwork && colorLogos[maker.code]) {
+          artwork.src = new URL(colorLogos[maker.code], logoBase).href;
+          button.classList.add('has-color-logo');
+        }
         button.style.setProperty('--brand-color', manufacturerColors[maker.code] || '#b8f4d6');
         if (button.querySelector('.maker-model-count')) return;
         const count = document.createElement('small');
@@ -91,7 +98,12 @@
   }).catch(() => { /* Upstream catalogue reports loading errors. */ });
   const highlightMaker = () => {
     $('maker-options').querySelectorAll('.maker-option').forEach(button => {
-      button.setAttribute('aria-pressed', String(button.querySelector('span')?.textContent === $('maker-value').textContent));
+      const active = button.querySelector('span')?.textContent === $('maker-value').textContent;
+      button.setAttribute('aria-pressed', String(active));
+      if (active && button.classList.contains('has-color-logo')) {
+        const emblem = $('maker-emblem').querySelector('img');
+        if (emblem) emblem.src = button.querySelector('img').src;
+      }
     });
   };
   new MutationObserver(highlightMaker).observe($('maker-value'), {childList:true});
