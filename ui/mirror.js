@@ -3,7 +3,7 @@
   const $ = id => document.getElementById(id);
   if (!$('workspace')) return;
   document.body.classList.add('mirror-ui');
-  document.querySelector('.add-title').textContent = 'Ships';
+  document.querySelector('.add-title').textContent = 'Catalogue';
   $('ship-search').placeholder = 'Search ships…';
   $('ship-search').setAttribute('aria-keyshortcuts', '/');
   $('fleet-drop').textContent = 'Import JSON / CSV';
@@ -178,9 +178,6 @@
         count.setAttribute('aria-label', count.textContent + ' ships');
         button.append(count);
       });
-      // Show real catalogue content on arrival; do not auto-select or load a ship.
-      $('maker-options').hidden = false;
-      $('maker-toggle').setAttribute('aria-expanded', 'true');
       observer.disconnect();
     };
     const observer = new MutationObserver(enhance);
