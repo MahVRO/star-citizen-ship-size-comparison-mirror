@@ -215,3 +215,21 @@ body.mirror-ui{--sidebar:352px}
 .mirror-ui .maker-options{max-height:220px}
 @media(max-width:760px){.mirror-ui .maker-options{max-height:170px}.mirror-ui .ship-list{max-height:36vh}.mirror-ui .ship-row{min-height:74px}}
 @media(prefers-reduced-motion:reduce){.mirror-ui .ship-row,.mirror-ui .ship-art img{transition:none}}
+/* Visual ship selector: image tiles beneath the manufacturer gallery. */
+.mirror-ui .ship-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;align-items:stretch;gap:9px;padding:2px 3px 6px 0}
+.mirror-ui .ship-row{display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;min-width:0;min-height:184px;padding:8px;gap:9px;border-radius:9px}
+.mirror-ui .ship-check{position:static;display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px;width:100%;flex:1;min-width:0}
+.mirror-ui .ship-check>input{position:absolute;left:14px;top:14px;z-index:1;width:16px;height:16px;background:#101a1de6;border-color:#b2cbb78c;box-shadow:0 1px 6px #0006;opacity:1}
+.mirror-ui .ship-check>input:checked{background:var(--mint);border-color:var(--mint)}
+.mirror-ui .ship-art{flex:initial;width:100%;height:82px;border-radius:5px}
+.mirror-ui .ship-art img{object-fit:cover;object-position:center;transition:filter .18s,opacity .18s,transform .18s}
+.mirror-ui .ship-row:hover .ship-art img{transform:scale(1.06)}
+.mirror-ui .ship-check>span:not(.ship-art){display:block;text-align:left;font-size:11px;line-height:1.4;font-weight:500;min-height:33px;padding:0 2px}
+.mirror-ui .ship-length{font-size:9px;margin-top:4px;color:#a3bdac}
+.mirror-ui .ship-row-actions{align-self:stretch;display:flex;justify-content:center;align-items:center;width:100%;margin:0;background:#0b171b80;border:1px solid #b0cbb51c;border-radius:5px}
+.mirror-ui .ship-row-actions button{flex:1;min-height:30px;min-width:26px}
+.mirror-ui .ship-row-actions input{flex:1;min-width:26px;width:30px;max-width:44px;min-height:30px;text-align:center}
+.mirror-ui .ship-row:has(input:checked){box-shadow:inset 0 -2px var(--mint)}
+.mirror-ui .ship-list>p{grid-column:1/-1;color:var(--muted);font-size:12px;padding:12px 4px}
+@media(max-width:760px){.mirror-ui .ship-art{height:88px}.mirror-ui .ship-row{min-height:188px}.mirror-ui .ship-list{gap:8px;max-height:38vh}}
+@media(prefers-reduced-motion:reduce){.mirror-ui .ship-art img{transition:none}.mirror-ui .ship-row:hover .ship-art img{transform:none}}
