@@ -9,6 +9,78 @@
   $('fleet-drop').textContent = 'Import JSON / CSV';
   $('fleet-drop').title = 'Import or drop a fleet file';
 
+  // Preserve upstream selection/loading handlers; enrich the existing controls.
+  const makerSearch = document.createElement('input');
+  makerSearch.type = 'search';
+  makerSearch.className = 'maker-filter';
+  makerSearch.placeholder = 'Filter manufacturers…';
+  makerSearch.setAttribute('aria-label', 'Filter manufacturers');
+  const noMakers = document.createElement('p');
+  noMakers.className = 'maker-no-results';
+  noMakers.textContent = 'No manufacturers found';
+  noMakers.hidden = true;
+  $('maker-options').before(makerSearch);
+  $('maker-options').after(noMakers);
+  const filterMakers = () => {
+    const query = makerSearch.value.trim().toLowerCase();
+    const buttons = [...$('maker-options').querySelectorAll('button')];
+    buttons.forEach(button => { button.hidden = !button.textContent.toLowerCase().includes(query); });
+    noMakers.hidden = $('maker-options').hidden || buttons.some(button => !button.hidden);
+  };
+  makerSearch.addEventListener('input', filterMakers);
+  makerSearch.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      $('maker-options').hidden = true;
+      $('maker-toggle').setAttribute('aria-expanded', 'false');
+      $('maker-toggle').focus();
+    }
+    if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      [...$('maker-options').querySelectorAll('button')].find(b => !b.hidden)?.focus();
+    }
+  });
+  $('maker-options').addEventListener('keydown', event => {
+    if (!['ArrowDown', 'ArrowUp'].includes(event.key)) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    const buttons = [...$('maker-options').querySelectorAll('button')].filter(b => !b.hidden);
+    const index = buttons.indexOf(document.activeElement);
+    buttons[(index + (event.key === 'ArrowDown' ? 1 : -1) + buttons.length) % buttons.length]?.focus();
+  }, true);
+  new MutationObserver(() => {
+    makerSearch.hidden = $('maker-options').hidden;
+    if (!makerSearch.hidden) { makerSearch.value = ''; filterMakers(); makerSearch.focus(); }
+    else { noMakers.hidden = true; }
+  }).observe($('maker-options'), {attributes:true, attributeFilter:['hidden']});
+  makerSearch.hidden = true;
+  fetch(new URL('catalog.json', document.currentScript.src)).then(r => {
+    if (!r.ok) throw new Error('Catalogue unavailable');
+    return r.json();
+  }).then(catalog => {
+    const enhance = () => {
+      const buttons = [...$('maker-options').querySelectorAll('.maker-option')];
+      if (buttons.length !== catalog.manufacturers.length) return;
+      buttons.forEach((button, index) => {
+        if (button.querySelector('.maker-model-count')) return;
+        const count = document.createElement('small');
+        count.className = 'maker-model-count';
+        count.textContent = catalog.manufacturers[index].ships.length;
+        count.setAttribute('aria-label', count.textContent + ' ships');
+        button.append(count);
+      });
+      observer.disconnect();
+    };
+    const observer = new MutationObserver(enhance);
+    observer.observe($('maker-options'), {childList:true});
+    enhance();
+  }).catch(() => { /* Upstream catalogue reports loading errors. */ });
+  const highlightMaker = () => {
+    $('maker-options').querySelectorAll('.maker-option').forEach(button => {
+      button.setAttribute('aria-pressed', String(button.querySelector('span')?.textContent === $('maker-value').textContent));
+    });
+  };
+  new MutationObserver(highlightMaker).observe($('maker-value'), {childList:true});
+
   const support = document.createElement('details');
   support.className = 'mirror-support';
   const summary = document.createElement('summary');
