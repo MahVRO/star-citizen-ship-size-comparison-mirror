@@ -273,3 +273,33 @@ body.mirror-ui{--sidebar:352px}
 .mirror-ui .ship-row-actions{border-radius:3px;backdrop-filter:none;background:#101d22b3}
 .mirror-ui .primary,.mirror-ui .view-tools,.mirror-ui .camera-tools{border-radius:4px;box-shadow:none}
 .mirror-ui .maker-option,.mirror-ui .ship-row,.mirror-ui .ship-art img{transition:none}
+/* A fixed-height panel with two independently scrolling, resizable inventories. */
+.mirror-ui .sidebar{overflow:hidden;min-height:0}
+.mirror-ui .add-panel{flex:1 1 0;min-height:0;max-height:100%;overflow:hidden}
+.mirror-ui .add-title,.mirror-ui .quick-import,.mirror-ui .load-footer,.mirror-ui #load-status{flex-shrink:0}
+.mirror-ui .mirror-support{flex-shrink:0;max-height:35%;overflow:auto}
+.catalogue-split{display:flex;flex-direction:column;flex:1 1 0;min-height:0;overflow:hidden}
+.manufacturer-pane{display:flex;flex-direction:column;flex:1 1 0;min-height:0;overflow:hidden}
+.ship-pane{display:flex;flex-direction:column;flex:1 1 0;min-height:0;overflow:hidden}
+.mirror-ui .manufacturer-pane .maker-picker{display:flex;flex-direction:column;flex:1 1 0;min-height:0;overflow:hidden}
+.mirror-ui .manufacturer-pane .maker-toggle,.mirror-ui .manufacturer-pane .maker-filter{flex-shrink:0}
+.mirror-ui .manufacturer-pane .maker-options{flex:1 1 0;min-height:0;max-height:none;overflow-y:auto;align-content:start;grid-auto-rows:88px;padding:3px 4px 3px 2px}
+.mirror-ui .manufacturer-pane .maker-option{height:88px;min-height:88px;display:grid;place-items:center;padding:12px}
+.mirror-ui .manufacturer-pane .maker-option>img{display:block;grid-area:1/1;justify-self:center;align-self:center;object-position:50% 50%;object-fit:contain;margin:0;width:100%;height:44px;max-width:64px}
+.mirror-ui .ship-pane #ship-search{flex-shrink:0;margin-top:0}
+.mirror-ui .ship-pane #ship-section{display:flex;flex-direction:column;flex:1 1 0;min-height:0;overflow:hidden}
+.mirror-ui .ship-pane .list-heading{flex-shrink:0}
+.mirror-ui .ship-pane .ship-list{flex:1 1 0;min-height:0;max-height:none;overflow-y:auto;grid-auto-rows:max-content}
+.catalogue-split.has-both{display:grid;grid-template-rows:minmax(100px,var(--maker-share,.43fr)) 14px minmax(120px,var(--ship-share,.57fr))}
+.catalogue-split.makers-closed .manufacturer-pane{flex:0 0 auto;padding-bottom:12px}
+.catalogue-divider{position:relative;cursor:row-resize;touch-action:none;user-select:none;min-height:14px;flex-shrink:0;outline:none}
+.catalogue-divider::before{content:'';position:absolute;left:0;right:0;top:6px;height:1px;background:#4b6055}
+.catalogue-divider::after{content:'';position:absolute;width:30px;height:4px;left:calc(50% - 15px);top:5px;background:#95b3a3;border:1px solid #1a2827;border-radius:2px}
+.catalogue-divider:hover::after,.catalogue-divider:focus-visible::after,.resizing-catalogue .catalogue-divider::after{background:var(--mint);width:40px;left:calc(50% - 20px)}
+.catalogue-divider:focus-visible{box-shadow:inset 0 0 0 1px var(--mint)}
+.resizing-catalogue,.resizing-catalogue *{cursor:row-resize!important;user-select:none!important}
+@media(max-width:760px){.catalogue-split.has-both{grid-template-rows:minmax(100px,var(--maker-share,.43fr)) 18px minmax(120px,var(--ship-share,.57fr))}.catalogue-divider{min-height:18px}.catalogue-divider::before{top:8px}.catalogue-divider::after{top:7px}}
+.catalogue-split:not(.has-both):not(.makers-closed) .ship-pane:has(#ship-section[hidden]){flex:0 0 auto;padding-top:12px}
+.mirror-ui .catalogue-split.makers-closed .manufacturer-pane .maker-picker{flex:0 0 auto}
+.mirror-ui .add-panel:not(:has(#ship-section:not([hidden]))):not(:has(#maker-options:not([hidden]))){flex:0 0 auto}
+.catalogue-split.makers-closed:has(#ship-section[hidden]),.catalogue-split.makers-closed:has(#ship-section[hidden]) .ship-pane{flex:0 0 auto}
