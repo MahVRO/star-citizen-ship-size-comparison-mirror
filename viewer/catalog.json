@@ -1,0 +1,3240 @@
+{
+  "source": "RSI Ship Matrix",
+  "manufacturers": [
+    {
+      "name": "Aegis Dynamics",
+      "code": "AEGS",
+      "logo": "viewer/logos/AEGS.png",
+      "logoSource": "https://robertsspaceindustries.com/media/1apfbr0v0vbnur/logo/Aegis.png",
+      "ships": [
+        {
+          "id": "Aegis Dynamics/Avenger Stalker.glb",
+          "name": "Avenger Stalker",
+          "path": "Assets/Aegis Dynamics/Avenger Stalker.glb",
+          "length": 20,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Stalker"
+        },
+        {
+          "id": "Aegis Dynamics/Avenger Titan.glb",
+          "name": "Avenger Titan",
+          "path": "Assets/Aegis Dynamics/Avenger Titan.glb",
+          "length": 20,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Titan"
+        },
+        {
+          "id": "Aegis Dynamics/Avenger Titan Renegade.glb",
+          "name": "Avenger Titan Renegade",
+          "path": "Assets/Aegis Dynamics/Avenger Titan Renegade.glb",
+          "length": 20,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Titan-Renegade"
+        },
+        {
+          "id": "Aegis Dynamics/Avenger Warlock.glb",
+          "name": "Avenger Warlock",
+          "path": "Assets/Aegis Dynamics/Avenger Warlock.glb",
+          "length": 20,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Warlock"
+        },
+        {
+          "id": "Aegis Dynamics/Eclipse.glb",
+          "name": "Eclipse",
+          "path": "Assets/Aegis Dynamics/Eclipse.glb",
+          "length": 24.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/eclipse/Eclipse"
+        },
+        {
+          "id": "Aegis Dynamics/Gladius.glb",
+          "name": "Gladius",
+          "path": "Assets/Aegis Dynamics/Gladius.glb",
+          "length": 21,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/gladius/Gladius"
+        },
+        {
+          "id": "Aegis Dynamics/Hammerhead.glb",
+          "name": "Hammerhead",
+          "path": "Assets/Aegis Dynamics/Hammerhead.glb",
+          "length": 120,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/hammerhead/Hammerhead"
+        },
+        {
+          "id": "Aegis Dynamics/Idris-M.glb",
+          "name": "Idris-M",
+          "path": "Assets/Aegis Dynamics/Idris-M.glb",
+          "length": 243,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-idris/Idris-M",
+          "aliases": [
+            "Idris-M Frigate"
+          ]
+        },
+        {
+          "id": "Aegis Dynamics/Idris-P.glb",
+          "name": "Idris-P",
+          "path": "Assets/Aegis Dynamics/Idris-P.glb",
+          "length": 243,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-idris/Idris-P",
+          "aliases": [
+            "Idris-P Frigate"
+          ]
+        },
+        {
+          "id": "Aegis Dynamics/Javelin.glb",
+          "name": "Javelin",
+          "path": "Assets/Aegis Dynamics/Javelin.glb",
+          "length": null,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-javelin/Javelin"
+        },
+        {
+          "id": "Aegis Dynamics/Nautilus.glb",
+          "name": "Nautilus",
+          "path": "Assets/Aegis Dynamics/Nautilus.glb",
+          "length": 125,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-nautilus/Nautilus"
+        },
+        {
+          "id": "Aegis Dynamics/Reclaimer.glb",
+          "name": "Reclaimer",
+          "path": "Assets/Aegis Dynamics/Reclaimer.glb",
+          "length": 160,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/reclaimer/Reclaimer"
+        },
+        {
+          "id": "Aegis Dynamics/Redeemer.glb",
+          "name": "Redeemer",
+          "path": "Assets/Aegis Dynamics/Redeemer.glb",
+          "length": 51,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/redeemer/Redeemer"
+        },
+        {
+          "id": "Aegis Dynamics/Retaliator.glb",
+          "name": "Retaliator",
+          "path": "Assets/Aegis Dynamics/Retaliator.glb",
+          "length": 70.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-retaliator/Retaliator"
+        },
+        {
+          "id": "Aegis Dynamics/Sabre.glb",
+          "name": "Sabre",
+          "path": "Assets/Aegis Dynamics/Sabre.glb",
+          "length": 24.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre"
+        },
+        {
+          "id": "Aegis Dynamics/Sabre Comet.glb",
+          "name": "Sabre Comet",
+          "path": "Assets/Aegis Dynamics/Sabre Comet.glb",
+          "length": 24.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Comet"
+        },
+        {
+          "id": "Aegis Dynamics/Sabre Firebird.glb",
+          "name": "Sabre Firebird",
+          "path": "Assets/Aegis Dynamics/Sabre Firebird.glb",
+          "length": 24.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Firebird"
+        },
+        {
+          "id": "Aegis Dynamics/Sabre Peregrine.glb",
+          "name": "Sabre Peregrine",
+          "path": "Assets/Aegis Dynamics/Sabre Peregrine.glb",
+          "length": 24.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Peregrine",
+          "modelSource": "https://media.robertsspaceindustries.com/7dvlji7ppe2s4/source.ctm"
+        },
+        {
+          "id": "Aegis Dynamics/Sabre Raven.glb",
+          "name": "Sabre Raven",
+          "path": "Assets/Aegis Dynamics/Sabre Raven.glb",
+          "length": 24.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Raven"
+        },
+        {
+          "id": "Aegis Dynamics/Tiburon.glb",
+          "name": "Tiburon",
+          "path": "Assets/Aegis Dynamics/Tiburon.glb",
+          "length": 121,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/tiburon/Tiburon",
+          "modelSource": "https://media.robertsspaceindustries.com/h8ltm795547gf/source.ctm"
+        },
+        {
+          "id": "Aegis Dynamics/Vanguard Harbinger.glb",
+          "name": "Vanguard Harbinger",
+          "path": "Assets/Aegis Dynamics/Vanguard Harbinger.glb",
+          "length": 48,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Harbinger",
+          "modelSource": "https://media.robertsspaceindustries.com/gnuun3ggh8pe3/source.ctm"
+        },
+        {
+          "id": "Aegis Dynamics/Vanguard Hoplite.glb",
+          "name": "Vanguard Hoplite",
+          "path": "Assets/Aegis Dynamics/Vanguard Hoplite.glb",
+          "length": 48,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Hoplite"
+        },
+        {
+          "id": "Aegis Dynamics/Vanguard Sentinel.glb",
+          "name": "Vanguard Sentinel",
+          "path": "Assets/Aegis Dynamics/Vanguard Sentinel.glb",
+          "length": 48,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Sentinel"
+        },
+        {
+          "id": "Aegis Dynamics/Vanguard Warden.glb",
+          "name": "Vanguard Warden",
+          "path": "Assets/Aegis Dynamics/Vanguard Warden.glb",
+          "length": 48,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Warden"
+        },
+        {
+          "id": "Aegis Dynamics/Vulcan.glb",
+          "name": "Vulcan",
+          "path": "Assets/Aegis Dynamics/Vulcan.glb",
+          "length": 38.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/vulcan/Vulcan"
+        }
+      ]
+    },
+    {
+      "name": "Anvil Aerospace",
+      "code": "ANVL",
+      "logo": "viewer/logos/ANVL.png",
+      "logoSource": "https://robertsspaceindustries.com/media/w0o33qmdai9wpr/logo/Anvil.png",
+      "ships": [
+        {
+          "id": "Anvil Aerospace/Arrow.glb",
+          "name": "Arrow",
+          "path": "Assets/Anvil Aerospace/Arrow.glb",
+          "length": 17.25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-arrow/Arrow"
+        },
+        {
+          "id": "Anvil Aerospace/Asgard.glb",
+          "name": "Asgard",
+          "path": "Assets/Anvil Aerospace/Asgard.glb",
+          "length": 48,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-asgard/Asgard"
+        },
+        {
+          "id": "Anvil Aerospace/Ballista.glb",
+          "name": "Ballista",
+          "path": "Assets/Anvil Aerospace/Ballista.glb",
+          "length": 17,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-ballista/Ballista"
+        },
+        {
+          "id": "Anvil Aerospace/C8 Pisces.glb",
+          "name": "C8 Pisces",
+          "path": "Assets/Anvil Aerospace/C8 Pisces.glb",
+          "length": 16,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-pisces/C8-Pisces"
+        },
+        {
+          "id": "Anvil Aerospace/Carrack.glb",
+          "name": "Carrack",
+          "path": "Assets/Anvil Aerospace/Carrack.glb",
+          "length": 126,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/carrack/Carrack",
+          "modelSource": "https://media.robertsspaceindustries.com/5d19z1ni409r5/source.ctm"
+        },
+        {
+          "id": "Anvil Aerospace/Centurion.glb",
+          "name": "Centurion",
+          "path": "Assets/Anvil Aerospace/Centurion.glb",
+          "length": 17,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/centurion/Centurion"
+        },
+        {
+          "id": "Anvil Aerospace/Crucible.glb",
+          "name": "Crucible",
+          "path": "Assets/Anvil Aerospace/Crucible.glb",
+          "length": 90,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/crucible/Crucible"
+        },
+        {
+          "id": "Anvil Aerospace/F7A Hornet Mk I.glb",
+          "name": "F7A Hornet Mk I",
+          "path": "Assets/Anvil Aerospace/F7A Hornet Mk I.glb",
+          "length": 28.25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7A-Hornet-Mk-I"
+        },
+        {
+          "id": "Anvil Aerospace/F7A Hornet Mk II.glb",
+          "name": "F7A Hornet Mk II",
+          "path": "Assets/Anvil Aerospace/F7A Hornet Mk II.glb",
+          "length": 22.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7A-Hornet-Mk-II"
+        },
+        {
+          "id": "Anvil Aerospace/F7C Hornet Mk I.glb",
+          "name": "F7C Hornet Mk I",
+          "path": "Assets/Anvil Aerospace/F7C Hornet Mk I.glb",
+          "length": 28.25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-Hornet-Mk-I"
+        },
+        {
+          "id": "Anvil Aerospace/F7C Hornet Mk II.glb",
+          "name": "F7C Hornet Mk II",
+          "path": "Assets/Anvil Aerospace/F7C Hornet Mk II.glb",
+          "length": 22.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-Hornet-Mk-II"
+        },
+        {
+          "id": "Anvil Aerospace/F7C Hornet Wildfire Mk I.glb",
+          "name": "F7C Hornet Wildfire Mk I",
+          "path": "Assets/Anvil Aerospace/F7C Hornet Wildfire Mk I.glb",
+          "length": 28.25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-Hornet-Wildfire-Mk-I"
+        },
+        {
+          "id": "Anvil Aerospace/F7C-M Super Hornet Heartseeker Mk I.glb",
+          "name": "F7C-M Super Hornet Heartseeker Mk I",
+          "path": "Assets/Anvil Aerospace/F7C-M Super Hornet Heartseeker Mk I.glb",
+          "length": 28.25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-M-Super-Hornet-Heartseeker-Mk-I"
+        },
+        {
+          "id": "Anvil Aerospace/F7C-M Super Hornet Mk I.glb",
+          "name": "F7C-M Super Hornet Mk I",
+          "path": "Assets/Anvil Aerospace/F7C-M Super Hornet Mk I.glb",
+          "length": 28.25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-M-Super-Hornet-Mk-I"
+        },
+        {
+          "id": "Anvil Aerospace/F7C-M Super Hornet Mk II.glb",
+          "name": "F7C-M Super Hornet Mk II",
+          "path": "Assets/Anvil Aerospace/F7C-M Super Hornet Mk II.glb",
+          "length": 24,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-M-Super-Hornet-Mk-II"
+        },
+        {
+          "id": "Anvil Aerospace/F7C-R Hornet Tracker Mk I.glb",
+          "name": "F7C-R Hornet Tracker Mk I",
+          "path": "Assets/Anvil Aerospace/F7C-R Hornet Tracker Mk I.glb",
+          "length": 28.25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker-Mk-I"
+        },
+        {
+          "id": "Anvil Aerospace/F7C-R Hornet Tracker Mk II.glb",
+          "name": "F7C-R Hornet Tracker Mk II",
+          "path": "Assets/Anvil Aerospace/F7C-R Hornet Tracker Mk II.glb",
+          "length": 22.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-R-Hornet-Tracker-Mk-II"
+        },
+        {
+          "id": "Anvil Aerospace/F7C-S Hornet Ghost Mk I.glb",
+          "name": "F7C-S Hornet Ghost Mk I",
+          "path": "Assets/Anvil Aerospace/F7C-S Hornet Ghost Mk I.glb",
+          "length": 28.25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-S-Hornet-Ghost-Mk-I"
+        },
+        {
+          "id": "Anvil Aerospace/F7C-S Hornet Ghost Mk II.glb",
+          "name": "F7C-S Hornet Ghost Mk II",
+          "path": "Assets/Anvil Aerospace/F7C-S Hornet Ghost Mk II.glb",
+          "length": 22.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-S-Hornet-Ghost-Mk-II"
+        },
+        {
+          "id": "Anvil Aerospace/F8C Lightning.glb",
+          "name": "F8C Lightning",
+          "path": "Assets/Anvil Aerospace/F8C Lightning.glb",
+          "length": 26,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/lightning/F8C-Lightning"
+        },
+        {
+          "id": "Anvil Aerospace/Gladiator.glb",
+          "name": "Gladiator",
+          "path": "Assets/Anvil Aerospace/Gladiator.glb",
+          "length": 22.75,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-gladiator/Gladiator"
+        },
+        {
+          "id": "Anvil Aerospace/Hawk.glb",
+          "name": "Hawk",
+          "path": "Assets/Anvil Aerospace/Hawk.glb",
+          "length": 23,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/hawk/Hawk"
+        },
+        {
+          "id": "Anvil Aerospace/Hurricane.glb",
+          "name": "Hurricane",
+          "path": "Assets/Anvil Aerospace/Hurricane.glb",
+          "length": 24,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/hurricane/Hurricane"
+        },
+        {
+          "id": "Anvil Aerospace/Legionnaire.glb",
+          "name": "Legionnaire",
+          "path": "Assets/Anvil Aerospace/Legionnaire.glb",
+          "length": 32,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/legionnaire/Legionnaire"
+        },
+        {
+          "id": "Anvil Aerospace/Liberator.glb",
+          "name": "Liberator",
+          "path": "Assets/Anvil Aerospace/Liberator.glb",
+          "length": 119,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/liberator/Liberator"
+        },
+        {
+          "id": "Anvil Aerospace/Odin.glb",
+          "name": "Odin",
+          "path": "Assets/Anvil Aerospace/Odin.glb",
+          "length": 752,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/odin/Odin",
+          "modelSource": "https://media.robertsspaceindustries.com/mhwmpvt2e8h0w/source.ctm"
+        },
+        {
+          "id": "Anvil Aerospace/Paladin.glb",
+          "name": "Paladin",
+          "path": "Assets/Anvil Aerospace/Paladin.glb",
+          "length": 53,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/paladin/Paladin"
+        },
+        {
+          "id": "Anvil Aerospace/Spartan.glb",
+          "name": "Spartan",
+          "path": "Assets/Anvil Aerospace/Spartan.glb",
+          "length": 17,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/spartan/Spartan"
+        },
+        {
+          "id": "Anvil Aerospace/Terrapin.glb",
+          "name": "Terrapin",
+          "path": "Assets/Anvil Aerospace/Terrapin.glb",
+          "length": 20,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin"
+        },
+        {
+          "id": "Anvil Aerospace/Terrapin Medic.glb",
+          "name": "Terrapin Medic",
+          "path": "Assets/Anvil Aerospace/Terrapin Medic.glb",
+          "length": 20,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin-Medic"
+        },
+        {
+          "id": "Anvil Aerospace/Valkyrie.glb",
+          "name": "Valkyrie",
+          "path": "Assets/Anvil Aerospace/Valkyrie.glb",
+          "length": 48,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-valkyrie/Valkyrie"
+        }
+      ]
+    },
+    {
+      "name": "Aopoa",
+      "code": "XNAA",
+      "logo": "viewer/logos/XNAA.png",
+      "logoSource": "https://media.robertsspaceindustries.com/9ajc9rgy2y6ij/logo.png",
+      "ships": [
+        {
+          "id": "Aopoa/Khartu-Al.glb",
+          "name": "Khartu-Al",
+          "path": "Assets/Aopoa/Khartu-Al.glb",
+          "length": 32,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/khartu/Khartu-Al"
+        },
+        {
+          "id": "Aopoa/Nox.glb",
+          "name": "Nox",
+          "path": "Assets/Aopoa/Nox.glb",
+          "length": 1.45,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/nox/Nox"
+        },
+        {
+          "id": "Aopoa/San'tok.yāi.glb",
+          "name": "San'tok.yāi",
+          "path": "Assets/Aopoa/San'tok.yāi.glb",
+          "length": 24,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aopoa-santokyai/Santoky-i",
+          "modelSource": "https://media.robertsspaceindustries.com/x363ia21xbtwy/source.ctm"
+        }
+      ]
+    },
+    {
+      "name": "Argo Astronautics",
+      "code": "ARGO",
+      "logo": "viewer/logos/ARGO.png",
+      "logoSource": "https://media.robertsspaceindustries.com/dq4f0gy40dkwk/logo.png",
+      "ships": [
+        {
+          "id": "Argo Astronautics/ATLS GEO.glb",
+          "name": "ATLS GEO",
+          "path": "Assets/Argo Astronautics/ATLS GEO.glb",
+          "length": 1.8,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/atls/ATLS-GEO"
+        },
+        {
+          "id": "Argo Astronautics/ATLS.glb",
+          "name": "ATLS",
+          "path": "Assets/Argo Astronautics/ATLS.glb",
+          "length": 1.8,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/atls/ATLS"
+        },
+        {
+          "id": "Argo Astronautics/CSV-SM.glb",
+          "name": "CSV-SM",
+          "path": "Assets/Argo Astronautics/CSV-SM.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/csv/CSV-SM"
+        },
+        {
+          "id": "Argo Astronautics/MOLE.glb",
+          "name": "MOLE",
+          "path": "Assets/Argo Astronautics/MOLE.glb",
+          "length": 45,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/argo-mole/MOLE"
+        },
+        {
+          "id": "Argo Astronautics/MOTH.glb",
+          "name": "MOTH",
+          "path": "Assets/Argo Astronautics/MOTH.glb",
+          "length": null,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/moth/MOTH"
+        },
+        {
+          "id": "Argo Astronautics/MPUV Cargo.glb",
+          "name": "MPUV Cargo",
+          "path": "Assets/Argo Astronautics/MPUV Cargo.glb",
+          "length": 10.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Cargo"
+        },
+        {
+          "id": "Argo Astronautics/MPUV Personnel.glb",
+          "name": "MPUV Personnel",
+          "path": "Assets/Argo Astronautics/MPUV Personnel.glb",
+          "length": 10.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Personnel"
+        },
+        {
+          "id": "Argo Astronautics/MPUV Tractor.glb",
+          "name": "MPUV Tractor",
+          "path": "Assets/Argo Astronautics/MPUV Tractor.glb",
+          "length": 10.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Tractor"
+        },
+        {
+          "id": "Argo Astronautics/RAFT.glb",
+          "name": "RAFT",
+          "path": "Assets/Argo Astronautics/RAFT.glb",
+          "length": 39.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/raft/RAFT"
+        },
+        {
+          "id": "Argo Astronautics/SRV.glb",
+          "name": "SRV",
+          "path": "Assets/Argo Astronautics/SRV.glb",
+          "length": 31.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/argo-srv/SRV"
+        }
+      ]
+    },
+    {
+      "name": "Banu",
+      "code": "BANU",
+      "logo": "viewer/logos/BANU.png",
+      "logoSource": "https://robertsspaceindustries.com/media/3ktltnm6ph4cfr/logo/Skin-Banu-Color-Theme-Default-Type-Symbol-Only.png",
+      "ships": [
+        {
+          "id": "Banu/Defender.glb",
+          "name": "Defender",
+          "path": "Assets/Banu/Defender.glb",
+          "length": 24.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/defender/Defender"
+        }
+      ]
+    },
+    {
+      "name": "Consolidated Outland",
+      "code": "CNOU",
+      "logo": "viewer/logos/CNOU.png",
+      "logoSource": "https://robertsspaceindustries.com/media/khu6mwy8zo5sar/logo/Consolidated_outland.png",
+      "ships": [
+        {
+          "id": "Consolidated Outland/HoverQuad.glb",
+          "name": "HoverQuad",
+          "path": "Assets/Consolidated Outland/HoverQuad.glb",
+          "length": 1.45,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/hoverquad/HoverQuad"
+        },
+        {
+          "id": "Consolidated Outland/Mustang Alpha Vindicator.glb",
+          "name": "Mustang Alpha Vindicator",
+          "path": "Assets/Consolidated Outland/Mustang Alpha Vindicator.glb",
+          "length": 21.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Alpha-Vindicator"
+        },
+        {
+          "id": "Consolidated Outland/Mustang Alpha.glb",
+          "name": "Mustang Alpha",
+          "path": "Assets/Consolidated Outland/Mustang Alpha.glb",
+          "length": 21.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Alpha"
+        },
+        {
+          "id": "Consolidated Outland/Mustang Beta.glb",
+          "name": "Mustang Beta",
+          "path": "Assets/Consolidated Outland/Mustang Beta.glb",
+          "length": 21.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Beta"
+        },
+        {
+          "id": "Consolidated Outland/Mustang Delta.glb",
+          "name": "Mustang Delta",
+          "path": "Assets/Consolidated Outland/Mustang Delta.glb",
+          "length": 21.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Delta"
+        },
+        {
+          "id": "Consolidated Outland/Mustang Gamma.glb",
+          "name": "Mustang Gamma",
+          "path": "Assets/Consolidated Outland/Mustang Gamma.glb",
+          "length": 21.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Gamma"
+        },
+        {
+          "id": "Consolidated Outland/Mustang Omega.glb",
+          "name": "Mustang Omega",
+          "path": "Assets/Consolidated Outland/Mustang Omega.glb",
+          "length": 21.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Omega"
+        },
+        {
+          "id": "Consolidated Outland/Nomad.glb",
+          "name": "Nomad",
+          "path": "Assets/Consolidated Outland/Nomad.glb",
+          "length": 19,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/nomad/Nomad"
+        },
+        {
+          "id": "Consolidated Outland/Pioneer.glb",
+          "name": "Pioneer",
+          "path": "Assets/Consolidated Outland/Pioneer.glb",
+          "length": 247,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/pioneer/Pioneer"
+        }
+      ]
+    },
+    {
+      "name": "Crusader Industries",
+      "code": "CRUS",
+      "logo": "viewer/logos/CRUS.png",
+      "logoSource": "https://robertsspaceindustries.com/media/pdlrf7zh54uy0r/logo/Starlifter-1.png",
+      "ships": [
+        {
+          "id": "Crusader Industries/A1 Spirit.glb",
+          "name": "A1 Spirit",
+          "path": "Assets/Crusader Industries/A1 Spirit.glb",
+          "length": 44,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/spirit/A1-Spirit"
+        },
+        {
+          "id": "Crusader Industries/A2 Hercules.glb",
+          "name": "A2 Hercules",
+          "path": "Assets/Crusader Industries/A2 Hercules.glb",
+          "length": 70,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/A2-Hercules"
+        },
+        {
+          "id": "Crusader Industries/Ares Inferno.glb",
+          "name": "Ares Inferno",
+          "path": "Assets/Crusader Industries/Ares Inferno.glb",
+          "length": 27,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-ares/Ares-Inferno"
+        },
+        {
+          "id": "Crusader Industries/Ares Ion.glb",
+          "name": "Ares Ion",
+          "path": "Assets/Crusader Industries/Ares Ion.glb",
+          "length": 27,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-ares/Ares-Ion"
+        },
+        {
+          "id": "Crusader Industries/C1 Spirit.glb",
+          "name": "C1 Spirit",
+          "path": "Assets/Crusader Industries/C1 Spirit.glb",
+          "length": 44,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/spirit/C1-Spirit"
+        },
+        {
+          "id": "Crusader Industries/C2 Hercules.glb",
+          "name": "C2 Hercules",
+          "path": "Assets/Crusader Industries/C2 Hercules.glb",
+          "length": 70,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/C2-Hercules"
+        },
+        {
+          "id": "Crusader Industries/E1 Spirit.glb",
+          "name": "E1 Spirit",
+          "path": "Assets/Crusader Industries/E1 Spirit.glb",
+          "length": 44,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/spirit/E1-Spirit"
+        },
+        {
+          "id": "Crusader Industries/Genesis.glb",
+          "name": "Genesis",
+          "path": "Assets/Crusader Industries/Genesis.glb",
+          "length": 85,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/starliner/Genesis"
+        },
+        {
+          "id": "Crusader Industries/Intrepid.glb",
+          "name": "Intrepid",
+          "path": "Assets/Crusader Industries/Intrepid.glb",
+          "length": 23.07,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/intrepid/Intrepid"
+        },
+        {
+          "id": "Crusader Industries/M2 Hercules.glb",
+          "name": "M2 Hercules",
+          "path": "Assets/Crusader Industries/M2 Hercules.glb",
+          "length": 70,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/M2-Hercules"
+        },
+        {
+          "id": "Crusader Industries/Mercury.glb",
+          "name": "Mercury",
+          "path": "Assets/Crusader Industries/Mercury.glb",
+          "length": 51,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-mercury-star-runner/Mercury"
+        }
+      ]
+    },
+    {
+      "name": "Drake Interplanetary",
+      "code": "DRAK",
+      "logo": "viewer/logos/DRAK.png",
+      "logoSource": "https://robertsspaceindustries.com/media/bdkpvl2bpxaqar/logo/Drake.png",
+      "ships": [
+        {
+          "id": "Drake Interplanetary/Buccaneer.glb",
+          "name": "Buccaneer",
+          "path": "Assets/Drake Interplanetary/Buccaneer.glb",
+          "length": 15.25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-buccaneer/Buccaneer"
+        },
+        {
+          "id": "Drake Interplanetary/Caterpillar.glb",
+          "name": "Caterpillar",
+          "path": "Assets/Drake Interplanetary/Caterpillar.glb",
+          "length": 13.4,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-caterpillar/Caterpillar"
+        },
+        {
+          "id": "Drake Interplanetary/Caterpillar Best In Show Edition 2949.glb",
+          "name": "Caterpillar Best In Show Edition 2949",
+          "path": "Assets/Drake Interplanetary/Caterpillar Best In Show Edition 2949.glb",
+          "length": null,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": null
+        },
+        {
+          "id": "Drake Interplanetary/Clipper.glb",
+          "name": "Clipper",
+          "path": "Assets/Drake Interplanetary/Clipper.glb",
+          "length": 26.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/clipper/Clipper"
+        },
+        {
+          "id": "Drake Interplanetary/Corsair.glb",
+          "name": "Corsair",
+          "path": "Assets/Drake Interplanetary/Corsair.glb",
+          "length": 53,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-corsair/Corsair"
+        },
+        {
+          "id": "Drake Interplanetary/Cutlass Black.glb",
+          "name": "Cutlass Black",
+          "path": "Assets/Drake Interplanetary/Cutlass Black.glb",
+          "length": 37.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Black"
+        },
+        {
+          "id": "Drake Interplanetary/Cutlass Blue.glb",
+          "name": "Cutlass Blue",
+          "path": "Assets/Drake Interplanetary/Cutlass Blue.glb",
+          "length": 37.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Blue"
+        },
+        {
+          "id": "Drake Interplanetary/Cutlass Red.glb",
+          "name": "Cutlass Red",
+          "path": "Assets/Drake Interplanetary/Cutlass Red.glb",
+          "length": 37.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Red"
+        },
+        {
+          "id": "Drake Interplanetary/Cutlass Steel.glb",
+          "name": "Cutlass Steel",
+          "path": "Assets/Drake Interplanetary/Cutlass Steel.glb",
+          "length": 37.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Steel"
+        },
+        {
+          "id": "Drake Interplanetary/Cutter.glb",
+          "name": "Cutter",
+          "path": "Assets/Drake Interplanetary/Cutter.glb",
+          "length": 20,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/cutter/Cutter"
+        },
+        {
+          "id": "Drake Interplanetary/Cutter Rambler.glb",
+          "name": "Cutter Rambler",
+          "path": "Assets/Drake Interplanetary/Cutter Rambler.glb",
+          "length": 20,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/cutter/Cutter-Rambler"
+        },
+        {
+          "id": "Drake Interplanetary/Cutter Scout.glb",
+          "name": "Cutter Scout",
+          "path": "Assets/Drake Interplanetary/Cutter Scout.glb",
+          "length": 20,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/cutter/Cutter-Scout"
+        },
+        {
+          "id": "Drake Interplanetary/Dragonfly Black.glb",
+          "name": "Dragonfly Black",
+          "path": "Assets/Drake Interplanetary/Dragonfly Black.glb",
+          "length": 7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-dragonfly/Dragonfly-Black"
+        },
+        {
+          "id": "Drake Interplanetary/Dragonfly Yellowjacket.glb",
+          "name": "Dragonfly Yellowjacket",
+          "path": "Assets/Drake Interplanetary/Dragonfly Yellowjacket.glb",
+          "length": 7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-dragonfly/Dragonfly-Yellowjacket"
+        },
+        {
+          "id": "Drake Interplanetary/Golem.glb",
+          "name": "Golem",
+          "path": "Assets/Drake Interplanetary/Golem.glb",
+          "length": 15.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/golem/Golem",
+          "lengthSource": "https://api.star-citizen.wiki/vehicles/drak-golem?version=4.10.0-LIVE.12519617",
+          "lengthNote": "Game-data length 15.5 m; 7 m is the width. Corrects the RSI matrix length used for viewer scaling.",
+          "lengthCheckedAt": "2026-09-11"
+        },
+        {
+          "id": "Drake Interplanetary/Golem OX.glb",
+          "name": "Golem OX",
+          "path": "Assets/Drake Interplanetary/Golem OX.glb",
+          "length": 7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/golem/Golem-OX"
+        },
+        {
+          "id": "Drake Interplanetary/Herald.glb",
+          "name": "Herald",
+          "path": "Assets/Drake Interplanetary/Herald.glb",
+          "length": 24.75,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/herald/Herald"
+        },
+        {
+          "id": "Drake Interplanetary/Ironclad.glb",
+          "name": "Ironclad",
+          "path": "Assets/Drake Interplanetary/Ironclad.glb",
+          "length": 117,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/ironclad/Ironclad"
+        },
+        {
+          "id": "Drake Interplanetary/Ironclad Assault.glb",
+          "name": "Ironclad Assault",
+          "path": "Assets/Drake Interplanetary/Ironclad Assault.glb",
+          "length": 117,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/ironclad/Ironclad-Assault"
+        },
+        {
+          "id": "Drake Interplanetary/Kraken.glb",
+          "name": "Kraken",
+          "path": "Assets/Drake Interplanetary/Kraken.glb",
+          "length": 270,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-kraken/Kraken"
+        },
+        {
+          "id": "Drake Interplanetary/Kraken Privateer.glb",
+          "name": "Kraken Privateer",
+          "path": "Assets/Drake Interplanetary/Kraken Privateer.glb",
+          "length": 270,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-kraken/Kraken-Privateer"
+        },
+        {
+          "id": "Drake Interplanetary/Mule.glb",
+          "name": "Mule",
+          "path": "Assets/Drake Interplanetary/Mule.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mule/Mule"
+        },
+        {
+          "id": "Drake Interplanetary/Pitbull.glb",
+          "name": "Pitbull",
+          "path": "Assets/Drake Interplanetary/Pitbull.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/pitbull/Pitbull",
+          "modelSource": "https://media.robertsspaceindustries.com/a7e2klipveiia/source.ctm"
+        },
+        {
+          "id": "Drake Interplanetary/Vulture.glb",
+          "name": "Vulture",
+          "path": "Assets/Drake Interplanetary/Vulture.glb",
+          "length": 34,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-vulture/Vulture"
+        }
+      ]
+    },
+    {
+      "name": "Esperia",
+      "code": "ESPR",
+      "logo": "viewer/logos/ESPR.png",
+      "logoSource": "https://media.robertsspaceindustries.com/s5p49a11la7y6/logo.png",
+      "ships": [
+        {
+          "id": "Esperia/Blade.glb",
+          "name": "Blade",
+          "path": "Assets/Esperia/Blade.glb",
+          "length": 20.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/vanduul-blade/Blade"
+        },
+        {
+          "id": "Esperia/Glaive.glb",
+          "name": "Glaive",
+          "path": "Assets/Esperia/Glaive.glb",
+          "length": 33,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/esperia-glaive/Glaive"
+        },
+        {
+          "id": "Esperia/Prowler Utility.glb",
+          "name": "Prowler Utility",
+          "path": "Assets/Esperia/Prowler Utility.glb",
+          "length": 34,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/prowler/Prowler-Utility"
+        },
+        {
+          "id": "Esperia/Prowler.glb",
+          "name": "Prowler",
+          "path": "Assets/Esperia/Prowler.glb",
+          "length": 34,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/prowler/Prowler"
+        },
+        {
+          "id": "Esperia/Stinger.glb",
+          "name": "Stinger",
+          "path": "Assets/Esperia/Stinger.glb",
+          "length": 36,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/stinger/Stinger"
+        },
+        {
+          "id": "Esperia/Talon Shrike.glb",
+          "name": "Talon Shrike",
+          "path": "Assets/Esperia/Talon Shrike.glb",
+          "length": 24,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/talon/Talon-Shrike"
+        },
+        {
+          "id": "Esperia/Talon.glb",
+          "name": "Talon",
+          "path": "Assets/Esperia/Talon.glb",
+          "length": 24,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/talon/Talon"
+        }
+      ]
+    },
+    {
+      "name": "Gatac Manufacture",
+      "code": "GAMA",
+      "logo": "viewer/logos/GAMA.png",
+      "logoSource": "https://media.robertsspaceindustries.com/0rqv6j8xkrozg/logo.png",
+      "ships": [
+        {
+          "id": "Gatac Manufacture/Railen.glb",
+          "name": "Railen",
+          "path": "Assets/Gatac Manufacture/Railen.glb",
+          "length": 52,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/railen/Railen"
+        },
+        {
+          "id": "Gatac Manufacture/Syulen.glb",
+          "name": "Syulen",
+          "path": "Assets/Gatac Manufacture/Syulen.glb",
+          "length": 25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/syulen/Syulen",
+          "modelSource": "https://media.robertsspaceindustries.com/qy4irmrigsx1a/source.ctm"
+        },
+        {
+          "id": "Gatac Manufacture/Tyilui.glb",
+          "name": "Tyilui",
+          "path": "Assets/Gatac Manufacture/Tyilui.glb",
+          "length": 52,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/tyilui/Tyilui",
+          "modelSource": "https://media.robertsspaceindustries.com/w7xq8tyc2esqv/source.ctm"
+        }
+      ]
+    },
+    {
+      "name": "Grey's Market",
+      "code": "GREY",
+      "logo": "viewer/logos/GREY.png",
+      "logoSource": "https://robertsspaceindustries.com/media/wa6bccxwa19wdr/logo/Mfr_greysmarket_icon_grunge_white_4k.png",
+      "ships": [
+        {
+          "id": "Grey's Market/Basher.glb",
+          "name": "Basher",
+          "path": "Assets/Grey's Market/Basher.glb",
+          "length": 15.25,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/basher/Basher",
+          "modelSource": "https://media.robertsspaceindustries.com/m5dbpnz08r73k/source.ctm"
+        },
+        {
+          "id": "Grey's Market/Shiv.glb",
+          "name": "Shiv",
+          "path": "Assets/Grey's Market/Shiv.glb",
+          "length": 37.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/shiv/Shiv"
+        }
+      ]
+    },
+    {
+      "name": "Greycat Industrial",
+      "code": "GRIN",
+      "logo": "viewer/logos/GRIN.png",
+      "logoSource": "https://robertsspaceindustries.com/media/5jf6y40pc7ngxr/logo/GreyCat-Icon.png",
+      "ships": [
+        {
+          "id": "Greycat Industrial/MDC.glb",
+          "name": "MDC",
+          "path": "Assets/Greycat Industrial/MDC.glb",
+          "length": 7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mdc/MDC"
+        },
+        {
+          "id": "Greycat Industrial/MTC.glb",
+          "name": "MTC",
+          "path": "Assets/Greycat Industrial/MTC.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mtc/MTC",
+          "modelSource": "https://media.robertsspaceindustries.com/2rvc42zfjg5yn/source.ctm"
+        },
+        {
+          "id": "Greycat Industrial/ROC.glb",
+          "name": "ROC",
+          "path": "Assets/Greycat Industrial/ROC.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/roc/ROC"
+        },
+        {
+          "id": "Greycat Industrial/ROC-DS.glb",
+          "name": "ROC-DS",
+          "path": "Assets/Greycat Industrial/ROC-DS.glb",
+          "length": 6.6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/roc/ROC-DS"
+        },
+        {
+          "id": "Greycat Industrial/STV.glb",
+          "name": "STV",
+          "path": "Assets/Greycat Industrial/STV.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/stv/STV"
+        },
+        {
+          "id": "Greycat Industrial/UTV.glb",
+          "name": "UTV",
+          "path": "Assets/Greycat Industrial/UTV.glb",
+          "length": 4,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/utv/UTV",
+          "modelSource": "https://media.robertsspaceindustries.com/rtahvu6tt659t/source.ctm"
+        }
+      ]
+    },
+    {
+      "name": "Kruger Intergalactic",
+      "code": "KRIG",
+      "logo": "viewer/logos/KRIG.png",
+      "logoSource": "https://robertsspaceindustries.com/media/4u3vwg26y1wm3r/logo/Kruger.png",
+      "ships": [
+        {
+          "id": "Kruger Intergalactic/L-21 Wolf.glb",
+          "name": "L-21 Wolf",
+          "path": "Assets/Kruger Intergalactic/L-21 Wolf.glb",
+          "length": 21.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/wolf/L-21-Wolf"
+        },
+        {
+          "id": "Kruger Intergalactic/L-22 Alpha Wolf.glb",
+          "name": "L-22 Alpha Wolf",
+          "path": "Assets/Kruger Intergalactic/L-22 Alpha Wolf.glb",
+          "length": 21.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/wolf/L-22-Alpha-Wolf"
+        },
+        {
+          "id": "Kruger Intergalactic/P-52 Merlin.glb",
+          "name": "P-52 Merlin",
+          "path": "Assets/Kruger Intergalactic/P-52 Merlin.glb",
+          "length": 12,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/p52-merlin/P-52-Merlin"
+        },
+        {
+          "id": "Kruger Intergalactic/P-72 Archimedes.glb",
+          "name": "P-72 Archimedes",
+          "path": "Assets/Kruger Intergalactic/P-72 Archimedes.glb",
+          "length": 12,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/p72-archimedes/P-72-Archimedes"
+        },
+        {
+          "id": "Kruger Intergalactic/S-65 Stingray.glb",
+          "name": "S-65 Stingray",
+          "path": "Assets/Kruger Intergalactic/S-65 Stingray.glb",
+          "length": 24.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/s-65-stingray/S-65-Stingray",
+          "modelSource": "https://media.robertsspaceindustries.com/pmt7d034o4ery/source.ctm"
+        }
+      ]
+    },
+    {
+      "name": "Mirai",
+      "code": "MRAI",
+      "logo": "viewer/logos/MRAI.png",
+      "logoSource": "https://media.robertsspaceindustries.com/k7bcq6d004brd/logo.png",
+      "ships": [
+        {
+          "id": "Mirai/Fury.glb",
+          "name": "Fury",
+          "path": "Assets/Mirai/Fury.glb",
+          "length": 7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/fury/Fury",
+          "modelSource": "https://media.robertsspaceindustries.com/kjtrayxqls6wk/source.ctm"
+        },
+        {
+          "id": "Mirai/Fury LX.glb",
+          "name": "Fury LX",
+          "path": "Assets/Mirai/Fury LX.glb",
+          "length": 7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/fury/Fury-LX"
+        },
+        {
+          "id": "Mirai/Fury MX.glb",
+          "name": "Fury MX",
+          "path": "Assets/Mirai/Fury MX.glb",
+          "length": 7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/fury/Fury-MX",
+          "modelSource": "https://media.robertsspaceindustries.com/2bwvooii6vr0m/source.ctm"
+        },
+        {
+          "id": "Mirai/Guardian.glb",
+          "name": "Guardian",
+          "path": "Assets/Mirai/Guardian.glb",
+          "length": 24.3,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/guardian/Guardian"
+        },
+        {
+          "id": "Mirai/Guardian MX.glb",
+          "name": "Guardian MX",
+          "path": "Assets/Mirai/Guardian MX.glb",
+          "length": 26,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/guardian/Guardian-MX"
+        },
+        {
+          "id": "Mirai/Guardian QI.glb",
+          "name": "Guardian QI",
+          "path": "Assets/Mirai/Guardian QI.glb",
+          "length": 24.3,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/guardian/Guardian-QI"
+        },
+        {
+          "id": "Mirai/Pulse.glb",
+          "name": "Pulse",
+          "path": "Assets/Mirai/Pulse.glb",
+          "length": 3.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mirai-pulse/Pulse"
+        },
+        {
+          "id": "Mirai/Pulse LX.glb",
+          "name": "Pulse LX",
+          "path": "Assets/Mirai/Pulse LX.glb",
+          "length": 3.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/mirai-pulse/Pulse-LX"
+        },
+        {
+          "id": "Mirai/Razor.glb",
+          "name": "Razor",
+          "path": "Assets/Mirai/Razor.glb",
+          "length": 12.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/razor/Razor"
+        },
+        {
+          "id": "Mirai/Razor EX.glb",
+          "name": "Razor EX",
+          "path": "Assets/Mirai/Razor EX.glb",
+          "length": 12.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/razor/Razor-EX"
+        },
+        {
+          "id": "Mirai/Razor LX.glb",
+          "name": "Razor LX",
+          "path": "Assets/Mirai/Razor LX.glb",
+          "length": 12.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/razor/Razor-LX"
+        }
+      ]
+    },
+    {
+      "name": "MISC",
+      "code": "MISC",
+      "logo": "viewer/logos/MISC.png",
+      "logoSource": "https://robertsspaceindustries.com/media/6irnix69d4a8rr/logo/MISC.png",
+      "ships": [
+        {
+          "id": "MISC/Endeavor.glb",
+          "name": "Endeavor",
+          "path": "Assets/MISC/Endeavor.glb",
+          "length": 200,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-endeavor/Endeavor"
+        },
+        {
+          "id": "MISC/Expanse.glb",
+          "name": "Expanse",
+          "path": "Assets/MISC/Expanse.glb",
+          "length": 35.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/expanse/Expanse"
+        },
+        {
+          "id": "MISC/Fortune.glb",
+          "name": "Fortune",
+          "path": "Assets/MISC/Fortune.glb",
+          "length": 26.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/fortune/Fortune"
+        },
+        {
+          "id": "MISC/Freelancer.glb",
+          "name": "Freelancer",
+          "path": "Assets/MISC/Freelancer.glb",
+          "length": 38,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer"
+        },
+        {
+          "id": "MISC/Freelancer DUR.glb",
+          "name": "Freelancer DUR",
+          "path": "Assets/MISC/Freelancer DUR.glb",
+          "length": 38,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-DUR"
+        },
+        {
+          "id": "MISC/Freelancer MAX.glb",
+          "name": "Freelancer MAX",
+          "path": "Assets/MISC/Freelancer MAX.glb",
+          "length": 38,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-MAX",
+          "modelSource": "https://media.robertsspaceindustries.com/idapj2mzbcr98/source.ctm"
+        },
+        {
+          "id": "MISC/Freelancer MIS.glb",
+          "name": "Freelancer MIS",
+          "path": "Assets/MISC/Freelancer MIS.glb",
+          "length": 38,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-MIS"
+        },
+        {
+          "id": "MISC/Hull A.glb",
+          "name": "Hull A",
+          "path": "Assets/MISC/Hull A.glb",
+          "length": 30,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-A"
+        },
+        {
+          "id": "MISC/Hull B.glb",
+          "name": "Hull B",
+          "path": "Assets/MISC/Hull B.glb",
+          "length": 71,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-B"
+        },
+        {
+          "id": "MISC/Hull C.glb",
+          "name": "Hull C",
+          "path": "Assets/MISC/Hull C.glb",
+          "length": 91.17,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-C"
+        },
+        {
+          "id": "MISC/Hull D.glb",
+          "name": "Hull D",
+          "path": "Assets/MISC/Hull D.glb",
+          "length": 209,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-D"
+        },
+        {
+          "id": "MISC/Hull E.glb",
+          "name": "Hull E",
+          "path": "Assets/MISC/Hull E.glb",
+          "length": 372,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-E"
+        },
+        {
+          "id": "MISC/Odyssey.glb",
+          "name": "Odyssey",
+          "path": "Assets/MISC/Odyssey.glb",
+          "length": 140,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/odyssey/Odyssey"
+        },
+        {
+          "id": "MISC/Prospector.glb",
+          "name": "Prospector",
+          "path": "Assets/MISC/Prospector.glb",
+          "length": 26.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-prospector/Prospector"
+        },
+        {
+          "id": "MISC/Reliant Kore.glb",
+          "name": "Reliant Kore",
+          "path": "Assets/MISC/Reliant Kore.glb",
+          "length": 14.75,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Kore"
+        },
+        {
+          "id": "MISC/Reliant Mako.glb",
+          "name": "Reliant Mako",
+          "path": "Assets/MISC/Reliant Mako.glb",
+          "length": 14.75,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Mako"
+        },
+        {
+          "id": "MISC/Reliant Sen.glb",
+          "name": "Reliant Sen",
+          "path": "Assets/MISC/Reliant Sen.glb",
+          "length": 14.75,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Sen"
+        },
+        {
+          "id": "MISC/Reliant Tana.glb",
+          "name": "Reliant Tana",
+          "path": "Assets/MISC/Reliant Tana.glb",
+          "length": 14.75,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Tana"
+        },
+        {
+          "id": "MISC/Starfarer.glb",
+          "name": "Starfarer",
+          "path": "Assets/MISC/Starfarer.glb",
+          "length": 102,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-starfarer/Starfarer"
+        },
+        {
+          "id": "MISC/Starfarer Gemini.glb",
+          "name": "Starfarer Gemini",
+          "path": "Assets/MISC/Starfarer Gemini.glb",
+          "length": 102,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-starfarer/Starfarer-Gemini"
+        },
+        {
+          "id": "MISC/Starlancer MAX.glb",
+          "name": "Starlancer MAX",
+          "path": "Assets/MISC/Starlancer MAX.glb",
+          "length": 83,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/starlancer/Starlancer-MAX"
+        },
+        {
+          "id": "MISC/Starlancer TAC.glb",
+          "name": "Starlancer TAC",
+          "path": "Assets/MISC/Starlancer TAC.glb",
+          "length": 90,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/starlancer/Starlancer-TAC"
+        },
+        {
+          "id": "MISC/Starlite.glb",
+          "name": "Starlite",
+          "path": "Assets/MISC/Starlite.glb",
+          "length": 32,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/starlite/Starlite",
+          "modelSource": "https://media.robertsspaceindustries.com/lpj7ql9st3rse/source.ctm"
+        }
+      ]
+    },
+    {
+      "name": "Origin Jumpworks",
+      "code": "ORIG",
+      "logo": "viewer/logos/ORIG.png",
+      "logoSource": "https://robertsspaceindustries.com/media/0ffygmebwd3t1r/logo/Origin.png",
+      "ships": [
+        {
+          "id": "Origin Jumpworks/100i.glb",
+          "name": "100i",
+          "path": "Assets/Origin Jumpworks/100i.glb",
+          "length": 19,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-100/100i"
+        },
+        {
+          "id": "Origin Jumpworks/125a.glb",
+          "name": "125a",
+          "path": "Assets/Origin Jumpworks/125a.glb",
+          "length": 19,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-100/125a"
+        },
+        {
+          "id": "Origin Jumpworks/135c.glb",
+          "name": "135c",
+          "path": "Assets/Origin Jumpworks/135c.glb",
+          "length": 19,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-100/135c"
+        },
+        {
+          "id": "Origin Jumpworks/300i.glb",
+          "name": "300i",
+          "path": "Assets/Origin Jumpworks/300i.glb",
+          "length": 27,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/300i"
+        },
+        {
+          "id": "Origin Jumpworks/315p.glb",
+          "name": "315p",
+          "path": "Assets/Origin Jumpworks/315p.glb",
+          "length": 27,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/315p"
+        },
+        {
+          "id": "Origin Jumpworks/325a.glb",
+          "name": "325a",
+          "path": "Assets/Origin Jumpworks/325a.glb",
+          "length": 27.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/325a"
+        },
+        {
+          "id": "Origin Jumpworks/350r.glb",
+          "name": "350r",
+          "path": "Assets/Origin Jumpworks/350r.glb",
+          "length": 27,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/350r"
+        },
+        {
+          "id": "Origin Jumpworks/400i.glb",
+          "name": "400i",
+          "path": "Assets/Origin Jumpworks/400i.glb",
+          "length": 56,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/400i/400i"
+        },
+        {
+          "id": "Origin Jumpworks/600i Explorer.glb",
+          "name": "600i Explorer",
+          "path": "Assets/Origin Jumpworks/600i Explorer.glb",
+          "length": 91.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/600i/600i-Explorer"
+        },
+        {
+          "id": "Origin Jumpworks/600i Touring.glb",
+          "name": "600i Touring",
+          "path": "Assets/Origin Jumpworks/600i Touring.glb",
+          "length": 91.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/600i/600i-Touring"
+        },
+        {
+          "id": "Origin Jumpworks/890 Jump.glb",
+          "name": "890 Jump",
+          "path": "Assets/Origin Jumpworks/890 Jump.glb",
+          "length": 210,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/890-jump/890-Jump"
+        },
+        {
+          "id": "Origin Jumpworks/G12.glb",
+          "name": "G12",
+          "path": "Assets/Origin Jumpworks/G12.glb",
+          "length": 7.2,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-g12/G12"
+        },
+        {
+          "id": "Origin Jumpworks/G12a.glb",
+          "name": "G12a",
+          "path": "Assets/Origin Jumpworks/G12a.glb",
+          "length": 7.2,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-g12/G12a"
+        },
+        {
+          "id": "Origin Jumpworks/G12r.glb",
+          "name": "G12r",
+          "path": "Assets/Origin Jumpworks/G12r.glb",
+          "length": 7.2,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-g12/G12r"
+        },
+        {
+          "id": "Origin Jumpworks/M50.glb",
+          "name": "M50",
+          "path": "Assets/Origin Jumpworks/M50.glb",
+          "length": 11.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-m50/M50"
+        },
+        {
+          "id": "Origin Jumpworks/M80.glb",
+          "name": "M80",
+          "path": "Assets/Origin Jumpworks/M80.glb",
+          "length": 11.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/m80/M80",
+          "modelSource": "https://media.robertsspaceindustries.com/vx75fqpeoj5nf/source.ctm"
+        },
+        {
+          "id": "Origin Jumpworks/X1.glb",
+          "name": "X1",
+          "path": "Assets/Origin Jumpworks/X1.glb",
+          "length": 1.55,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/x1/X1"
+        },
+        {
+          "id": "Origin Jumpworks/X1 Force.glb",
+          "name": "X1 Force",
+          "path": "Assets/Origin Jumpworks/X1 Force.glb",
+          "length": 1.55,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/x1/X1-Force"
+        },
+        {
+          "id": "Origin Jumpworks/X1 Velocity.glb",
+          "name": "X1 Velocity",
+          "path": "Assets/Origin Jumpworks/X1 Velocity.glb",
+          "length": 1.55,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/x1/X1-Velocity"
+        }
+      ]
+    },
+    {
+      "name": "Roberts Space Industries",
+      "code": "RSI",
+      "logo": "viewer/logos/RSI.png",
+      "logoSource": "https://robertsspaceindustries.com/media/tb6ui8j38wwscr/logo/RSI.png",
+      "ships": [
+        {
+          "id": "Roberts Space Industries/Apollo Medivac.glb",
+          "name": "Apollo Medivac",
+          "path": "Assets/Roberts Space Industries/Apollo Medivac.glb",
+          "length": 54,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-apollo/Apollo-Medivac"
+        },
+        {
+          "id": "Roberts Space Industries/Apollo Triage.glb",
+          "name": "Apollo Triage",
+          "path": "Assets/Roberts Space Industries/Apollo Triage.glb",
+          "length": 54,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-apollo/Apollo-Triage"
+        },
+        {
+          "id": "Roberts Space Industries/Arrastra.glb",
+          "name": "Arrastra",
+          "path": "Assets/Roberts Space Industries/Arrastra.glb",
+          "length": 124,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/arrastra/Arrastra"
+        },
+        {
+          "id": "Roberts Space Industries/Aurora CL.glb",
+          "name": "Aurora CL",
+          "path": "Assets/Roberts Space Industries/Aurora CL.glb",
+          "length": null,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": null
+        },
+        {
+          "id": "Roberts Space Industries/Aurora LN.glb",
+          "name": "Aurora LN",
+          "path": "Assets/Roberts Space Industries/Aurora LN.glb",
+          "length": null,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": null
+        },
+        {
+          "id": "Roberts Space Industries/Aurora Mk I ES.glb",
+          "name": "Aurora Mk I ES",
+          "path": "Assets/Roberts Space Industries/Aurora Mk I ES.glb",
+          "length": 19,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-Mk-I-ES",
+          "modelSource": "https://media.robertsspaceindustries.com/4x6e0cz58vkxc/source.ctm"
+        },
+        {
+          "id": "Roberts Space Industries/Aurora Mk I LX.glb",
+          "name": "Aurora Mk I LX",
+          "path": "Assets/Roberts Space Industries/Aurora Mk I LX.glb",
+          "length": 19,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-Mk-I-LX",
+          "modelSource": "https://media.robertsspaceindustries.com/4x6e0cz58vkxc/source.ctm"
+        },
+        {
+          "id": "Roberts Space Industries/Aurora Mk I MR.glb",
+          "name": "Aurora Mk I MR",
+          "path": "Assets/Roberts Space Industries/Aurora Mk I MR.glb",
+          "length": 19,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-Mk-I-MR",
+          "modelSource": "https://media.robertsspaceindustries.com/4x6e0cz58vkxc/source.ctm"
+        },
+        {
+          "id": "Roberts Space Industries/Aurora Mk I SE.glb",
+          "name": "Aurora Mk I SE",
+          "path": "Assets/Roberts Space Industries/Aurora Mk I SE.glb",
+          "length": 19,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-Mk-I-SE",
+          "modelSource": "https://media.robertsspaceindustries.com/4x6e0cz58vkxc/source.ctm"
+        },
+        {
+          "id": "Roberts Space Industries/Aurora Mk II.glb",
+          "name": "Aurora Mk II",
+          "path": "Assets/Roberts Space Industries/Aurora Mk II.glb",
+          "length": 27.4,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/aurora-mk-ii/Aurora-Mk-II",
+          "modelSource": "https://media.robertsspaceindustries.com/btj5u1v7p3tw5/source.ctm"
+        },
+        {
+          "id": "Roberts Space Industries/Constellation Andromeda.glb",
+          "name": "Constellation Mk IV Andromeda",
+          "path": "Assets/Roberts Space Industries/Constellation Mk IV Andromeda.glb",
+          "length": 62,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/en/pledge/ships/rsi-constellation/Constellation-Mk-IV-Andromeda",
+          "aliases": [
+            "Constellation Andromeda"
+          ]
+        },
+        {
+          "id": "Roberts Space Industries/Constellation Aquila.glb",
+          "name": "Constellation Mk IV Aquila",
+          "path": "Assets/Roberts Space Industries/Constellation Mk IV Aquila.glb",
+          "length": 62,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/en/pledge/ships/rsi-constellation/Constellation-Mk-IV-Aquila",
+          "aliases": [
+            "Constellation Aquila"
+          ]
+        },
+        {
+          "id": "Roberts Space Industries/Constellation Phoenix.glb",
+          "name": "Constellation Mk IV Phoenix",
+          "path": "Assets/Roberts Space Industries/Constellation Mk IV Phoenix.glb",
+          "length": 62,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/en/pledge/ships/rsi-constellation/Constellation-Mk-IV-Phoenix",
+          "aliases": [
+            "Constellation Phoenix"
+          ]
+        },
+        {
+          "id": "Roberts Space Industries/Constellation Taurus.glb",
+          "name": "Constellation Mk IV Taurus",
+          "path": "Assets/Roberts Space Industries/Constellation Mk IV Taurus.glb",
+          "length": 69,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/en/pledge/ships/rsi-constellation/Constellation-Mk-IV-Taurus",
+          "aliases": [
+            "Constellation Taurus"
+          ]
+        },
+        {
+          "id": "Roberts Space Industries/Constellation Mk V Centaurus.glb",
+          "path": "Assets/Roberts Space Industries/Constellation Mk V Centaurus.glb",
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "name": "Constellation Mk V Centaurus",
+          "length": 82.5,
+          "source": "https://robertsspaceindustries.com/en/pledge/ships/constellation-mk-v/Constellation-Mk-V-Centaurus",
+          "aliases": [
+            "Constellation Centaurus",
+            "Centaurus"
+          ]
+        },
+        {
+          "id": "Roberts Space Industries/Galaxy.glb",
+          "name": "Galaxy",
+          "path": "Assets/Roberts Space Industries/Galaxy.glb",
+          "length": 110,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/galaxy/Galaxy"
+        },
+        {
+          "id": "Roberts Space Industries/Hermes.glb",
+          "name": "Hermes",
+          "path": "Assets/Roberts Space Industries/Hermes.glb",
+          "length": 58,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/hermes/Hermes"
+        },
+        {
+          "id": "Roberts Space Industries/Lynx.glb",
+          "name": "Lynx",
+          "path": "Assets/Roberts Space Industries/Lynx.glb",
+          "length": 7.75,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/ursa/Lynx"
+        },
+        {
+          "id": "Roberts Space Industries/Mantis.glb",
+          "name": "Mantis",
+          "path": "Assets/Roberts Space Industries/Mantis.glb",
+          "length": 30,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-mantis/Mantis"
+        },
+        {
+          "id": "Roberts Space Industries/Meteor.glb",
+          "name": "Meteor",
+          "path": "Assets/Roberts Space Industries/Meteor.glb",
+          "length": 30,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-meteor/Meteor",
+          "modelSource": "https://media.robertsspaceindustries.com/0u646xp1k2qvl/source.ctm"
+        },
+        {
+          "id": "Roberts Space Industries/Orion.glb",
+          "name": "Orion",
+          "path": "Assets/Roberts Space Industries/Orion.glb",
+          "length": 340,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/orion/Orion",
+          "lengthSource": "https://starcitizen.tools/Orion",
+          "lengthNote": "Échelle de présentation 340 m demandée par le propriétaire du projet ; modèle Holoviewer existant redimensionné uniformément, sans refonte de sa géométrie."
+        },
+        {
+          "id": "Roberts Space Industries/Perseus.glb",
+          "name": "Perseus",
+          "path": "Assets/Roberts Space Industries/Perseus.glb",
+          "length": 100,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/perseus/Perseus"
+        },
+        {
+          "id": "Roberts Space Industries/Polaris.glb",
+          "name": "Polaris",
+          "path": "Assets/Roberts Space Industries/Polaris.glb",
+          "length": 181,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/polaris/Polaris"
+        },
+        {
+          "id": "Roberts Space Industries/Salvation.glb",
+          "name": "Salvation",
+          "path": "Assets/Roberts Space Industries/Salvation.glb",
+          "length": 14.5,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/salvation/Salvation"
+        },
+        {
+          "id": "Roberts Space Industries/Scorpius.glb",
+          "name": "Scorpius",
+          "path": "Assets/Roberts Space Industries/Scorpius.glb",
+          "length": 32,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/scorpius/Scorpius"
+        },
+        {
+          "id": "Roberts Space Industries/Scorpius Antares.glb",
+          "name": "Scorpius Antares",
+          "path": "Assets/Roberts Space Industries/Scorpius Antares.glb",
+          "length": 32,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/scorpius/Scorpius-Antares"
+        },
+        {
+          "id": "Roberts Space Industries/Ursa Medivac.glb",
+          "name": "Ursa Medivac",
+          "path": "Assets/Roberts Space Industries/Ursa Medivac.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/ursa/Ursa-Medivac",
+          "modelSource": "https://media.robertsspaceindustries.com/01ym5jdsmj116/source.ctm"
+        },
+        {
+          "id": "Roberts Space Industries/Zeus Mk II CL.glb",
+          "name": "Zeus Mk II CL",
+          "path": "Assets/Roberts Space Industries/Zeus Mk II CL.glb",
+          "length": 46,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-CL",
+          "modelSource": "https://media.robertsspaceindustries.com/jiqmrhig5saho/source.ctm"
+        },
+        {
+          "id": "Roberts Space Industries/Zeus Mk II ES.glb",
+          "name": "Zeus Mk II ES",
+          "path": "Assets/Roberts Space Industries/Zeus Mk II ES.glb",
+          "length": 46,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-ES",
+          "modelSource": "https://media.robertsspaceindustries.com/3pkp6c6k9ulya/source.ctm"
+        },
+        {
+          "id": "Roberts Space Industries/Zeus Mk II MR.glb",
+          "name": "Zeus Mk II MR",
+          "path": "Assets/Roberts Space Industries/Zeus Mk II MR.glb",
+          "length": 45.7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-MR"
+        }
+      ]
+    },
+    {
+      "name": "Tumbril",
+      "code": "TMBL",
+      "logo": "viewer/logos/TMBL.png",
+      "logoSource": "https://robertsspaceindustries.com/media/7fo9fxemlc9k7r/logo/Tumbril_logo.png",
+      "ships": [
+        {
+          "id": "Tumbril/Cyclone AA.glb",
+          "name": "Cyclone AA",
+          "path": "Assets/Tumbril/Cyclone AA.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-AA"
+        },
+        {
+          "id": "Tumbril/Cyclone MT.glb",
+          "name": "Cyclone MT",
+          "path": "Assets/Tumbril/Cyclone MT.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-MT"
+        },
+        {
+          "id": "Tumbril/Cyclone RC.glb",
+          "name": "Cyclone RC",
+          "path": "Assets/Tumbril/Cyclone RC.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-RC"
+        },
+        {
+          "id": "Tumbril/Cyclone RN.glb",
+          "name": "Cyclone RN",
+          "path": "Assets/Tumbril/Cyclone RN.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-RN"
+        },
+        {
+          "id": "Tumbril/Cyclone TR.glb",
+          "name": "Cyclone TR",
+          "path": "Assets/Tumbril/Cyclone TR.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-TR"
+        },
+        {
+          "id": "Tumbril/Cyclone.glb",
+          "name": "Cyclone",
+          "path": "Assets/Tumbril/Cyclone.glb",
+          "length": 6,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone"
+        },
+        {
+          "id": "Tumbril/Nova.glb",
+          "name": "Nova",
+          "path": "Assets/Tumbril/Nova.glb",
+          "length": 20,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/nova-tank/Nova"
+        },
+        {
+          "id": "Tumbril/Ranger CV.glb",
+          "name": "Ranger CV",
+          "path": "Assets/Tumbril/Ranger CV.glb",
+          "length": 3.7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/tumbril-ranger/Ranger-CV"
+        },
+        {
+          "id": "Tumbril/Ranger RC.glb",
+          "name": "Ranger RC",
+          "path": "Assets/Tumbril/Ranger RC.glb",
+          "length": 3.7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/tumbril-ranger/Ranger-RC"
+        },
+        {
+          "id": "Tumbril/Ranger TR.glb",
+          "name": "Ranger TR",
+          "path": "Assets/Tumbril/Ranger TR.glb",
+          "length": 3.7,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/tumbril-ranger/Ranger-TR"
+        },
+        {
+          "id": "Tumbril/Storm AA.glb",
+          "name": "Storm AA",
+          "path": "Assets/Tumbril/Storm AA.glb",
+          "length": 7.65,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/storm/Storm-AA"
+        },
+        {
+          "id": "Tumbril/Storm.glb",
+          "name": "Storm",
+          "path": "Assets/Tumbril/Storm.glb",
+          "length": 7.65,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/storm/Storm"
+        }
+      ]
+    },
+    {
+      "name": "Vanduul",
+      "code": "VNCL",
+      "logo": "viewer/logos/VNCL.png",
+      "logoSource": "https://robertsspaceindustries.com/media/ofli1kgpqq5y6r/logo/Vanduul.png",
+      "ships": [
+        {
+          "id": "Vanduul/Scythe.glb",
+          "name": "Scythe",
+          "path": "Assets/Vanduul/Scythe.glb",
+          "length": 33,
+          "rotation": [
+            0,
+            3.141592653589793,
+            0
+          ],
+          "scale": 0.01,
+          "source": "https://robertsspaceindustries.com/pledge/ships/scythe/Scythe"
+        }
+      ]
+    }
+  ]
+}

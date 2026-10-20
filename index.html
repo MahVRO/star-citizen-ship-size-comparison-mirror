@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#101316">
+  <title>Star Citizen 3D Ship Viewer & Fleet Builder | Fleet Viewer</title>
+  <meta name="description" content="Explore Star Citizen ships in 3D, compare real sizes on a metric grid and build your fleet. Import HangarXPLOR JSON or CSV files.">
+  <link rel="canonical" href="https://fleet-viewer.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fleet Viewer">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://fleet-viewer.com/">
+  <meta property="og:title" content="Star Citizen 3D Ship Viewer & Fleet Builder | Fleet Viewer">
+  <meta property="og:description" content="Explore Star Citizen ships in 3D, compare real sizes on a metric grid and build your fleet. Import HangarXPLOR JSON or CSV files.">
+  <meta property="og:image" content="https://fleet-viewer.com/viewer/social-preview.png">
+  <meta property="og:image:width" content="1440">
+  <meta property="og:image:height" content="1000">
+  <meta property="og:image:alt" content="Star Citizen ships arranged on the Fleet Viewer hangar grid">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Star Citizen 3D Ship Viewer & Fleet Builder | Fleet Viewer">
+  <meta name="twitter:description" content="Explore Star Citizen ships in 3D, compare real sizes on a metric grid and build your fleet. Import HangarXPLOR JSON or CSV files.">
+  <meta name="twitter:image" content="https://fleet-viewer.com/viewer/social-preview.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://fleet-viewer.com/#website","url":"https://fleet-viewer.com/","name":"Fleet Viewer","inLanguage":"en"},{"@type":"WebApplication","@id":"https://fleet-viewer.com/#page","url":"https://fleet-viewer.com/","name":"Star Citizen 3D Ship Viewer & Fleet Builder | Fleet Viewer","description":"Explore Star Citizen ships in 3D, compare real sizes on a metric grid and build your fleet. Import HangarXPLOR JSON or CSV files.","inLanguage":"en","isPartOf":{"@id":"https://fleet-viewer.com/#website"},"applicationCategory":"MultimediaApplication","operatingSystem":"Web browser","dateModified":"2026-09-12"}]}</script>
+  <link rel="icon" href="/star-citizen-ship-size-comparison-mirror/favicon.svg"><link rel="stylesheet" href="/star-citizen-ship-size-comparison-mirror/viewer/viewer.css?v=release-20260912">
+  <script type="importmap">{"imports":{"three":"/star-citizen-ship-size-comparison-mirror/viewer/vendor/build/three.module.js","three/addons/":"/star-citizen-ship-size-comparison-mirror/viewer/vendor/examples/jsm/"}}</script>
+<link rel="stylesheet" href="/star-citizen-ship-size-comparison-mirror/viewer/mirror.css">
+</head>
+<body><header class="navbar">
+    <a class="brand" href="/star-citizen-ship-size-comparison-mirror/" aria-label="Fleet Viewer home"><span class="brand-mark">F<span>◢</span></span><span>FLEET VIEWER<small>STAR CITIZEN FLEET VIEWER</small></span></a>
+    <nav aria-label="Main navigation"><a href="/star-citizen-ship-size-comparison-mirror/" class="nav-active" aria-current="page">Viewer</a><a href="/star-citizen-ship-size-comparison-mirror/starter-ships/" >Starter packs</a><a href="/star-citizen-ship-size-comparison-mirror/referral-code/" >Referral code</a><a href="/star-citizen-ship-size-comparison-mirror/about/" >About</a></nav>
+    <a class="nav-referral" href="https://www.robertsspaceindustries.com/enlist?referral=STAR-Q5XP-GLMY" target="_blank" rel="noopener noreferrer">Join the ’verse <span>↗</span></a>
+  </header><main id="workspace">
+    <div id="viewport" tabindex="0" aria-label="3D viewer. Left drag to orbit, right drag to pan, scroll to zoom. Use WASD, Space and Ctrl to move."></div>
+    <aside id="fleet-sidebar" class="sidebar" aria-label="Fleet management">
+      <section class="panel add-panel">
+        <div class="panel-heading"><span class="eyebrow">BUILD YOUR FLEET</span><span class="index">01 /</span></div>
+        <h2 class="add-title">Add a ship<span class="mint">.</span></h2>
+        <label class="field-label" id="maker-label">MANUFACTURER</label>
+        <div class="maker-picker">
+          <button id="maker-toggle" class="maker-toggle" aria-labelledby="maker-label maker-value" aria-expanded="false" aria-controls="maker-options"><span id="maker-emblem" class="maker-emblem">◇</span><span id="maker-value">Choose a manufacturer</span><span class="chevron">⌄</span></button>
+          <div id="maker-options" class="maker-options" hidden></div>
+        </div>
+
+          <input id="ship-search" class="search" type="search" placeholder="Search all ships…" aria-label="Search all ships and manufacturers">
+        <div id="ship-section" hidden>
+          <div class="list-heading"><span id="model-count">MODELS</span><button id="select-all" class="text-button">Select all</button></div>
+          <div id="ship-list" class="ship-list"></div>
+        </div>
+        <div class="quick-import"><label id="fleet-drop" tabindex="0" role="button" for="fleet-file">⇧ Import JSON / CSV <small>or drop a file</small></label><input id="fleet-file" type="file" accept=".json,.csv,.tsv" hidden><p id="import-status" class="load-status" role="status"></p></div>
+        <div class="load-footer"><span id="selection-count">No ships selected</span><button id="load-ships" class="primary" disabled>Load <span>↗</span></button></div>
+        <p id="load-status" class="load-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <a class="starter-shortcut panel" href="/star-citizen-ship-size-comparison-mirror/starter-ships/"><span>CHOOSING YOUR FIRST SHIP?</span><strong>Compare starter packs ↗</strong><small>Start with your budget and play style.</small></a>
+      <section class="panel referral-panel"><h2>New to Star Citizen?</h2><p>Get <strong class="mint">50,000 UEC</strong> with a referral code when you create your RSI account. Using ours also supports Fleet Viewer.</p><div class="code-row"><code>STAR-Q5XP-GLMY</code><button id="copy-code" title="Copy code" aria-label="Copy referral code">⧉</button></div><a class="referral-cta" href="https://www.robertsspaceindustries.com/enlist?referral=STAR-Q5XP-GLMY" target="_blank" rel="sponsored noopener noreferrer">Create your RSI account</a><a class="referral-details" href="https://support.robertsspaceindustries.com/hc/en-us/articles/115013102847-Referral-Program-FAQ" target="_blank" rel="noopener noreferrer">Official bonus details ↗</a></section>
+      <p class="unofficial">Independent community project.<br>Ships and trademarks © Cloud Imperium Games.</p>
+    </aside>
+    <button id="toggle-panels" class="tool mobile-toggle" aria-label="Hide panels" title="Hide panels" aria-controls="fleet-sidebar" aria-expanded="true">‹</button>
+    <div class="scene-heading"><span class="live-dot"></span><span>OPEN HANGAR</span><span class="scene-divider">/</span><span id="fleet-count">0 SHIPS</span></div>
+    <div class="view-tools" aria-label="Viewer controls"><button class="tool" id="view-perspective" title="Perspective view" aria-label="Perspective view">◈</button><button class="tool" id="view-top" title="Top view" aria-label="Top view">⊞</button><span></span><button class="tool" id="frame-fleet" title="Frame fleet (F)" aria-label="Frame fleet"><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M7 3H3v4m14-4h4v4M3 17v4h4m14-4v4h-4"/><path d="m12 5 5 12-5-2-5 2Z"/></svg></button><button class="tool" id="reset-camera" title="Return to origin" aria-label="Return to origin">⌖</button><button class="tool" id="help-toggle" aria-expanded="false" aria-controls="help-panel" title="Controls" aria-label="Show controls">?</button></div>
+    <div class="camera-tools" role="group" aria-label="Camera mode and fullscreen"><span class="camera-label">CAMERA</span><button class="tool" id="camera-fullscreen" title="Enter fullscreen" aria-label="Enter fullscreen" aria-pressed="false">⛶</button><div class="camera-switch" role="group" aria-label="Camera mode"><button id="camera-free" aria-pressed="true">Free</button><button id="camera-walk" aria-pressed="false">Walk</button></div></div>
+    <section id="help-panel" class="panel help-panel" hidden><h2>Take the controls</h2><p>Walk: eye height 1.75 m. WASD moves along the ground in the direction you face. Hold either mouse button and drag to look around. Walk at 1.5 m/s; hold Shift to run at 4.5 m/s or Space to boost to 15 m/s while moving. Free: orbit and fly. Framing or changing views returns to Free.</p><dl><dt>Left drag</dt><dd>Orbit around the pivot</dd><dt>Right drag</dt><dd>Move the pivot</dd><dt>Scroll</dt><dd>Zoom in / out</dd><dt>W A S D / Z Q S D</dt><dd>Fly along your view / strafe sideways</dd><dt>Space / Ctrl</dt><dd>Move up / down</dd><dt>Shift</dt><dd>Move faster</dd><dt>F / Escape</dt><dd>Frame selection / release keyboard</dd></dl><p>Click the scene to enable keyboard controls. W/S fly forward/backward along your view, including up and down. Space/Ctrl change altitude. On touchscreens, use one finger to orbit and two to pan and zoom.</p></section>
+    <section id="transform-panel" class="panel transform-panel" hidden aria-label="Transform selected ship"><div class="transform-heading"><span id="transform-name"></span><button id="deselect-ship" class="text-button" aria-label="Deselect ship">✕</button></div><div class="transform-buttons"><button id="translate-ship" aria-pressed="true">↗ Move</button><button id="rotate-ship" aria-pressed="false">↻ Rotate</button><button id="focus-ship" title="Frame selected ship" aria-label="Frame selected ship">⛶</button></div><div class="ground-controls"><button id="ground-ship">↧ Place on ground</button><span id="ground-status"></span></div><p>Drag an arrow or a rotation ring on the ship.</p></section>
+    <div id="fleet-tray" class="fleet-tray" hidden><div class="tray-heading"><span>IN SCENE</span><button id="clear-fleet" class="text-button">Remove all</button></div><div id="fleet-items"></div></div>
+    <footer class="statusbar"><div><span class="status-dot"></span><span id="navigation-status">CLICK THE SCENE</span></div><div class="desktop-hint"><span>Left <b>orbit</b></span><span>Right <b>pan</b></span><span>Scroll <b>zoom</b></span><span>WASD <b>move</b></span></div><div><span id="grid-status">MARKINGS 1 / 10 / 50 / 100 m</span><span class="status-separator">/</span><span id="scale-status">1 UNIT = 1 m</span></div></footer>
+    <div id="toast" role="status" class="toast" hidden></div>
+  </main><section class="viewer-description"><h1>Star Citizen 3D ship viewer and fleet builder</h1><p>Load ships, compare their dimensions and arrange your fleet on a metric hangar grid. Orbit, fly or explore at walking height. Import your hangar locally from JSON or CSV.</p><p>Choosing your first ship? <a href="/star-citizen-ship-size-comparison-mirror/starter-ships/">Compare starter packs by budget and role</a>.</p></section><footer class="site-footer"><a href="/star-citizen-ship-size-comparison-mirror/">3D viewer</a><a href="/star-citizen-ship-size-comparison-mirror/starter-ships/">Starter comparison</a><a href="/star-citizen-ship-size-comparison-mirror/referral-code/">Referral guide</a><a href="/star-citizen-ship-size-comparison-mirror/about/">About</a><span>Independent fan project · Star Citizen © Cloud Imperium Games</span></footer><script type="module" src="/star-citizen-ship-size-comparison-mirror/viewer/viewer.js?v=release-20260912"></script><script src="/star-citizen-ship-size-comparison-mirror/viewer/navigation.js?v=release-20260912" defer></script><script src="/star-citizen-ship-size-comparison-mirror/viewer/mirror.js" defer></script></body></html>

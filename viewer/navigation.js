@@ -1,0 +1,2 @@
+if(location.pathname==='/star-citizen-ship-size-comparison-mirror/'){const legacy={'#starters':'/star-citizen-ship-size-comparison-mirror/starter-ships/','#about':'/star-citizen-ship-size-comparison-mirror/about/'};if(legacy[location.hash])location.replace(legacy[location.hash]);}
+document.getElementById('copy-referral')?.addEventListener('click',async()=>{const status=document.getElementById('copy-status');try{await navigator.clipboard.writeText('STAR-Q5XP-GLMY');status.textContent='Code copied.';}catch{status.textContent='Select and copy: STAR-Q5XP-GLMY';}});
