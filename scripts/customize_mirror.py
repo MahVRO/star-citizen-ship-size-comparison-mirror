@@ -12,14 +12,14 @@ def customize(output: Path, prefix: str) -> None:
     destination.mkdir(parents=True, exist_ok=True)
     for name in ('mirror.css', 'mirror.js'):
         shutil.copyfile(assets / name, destination / name)
-    # The manufacturer gallery is a persistent catalogue section. Choosing a
-    # manufacturer or searching ships must not collapse it.
+    # Keep catalogue interactions inside the picker, but collapse the gallery
+    # after an explicit manufacturer selection to make room for ships.
     viewer = destination / 'viewer.js'
     source = viewer.read_text()
     source = source.replace("event.target.closest('.maker-picker')", "event.target.closest('.add-panel')")
     source = source.replace(
-        "$('maker-options').hidden = true; $('maker-toggle').setAttribute('aria-expanded', 'false');",
         "$('maker-options').hidden = false; $('maker-toggle').setAttribute('aria-expanded', 'true');",
+        "$('maker-options').hidden = true; $('maker-toggle').setAttribute('aria-expanded', 'false');",
     )
     viewer.write_text(source)
     shutil.copytree(assets / 'brand-logos', destination / 'brand-logos', dirs_exist_ok=True)

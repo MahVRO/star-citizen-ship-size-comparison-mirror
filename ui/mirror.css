@@ -233,28 +233,60 @@ body.mirror-ui{--sidebar:352px}
 .mirror-ui .ship-list>p{grid-column:1/-1;color:var(--muted);font-size:12px;padding:12px 4px}
 @media(max-width:760px){.mirror-ui .ship-art{height:88px}.mirror-ui .ship-row{min-height:188px}.mirror-ui .ship-list{gap:8px;max-height:38vh}}
 @media(prefers-reduced-motion:reduce){.mirror-ui .ship-art img{transition:none}.mirror-ui .ship-row:hover .ship-art img{transform:none}}
-/* Image-first cards with a single quiet surface and integrated controls. */
-.mirror-ui .ship-list{gap:10px;padding:4px 3px 8px 0}
-.mirror-ui .ship-row{min-height:212px;padding:0;gap:0;isolation:isolate;overflow:hidden;border:1px solid #d1e6da18;border-radius:14px;background:#102025;box-shadow:0 4px 16px #0002;transition:border-color .2s,box-shadow .2s,transform .2s}
-.mirror-ui .ship-row:hover,.mirror-ui .ship-row:focus-within{border-color:#d1e6da52;background:#102025;box-shadow:0 8px 22px #0004;transform:translateY(-2px)}
-.mirror-ui .ship-row:has(input:checked){border-color:#b8f4d68c;box-shadow:0 0 0 1px #b8f4d61c,0 6px 20px #0003}
-.mirror-ui .ship-check{position:static;min-height:159px;gap:0;justify-content:flex-end;isolation:isolate}
-.mirror-ui .ship-art{position:absolute;inset:0;width:100%;height:100%;border-radius:0;z-index:-2;background:#122126}
-.mirror-ui .ship-art img{object-fit:cover;filter:saturate(.65);opacity:1;transform:scale(1);transition:transform .35s,filter .2s}
-.mirror-ui .ship-check::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,#06111508 0%,#07131630 25%,#09171cde 62%,#0c1b20fa 85%)}
-.mirror-ui .ship-row:hover .ship-art img{transform:scale(1.045);filter:saturate(1)}
-.mirror-ui .ship-check>span:not(.ship-art){padding:48px 12px 0;min-height:0;position:relative;font-size:12px;line-height:1.35;font-weight:550;letter-spacing:-.1px;color:#f0f6f2;text-shadow:0 1px 8px #0006}
-.mirror-ui .ship-check .search-maker{color:#b2c2bc;font-size:9px;line-height:1.4;margin-top:4px;font-weight:400}
-.mirror-ui .ship-length{font:9px/1.5 monospace;letter-spacing:.5px;color:#bdd4c9;margin-top:7px}
-.mirror-ui .ship-check>input{left:auto;right:10px;top:10px;width:19px;height:19px;border-radius:50%;background:#0e1c2280;border:1px solid #f0fff54d;box-shadow:0 2px 8px #0003;backdrop-filter:blur(8px)}
-.mirror-ui .ship-check>input:checked{background:var(--mint);border-color:var(--mint);box-shadow:0 0 0 3px #b8f4d617}
-.mirror-ui .ship-check>input:focus-visible{outline:2px solid var(--mint);outline-offset:3px}
-.mirror-ui .ship-row-actions{position:relative;z-index:1;width:calc(100% - 20px);align-self:center;margin:10px 10px 11px;background:#ffffff05;border-color:#d1e6da14;border-radius:8px;opacity:.8;backdrop-filter:blur(8px)}
-.mirror-ui .ship-row-actions button{min-height:30px;color:#bad8c8;font-size:14px}
-.mirror-ui .ship-row-actions button:hover{background:#b8f4d617}
-.mirror-ui .ship-row-actions input{font-size:11px;color:#e1eee7;min-height:30px}
-.mirror-ui .ship-row-actions .remove-model{color:#d5a298}
-@media(max-width:760px){.mirror-ui .ship-row{min-height:212px}.mirror-ui .ship-art{height:100%}}
-@media(prefers-reduced-motion:reduce){.mirror-ui .ship-row,.mirror-ui .ship-art img{transition:none}.mirror-ui .ship-row:hover,.mirror-ui .ship-row:focus-within,.mirror-ui .ship-row:hover .ship-art img{transform:none}}
-.mirror-ui .ship-check>span:not(.ship-art){flex:0 0 auto;margin-top:auto;padding:0 12px}
-.mirror-ui .ship-row:has(input[type=checkbox]:checked){border-color:#b8f4d68c;box-shadow:0 0 0 1px #b8f4d61c,0 6px 20px #0003}
+
+/* Hangar workstation: flat materials, compact controls, real inventory first. */
+body.mirror-ui{--sidebar:360px;--line:#344044;--text:#e2e7e4;--muted:#9ca9a4;font-family:'Segoe UI',Arial,sans-serif}
+.mirror-ui .navbar{height:56px;min-height:56px;background:#131b1e;border-bottom-color:#344044;padding:0 20px;gap:40px}
+.mirror-ui .brand{font-size:15px;letter-spacing:1px;font-weight:600}.mirror-ui .brand-mark{font-size:27px}
+.mirror-ui #workspace{height:calc(100dvh - 56px)}
+.mirror-ui .sidebar{inset:0 auto 0 0;width:var(--sidebar);padding:0;gap:0;background:#182124;border-right:1px solid #3c494b;scrollbar-color:#52635b transparent}
+.mirror-ui .panel{background:#182124;border-radius:0;box-shadow:none;backdrop-filter:none}
+.mirror-ui .add-panel{padding:19px 16px 0;border:0;border-bottom:1px solid var(--line);max-height:none;box-shadow:none;backdrop-filter:none;flex-shrink:0}
+.mirror-ui .add-title{font:600 14px/1.4 'Segoe UI',Arial,sans-serif;text-transform:none;letter-spacing:0;margin:0 0 16px;color:#e2e7e4}
+.mirror-ui .maker-toggle{border:1px solid #465455;border-radius:2px;background:#111b1f;height:43px;min-height:43px;box-shadow:none;font-weight:400}
+.mirror-ui .maker-toggle:hover{background:#202d2e;border-color:#7d9e90}
+.mirror-ui .maker-filter{margin:10px 0 5px;height:33px;border-radius:0;background:transparent;font-size:11px}
+.mirror-ui .maker-options{gap:1px;max-height:230px;padding:0 3px 0 0;border:0;border-radius:0;background:#364145;scrollbar-color:#667f72 #182124}
+.mirror-ui .maker-option{min-height:68px;height:68px;padding:12px;border:0;border-radius:0;background:#1a2529;box-shadow:none;overflow:hidden}
+.mirror-ui .maker-option img{height:36px;max-width:65px}
+.mirror-ui .maker-option::before{display:none}
+.mirror-ui .maker-option.is-logo-preview,.mirror-ui .maker-option[aria-pressed=true]{background:#273733;box-shadow:inset 0 -2px var(--brand-color);overflow:hidden}
+.mirror-ui .maker-option:not(.is-logo-preview):not([aria-pressed=true]):hover{background:#25312f}
+.mirror-ui #ship-search{height:38px;margin-top:16px;border:1px solid #465455;border-radius:2px;background:#111b1f;padding:0 11px;box-shadow:none}
+.mirror-ui #ship-search:focus-visible{outline:1px solid var(--mint);outline-offset:1px;border-color:var(--mint)}
+.mirror-ui #ship-section{margin-top:8px;min-height:0;overflow:visible}
+.mirror-ui .list-heading{margin:7px 0 5px;font-size:9px;min-height:25px;color:#b1c1b8;letter-spacing:.7px}
+.mirror-ui .ship-list{max-height:38vh;gap:8px;padding:2px 3px 6px 0}
+.mirror-ui .ship-row{padding:0;gap:0;border:1px solid #3b484a;border-radius:2px;background:#121d21;box-shadow:none;min-height:174px;overflow:hidden;isolation:isolate;transform:none}
+.mirror-ui .ship-row:hover,.mirror-ui .ship-row:focus-within{border-color:#8aab9b;background:#1c292a;box-shadow:none;transform:none}
+.mirror-ui .ship-row:has(input[type=checkbox]:checked){border-color:#a9d5be;box-shadow:inset 0 -2px #b8f4d6;background:#20302a}
+.mirror-ui .ship-check{position:static;gap:0;min-height:0;isolation:auto;flex:1;justify-content:flex-start}
+.mirror-ui .ship-check::before{display:none}
+.mirror-ui .ship-art{position:relative;inset:auto;flex:none;width:100%;height:80px;border-radius:0;background:#10191e;z-index:auto}
+.mirror-ui .ship-art img{width:100%;height:100%;filter:saturate(.75);opacity:1;transform:none;object-fit:cover}
+.mirror-ui .ship-row:hover .ship-art img{filter:none;transform:none}
+.mirror-ui .ship-check>input{left:8px;right:auto;top:8px;width:15px;height:15px;border-radius:2px;background:#111b1fe6;box-shadow:none;backdrop-filter:none}
+.mirror-ui .ship-check>input:checked{background:var(--mint);box-shadow:none}
+.mirror-ui .ship-check>span:not(.ship-art){padding:9px 9px 6px;margin-top:0;min-height:51px;font-size:11px;font-weight:500;letter-spacing:0;line-height:1.4;text-shadow:none;color:#e2e7e4}
+.mirror-ui .ship-length{font:9px/1.5 Consolas,monospace;margin-top:3px;color:#a3b8aa}
+.mirror-ui .ship-check .search-maker{font:9px/1.4 'Segoe UI',Arial,sans-serif;color:#91a69a}
+.mirror-ui .ship-row-actions{position:relative;width:100%;margin:0;align-self:stretch;border:0;border-top:1px solid #344145;border-radius:0;background:#101b1f;opacity:1;backdrop-filter:none;box-shadow:none}
+.mirror-ui .ship-row-actions button{border-radius:0;min-height:29px;color:#abc5b6}
+.mirror-ui .ship-row-actions input{font:11px Consolas,monospace}
+.mirror-ui .quick-import{border-top:1px solid var(--line);padding-top:8px;margin-top:14px}
+.mirror-ui #fleet-drop{border:0;border-radius:0;text-align:left;padding:6px 1px;color:#a9bbb2;font-size:11px;background:none}
+.mirror-ui .load-footer{position:static;border-top:1px solid var(--line);background:none;margin:6px 0 0;padding:12px 0;font-size:10px}
+.mirror-ui .primary{border-radius:2px;font-size:11px;font-weight:600;padding:10px 14px;box-shadow:none}
+.mirror-ui .primary:disabled{background:#283536;color:#92a39a;border:1px solid #3a4848;opacity:.7}
+.mirror-ui .mirror-support{padding:6px 12px}.mirror-ui .mirror-support>summary{font:10px 'Segoe UI',Arial,sans-serif;letter-spacing:0;padding:8px 4px;color:#9cad9f}
+.mirror-ui .view-tools,.mirror-ui .camera-tools{border-radius:2px;background:#182124;border-color:#3a4849;box-shadow:none;padding:3px;backdrop-filter:none}
+.mirror-ui .tool,.mirror-ui .camera-switch,.mirror-ui .camera-switch button{border-radius:1px}
+.mirror-ui .camera-switch{background:#101a1e}.mirror-ui .tool{font-size:18px}
+.mirror-ui .fleet-tray{border-radius:2px;background:#182124;border-color:#3a4849;box-shadow:none}.mirror-ui .fleet-chip{border-radius:2px;background:#142024}
+.mirror-ui .mobile-toggle{top:17px;left:374px;border-radius:1px;background:#243334}
+.mirror-ui .scene-heading{left:409px;top:27px}
+@media(max-width:760px){.mirror-ui .sidebar{top:51px;left:8px;bottom:8px;width:min(352px,calc(100vw - 16px));border:1px solid #3c494b}.mirror-ui .navbar{padding:0 14px}.mirror-ui .mobile-toggle{top:9px;left:8px}.mirror-ui .scene-heading{top:21px;left:52px}.mirror-ui .view-tools{top:8px;right:8px}.mirror-ui .maker-options{max-height:144px}.mirror-ui .maker-option{min-height:64px;height:64px}.mirror-ui .ship-list{max-height:35vh}.mirror-ui .add-panel{padding:14px 12px 0}.mirror-ui .ship-art{height:76px}.mirror-ui .ship-row{min-height:169px}.mirror-ui .camera-tools{right:8px}}
+@media(prefers-reduced-motion:reduce){.mirror-ui .ship-row,.mirror-ui .ship-art img{transition:none}}
+/* The ship inventory gets the gallery's space once a manufacturer is chosen. */
+.mirror-ui .maker-picker:has(#maker-options[hidden])~#ship-section .ship-list{max-height:58vh}
+@media(max-width:760px){.mirror-ui .maker-picker:has(#maker-options[hidden])~#ship-section .ship-list{max-height:49vh}}
