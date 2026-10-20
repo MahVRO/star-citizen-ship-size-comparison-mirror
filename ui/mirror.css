@@ -233,3 +233,28 @@ body.mirror-ui{--sidebar:352px}
 .mirror-ui .ship-list>p{grid-column:1/-1;color:var(--muted);font-size:12px;padding:12px 4px}
 @media(max-width:760px){.mirror-ui .ship-art{height:88px}.mirror-ui .ship-row{min-height:188px}.mirror-ui .ship-list{gap:8px;max-height:38vh}}
 @media(prefers-reduced-motion:reduce){.mirror-ui .ship-art img{transition:none}.mirror-ui .ship-row:hover .ship-art img{transform:none}}
+/* Image-first cards with a single quiet surface and integrated controls. */
+.mirror-ui .ship-list{gap:10px;padding:4px 3px 8px 0}
+.mirror-ui .ship-row{min-height:212px;padding:0;gap:0;isolation:isolate;overflow:hidden;border:1px solid #d1e6da18;border-radius:14px;background:#102025;box-shadow:0 4px 16px #0002;transition:border-color .2s,box-shadow .2s,transform .2s}
+.mirror-ui .ship-row:hover,.mirror-ui .ship-row:focus-within{border-color:#d1e6da52;background:#102025;box-shadow:0 8px 22px #0004;transform:translateY(-2px)}
+.mirror-ui .ship-row:has(input:checked){border-color:#b8f4d68c;box-shadow:0 0 0 1px #b8f4d61c,0 6px 20px #0003}
+.mirror-ui .ship-check{position:static;min-height:159px;gap:0;justify-content:flex-end;isolation:isolate}
+.mirror-ui .ship-art{position:absolute;inset:0;width:100%;height:100%;border-radius:0;z-index:-2;background:#122126}
+.mirror-ui .ship-art img{object-fit:cover;filter:saturate(.65);opacity:1;transform:scale(1);transition:transform .35s,filter .2s}
+.mirror-ui .ship-check::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,#06111508 0%,#07131630 25%,#09171cde 62%,#0c1b20fa 85%)}
+.mirror-ui .ship-row:hover .ship-art img{transform:scale(1.045);filter:saturate(1)}
+.mirror-ui .ship-check>span:not(.ship-art){padding:48px 12px 0;min-height:0;position:relative;font-size:12px;line-height:1.35;font-weight:550;letter-spacing:-.1px;color:#f0f6f2;text-shadow:0 1px 8px #0006}
+.mirror-ui .ship-check .search-maker{color:#b2c2bc;font-size:9px;line-height:1.4;margin-top:4px;font-weight:400}
+.mirror-ui .ship-length{font:9px/1.5 monospace;letter-spacing:.5px;color:#bdd4c9;margin-top:7px}
+.mirror-ui .ship-check>input{left:auto;right:10px;top:10px;width:19px;height:19px;border-radius:50%;background:#0e1c2280;border:1px solid #f0fff54d;box-shadow:0 2px 8px #0003;backdrop-filter:blur(8px)}
+.mirror-ui .ship-check>input:checked{background:var(--mint);border-color:var(--mint);box-shadow:0 0 0 3px #b8f4d617}
+.mirror-ui .ship-check>input:focus-visible{outline:2px solid var(--mint);outline-offset:3px}
+.mirror-ui .ship-row-actions{position:relative;z-index:1;width:calc(100% - 20px);align-self:center;margin:10px 10px 11px;background:#ffffff05;border-color:#d1e6da14;border-radius:8px;opacity:.8;backdrop-filter:blur(8px)}
+.mirror-ui .ship-row-actions button{min-height:30px;color:#bad8c8;font-size:14px}
+.mirror-ui .ship-row-actions button:hover{background:#b8f4d617}
+.mirror-ui .ship-row-actions input{font-size:11px;color:#e1eee7;min-height:30px}
+.mirror-ui .ship-row-actions .remove-model{color:#d5a298}
+@media(max-width:760px){.mirror-ui .ship-row{min-height:212px}.mirror-ui .ship-art{height:100%}}
+@media(prefers-reduced-motion:reduce){.mirror-ui .ship-row,.mirror-ui .ship-art img{transition:none}.mirror-ui .ship-row:hover,.mirror-ui .ship-row:focus-within,.mirror-ui .ship-row:hover .ship-art img{transform:none}}
+.mirror-ui .ship-check>span:not(.ship-art){flex:0 0 auto;margin-top:auto;padding:0 12px}
+.mirror-ui .ship-row:has(input[type=checkbox]:checked){border-color:#b8f4d68c;box-shadow:0 0 0 1px #b8f4d61c,0 6px 20px #0003}
