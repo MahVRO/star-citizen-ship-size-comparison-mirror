@@ -4,7 +4,12 @@
       "file": "library/AEGS-mono-314ad9a77c.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-aegis.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/AEGS-original-finish-d0fa03d3f6.png",
+      "source": "https://robertsspaceindustries.com/media/1apfbr0v0vbnur/source/Aegis.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
     "wordmark": {
       "file": "library/AEGS-wordmark-e0c69e623a.svg",
       "source": "https://starcitizen.tools/File:Aegis_Dynamics_-_JP0904.svg",
@@ -16,7 +21,12 @@
       "file": "library/ANVL-mono-88b475d7a9.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-anvil-aerospace.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/ANVL-original-finish-b6ca50a5f8.png",
+      "source": "https://robertsspaceindustries.com/media/w0o33qmdai9wpr/source/Anvil.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
     "wordmark": {
       "file": "library/ANVL-wordmark-4019461346.svg",
       "source": "https://starcitizen.tools/File:Anvil_Aerospace_-_JP0904.svg",
@@ -28,7 +38,10 @@
       "file": "library/XNAA-mono-f206465284.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-aopoa.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/XNAA-color-d18881afb1.svg",
+      "source": "https://starcitizen.tools/File:Aopoa_-_logo.svg"
+    },
     "wordmark": {
       "file": "library/XNAA-wordmark-e4fdb25b2a.svg",
       "source": "https://starcitizen.tools/File:Aopoa_-_JP0904.svg",
@@ -52,7 +65,12 @@
       "file": "library/BANU-mono-2b51804d4c.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-banu.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/BANU-original-finish-fba7d9b69c.png",
+      "source": "https://robertsspaceindustries.com/media/3ktltnm6ph4cfr/source/Skin-Banu-Color-Theme-Default-Type-Symbol-Only.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
     "wordmark": null
   },
   "CNOU": {
@@ -60,7 +78,12 @@
       "file": "library/CNOU-mono-5af0c5f911.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-consolidated-outland.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/CNOU-original-finish-4fc46312b5.png",
+      "source": "https://robertsspaceindustries.com/media/khu6mwy8zo5sar/source/Consolidated_outland.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
     "wordmark": {
       "file": "library/CNOU-wordmark-d6528b3aac.svg",
       "source": "https://starcitizen.tools/File:Consolidated_Outland_-_JP0904.svg",
@@ -87,7 +110,12 @@
       "file": "library/DRAK-mono-a5591e9c44.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-drake.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/DRAK-original-finish-635c4bbb59.png",
+      "source": "https://robertsspaceindustries.com/media/bdkpvl2bpxaqar/source/Drake.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
     "wordmark": {
       "file": "library/DRAK-wordmark-58b1f4d726.svg",
       "source": "https://starcitizen.tools/File:Drake_Interplanetary_-_JP0904.svg",
@@ -103,7 +131,13 @@
       "file": "library/ESPR-color-fe3705b84a.svg",
       "source": "https://starcitizen.tools/File:Esperia_logo_new_colored.svg"
     },
-    "wordmark": null
+    "wordmark": {
+      "file": "library/ESPR-wordmark-dark-ab81fc4bc6.svg",
+      "source": "https://starcitizen.tools/File:Esperia_-_JP0904.svg",
+      "adaptation": "Empty SVG canvas tightened to artwork bounds.",
+      "original_file": "library/ESPR-source-original-eaef087744.svg",
+      "monochrome": false
+    }
   },
   "GAMA": {
     "mono": {
@@ -111,17 +145,31 @@
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-gatac.svg"
     },
     "color": {
-      "file": "library/GAMA-color-1a52cae456.svg",
-      "source": "https://starcitizen.tools/File:Gatac_Manufacture_-_logo.svg"
+      "file": "library/GAMA-wordmark-dark-7d5ee3c8c3.svg",
+      "source": "https://starcitizen.tools/File:GatacManufacture.svg",
+      "adaptation": "Empty SVG canvas tightened to artwork bounds. Dark letterforms made light for dark UI; authored green unchanged.",
+      "original_file": "library/GAMA-source-original-83eb828e24.svg",
+      "monochrome": false
     },
-    "wordmark": null
+    "wordmark": {
+      "file": "library/GAMA-wordmark-dark-7d5ee3c8c3.svg",
+      "source": "https://starcitizen.tools/File:GatacManufacture.svg",
+      "adaptation": "Empty SVG canvas tightened to artwork bounds. Dark letterforms made light for dark UI; authored green unchanged.",
+      "original_file": "library/GAMA-source-original-83eb828e24.svg",
+      "monochrome": false
+    }
   },
   "GREY": {
     "mono": {
       "file": "library/GREY-mono-d19c71b568.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-greys-market.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/GREY-original-finish-6e7d0290fc.png",
+      "source": "https://robertsspaceindustries.com/media/wa6bccxwa19wdr/source/Mfr_greysmarket_icon_grunge_white_4k.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
     "wordmark": {
       "file": "library/GREY-wordmark-671e9bfd19.png",
       "source": "https://starcitizen.tools/File:Grey%27s_Market_logo_-_TP_BG.png",
@@ -133,7 +181,12 @@
       "file": "library/GRIN-mono-2c7bd788bf.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-greycat.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/GRIN-original-finish-ec0da1e612.png",
+      "source": "https://robertsspaceindustries.com/media/5jf6y40pc7ngxr/source/GreyCat-Icon.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
     "wordmark": {
       "file": "library/GRIN-wordmark-3c78b6150a.svg",
       "source": "https://starcitizen.tools/File:Greycat_Industrial_-_JP0907.svg",
@@ -160,23 +213,51 @@
       "file": "library/MRAI-mono-98cc1cd781.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-mirai.svg"
     },
-    "color": null,
-    "wordmark": null
+    "color": {
+      "file": "library/MRAI-wordmark-dark-3b1893a932.svg",
+      "source": "https://starcitizen.tools/File:Mirai.svg",
+      "adaptation": "Empty SVG canvas tightened to artwork bounds. Default black wordmark fill made light for dark UI; authored emblem colors unchanged.",
+      "original_file": "library/MRAI-source-original-55eab5bd45.svg",
+      "monochrome": false
+    },
+    "wordmark": {
+      "file": "library/MRAI-wordmark-dark-3b1893a932.svg",
+      "source": "https://starcitizen.tools/File:Mirai.svg",
+      "adaptation": "Empty SVG canvas tightened to artwork bounds. Default black wordmark fill made light for dark UI; authored emblem colors unchanged.",
+      "original_file": "library/MRAI-source-original-55eab5bd45.svg",
+      "monochrome": false
+    }
   },
   "MISC": {
     "mono": {
       "file": "library/MISC-mono-e1279089f8.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-misc.svg"
     },
-    "color": null,
-    "wordmark": null
+    "color": {
+      "file": "library/MISC-original-finish-b39a695f47.png",
+      "source": "https://robertsspaceindustries.com/media/6irnix69d4a8rr/source/MISC.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
+    "wordmark": {
+      "file": "library/MISC-wordmark-dark-5f3ab0bdc3.svg",
+      "source": "https://starcitizen.tools/File:Musashi_Industrial_and_Starflight_Concern_-_JP0904.svg",
+      "adaptation": "Empty SVG canvas tightened to artwork bounds. Default black wordmark fill made light for dark UI; authored emblem colors unchanged.",
+      "original_file": "library/MISC-source-original-1e5c87af56.svg",
+      "monochrome": false
+    }
   },
   "ORIG": {
     "mono": {
       "file": "library/ORIG-mono-d2673110aa.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-origin.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/ORIG-original-finish-5dc826b991.png",
+      "source": "https://robertsspaceindustries.com/media/0ffygmebwd3t1r/source/Origin.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
     "wordmark": {
       "file": "library/ORIG-wordmark-a0a6ceaece.svg",
       "source": "https://starcitizen.tools/File:Origin_Jumpworks_-_JP0904.svg",
@@ -203,7 +284,12 @@
       "file": "library/TMBL-mono-215ff0a88b.svg",
       "source": "https://raw.githubusercontent.com/The-Star-Citizen-Wikis/SharedIcons/c21ca07f7bb0a2fc1fb4de93fd7982d0e83622d8/logos/sc-logo-tumbril.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/TMBL-original-finish-86af07c012.png",
+      "source": "https://robertsspaceindustries.com/media/7fo9fxemlc9k7r/source/Tumbril_logo.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
     "wordmark": {
       "file": "library/TMBL-wordmark-799b69e307.svg",
       "source": "https://starcitizen.tools/File:Tumbril_logo.svg",
@@ -215,7 +301,12 @@
       "file": "library/VNCL-mono-264dfc653c.svg",
       "source": "https://starcitizen.tools/File:VNCLnav.svg"
     },
-    "color": null,
+    "color": {
+      "file": "library/VNCL-original-finish-88c742d6ca.png",
+      "source": "https://robertsspaceindustries.com/media/ofli1kgpqq5y6r/source/Vanduul.png",
+      "catalogue": "https://robertsspaceindustries.com/ship-matrix/index",
+      "note": "Original official ship-matrix artwork, including metallic or grayscale brand finishes."
+    },
     "wordmark": null
   }
 }

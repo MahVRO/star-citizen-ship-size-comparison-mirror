@@ -92,7 +92,7 @@
     KRIG: '#ce5550', MRAI: '#d0635c', MISC: '#81a9c8', ORIG: '#a7c7e2',
     RSI: '#f5a72a', TMBL: '#c2a16b', VNCL: '#d36c5d',
   };
-  const hoverLogosReady = fetch(new URL('variants.json?v=3d815474bf47', logoBase))
+  const hoverLogosReady = fetch(new URL('variants.json?v=1dcea1d10b10', logoBase))
     .then(r => r.ok ? r.json() : {}).catch(() => ({}));
   fetch(new URL('catalog.json', document.currentScript.src)).then(r => {
     if (!r.ok) throw new Error('Catalogue unavailable');
