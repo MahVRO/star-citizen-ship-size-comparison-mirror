@@ -49,7 +49,7 @@
   }, true);
   new MutationObserver(() => {
     makerSearch.hidden = $('maker-options').hidden;
-    if (!makerSearch.hidden) { makerSearch.value = ''; filterMakers(); makerSearch.focus(); }
+    if (!makerSearch.hidden) { makerSearch.value = ''; filterMakers(); }
     else { noMakers.hidden = true; }
   }).observe($('maker-options'), {attributes:true, attributeFilter:['hidden']});
   makerSearch.hidden = true;
@@ -65,6 +65,8 @@
         const count = document.createElement('small');
         count.className = 'maker-model-count';
         count.textContent = catalog.manufacturers[index].ships.length;
+        button.title = catalog.manufacturers[index].name;
+        button.setAttribute('aria-label', catalog.manufacturers[index].name + ', ' + count.textContent + ' ships');
         count.setAttribute('aria-label', count.textContent + ' ships');
         button.append(count);
       });
