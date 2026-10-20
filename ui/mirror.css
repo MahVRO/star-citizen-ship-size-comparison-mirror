@@ -135,3 +135,14 @@ body.mirror-ui{--sidebar:352px}
 .mirror-ui .mirror-support>summary{padding:10px 14px;color:#82988d;font-size:9px;letter-spacing:.5px}
 @media(max-width:760px){.mirror-ui .add-panel{padding:18px 16px 0}.mirror-ui .maker-options{max-height:280px}.mirror-ui .maker-option{min-height:90px}}
 @media(prefers-reduced-motion:reduce){.mirror-ui .maker-option{transition:none}}
+/* Manufacturer identity appears on hover/focus; original logo colors are retained. */
+.mirror-ui .maker-option{isolation:isolate;overflow:hidden;transition:background-color .22s,border-color .22s,box-shadow .22s}
+.mirror-ui .maker-option::before{content:'';position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 50% 25%,color-mix(in srgb,var(--brand-color) 20%,transparent),transparent 78%);opacity:0;transition:opacity .22s}
+.mirror-ui .maker-option img{filter:grayscale(1);opacity:.65;transform:scale(.95);transition:filter .22s,opacity .22s,transform .22s}
+.mirror-ui .maker-option:is(:hover,:focus-visible){background:color-mix(in srgb,var(--brand-color) 7%,#172226);border-color:color-mix(in srgb,var(--brand-color) 65%,transparent);box-shadow:inset 0 -2px var(--brand-color),0 5px 18px #0002;color:#e8efec}
+.mirror-ui .maker-option:is(:hover,:focus-visible)::before{opacity:1}
+.mirror-ui .maker-option:is(:hover,:focus-visible) img{filter:grayscale(0) drop-shadow(0 3px 8px #0005);opacity:1;transform:scale(1.22)}
+.mirror-ui .maker-option:is(:hover,:focus-visible) .maker-model-count{color:var(--brand-color)}
+.mirror-ui .maker-option[aria-pressed=true]{border-color:color-mix(in srgb,var(--brand-color) 60%,transparent);box-shadow:inset 0 -2px var(--brand-color)}
+.mirror-ui .maker-option[aria-pressed=true] img{filter:none;opacity:1}
+@media(prefers-reduced-motion:reduce){.mirror-ui .maker-option,.mirror-ui .maker-option::before,.mirror-ui .maker-option img{transition:none}.mirror-ui .maker-option:is(:hover,:focus-visible) img{transform:none}}

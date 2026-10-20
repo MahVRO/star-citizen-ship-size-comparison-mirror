@@ -56,6 +56,14 @@
     galleryWasOpen = open;
   }).observe($('maker-options'), {attributes:true, attributeFilter:['hidden']});
   makerSearch.hidden = true;
+  // Accent the original logo artwork; never recolor the logo pixels themselves.
+  const manufacturerColors = {
+    AEGS: '#83b7cf', ANVL: '#d65d56', XNAA: '#c7a1df', ARGO: '#f39843',
+    BANU: '#c4a56a', CNOU: '#dd9a53', CRUS: '#73c0d4', DRAK: '#b9a96c',
+    ESPR: '#cf645d', GAMA: '#8fbfb3', GREY: '#c0bdad', GRIN: '#d6ac59',
+    KRIG: '#82adc5', MRAI: '#d0635c', MISC: '#81a9c8', ORIG: '#a7c7e2',
+    RSI: '#79b4df', TMBL: '#c2a16b', VNCL: '#d36c5d',
+  };
   fetch(new URL('catalog.json', document.currentScript.src)).then(r => {
     if (!r.ok) throw new Error('Catalogue unavailable');
     return r.json();
@@ -64,6 +72,8 @@
       const buttons = [...$('maker-options').querySelectorAll('.maker-option')];
       if (buttons.length !== catalog.manufacturers.length) return;
       buttons.forEach((button, index) => {
+        const maker = catalog.manufacturers[index];
+        button.style.setProperty('--brand-color', manufacturerColors[maker.code] || '#b8f4d6');
         if (button.querySelector('.maker-model-count')) return;
         const count = document.createElement('small');
         count.className = 'maker-model-count';
