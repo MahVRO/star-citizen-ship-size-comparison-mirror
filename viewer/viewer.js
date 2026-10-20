@@ -81,7 +81,7 @@ async function initCatalogue() {
     button.addEventListener('click', () => {
       currentMaker = maker; $('maker-value').textContent = maker.name;
       $('maker-emblem').replaceChildren(maker.logo ? imageLogo(maker) : document.createTextNode(maker.code));
-      $('maker-options').hidden = true; $('maker-toggle').setAttribute('aria-expanded', 'false');
+      $('maker-options').hidden = false; $('maker-toggle').setAttribute('aria-expanded', 'true');
       $('ship-section').hidden = false; $('ship-search').value = ''; renderShips(); $('maker-toggle').focus();
     });
     $('maker-options').append(button);
@@ -529,7 +529,7 @@ $('fleet-drop').addEventListener('dragleave',()=>$('fleet-drop').classList.remov
 $('fleet-drop').addEventListener('drop',event=>{event.preventDefault();$('fleet-drop').classList.remove('drag-over');if(event.dataTransfer.files.length!==1){$('import-status').textContent='Drop one file at a time.';return;}readFleetFile(event.dataTransfer.files[0]);});
 $('maker-toggle').addEventListener('click', () => { const open = $('maker-options').hidden; $('maker-options').hidden = !open; $('maker-toggle').setAttribute('aria-expanded', String(open)); if (open) $('maker-options').querySelector('button')?.focus(); });
 $('maker-options').addEventListener('keydown', event => { const buttons = [...$('maker-options').querySelectorAll('button')], index = buttons.indexOf(document.activeElement); if (event.key === 'ArrowDown' || event.key === 'ArrowUp') { event.preventDefault(); buttons[(index + (event.key === 'ArrowDown' ? 1 : -1) + buttons.length) % buttons.length].focus(); } if (event.key === 'Escape') { $('maker-options').hidden = true; $('maker-toggle').setAttribute('aria-expanded','false'); $('maker-toggle').focus(); } });
-document.addEventListener('pointerdown', event => { if (!event.target.closest('.maker-picker')) { $('maker-options').hidden = true; $('maker-toggle').setAttribute('aria-expanded','false'); } });
+document.addEventListener('pointerdown', event => { if (!event.target.closest('.add-panel')) { $('maker-options').hidden = true; $('maker-toggle').setAttribute('aria-expanded','false'); } });
 $('ship-search').addEventListener('input', renderShips);
 $('select-all').addEventListener('click', () => {
   const ships = visibleShips().filter(s => !hasModel(s.id));
