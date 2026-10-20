@@ -57,7 +57,7 @@
   }).observe($('maker-options'), {attributes:true, attributeFilter:['hidden']});
   makerSearch.hidden = true;
   const logoBase = new URL('brand-logos/', document.currentScript.src);
-  const colorLogos = {"CRUS": "CRUS-ea280a5fdd.svg", "ESPR": "ESPR-fe3705b84a.svg", "GAMA": "GAMA-1a52cae456.svg", "KRIG": "KRIG-58a170a985.svg", "RSI": "RSI-124116db19.png", "ARGO": "ARGO-bca78a1a48.jpg"};
+  let curatedLogos = {};
   // Accent the original logo artwork; never recolor the logo pixels themselves.
   const manufacturerColors = {
     AEGS: '#83b7cf', ANVL: '#d65d56', XNAA: '#c7a1df', ARGO: '#48d8f2',
@@ -66,31 +66,33 @@
     KRIG: '#ce5550', MRAI: '#d0635c', MISC: '#81a9c8', ORIG: '#a7c7e2',
     RSI: '#f5a72a', TMBL: '#c2a16b', VNCL: '#d36c5d',
   };
-  const hoverLogosReady = fetch(new URL('hover/manifest.json?v=__HOVER_LOGOS_VERSION__', logoBase))
+  const hoverLogosReady = fetch(new URL('variants.json?v=__HOVER_LOGOS_VERSION__', logoBase))
     .then(r => r.ok ? r.json() : {}).catch(() => ({}));
   fetch(new URL('catalog.json', document.currentScript.src)).then(r => {
     if (!r.ok) throw new Error('Catalogue unavailable');
     return r.json();
   }).then(async catalog => {
-    const hoverLogos = await hoverLogosReady;
+    curatedLogos = await hoverLogosReady;
     const enhance = () => {
       const buttons = [...$('maker-options').querySelectorAll('.maker-option')];
       if (buttons.length !== catalog.manufacturers.length) return;
       buttons.forEach((button, index) => {
         const maker = catalog.manufacturers[index];
         const artwork = button.querySelector('img');
-        if (hoverLogos[maker.code] && !button.querySelector('.maker-hover-logo')) {
+        const variants = curatedLogos[maker.code];
+        button.dataset.manufacturerCode = maker.code;
+        if (artwork && variants?.mono) {
+          artwork.src = new URL(variants.mono.file, logoBase).href;
+          button.classList.add('has-curated-mono');
+        }
+        if (variants?.color && !button.querySelector('.maker-hover-logo')) {
           const hover = document.createElement('img');
           hover.className = 'maker-hover-logo';
           hover.alt = '';
-          hover.src = new URL('hover/' + hoverLogos[maker.code], logoBase).href;
+          hover.src = new URL(variants.color.file, logoBase).href;
           hover.addEventListener('load', () => button.classList.add('has-custom-hover'), {once:true});
           hover.addEventListener('error', () => { button.classList.remove('has-custom-hover'); hover.remove(); }, {once:true});
           button.append(hover);
-        }
-        if (artwork && colorLogos[maker.code]) {
-          artwork.src = new URL(colorLogos[maker.code], logoBase).href;
-          button.classList.add('has-color-logo');
         }
         button.style.setProperty('--brand-color', manufacturerColors[maker.code] || '#b8f4d6');
         if (button.querySelector('.maker-model-count')) return;
@@ -112,9 +114,16 @@
     $('maker-options').querySelectorAll('.maker-option').forEach(button => {
       const active = button.querySelector('span')?.textContent === $('maker-value').textContent;
       button.setAttribute('aria-pressed', String(active));
-      if (active && button.classList.contains('has-color-logo')) {
+      if (active) {
+        const variants = curatedLogos[button.dataset.manufacturerCode];
         const emblem = $('maker-emblem').querySelector('img');
-        if (emblem) emblem.src = button.querySelector('img').src;
+        const wordmark = variants?.wordmark;
+        $('maker-toggle').classList.toggle('has-wordmark', !!wordmark);
+        $('maker-toggle').classList.toggle('mono-wordmark', !!wordmark?.monochrome);
+        if (emblem) {
+          emblem.src = wordmark ? new URL(wordmark.file, logoBase).href : button.querySelector('img').src;
+          emblem.alt = wordmark ? $('maker-value').textContent : '';
+        }
       }
     });
   };

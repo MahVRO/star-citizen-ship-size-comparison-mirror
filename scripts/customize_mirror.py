@@ -41,7 +41,7 @@ def customize(output: Path, prefix: str) -> None:
         hover_logos[code] = f'{file.name}?v={version}'
     manifest = json.dumps(hover_logos, sort_keys=True)
     (destination / 'brand-logos' / 'hover' / 'manifest.json').write_text(manifest)
-    version = hashlib.sha256(manifest.encode()).hexdigest()[:12]
+    version = hashlib.sha256(manifest.encode() + (assets / 'brand-logos' / 'variants.json').read_bytes()).hexdigest()[:12]
     custom_js = destination / 'mirror.js'
     custom_js.write_text(custom_js.read_text().replace('__HOVER_LOGOS_VERSION__', version))
     index = output / 'index.html'
