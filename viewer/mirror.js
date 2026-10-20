@@ -8,6 +8,45 @@
   $('ship-search').setAttribute('aria-keyshortcuts', '/');
   $('fleet-drop').textContent = 'Import JSON / CSV';
   $('fleet-drop').title = 'Import or drop a fleet file';
+  $('load-ships').innerHTML = 'Add to hangar <span aria-hidden="true">↗</span>';
+  const shipArtBase = new URL('ships/', document.currentScript.src);
+  const shipArtworkReady = fetch(new URL('manifest.json?v=0d9c7fad55c5', shipArtBase))
+    .then(r => r.ok ? r.json() : {}).catch(() => ({}));
+  shipArtworkReady.then(artwork => {
+    const enhanceShips = () => {
+      $('ship-list').querySelectorAll('.ship-row').forEach(row => {
+        if (row.dataset.artReady) return;
+        row.dataset.artReady = 'true';
+        const checkbox = row.querySelector('input[type="checkbox"]');
+        const label = row.querySelector('.ship-check');
+        if (!checkbox || !label) return;
+        const details = artwork[checkbox.value] || {};
+        const thumbnail = document.createElement('span');
+        thumbnail.className = 'ship-art';
+        thumbnail.setAttribute('aria-hidden', 'true');
+        if (details.image) {
+          const image = document.createElement('img');
+          image.alt = '';
+          image.loading = 'lazy';
+          image.src = new URL(details.image, shipArtBase).href;
+          image.addEventListener('error', () => { image.remove(); thumbnail.classList.add('no-art'); }, {once:true});
+          thumbnail.append(image);
+        } else thumbnail.classList.add('no-art');
+        checkbox.after(thumbnail);
+        const name = label.querySelector('span:not(.ship-art)');
+        if (name && Number.isFinite(details.length) && details.length > 0) {
+          const spec = document.createElement('small');
+          spec.className = 'ship-length';
+          spec.textContent = details.length.toLocaleString(undefined, {maximumFractionDigits:1}) + ' m';
+          spec.title = 'Length';
+          name.append(spec);
+        }
+      });
+    };
+    new MutationObserver(enhanceShips).observe($('ship-list'), {childList:true});
+    enhanceShips();
+  });
+
 
   // Preserve upstream selection/loading handlers; enrich the existing controls.
   const makerSearch = document.createElement('input');

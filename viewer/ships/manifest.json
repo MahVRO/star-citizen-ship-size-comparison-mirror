@@ -1,0 +1,1391 @@
+{
+  "Aegis Dynamics/Avenger Stalker.glb": {
+    "length": 20,
+    "image": "228d6c9d86a21280.jpg",
+    "source": "https://media.robertsspaceindustries.com/3ure04l99yf61/store_small.jpg",
+    "name": "Avenger Stalker"
+  },
+  "Aegis Dynamics/Avenger Titan.glb": {
+    "length": 20,
+    "image": "69b902d372223b28.jpg",
+    "source": "https://media.robertsspaceindustries.com/dogyaf0p2eup4/store_small.jpg",
+    "name": "Avenger Titan"
+  },
+  "Aegis Dynamics/Avenger Titan Renegade.glb": {
+    "length": 20,
+    "image": "2d22355d5fcd8b5b.jpg",
+    "source": "https://media.robertsspaceindustries.com/oc8p2v3n7c0e0/store_small.jpg",
+    "name": "Avenger Titan Renegade"
+  },
+  "Aegis Dynamics/Avenger Warlock.glb": {
+    "length": 20,
+    "image": "aaf6684935e2634f.jpg",
+    "source": "https://media.robertsspaceindustries.com/l8znbwwoh2o8u/store_small.jpg",
+    "name": "Avenger Warlock"
+  },
+  "Aegis Dynamics/Eclipse.glb": {
+    "length": 24.5,
+    "image": "99e12e63d2064c59.jpg",
+    "source": "https://media.robertsspaceindustries.com/ej552bji5plg4/store_small.jpg",
+    "name": "Eclipse"
+  },
+  "Aegis Dynamics/Gladius.glb": {
+    "length": 21,
+    "image": "8d0124fd8198262a.jpg",
+    "source": "https://media.robertsspaceindustries.com/asbrpwjjho1z0/store_small.jpg",
+    "name": "Gladius"
+  },
+  "Aegis Dynamics/Hammerhead.glb": {
+    "length": 120,
+    "image": "f1fcab5811bbf88b.jpg",
+    "source": "https://media.robertsspaceindustries.com/zuxffe2ckazbk/store_small.jpg",
+    "name": "Hammerhead"
+  },
+  "Aegis Dynamics/Idris-M.glb": {
+    "length": 243,
+    "image": "2505474d01c70100.jpg",
+    "source": "https://media.robertsspaceindustries.com/59wd4xwt2qms4/store_small.jpeg",
+    "name": "Idris-M"
+  },
+  "Aegis Dynamics/Idris-P.glb": {
+    "length": 243,
+    "image": "5c18f293c8bebcba.jpg",
+    "source": "https://media.robertsspaceindustries.com/yfj9hnf0hrali/store_small.jpg",
+    "name": "Idris-P"
+  },
+  "Aegis Dynamics/Javelin.glb": {
+    "length": null,
+    "image": "aa484cb158b3376c.jpg",
+    "source": "https://media.robertsspaceindustries.com/oc89p5ksizcla/store_small.jpg",
+    "name": "Javelin"
+  },
+  "Aegis Dynamics/Nautilus.glb": {
+    "length": 125,
+    "image": "e69802e102058213.jpg",
+    "source": "https://media.robertsspaceindustries.com/c6t6mr400hgx6/store_small.jpg",
+    "name": "Nautilus "
+  },
+  "Aegis Dynamics/Reclaimer.glb": {
+    "length": 160,
+    "image": "b6342198c3a47f15.jpg",
+    "source": "https://media.robertsspaceindustries.com/6hwlvqlaqgvs4/store_small.jpg",
+    "name": "Reclaimer"
+  },
+  "Aegis Dynamics/Redeemer.glb": {
+    "length": 51,
+    "image": "09930b39106a0463.jpg",
+    "source": "https://media.robertsspaceindustries.com/fi748d6hqv9jj/store_small.jpeg",
+    "name": "Redeemer"
+  },
+  "Aegis Dynamics/Retaliator.glb": {
+    "length": 70.5,
+    "image": "fce2b97f3f048a61.jpg",
+    "source": "https://media.robertsspaceindustries.com/iebuyqgm1pca4/store_small.jpg",
+    "name": "Retaliator"
+  },
+  "Aegis Dynamics/Sabre.glb": {
+    "length": 24.5,
+    "image": "679e596583ad86ad.jpg",
+    "source": "https://media.robertsspaceindustries.com/5ahkbuex0r8wm/store_small.jpeg",
+    "name": "Sabre"
+  },
+  "Aegis Dynamics/Sabre Comet.glb": {
+    "length": 24.5,
+    "image": "c41f85ff99030923.jpg",
+    "source": "https://media.robertsspaceindustries.com/6uravr46xw6qf/store_small.jpg",
+    "name": "Sabre Comet"
+  },
+  "Aegis Dynamics/Sabre Firebird.glb": {
+    "length": 24.5,
+    "image": "c7c273ef93fa6054.jpg",
+    "source": "https://media.robertsspaceindustries.com/jf3l706gczrz9/store_small.jpg",
+    "name": "Sabre Firebird"
+  },
+  "Aegis Dynamics/Sabre Peregrine.glb": {
+    "length": 24.5,
+    "image": "bacfefa5576ff604.jpg",
+    "source": "https://media.robertsspaceindustries.com/9hyc1w8drlprn/store_small.jpg",
+    "name": "Sabre Peregrine"
+  },
+  "Aegis Dynamics/Sabre Raven.glb": {
+    "length": 24.5,
+    "image": "92e373489b54aae2.jpg",
+    "source": "https://media.robertsspaceindustries.com/x1a8n7to5l1rp/store_small.jpg",
+    "name": "Sabre Raven"
+  },
+  "Aegis Dynamics/Tiburon.glb": {
+    "length": 121,
+    "image": "09557d5e25290ea1.jpg",
+    "source": "https://media.robertsspaceindustries.com/yqgidk6parmtz/store_small.jpg",
+    "name": "Tiburon"
+  },
+  "Aegis Dynamics/Vanguard Harbinger.glb": {
+    "length": 48,
+    "image": "081c7dd195b41e1a.jpg",
+    "source": "https://media.robertsspaceindustries.com/enygi6572pnkl/store_small.jpg",
+    "name": "Vanguard Harbinger"
+  },
+  "Aegis Dynamics/Vanguard Hoplite.glb": {
+    "length": 48,
+    "image": "8833bc8ec69f85cf.jpg",
+    "source": "https://media.robertsspaceindustries.com/t0y17e7z9qq4o/store_small.jpg",
+    "name": "Vanguard Hoplite"
+  },
+  "Aegis Dynamics/Vanguard Sentinel.glb": {
+    "length": 48,
+    "image": "b55eed1a38d5a10e.jpg",
+    "source": "https://media.robertsspaceindustries.com/u7jflg98ld4d9/store_small.jpg",
+    "name": "Vanguard Sentinel"
+  },
+  "Aegis Dynamics/Vanguard Warden.glb": {
+    "length": 48,
+    "image": "fe15ec8701e3ae8f.jpg",
+    "source": "https://media.robertsspaceindustries.com/xd9clc660apc3/store_small.jpg",
+    "name": "Vanguard Warden"
+  },
+  "Aegis Dynamics/Vulcan.glb": {
+    "length": 38.5,
+    "image": "d6414c8819d823e7.jpg",
+    "source": "https://media.robertsspaceindustries.com/6q50bb3oy5q8b/store_small.jpg",
+    "name": "Vulcan"
+  },
+  "Anvil Aerospace/Arrow.glb": {
+    "length": 17.25,
+    "image": "fe18788150de0f79.jpg",
+    "source": "https://media.robertsspaceindustries.com/je860sn8tg87z/store_small.jpg",
+    "name": "Arrow"
+  },
+  "Anvil Aerospace/Asgard.glb": {
+    "length": 48,
+    "image": "369188411bd5dfd6.jpg",
+    "source": "https://media.robertsspaceindustries.com/hojtsnh3dom15/store_small.jpg",
+    "name": "Asgard"
+  },
+  "Anvil Aerospace/Ballista.glb": {
+    "length": 17,
+    "image": "ceecc439a7c9ac71.jpg",
+    "source": "https://media.robertsspaceindustries.com/fgwmyqm1gd658/store_small.jpg",
+    "name": "Ballista "
+  },
+  "Anvil Aerospace/C8 Pisces.glb": {
+    "length": 16,
+    "image": "e90a74379f2c0d09.jpg",
+    "source": "https://media.robertsspaceindustries.com/9y6uxd82fw0ne/store_small.jpg",
+    "name": "C8 Pisces"
+  },
+  "Anvil Aerospace/Carrack.glb": {
+    "length": 126,
+    "image": "9aac901942f80773.png",
+    "source": "https://media.robertsspaceindustries.com/bau5bdotm8te8/store_small.png",
+    "name": "Carrack"
+  },
+  "Anvil Aerospace/Centurion.glb": {
+    "length": 17,
+    "image": "1cf63a6c9546eec2.jpg",
+    "source": "https://media.robertsspaceindustries.com/ve7olk5it3ybn/store_small.jpg",
+    "name": "Centurion"
+  },
+  "Anvil Aerospace/Crucible.glb": {
+    "length": 90,
+    "image": "075c61accf9a05ac.jpg",
+    "source": "https://media.robertsspaceindustries.com/q81gvelwf2usv/store_small.jpg",
+    "name": "Crucible"
+  },
+  "Anvil Aerospace/F7A Hornet Mk I.glb": {
+    "length": 28.25,
+    "image": "df03c9281e01a067.jpg",
+    "source": "https://media.robertsspaceindustries.com/xbj9vlcjp8xl3/store_small.jpg",
+    "name": "F7A Hornet Mk I"
+  },
+  "Anvil Aerospace/F7A Hornet Mk II.glb": {
+    "length": 22.5,
+    "image": "f87b21e84bae2673.jpg",
+    "source": "https://media.robertsspaceindustries.com/fbn41urx9yszc/store_small.jpg",
+    "name": "F7A Hornet Mk II"
+  },
+  "Anvil Aerospace/F7C Hornet Mk I.glb": {
+    "length": 28.25,
+    "image": "89b07bcd87c32b28.jpg",
+    "source": "https://media.robertsspaceindustries.com/tcpakf2m1h1hx/store_small.jpg",
+    "name": "F7C Hornet Mk I"
+  },
+  "Anvil Aerospace/F7C Hornet Mk II.glb": {
+    "length": 22.5,
+    "image": "f8effe95f0f5a608.jpg",
+    "source": "https://media.robertsspaceindustries.com/hvfpdcaqeeehk/store_small.jpg",
+    "name": "F7C Hornet Mk II"
+  },
+  "Anvil Aerospace/F7C Hornet Wildfire Mk I.glb": {
+    "length": 28.25,
+    "image": "40bc41e56e6de35b.jpg",
+    "source": "https://media.robertsspaceindustries.com/0uqzw1kqnfvxy/store_small.jpg",
+    "name": "F7C Hornet Wildfire Mk I"
+  },
+  "Anvil Aerospace/F7C-M Super Hornet Heartseeker Mk I.glb": {
+    "length": 28.25,
+    "image": "ec9d8ef820ece0e0.jpg",
+    "source": "https://media.robertsspaceindustries.com/6ewzke6o3llh6/store_small.jpg",
+    "name": "F7C-M Super Hornet Heartseeker Mk I"
+  },
+  "Anvil Aerospace/F7C-M Super Hornet Mk I.glb": {
+    "length": 28.25,
+    "image": "e86e42877295bf2c.jpg",
+    "source": "https://media.robertsspaceindustries.com/pjudaw3yj3odo/store_small.jpg",
+    "name": "F7C-M Super Hornet Mk I"
+  },
+  "Anvil Aerospace/F7C-M Super Hornet Mk II.glb": {
+    "length": 24,
+    "image": "1e96b7fa2cf8d9ee.jpg",
+    "source": "https://media.robertsspaceindustries.com/5aqjv141a62is/store_small.jpg",
+    "name": "F7C-M Super Hornet Mk II "
+  },
+  "Anvil Aerospace/F7C-R Hornet Tracker Mk I.glb": {
+    "length": 28.25,
+    "image": "4aeedf66e4086ced.jpg",
+    "source": "https://media.robertsspaceindustries.com/biy2mmvcz6eb2/store_small.jpg",
+    "name": "F7C-R Hornet Tracker Mk I"
+  },
+  "Anvil Aerospace/F7C-R Hornet Tracker Mk II.glb": {
+    "length": 22.5,
+    "image": "12e53647a04f1144.jpg",
+    "source": "https://media.robertsspaceindustries.com/76dfngh2320kc/store_small.jpg",
+    "name": "F7C-R Hornet Tracker Mk II"
+  },
+  "Anvil Aerospace/F7C-S Hornet Ghost Mk I.glb": {
+    "length": 28.25,
+    "image": "e44086cd0d1c2a11.jpg",
+    "source": "https://media.robertsspaceindustries.com/nbwncbo1436rs/store_small.jpg",
+    "name": "F7C-S Hornet Ghost Mk I"
+  },
+  "Anvil Aerospace/F7C-S Hornet Ghost Mk II.glb": {
+    "length": 22.5,
+    "image": "9e68f386e7279355.jpg",
+    "source": "https://media.robertsspaceindustries.com/thvu42fxnagbh/store_small.jpg",
+    "name": "F7C-S Hornet Ghost Mk II"
+  },
+  "Anvil Aerospace/F8C Lightning.glb": {
+    "length": 26,
+    "image": "a5287b67f028c203.jpg",
+    "source": "https://media.robertsspaceindustries.com/j6rvfrkux5nrm/store_small.jpg",
+    "name": "F8C Lightning"
+  },
+  "Anvil Aerospace/Gladiator.glb": {
+    "length": 22.75,
+    "image": "0e0135938fdfd641.jpg",
+    "source": "https://media.robertsspaceindustries.com/sonytrzapzugz/store_small.jpeg",
+    "name": "Gladiator"
+  },
+  "Anvil Aerospace/Hawk.glb": {
+    "length": 23,
+    "image": "465658ce342a5fc3.png",
+    "source": "https://media.robertsspaceindustries.com/yshd7vv3i1ds0/store_small.png",
+    "name": "Hawk"
+  },
+  "Anvil Aerospace/Hurricane.glb": {
+    "length": 24,
+    "image": "ed4343719492dafd.jpg",
+    "source": "https://media.robertsspaceindustries.com/s4dhqqb1cug2k/store_small.jpg",
+    "name": "Hurricane"
+  },
+  "Anvil Aerospace/Legionnaire.glb": {
+    "length": 32,
+    "image": "ae2ccb727ff54884.jpg",
+    "source": "https://media.robertsspaceindustries.com/qxgdodjdhuvsr/store_small.jpeg",
+    "name": "Legionnaire"
+  },
+  "Anvil Aerospace/Liberator.glb": {
+    "length": 119,
+    "image": "fba50dd8b881f254.png",
+    "source": "https://media.robertsspaceindustries.com/k2zu1md2ulfxn/store_small.png",
+    "name": "Liberator"
+  },
+  "Anvil Aerospace/Odin.glb": {
+    "length": 752,
+    "image": "982aa3466be88bf1.jpg",
+    "source": "https://media.robertsspaceindustries.com/dygjbkb1e28bz/store_small.jpg",
+    "name": "Odin"
+  },
+  "Anvil Aerospace/Paladin.glb": {
+    "length": 53,
+    "image": "0e5680ae5c2f25f3.jpg",
+    "source": "https://media.robertsspaceindustries.com/5hz1jf9dkrfhc/store_small.jpg",
+    "name": "Paladin"
+  },
+  "Anvil Aerospace/Spartan.glb": {
+    "length": 17,
+    "image": "c5919be916e02a1f.jpg",
+    "source": "https://media.robertsspaceindustries.com/edmbk733mir8t/store_small.jpg",
+    "name": "Spartan"
+  },
+  "Anvil Aerospace/Terrapin.glb": {
+    "length": 20,
+    "image": "bd83bb796c72b724.jpg",
+    "source": "https://media.robertsspaceindustries.com/c59bnvpymcqr9/store_small.jpg",
+    "name": "Terrapin"
+  },
+  "Anvil Aerospace/Terrapin Medic.glb": {
+    "length": 20,
+    "image": "f8f8bc6b51d1cd68.jpg",
+    "source": "https://media.robertsspaceindustries.com/hj0gxtjk6wd4h/store_small.jpg",
+    "name": "Terrapin Medic"
+  },
+  "Anvil Aerospace/Valkyrie.glb": {
+    "length": 48,
+    "image": "86a6cbd2ac48a820.jpg",
+    "source": "https://media.robertsspaceindustries.com/yjh17ca5zprfr/store_small.jpg",
+    "name": "Valkyrie"
+  },
+  "Aopoa/Khartu-Al.glb": {
+    "length": 32,
+    "image": "84b16d311fe13bea.jpg",
+    "source": "https://media.robertsspaceindustries.com/zd5doe8h0xemz/store_small.jpg",
+    "name": "Khartu-Al"
+  },
+  "Aopoa/Nox.glb": {
+    "length": 1.45,
+    "image": "248da4521b3929e6.jpg",
+    "source": "https://media.robertsspaceindustries.com/945jxtrweugj1/store_small.jpg",
+    "name": "Nox"
+  },
+  "Aopoa/San'tok.y\u0101i.glb": {
+    "length": 24,
+    "image": "d533ba53a8bf927f.jpg",
+    "source": "https://media.robertsspaceindustries.com/4s0zrs2svm1n9/store_small.jpg",
+    "name": "San'tok.y\u0101i"
+  },
+  "Argo Astronautics/ATLS GEO.glb": {
+    "length": 1.8,
+    "image": "43fe881904d2edc3.jpg",
+    "source": "https://media.robertsspaceindustries.com/rbkutfuffvdy7/store_small.jpg",
+    "name": "ATLS GEO"
+  },
+  "Argo Astronautics/ATLS.glb": {
+    "length": 1.8,
+    "image": "6221709c255bb6be.jpg",
+    "source": "https://media.robertsspaceindustries.com/99ljbpzzczrae/store_small.jpg",
+    "name": "ATLS"
+  },
+  "Argo Astronautics/CSV-SM.glb": {
+    "length": 6,
+    "image": "fc880d3ed050665d.jpg",
+    "source": "https://media.robertsspaceindustries.com/xeksf2azf23mm/store_small.jpg",
+    "name": "CSV-SM"
+  },
+  "Argo Astronautics/MOLE.glb": {
+    "length": 45,
+    "image": "1cef211ab615cb23.jpg",
+    "source": "https://media.robertsspaceindustries.com/wgai60tvwa3vs/store_small.jpg",
+    "name": "MOLE"
+  },
+  "Argo Astronautics/MOTH.glb": {
+    "length": null,
+    "image": "7c076c84bf7456ce.jpg",
+    "source": "https://media.robertsspaceindustries.com/e6qe6d6cyguo3/store_small.jpg",
+    "name": "MOTH"
+  },
+  "Argo Astronautics/MPUV Cargo.glb": {
+    "length": 10.5,
+    "image": "7e74308558c4d7b9.jpg",
+    "source": "https://media.robertsspaceindustries.com/yah6nttyhb9rv/store_small.jpg",
+    "name": "MPUV Cargo"
+  },
+  "Argo Astronautics/MPUV Personnel.glb": {
+    "length": 10.5,
+    "image": "c163e5a5b7a06c33.jpg",
+    "source": "https://media.robertsspaceindustries.com/ee5eljtb2gs4b/store_small.jpg",
+    "name": "MPUV Personnel"
+  },
+  "Argo Astronautics/MPUV Tractor.glb": {
+    "length": 10.5,
+    "image": "3b03fa9852944135.jpg",
+    "source": "https://media.robertsspaceindustries.com/yld5zspxuczza/store_small.jpg",
+    "name": "MPUV Tractor"
+  },
+  "Argo Astronautics/RAFT.glb": {
+    "length": 39.5,
+    "image": "7222dbe906bde99d.jpg",
+    "source": "https://media.robertsspaceindustries.com/x4b15hx3vui08/store_small.jpg",
+    "name": "RAFT"
+  },
+  "Argo Astronautics/SRV.glb": {
+    "length": 31.5,
+    "image": "a0594c0b9d6a4e77.jpg",
+    "source": "https://media.robertsspaceindustries.com/zni3y3co999z9/store_small.jpg",
+    "name": "SRV"
+  },
+  "Banu/Defender.glb": {
+    "length": 24.5,
+    "image": "ac5ba775331f0302.jpg",
+    "source": "https://media.robertsspaceindustries.com/nnb2oofnrlni9/store_small.jpg",
+    "name": "Defender"
+  },
+  "Consolidated Outland/HoverQuad.glb": {
+    "length": 1.45,
+    "image": "093c7931d46a4b1c.jpg",
+    "source": "https://media.robertsspaceindustries.com/yz04lei9pkqob/store_small.jpg",
+    "name": "HoverQuad"
+  },
+  "Consolidated Outland/Mustang Alpha Vindicator.glb": {
+    "length": 21.5,
+    "image": "ab792f527fbf7561.png",
+    "source": "https://media.robertsspaceindustries.com/iohmvf24h4rsz/store_small.png",
+    "name": "Mustang Alpha Vindicator"
+  },
+  "Consolidated Outland/Mustang Alpha.glb": {
+    "length": 21.5,
+    "image": "551538c8343b9d14.jpg",
+    "source": "https://media.robertsspaceindustries.com/g0lupo5x3wp8u/store_small.jpg",
+    "name": "Mustang Alpha"
+  },
+  "Consolidated Outland/Mustang Beta.glb": {
+    "length": 21.5,
+    "image": "76466b0776cc92cb.jpg",
+    "source": "https://media.robertsspaceindustries.com/h5us6lo3z1iwb/store_small.jpg",
+    "name": "Mustang Beta"
+  },
+  "Consolidated Outland/Mustang Delta.glb": {
+    "length": 21.5,
+    "image": "9abbb8cda17333e8.jpg",
+    "source": "https://media.robertsspaceindustries.com/7gb75f5yivup7/store_small.jpg",
+    "name": "Mustang Delta"
+  },
+  "Consolidated Outland/Mustang Gamma.glb": {
+    "length": 21.5,
+    "image": "a7e813d06fe3fc6a.jpg",
+    "source": "https://media.robertsspaceindustries.com/0awy4emw400yy/store_small.jpg",
+    "name": "Mustang Gamma"
+  },
+  "Consolidated Outland/Mustang Omega.glb": {
+    "length": 21.5,
+    "image": "f72f9dd66613fc91.jpg",
+    "source": "https://media.robertsspaceindustries.com/udupgv9cpj76b/store_small.jpg",
+    "name": "Mustang Omega"
+  },
+  "Consolidated Outland/Nomad.glb": {
+    "length": 19,
+    "image": "5ab5f024a37c0bf2.jpg",
+    "source": "https://media.robertsspaceindustries.com/inqdpb67v815c/store_small.jpg",
+    "name": "Nomad"
+  },
+  "Consolidated Outland/Pioneer.glb": {
+    "length": 247,
+    "image": "dd384016147e68d1.jpg",
+    "source": "https://media.robertsspaceindustries.com/vtodzxlks918l/store_small.jpeg",
+    "name": "Pioneer"
+  },
+  "Crusader Industries/A1 Spirit.glb": {
+    "length": 44,
+    "image": "fb9aa0c06a0c6d9b.jpg",
+    "source": "https://media.robertsspaceindustries.com/nsqe4f3nl1mqn/store_small.jpg",
+    "name": "A1 Spirit "
+  },
+  "Crusader Industries/A2 Hercules.glb": {
+    "length": 70,
+    "image": "b6351c265d1eb124.jpg",
+    "source": "https://media.robertsspaceindustries.com/a14ekvttpyy6w/store_small.jpg",
+    "name": "A2 Hercules"
+  },
+  "Crusader Industries/Ares Inferno.glb": {
+    "length": 27,
+    "image": "e7a505c74888c61f.jpg",
+    "source": "https://media.robertsspaceindustries.com/txyuxxqtu8otc/store_small.jpg",
+    "name": "Ares Inferno "
+  },
+  "Crusader Industries/Ares Ion.glb": {
+    "length": 27,
+    "image": "73a4422188c0e825.jpg",
+    "source": "https://media.robertsspaceindustries.com/a2g2ta0lq0uq5/store_small.jpg",
+    "name": "Ares Ion"
+  },
+  "Crusader Industries/C1 Spirit.glb": {
+    "length": 44,
+    "image": "f13718ac3345812d.jpg",
+    "source": "https://media.robertsspaceindustries.com/ly51mm0p1vs6w/store_small.jpg",
+    "name": "C1 Spirit"
+  },
+  "Crusader Industries/C2 Hercules.glb": {
+    "length": 70,
+    "image": "0d2f8a72299c826a.jpg",
+    "source": "https://media.robertsspaceindustries.com/y9nxh2pyic772/store_small.jpg",
+    "name": "C2 Hercules"
+  },
+  "Crusader Industries/E1 Spirit.glb": {
+    "length": 44,
+    "image": "2fbe3d67d69af77c.jpg",
+    "source": "https://media.robertsspaceindustries.com/mijopoh0bk9pb/store_small.jpg",
+    "name": "E1 Spirit"
+  },
+  "Crusader Industries/Genesis.glb": {
+    "length": 85,
+    "image": "f72a5c3b7f30d215.jpg",
+    "source": "https://media.robertsspaceindustries.com/gpdjd9p1jnxj4/store_small.jpg",
+    "name": "Genesis"
+  },
+  "Crusader Industries/Intrepid.glb": {
+    "length": 23.07,
+    "image": "2a8e105773f436bc.jpg",
+    "source": "https://media.robertsspaceindustries.com/3vk6dnvwcm0rk/store_small.jpg",
+    "name": "Intrepid"
+  },
+  "Crusader Industries/M2 Hercules.glb": {
+    "length": 70,
+    "image": "b2d534913384d758.jpg",
+    "source": "https://media.robertsspaceindustries.com/3s79isis6qti3/store_small.jpg",
+    "name": "M2 Hercules"
+  },
+  "Crusader Industries/Mercury.glb": {
+    "length": 51,
+    "image": "75fb9c259c608c5d.jpg",
+    "source": "https://media.robertsspaceindustries.com/219rro1mjtov6/store_small.jpg",
+    "name": "Mercury"
+  },
+  "Drake Interplanetary/Buccaneer.glb": {
+    "length": 15.25,
+    "image": "6e458f0d35ee5583.jpg",
+    "source": "https://media.robertsspaceindustries.com/9930le6zi5mn3/store_small.jpg",
+    "name": "Buccaneer"
+  },
+  "Drake Interplanetary/Caterpillar.glb": {
+    "length": 13.4,
+    "image": "61687f60614732ae.jpg",
+    "source": "https://media.robertsspaceindustries.com/0ffxba4wywl0j/store_small.jpg",
+    "name": "Caterpillar"
+  },
+  "Drake Interplanetary/Caterpillar Best In Show Edition 2949.glb": {
+    "length": null
+  },
+  "Drake Interplanetary/Clipper.glb": {
+    "length": 26.5,
+    "image": "440d84fcaa6c148f.jpg",
+    "source": "https://media.robertsspaceindustries.com/w71mw7k361seg/store_small.jpg",
+    "name": "Clipper"
+  },
+  "Drake Interplanetary/Corsair.glb": {
+    "length": 53,
+    "image": "a4f2cfb875bfed63.jpg",
+    "source": "https://media.robertsspaceindustries.com/9y19hajivybqc/store_small.jpg",
+    "name": "Corsair"
+  },
+  "Drake Interplanetary/Cutlass Black.glb": {
+    "length": 37.5,
+    "image": "d3b705cfb003a450.jpg",
+    "source": "https://media.robertsspaceindustries.com/56iszc92bl9oi/store_small.jpg",
+    "name": "Cutlass Black"
+  },
+  "Drake Interplanetary/Cutlass Blue.glb": {
+    "length": 37.5,
+    "image": "65ea9a53434da3a8.jpg",
+    "source": "https://media.robertsspaceindustries.com/2hllaegtpmzyy/store_small.jpg",
+    "name": "Cutlass Blue"
+  },
+  "Drake Interplanetary/Cutlass Red.glb": {
+    "length": 37.5,
+    "image": "45ce3283d7fc7597.jpg",
+    "source": "https://media.robertsspaceindustries.com/wqa6lfco4amc0/store_small.jpg",
+    "name": "Cutlass Red"
+  },
+  "Drake Interplanetary/Cutlass Steel.glb": {
+    "length": 37.5,
+    "image": "8161066d394fed09.jpg",
+    "source": "https://media.robertsspaceindustries.com/mhuiu912ca4d1/store_small.jpg",
+    "name": "Cutlass Steel"
+  },
+  "Drake Interplanetary/Cutter.glb": {
+    "length": 20,
+    "image": "5db12197dc157a42.jpg",
+    "source": "https://media.robertsspaceindustries.com/f1g97yucvp6np/store_small.jpg",
+    "name": "Cutter"
+  },
+  "Drake Interplanetary/Cutter Rambler.glb": {
+    "length": 20,
+    "image": "fb850fa9f19792d0.jpg",
+    "source": "https://media.robertsspaceindustries.com/7xwtmjrvqlyee/store_small.jpg",
+    "name": "Cutter Rambler"
+  },
+  "Drake Interplanetary/Cutter Scout.glb": {
+    "length": 20,
+    "image": "a5ef0d2334e34cbd.jpg",
+    "source": "https://media.robertsspaceindustries.com/997gomyxfeg86/store_small.jpg",
+    "name": "Cutter Scout"
+  },
+  "Drake Interplanetary/Dragonfly Black.glb": {
+    "length": 7,
+    "image": "f2115de46660d4df.jpg",
+    "source": "https://media.robertsspaceindustries.com/ts98rchnhox11/store_small.jpg",
+    "name": "Dragonfly Black"
+  },
+  "Drake Interplanetary/Dragonfly Yellowjacket.glb": {
+    "length": 7,
+    "image": "5cf9e15c020b5342.jpg",
+    "source": "https://media.robertsspaceindustries.com/olbkpbmk1sb8u/store_small.jpg",
+    "name": "Dragonfly Yellowjacket"
+  },
+  "Drake Interplanetary/Golem.glb": {
+    "length": 15.5,
+    "image": "99aa8cdabf35af3a.jpg",
+    "source": "https://media.robertsspaceindustries.com/yzx7t45a965dk/store_small.jpg",
+    "name": "Golem"
+  },
+  "Drake Interplanetary/Golem OX.glb": {
+    "length": 7,
+    "image": "474fb5449e04be53.jpg",
+    "source": "https://media.robertsspaceindustries.com/zkl62hbt39ood/store_small.jpg",
+    "name": "Golem OX"
+  },
+  "Drake Interplanetary/Herald.glb": {
+    "length": 24.75,
+    "image": "0daf52435b409698.jpg",
+    "source": "https://media.robertsspaceindustries.com/eqjgd53qha550/store_small.jpg",
+    "name": "Herald"
+  },
+  "Drake Interplanetary/Ironclad.glb": {
+    "length": 117,
+    "image": "505647a7e129432b.jpg",
+    "source": "https://media.robertsspaceindustries.com/g948zfjuiznu4/store_small.jpg",
+    "name": "Ironclad"
+  },
+  "Drake Interplanetary/Ironclad Assault.glb": {
+    "length": 117,
+    "image": "697d92b70081b5f4.jpg",
+    "source": "https://media.robertsspaceindustries.com/llaw71tcvmgmy/store_small.jpg",
+    "name": "Ironclad Assault"
+  },
+  "Drake Interplanetary/Kraken.glb": {
+    "length": 270,
+    "image": "8cd21c71fb9c0cd3.jpg",
+    "source": "https://media.robertsspaceindustries.com/nnpwaac1eqp4p/store_small.jpg",
+    "name": "Kraken"
+  },
+  "Drake Interplanetary/Kraken Privateer.glb": {
+    "length": 270,
+    "image": "5cf4c6f7c6fea0fb.jpg",
+    "source": "https://media.robertsspaceindustries.com/nnu9953me3vod/store_small.jpg",
+    "name": "Kraken Privateer"
+  },
+  "Drake Interplanetary/Mule.glb": {
+    "length": 6,
+    "image": "c485ea2991099c3f.jpg",
+    "source": "https://media.robertsspaceindustries.com/kl5rmiujift5l/store_small.jpg",
+    "name": "Mule"
+  },
+  "Drake Interplanetary/Pitbull.glb": {
+    "length": 6,
+    "image": "ba879f2307f8f863.jpg",
+    "source": "https://media.robertsspaceindustries.com/9jazkmawt8ggi/store_small.jpg",
+    "name": "Pitbull"
+  },
+  "Drake Interplanetary/Vulture.glb": {
+    "length": 34,
+    "image": "8b89fe7027fc8427.jpg",
+    "source": "https://media.robertsspaceindustries.com/ryxb5u7q09x06/store_small.jpg",
+    "name": "Vulture"
+  },
+  "Esperia/Blade.glb": {
+    "length": 20.5,
+    "image": "c07bf6d561c13d2b.png",
+    "source": "https://media.robertsspaceindustries.com/0s9bslimticmx/store_small.png",
+    "name": "Blade"
+  },
+  "Esperia/Glaive.glb": {
+    "length": 33,
+    "image": "c679303e876becb1.jpg",
+    "source": "https://media.robertsspaceindustries.com/msy0lud5dd4eg/store_small.jpg",
+    "name": "Glaive"
+  },
+  "Esperia/Prowler Utility.glb": {
+    "length": 34,
+    "image": "1f11350f5a651281.jpg",
+    "source": "https://media.robertsspaceindustries.com/ixg2xt4sauv1x/store_small.jpg",
+    "name": "Prowler Utility"
+  },
+  "Esperia/Prowler.glb": {
+    "length": 34,
+    "image": "5943f32e73d059ec.jpg",
+    "source": "https://media.robertsspaceindustries.com/iaps0ps9oo83s/store_small.jpg",
+    "name": "Prowler"
+  },
+  "Esperia/Stinger.glb": {
+    "length": 36,
+    "image": "3713de293e6614f8.jpg",
+    "source": "https://media.robertsspaceindustries.com/90r0njd8ob87b/store_small.jpg",
+    "name": "Stinger"
+  },
+  "Esperia/Talon Shrike.glb": {
+    "length": 24,
+    "image": "46852b6197e2aad1.jpg",
+    "source": "https://media.robertsspaceindustries.com/tfej2rg70irt2/store_small.jpg",
+    "name": "Talon Shrike"
+  },
+  "Esperia/Talon.glb": {
+    "length": 24,
+    "image": "490e4616d8aee603.jpg",
+    "source": "https://media.robertsspaceindustries.com/5ldm3z0l75na6/store_small.jpg",
+    "name": "Talon"
+  },
+  "Gatac Manufacture/Railen.glb": {
+    "length": 52,
+    "image": "184d8b1030f65779.jpg",
+    "source": "https://media.robertsspaceindustries.com/3hlrf4bj6k5r7/store_small.jpg",
+    "name": "Railen"
+  },
+  "Gatac Manufacture/Syulen.glb": {
+    "length": 25,
+    "image": "d1f475811ed6d3d8.jpg",
+    "source": "https://media.robertsspaceindustries.com/8xho65s0f1emp/store_small.jpg",
+    "name": "Syulen"
+  },
+  "Gatac Manufacture/Tyilui.glb": {
+    "length": 52,
+    "image": "17b8533ca8e22da9.jpg",
+    "source": "https://media.robertsspaceindustries.com/fojrwsximct23/store_small.jpg",
+    "name": "Tyilui"
+  },
+  "Grey's Market/Basher.glb": {
+    "length": 15.25,
+    "image": "5f6904d25691090e.jpg",
+    "source": "https://media.robertsspaceindustries.com/h84m7m1hw0dcq/store_small.jpg",
+    "name": "Basher"
+  },
+  "Grey's Market/Shiv.glb": {
+    "length": 37.5,
+    "image": "6d68afc00dd0f01c.jpg",
+    "source": "https://media.robertsspaceindustries.com/wzn84c0qyz4ib/store_small.jpg",
+    "name": "Shiv"
+  },
+  "Greycat Industrial/MDC.glb": {
+    "length": 7,
+    "image": "a282a5cb897c36f2.jpg",
+    "source": "https://media.robertsspaceindustries.com/td5w87d85m3j7/store_small.jpg",
+    "name": "MDC"
+  },
+  "Greycat Industrial/MTC.glb": {
+    "length": 6,
+    "image": "d09bc21fa211fbef.jpg",
+    "source": "https://media.robertsspaceindustries.com/mbsnp3745enyi/store_small.jpg",
+    "name": "MTC"
+  },
+  "Greycat Industrial/ROC.glb": {
+    "length": 6,
+    "image": "9d2ce5ee4fcb8dd3.jpg",
+    "source": "https://media.robertsspaceindustries.com/kuw6hsllahest/store_small.jpg",
+    "name": "ROC"
+  },
+  "Greycat Industrial/ROC-DS.glb": {
+    "length": 6.6,
+    "image": "8439e17bb3068b89.jpg",
+    "source": "https://media.robertsspaceindustries.com/9ozbp8j2455mw/store_small.jpg",
+    "name": "ROC-DS"
+  },
+  "Greycat Industrial/STV.glb": {
+    "length": 6,
+    "image": "f8da9cb9743cfbfc.jpg",
+    "source": "https://media.robertsspaceindustries.com/ryfsd44qh96d9/store_small.jpg",
+    "name": "STV"
+  },
+  "Greycat Industrial/UTV.glb": {
+    "length": 4,
+    "image": "c185e86fab334cb5.jpg",
+    "source": "https://media.robertsspaceindustries.com/szj2zc8m5hair/store_small.jpg",
+    "name": "UTV"
+  },
+  "Kruger Intergalactic/L-21 Wolf.glb": {
+    "length": 21.5,
+    "image": "dcd8f8e068cd68b7.jpg",
+    "source": "https://media.robertsspaceindustries.com/eq3u8zmal8k32/store_small.jpg",
+    "name": "L-21 Wolf"
+  },
+  "Kruger Intergalactic/L-22 Alpha Wolf.glb": {
+    "length": 21.5,
+    "image": "c911f792b3c61187.jpg",
+    "source": "https://media.robertsspaceindustries.com/dc1sfdhjkdhgr/store_small.jpg",
+    "name": "L-22 Alpha Wolf"
+  },
+  "Kruger Intergalactic/P-52 Merlin.glb": {
+    "length": 12,
+    "image": "e8572b333de395a9.jpg",
+    "source": "https://media.robertsspaceindustries.com/dpsn2y1j9wy6w/store_small.jpg",
+    "name": "P-52 Merlin"
+  },
+  "Kruger Intergalactic/P-72 Archimedes.glb": {
+    "length": 12,
+    "image": "5c196f336629c657.jpg",
+    "source": "https://media.robertsspaceindustries.com/8p4kt5rzv0t39/store_small.jpg",
+    "name": "P-72 Archimedes"
+  },
+  "Kruger Intergalactic/S-65 Stingray.glb": {
+    "length": 24.5,
+    "image": "623bc63b851d44e2.jpg",
+    "source": "https://media.robertsspaceindustries.com/0qo64m8r93b1h/store_small.jpg",
+    "name": "S-65 Stingray"
+  },
+  "Mirai/Fury.glb": {
+    "length": 7,
+    "image": "42cd85bb0135d31a.jpg",
+    "source": "https://media.robertsspaceindustries.com/icoxi8ahyr0i9/store_small.jpg",
+    "name": "Fury"
+  },
+  "Mirai/Fury LX.glb": {
+    "length": 7,
+    "image": "9b82095e54c6f0a6.jpg",
+    "source": "https://media.robertsspaceindustries.com/c63hvy3xb308p/store_small.jpg",
+    "name": "Fury LX"
+  },
+  "Mirai/Fury MX.glb": {
+    "length": 7,
+    "image": "ff8f9637f17cc2eb.jpg",
+    "source": "https://media.robertsspaceindustries.com/afdx1cof4p8rb/store_small.jpg",
+    "name": "Fury MX"
+  },
+  "Mirai/Guardian.glb": {
+    "length": 24.3,
+    "image": "e79e127d446ebb03.jpg",
+    "source": "https://media.robertsspaceindustries.com/ihc934ai7vvyj/store_small.jpg",
+    "name": "Guardian"
+  },
+  "Mirai/Guardian MX.glb": {
+    "length": 26,
+    "image": "937a00228db2a006.jpg",
+    "source": "https://media.robertsspaceindustries.com/e92jsru2uvimx/store_small.jpg",
+    "name": "Guardian MX"
+  },
+  "Mirai/Guardian QI.glb": {
+    "length": 24.3,
+    "image": "3ca94ea5327ec228.jpg",
+    "source": "https://media.robertsspaceindustries.com/efsw63dokhn35/store_small.jpg",
+    "name": "Guardian QI"
+  },
+  "Mirai/Pulse.glb": {
+    "length": 3.5,
+    "image": "b34fba064cb6c52a.jpg",
+    "source": "https://media.robertsspaceindustries.com/undl2onw5a826/store_small.jpg",
+    "name": "Pulse"
+  },
+  "Mirai/Pulse LX.glb": {
+    "length": 3.5,
+    "image": "d9683f3eff1b66b2.jpg",
+    "source": "https://media.robertsspaceindustries.com/4a24kqwjx1x4a/store_small.jpg",
+    "name": "Pulse LX"
+  },
+  "Mirai/Razor.glb": {
+    "length": 12.5,
+    "image": "e53bead21d506b66.jpg",
+    "source": "https://media.robertsspaceindustries.com/ryf59d1orpnzh/store_small.jpg",
+    "name": "Razor"
+  },
+  "Mirai/Razor EX.glb": {
+    "length": 12.5,
+    "image": "53f2a5acd171ac00.jpg",
+    "source": "https://media.robertsspaceindustries.com/7ryipnsxv61xe/store_small.jpg",
+    "name": "Razor EX"
+  },
+  "Mirai/Razor LX.glb": {
+    "length": 12.5,
+    "image": "23cffabbac393a8b.jpg",
+    "source": "https://media.robertsspaceindustries.com/k8vf8c6y16gcp/store_small.jpg",
+    "name": "Razor LX"
+  },
+  "MISC/Endeavor.glb": {
+    "length": 200,
+    "image": "27ab5f22609a115e.jpg",
+    "source": "https://media.robertsspaceindustries.com/ymfdp7ow9lm5c/store_small.jpeg",
+    "name": "Endeavor"
+  },
+  "MISC/Expanse.glb": {
+    "length": 35.5,
+    "image": "75d48f602b00e99f.jpg",
+    "source": "https://media.robertsspaceindustries.com/wphusii1dnmxt/store_small.jpg",
+    "name": "Expanse"
+  },
+  "MISC/Fortune.glb": {
+    "length": 26.5,
+    "image": "0713d6c5507375bd.jpg",
+    "source": "https://media.robertsspaceindustries.com/y7rppq3nl8o1e/store_small.jpg",
+    "name": "Fortune"
+  },
+  "MISC/Freelancer.glb": {
+    "length": 38,
+    "image": "cbe128071b59a81e.jpg",
+    "source": "https://media.robertsspaceindustries.com/z3mllk6zi0x7r/store_small.jpg",
+    "name": "Freelancer"
+  },
+  "MISC/Freelancer DUR.glb": {
+    "length": 38,
+    "image": "5eb2f5460e0a9b66.jpg",
+    "source": "https://media.robertsspaceindustries.com/hjhbs9pvw36jc/store_small.jpg",
+    "name": "Freelancer DUR"
+  },
+  "MISC/Freelancer MAX.glb": {
+    "length": 38,
+    "image": "15cee360b9faa52f.jpg",
+    "source": "https://media.robertsspaceindustries.com/myp4kfzlh11jb/store_small.jpg",
+    "name": "Freelancer MAX"
+  },
+  "MISC/Freelancer MIS.glb": {
+    "length": 38,
+    "image": "4135cdae20630d3f.jpg",
+    "source": "https://media.robertsspaceindustries.com/ybkygputhkx0g/store_small.jpg",
+    "name": "Freelancer MIS"
+  },
+  "MISC/Hull A.glb": {
+    "length": 30,
+    "image": "e4de21354114dbc5.jpg",
+    "source": "https://media.robertsspaceindustries.com/3u3x96w5ixj37/store_small.jpg",
+    "name": "Hull A"
+  },
+  "MISC/Hull B.glb": {
+    "length": 71,
+    "image": "08b15024140e1040.jpg",
+    "source": "https://media.robertsspaceindustries.com/k65brbo8a8wtc/store_small.jpg",
+    "name": "Hull B"
+  },
+  "MISC/Hull C.glb": {
+    "length": 91.17,
+    "image": "1cfcfd7534d0d108.jpg",
+    "source": "https://media.robertsspaceindustries.com/0qokljtlegt4r/store_small.jpg",
+    "name": "Hull C"
+  },
+  "MISC/Hull D.glb": {
+    "length": 209,
+    "image": "acc1d5dae3076e36.jpg",
+    "source": "https://media.robertsspaceindustries.com/1j6650dnbblli/store_small.jpg",
+    "name": "Hull D"
+  },
+  "MISC/Hull E.glb": {
+    "length": 372,
+    "image": "3c8395cd2e91e4a3.jpg",
+    "source": "https://media.robertsspaceindustries.com/k6fla3wync6cr/store_small.jpg",
+    "name": "Hull E"
+  },
+  "MISC/Odyssey.glb": {
+    "length": 140,
+    "image": "ef06171128bcb2c5.jpg",
+    "source": "https://media.robertsspaceindustries.com/xpz8d5rv7fl2n/store_small.jpg",
+    "name": "Odyssey"
+  },
+  "MISC/Prospector.glb": {
+    "length": 26.5,
+    "image": "5a3ef5764065f814.jpg",
+    "source": "https://media.robertsspaceindustries.com/7rfmcpg9qcpmm/store_small.jpg",
+    "name": "Prospector"
+  },
+  "MISC/Reliant Kore.glb": {
+    "length": 14.75,
+    "image": "a4daee720fb68903.jpg",
+    "source": "https://media.robertsspaceindustries.com/0ofjqpjk23gqz/store_small.jpg",
+    "name": "Reliant Kore"
+  },
+  "MISC/Reliant Mako.glb": {
+    "length": 14.75,
+    "image": "7bbcc0e31d699ea5.jpg",
+    "source": "https://media.robertsspaceindustries.com/4f25lfzd4vaqr/store_small.jpg",
+    "name": "Reliant Mako"
+  },
+  "MISC/Reliant Sen.glb": {
+    "length": 14.75,
+    "image": "11ad54d152756d26.jpg",
+    "source": "https://media.robertsspaceindustries.com/dhvoh5wvqe5wi/store_small.jpg",
+    "name": "Reliant Sen"
+  },
+  "MISC/Reliant Tana.glb": {
+    "length": 14.75,
+    "image": "1fc85be56192069a.jpg",
+    "source": "https://media.robertsspaceindustries.com/z0qh46jnljtuf/store_small.jpg",
+    "name": "Reliant Tana"
+  },
+  "MISC/Starfarer.glb": {
+    "length": 102,
+    "image": "6730a903f94618f9.jpg",
+    "source": "https://media.robertsspaceindustries.com/wcxbs18v57gxv/store_small.jpg",
+    "name": "Starfarer"
+  },
+  "MISC/Starfarer Gemini.glb": {
+    "length": 102,
+    "image": "65a097cf4a7f3a84.jpg",
+    "source": "https://media.robertsspaceindustries.com/c6423etmvm52z/store_small.jpg",
+    "name": "Starfarer Gemini"
+  },
+  "MISC/Starlancer MAX.glb": {
+    "length": 83,
+    "image": "6611ced4e0206b34.jpg",
+    "source": "https://media.robertsspaceindustries.com/c59t62rz5xud9/store_small.jpg",
+    "name": "Starlancer MAX"
+  },
+  "MISC/Starlancer TAC.glb": {
+    "length": 90,
+    "image": "c2306e94569cdfd5.jpg",
+    "source": "https://media.robertsspaceindustries.com/emx6dhzo9kbox/store_small.jpg",
+    "name": "Starlancer TAC"
+  },
+  "MISC/Starlite.glb": {
+    "length": 32,
+    "image": "8d78c818de8c12e6.jpg",
+    "source": "https://media.robertsspaceindustries.com/6cdv5u7nvigrn/store_small.jpg",
+    "name": "Starlite"
+  },
+  "Origin Jumpworks/100i.glb": {
+    "length": 19,
+    "image": "326aaf0710077611.jpg",
+    "source": "https://media.robertsspaceindustries.com/ofxowq9rhbyvc/store_small.jpg",
+    "name": "100i"
+  },
+  "Origin Jumpworks/125a.glb": {
+    "length": 19,
+    "image": "40751e70aa815e54.jpg",
+    "source": "https://media.robertsspaceindustries.com/e0a0pfimgv34k/store_small.jpg",
+    "name": "125a"
+  },
+  "Origin Jumpworks/135c.glb": {
+    "length": 19,
+    "image": "8e892bbb904aa179.jpg",
+    "source": "https://media.robertsspaceindustries.com/ftaf8t452ad1o/store_small.jpg",
+    "name": "135c"
+  },
+  "Origin Jumpworks/300i.glb": {
+    "length": 27,
+    "image": "c8fb501cb0f22dde.jpg",
+    "source": "https://media.robertsspaceindustries.com/3oo06l2jgo08b/store_small.jpg",
+    "name": "300i"
+  },
+  "Origin Jumpworks/315p.glb": {
+    "length": 27,
+    "image": "fa610c3269827ef9.jpg",
+    "source": "https://media.robertsspaceindustries.com/tclw2w16unsyq/store_small.jpg",
+    "name": "315p"
+  },
+  "Origin Jumpworks/325a.glb": {
+    "length": 27.5,
+    "image": "05d1af15e72faa63.jpg",
+    "source": "https://media.robertsspaceindustries.com/splsb5xdivrxj/store_small.jpg",
+    "name": "325a"
+  },
+  "Origin Jumpworks/350r.glb": {
+    "length": 27,
+    "image": "6ec6dc8bb89cdf55.jpg",
+    "source": "https://media.robertsspaceindustries.com/ni0d3xiv2wcid/store_small.jpg",
+    "name": "350r"
+  },
+  "Origin Jumpworks/400i.glb": {
+    "length": 56,
+    "image": "05db3d2261b04090.jpg",
+    "source": "https://media.robertsspaceindustries.com/x4tbq6bz7kgkg/store_small.jpg",
+    "name": "400i"
+  },
+  "Origin Jumpworks/600i Explorer.glb": {
+    "length": 91.5,
+    "image": "c754b32429035386.jpg",
+    "source": "https://media.robertsspaceindustries.com/nsl0zel8gmfxl/store_small.jpg",
+    "name": "600i Explorer"
+  },
+  "Origin Jumpworks/600i Touring.glb": {
+    "length": 91.5,
+    "image": "a251fbe0b120103c.jpg",
+    "source": "https://media.robertsspaceindustries.com/68f2og2gz2mdq/store_small.jpg",
+    "name": "600i Touring"
+  },
+  "Origin Jumpworks/890 Jump.glb": {
+    "length": 210,
+    "image": "de32d15cf8546b23.jpg",
+    "source": "https://media.robertsspaceindustries.com/t2bky2nbdg0ms/store_small.jpg",
+    "name": "890 Jump"
+  },
+  "Origin Jumpworks/G12.glb": {
+    "length": 7.2,
+    "image": "0f84c5d2f74b7cb9.jpg",
+    "source": "https://media.robertsspaceindustries.com/brmi1ci9rthmu/store_small.jpg",
+    "name": "G12"
+  },
+  "Origin Jumpworks/G12a.glb": {
+    "length": 7.2,
+    "image": "ec3041fa5743dd5c.jpg",
+    "source": "https://media.robertsspaceindustries.com/2btmuamt8zv4g/store_small.jpg",
+    "name": "G12a"
+  },
+  "Origin Jumpworks/G12r.glb": {
+    "length": 7.2,
+    "image": "0f6bf4a361ffc394.jpg",
+    "source": "https://media.robertsspaceindustries.com/ou0nkzhocb2bd/store_small.jpg",
+    "name": "G12r"
+  },
+  "Origin Jumpworks/M50.glb": {
+    "length": 11.5,
+    "image": "136faf39ad2bcd78.png",
+    "source": "https://media.robertsspaceindustries.com/l7p21pakfkth2/store_small.png",
+    "name": "M50"
+  },
+  "Origin Jumpworks/M80.glb": {
+    "length": 11.5,
+    "image": "8a5175070197951d.jpg",
+    "source": "https://media.robertsspaceindustries.com/nledgsyyzmjov/store_small.jpg",
+    "name": "M80"
+  },
+  "Origin Jumpworks/X1.glb": {
+    "length": 1.55,
+    "image": "addccea61a5f94fa.jpg",
+    "source": "https://media.robertsspaceindustries.com/dfby6tstm2ddk/store_small.jpg",
+    "name": "X1"
+  },
+  "Origin Jumpworks/X1 Force.glb": {
+    "length": 1.55,
+    "image": "22f8be4b5c9ecb8f.jpg",
+    "source": "https://media.robertsspaceindustries.com/8gw5uoifiylxq/store_small.jpg",
+    "name": "X1 Force"
+  },
+  "Origin Jumpworks/X1 Velocity.glb": {
+    "length": 1.55,
+    "image": "7de47d92e31000a8.jpg",
+    "source": "https://media.robertsspaceindustries.com/cz8otyln1w1tp/store_small.jpg",
+    "name": "X1 Velocity"
+  },
+  "Roberts Space Industries/Apollo Medivac.glb": {
+    "length": 54,
+    "image": "6dde541280ae681b.jpg",
+    "source": "https://media.robertsspaceindustries.com/s7p0pxsph50es/store_small.jpg",
+    "name": "Apollo Medivac"
+  },
+  "Roberts Space Industries/Apollo Triage.glb": {
+    "length": 54,
+    "image": "ac2a39679c9c3165.jpg",
+    "source": "https://media.robertsspaceindustries.com/1mu5e6wdygvl1/store_small.jpg",
+    "name": "Apollo Triage"
+  },
+  "Roberts Space Industries/Arrastra.glb": {
+    "length": 124,
+    "image": "3b0ddad87283fed1.jpg",
+    "source": "https://media.robertsspaceindustries.com/s77g3dj3gwes9/store_small.jpg",
+    "name": "Arrastra"
+  },
+  "Roberts Space Industries/Aurora CL.glb": {
+    "length": null
+  },
+  "Roberts Space Industries/Aurora LN.glb": {
+    "length": null
+  },
+  "Roberts Space Industries/Aurora Mk I ES.glb": {
+    "length": 19,
+    "image": "3a542bd06b7240ad.jpg",
+    "source": "https://media.robertsspaceindustries.com/e1i4i2ixe6ouo/store_small.jpg",
+    "name": "Aurora Mk I ES"
+  },
+  "Roberts Space Industries/Aurora Mk I LX.glb": {
+    "length": 19,
+    "image": "803cf014a41a17be.jpg",
+    "source": "https://media.robertsspaceindustries.com/28jsrvn7jb54w/store_small.jpg",
+    "name": "Aurora Mk I LX"
+  },
+  "Roberts Space Industries/Aurora Mk I MR.glb": {
+    "length": 19,
+    "image": "a09de659a80a6ff5.jpg",
+    "source": "https://media.robertsspaceindustries.com/kinuf02r7s4oq/store_small.jpg",
+    "name": "Aurora Mk I MR"
+  },
+  "Roberts Space Industries/Aurora Mk I SE.glb": {
+    "length": 19,
+    "image": "6cdb8cb3b9aa8902.jpg",
+    "source": "https://media.robertsspaceindustries.com/ungxvqb17gtre/store_small.jpg",
+    "name": "Aurora Mk I SE"
+  },
+  "Roberts Space Industries/Aurora Mk II.glb": {
+    "length": 27.4,
+    "image": "b2b17c01aa96c52c.jpg",
+    "source": "https://media.robertsspaceindustries.com/rh3zjmon4w468/store_small.jpg",
+    "name": "Aurora Mk II"
+  },
+  "Roberts Space Industries/Constellation Andromeda.glb": {
+    "length": 62,
+    "image": "ce8f28b7ea2a6dd3.jpg",
+    "source": "https://media.robertsspaceindustries.com/x1aflxx72d3xs/store_small.jpg",
+    "name": "Constellation Mk IV Andromeda"
+  },
+  "Roberts Space Industries/Constellation Aquila.glb": {
+    "length": 62,
+    "image": "255407a939481303.jpg",
+    "source": "https://media.robertsspaceindustries.com/u1qyvf0i8m0gv/store_small.jpg",
+    "name": "Constellation Mk IV Aquila"
+  },
+  "Roberts Space Industries/Constellation Phoenix.glb": {
+    "length": 62,
+    "image": "c8272d0018b14d29.jpg",
+    "source": "https://media.robertsspaceindustries.com/jkyny550a90um/store_small.jpg",
+    "name": "Constellation Mk IV Phoenix"
+  },
+  "Roberts Space Industries/Constellation Taurus.glb": {
+    "length": 69,
+    "image": "bff68428860b983a.jpg",
+    "source": "https://media.robertsspaceindustries.com/mw5k52yzgo7fd/store_small.jpg",
+    "name": "Constellation Mk IV Taurus"
+  },
+  "Roberts Space Industries/Constellation Mk V Centaurus.glb": {
+    "length": 82.5,
+    "image": "4370bda2c61d9b73.jpg",
+    "source": "https://media.robertsspaceindustries.com/2vugvo1bdkvxl/store_small.jpg",
+    "name": "Constellation Mk V Centaurus"
+  },
+  "Roberts Space Industries/Galaxy.glb": {
+    "length": 110,
+    "image": "6e7ae59f36e687a5.jpg",
+    "source": "https://media.robertsspaceindustries.com/b2bx2kl8ewqej/store_small.jpg",
+    "name": "Galaxy"
+  },
+  "Roberts Space Industries/Hermes.glb": {
+    "length": 58,
+    "image": "aa4271cb306c7f39.jpg",
+    "source": "https://media.robertsspaceindustries.com/lx84u9f3zauov/store_small.jpg",
+    "name": "Hermes"
+  },
+  "Roberts Space Industries/Lynx.glb": {
+    "length": 7.75,
+    "image": "9f7655f9886b8f38.jpg",
+    "source": "https://media.robertsspaceindustries.com/m6ikrk16sokre/store_small.jpg",
+    "name": "Lynx "
+  },
+  "Roberts Space Industries/Mantis.glb": {
+    "length": 30,
+    "image": "1c4acdd9f14bc109.jpg",
+    "source": "https://media.robertsspaceindustries.com/ohk97bvmweor0/store_small.jpg",
+    "name": "Mantis"
+  },
+  "Roberts Space Industries/Meteor.glb": {
+    "length": 30,
+    "image": "50227d9628ae9198.jpg",
+    "source": "https://media.robertsspaceindustries.com/y0r5156e7qcf7/store_small.jpg",
+    "name": "Meteor"
+  },
+  "Roberts Space Industries/Orion.glb": {
+    "length": 340,
+    "image": "c48c776ddf2858e4.jpg",
+    "source": "https://media.robertsspaceindustries.com/b3nwvt5ye3zj0/store_small.jpg",
+    "name": "Orion"
+  },
+  "Roberts Space Industries/Perseus.glb": {
+    "length": 100,
+    "image": "d4f51035011b6ce1.jpg",
+    "source": "https://media.robertsspaceindustries.com/1zli0ngsh3vk7/store_small.jpg",
+    "name": "Perseus"
+  },
+  "Roberts Space Industries/Polaris.glb": {
+    "length": 181,
+    "image": "6a66b741c722cd57.jpg",
+    "source": "https://media.robertsspaceindustries.com/oe0wikh6g3ltm/store_small.jpg",
+    "name": "Polaris"
+  },
+  "Roberts Space Industries/Salvation.glb": {
+    "length": 14.5,
+    "image": "dc8dddf170c4c6a1.jpg",
+    "source": "https://media.robertsspaceindustries.com/7u3ybzv7nbyg9/store_small.jpg",
+    "name": "Salvation"
+  },
+  "Roberts Space Industries/Scorpius.glb": {
+    "length": 32,
+    "image": "f34222ad73b3290d.jpg",
+    "source": "https://media.robertsspaceindustries.com/7u4jmdb7ev4h7/store_small.jpg",
+    "name": "Scorpius"
+  },
+  "Roberts Space Industries/Scorpius Antares.glb": {
+    "length": 32,
+    "image": "a312d20bf9d2b43d.jpg",
+    "source": "https://media.robertsspaceindustries.com/ib2pmees0vrq3/store_small.jpg",
+    "name": "Scorpius Antares"
+  },
+  "Roberts Space Industries/Ursa Medivac.glb": {
+    "length": 6,
+    "image": "c076adc26f2fbde3.jpg",
+    "source": "https://media.robertsspaceindustries.com/opl9wsa1a3tvu/store_small.jpg",
+    "name": "Ursa Medivac"
+  },
+  "Roberts Space Industries/Zeus Mk II CL.glb": {
+    "length": 46,
+    "image": "2bfd6255a50723fe.jpg",
+    "source": "https://media.robertsspaceindustries.com/bkvyglm2hgmzd/store_small.jpg",
+    "name": "Zeus Mk II CL"
+  },
+  "Roberts Space Industries/Zeus Mk II ES.glb": {
+    "length": 46,
+    "image": "20baf8085961fd4a.jpg",
+    "source": "https://media.robertsspaceindustries.com/dzqbjbxnpfjha/store_small.jpg",
+    "name": "Zeus Mk II ES"
+  },
+  "Roberts Space Industries/Zeus Mk II MR.glb": {
+    "length": 45.7,
+    "image": "3db2f8dcf9b4b639.jpg",
+    "source": "https://media.robertsspaceindustries.com/pj51owg973q4h/store_small.jpg",
+    "name": "Zeus Mk II MR"
+  },
+  "Tumbril/Cyclone AA.glb": {
+    "length": 6,
+    "image": "72e6bbd0a24ef5d6.jpg",
+    "source": "https://media.robertsspaceindustries.com/9sdm1joxg6l5w/store_small.jpg",
+    "name": "Cyclone AA"
+  },
+  "Tumbril/Cyclone MT.glb": {
+    "length": 6,
+    "image": "9372db13db82dde3.jpg",
+    "source": "https://media.robertsspaceindustries.com/vypszjy7ij306/store_small.jpg",
+    "name": "Cyclone MT"
+  },
+  "Tumbril/Cyclone RC.glb": {
+    "length": 6,
+    "image": "3f6d5b6a28f0210c.png",
+    "source": "https://media.robertsspaceindustries.com/7w2fu56gep0vr/store_small.png",
+    "name": "Cyclone RC"
+  },
+  "Tumbril/Cyclone RN.glb": {
+    "length": 6,
+    "image": "3dfd895a55d094ae.jpg",
+    "source": "https://media.robertsspaceindustries.com/9e7okmkqgc38d/store_small.jpg",
+    "name": "Cyclone RN"
+  },
+  "Tumbril/Cyclone TR.glb": {
+    "length": 6,
+    "image": "0db1c6f8047fdf95.jpg",
+    "source": "https://media.robertsspaceindustries.com/hf23s59lyp47o/store_small.jpg",
+    "name": "Cyclone TR"
+  },
+  "Tumbril/Cyclone.glb": {
+    "length": 6,
+    "image": "93d989bdb55dc858.jpg",
+    "source": "https://media.robertsspaceindustries.com/vfwgefk6w5o9d/store_small.jpg",
+    "name": "Cyclone"
+  },
+  "Tumbril/Nova.glb": {
+    "length": 20,
+    "image": "e4bef56b718ab557.jpg",
+    "source": "https://media.robertsspaceindustries.com/698j1tw6sqq4t/store_small.jpg",
+    "name": "Nova"
+  },
+  "Tumbril/Ranger CV.glb": {
+    "length": 3.7,
+    "image": "51c8975645df225a.jpg",
+    "source": "https://media.robertsspaceindustries.com/1pe4mpq4m650v/store_small.jpg",
+    "name": "Ranger CV"
+  },
+  "Tumbril/Ranger RC.glb": {
+    "length": 3.7,
+    "image": "e257a7cc814b41a6.jpg",
+    "source": "https://media.robertsspaceindustries.com/86p4ac1l3rmra/store_small.jpg",
+    "name": "Ranger RC"
+  },
+  "Tumbril/Ranger TR.glb": {
+    "length": 3.7,
+    "image": "87b056fdd6657ff3.jpg",
+    "source": "https://media.robertsspaceindustries.com/eehhr9ql9y04w/store_small.jpg",
+    "name": "Ranger TR"
+  },
+  "Tumbril/Storm AA.glb": {
+    "length": 7.65,
+    "image": "60a4061e6b1f5612.jpg",
+    "source": "https://media.robertsspaceindustries.com/x42epibkm0264/store_small.jpg",
+    "name": "Storm AA"
+  },
+  "Tumbril/Storm.glb": {
+    "length": 7.65,
+    "image": "1a196c51d3c753ee.jpg",
+    "source": "https://media.robertsspaceindustries.com/kwrokktl2sfx0/store_small.jpg",
+    "name": "Storm"
+  },
+  "Vanduul/Scythe.glb": {
+    "length": 33,
+    "image": "42972fd4fd41c773.jpg",
+    "source": "https://media.robertsspaceindustries.com/kysobeqkurqyd/store_small.jpg",
+    "name": "Scythe"
+  }
+}
