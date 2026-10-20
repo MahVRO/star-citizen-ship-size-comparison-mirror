@@ -10,7 +10,7 @@ def customize(output: Path, prefix: str) -> None:
     assets = Path(__file__).resolve().parents[1] / 'ui'
     destination = output / 'viewer'
     destination.mkdir(parents=True, exist_ok=True)
-    for name in ('mirror.css', 'mirror.js'):
+    for name in ('mirror.css', 'mirror.js', 'catalogue-layout.js'):
         shutil.copyfile(assets / name, destination / name)
     # The manufacturer gallery is a persistent catalogue section. Choosing a
     # manufacturer or searching ships must not collapse it.
@@ -56,12 +56,13 @@ def customize(output: Path, prefix: str) -> None:
     for name, tag in (
         ('mirror.css', '<link rel="stylesheet" href="{url}">'),
         ('mirror.js', '<script src="{url}" defer></script>'),
+        ('catalogue-layout.js', '<script src="{url}" defer></script>'),
     ):
         version = hashlib.sha256((destination / name).read_bytes()).hexdigest()[:12]
         url = f'{prefix}viewer/{name}?v={version}'
         pattern = (r'<link[^>]*href="[^" ]*viewer/mirror\.css[^" ]*"[^>]*>'
                    if name.endswith('.css') else
-                   r'<script[^>]*src="[^" ]*viewer/mirror\.js[^" ]*"[^>]*></script>')
+                   rf'<script[^>]*src="[^" ]*viewer/{re.escape(name)}[^" ]*"[^>]*></script>')
         element = tag.format(url=url)
         if re.search(pattern, html):
             html = re.sub(pattern, lambda _: element, html)

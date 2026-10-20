@@ -50,3 +50,7 @@ With Playwright and Chromium installed, run `FLEET_VIEWER_URL=http://127.0.0.1:8
 Ship rows use bundled RSI thumbnails and the catalogue's model lengths. To refresh artwork after a catalogue update, run `MIRROR_OUTPUT=/path/to/built/mirror python3 scripts/update_ship_art.py`, then rebuild the UI layer. Artwork uses exact ship source paths or unique names within a manufacturer; unmatched models use a neutral fallback. See `ui/ships/manifest.json` for source URLs.
 
 With Playwright and Chromium installed, run `FLEET_VIEWER_URL=http://127.0.0.1:8000/star-citizen-ship-size-comparison-mirror/ node scripts/check_ship_panel.cjs` to check ship thumbnails, lengths, selection, quantities, loading/removal and mobile bounds.
+
+When manufacturers and ships are visible together, drag the divider between them to trade space between the two independently scrolling sections. The split is saved in browser local storage. The focused divider supports Arrow Up/Down, Shift for larger steps, Home/End and double-click to reset. `scripts/check_catalogue_resize.cjs` verifies resize behavior and logo alignment with Playwright; pass the running site as `FLEET_VIEWER_URL`.
+
+Manufacturer logo canvases are fitted to their nontransparent artwork at runtime so uneven source padding does not offset the icon in its tile. Source files and brand colors are retained.
