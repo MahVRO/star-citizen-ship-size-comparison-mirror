@@ -3,10 +3,6 @@
   const $ = id => document.getElementById(id);
   if (!$('workspace')) return;
   document.body.classList.add('mirror-ui');
-  // Catalogue interactions are inside the picker, not outside-click dismissals.
-  document.querySelector('.add-panel').addEventListener('pointerdown', event => {
-    event.stopPropagation();
-  });
   document.querySelector('.add-title').textContent = 'Catalogue';
   $('ship-search').placeholder = 'Search ships…';
   $('ship-search').setAttribute('aria-keyshortcuts', '/');
@@ -51,10 +47,13 @@
     const index = buttons.indexOf(document.activeElement);
     buttons[(index + (event.key === 'ArrowDown' ? 1 : -1) + buttons.length) % buttons.length]?.focus();
   }, true);
+  let galleryWasOpen = false;
   new MutationObserver(() => {
-    makerSearch.hidden = $('maker-options').hidden;
-    if (!makerSearch.hidden) { makerSearch.value = ''; filterMakers(); }
-    else { noMakers.hidden = true; }
+    const open = !$('maker-options').hidden;
+    makerSearch.hidden = !open;
+    if (open && !galleryWasOpen) { makerSearch.value = ''; filterMakers(); }
+    if (!open) noMakers.hidden = true;
+    galleryWasOpen = open;
   }).observe($('maker-options'), {attributes:true, attributeFilter:['hidden']});
   makerSearch.hidden = true;
   fetch(new URL('catalog.json', document.currentScript.src)).then(r => {
