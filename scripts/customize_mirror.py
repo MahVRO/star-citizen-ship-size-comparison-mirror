@@ -23,15 +23,27 @@ def customize(output: Path, prefix: str) -> None:
     )
     viewer.write_text(source)
     shutil.copytree(assets / 'brand-logos', destination / 'brand-logos', dirs_exist_ok=True)
+    aliases = {
+        'aegis_font': 'AEGS', 'anvil': 'ANVL', 'aopoa': 'XNAA', 'argo': 'ARGO',
+        'banu': 'BANU', 'consolidated': 'CNOU', 'crusader': 'CRUS', 'drake': 'DRAK',
+        'esperia': 'ESPR', 'gatac': 'GAMA', 'greys': 'GREY', 'greycat': 'GRIN',
+        'kruger': 'KRIG', 'mirai_whitefont': 'MRAI', 'misc': 'MISC', 'origin': 'ORIG',
+        'rsi': 'RSI', 'tumbril': 'TMBL', 'vandull': 'VNCL',
+    }
     hover_logos = {}
     for file in sorted((assets / 'brand-logos' / 'hover').iterdir()):
-        if re.fullmatch(r'[A-Z0-9]+\.(svg|png|webp|jpg|jpeg)', file.name):
-            code = file.stem
-            if code in hover_logos:
-                raise ValueError(f'Duplicate hover logo for {code}: use one file per manufacturer')
-            version = hashlib.sha256(file.read_bytes()).hexdigest()[:12]
-            hover_logos[code] = f'{file.name}?v={version}'
-    (destination / 'brand-logos' / 'hover' / 'manifest.json').write_text(json.dumps(hover_logos))
+        if file.suffix.lower() not in {'.svg', '.png', '.webp', '.jpg', '.jpeg'}:
+            continue
+        code = aliases.get(file.stem.lower(), file.stem.upper())
+        if code in hover_logos:
+            raise ValueError(f'Duplicate hover logo for {code}: use one file per manufacturer')
+        version = hashlib.sha256(file.read_bytes()).hexdigest()[:12]
+        hover_logos[code] = f'{file.name}?v={version}'
+    manifest = json.dumps(hover_logos, sort_keys=True)
+    (destination / 'brand-logos' / 'hover' / 'manifest.json').write_text(manifest)
+    version = hashlib.sha256(manifest.encode()).hexdigest()[:12]
+    custom_js = destination / 'mirror.js'
+    custom_js.write_text(custom_js.read_text().replace('__HOVER_LOGOS_VERSION__', version))
     index = output / 'index.html'
     html = index.read_text()
     viewer_version = hashlib.sha256(viewer.read_bytes()).hexdigest()[:12]
@@ -42,7 +54,7 @@ def customize(output: Path, prefix: str) -> None:
         ('mirror.css', '<link rel="stylesheet" href="{url}">'),
         ('mirror.js', '<script src="{url}" defer></script>'),
     ):
-        version = hashlib.sha256((assets / name).read_bytes()).hexdigest()[:12]
+        version = hashlib.sha256((destination / name).read_bytes()).hexdigest()[:12]
         url = f'{prefix}viewer/{name}?v={version}'
         pattern = (r'<link[^>]*href="[^" ]*viewer/mirror\.css[^" ]*"[^>]*>'
                    if name.endswith('.css') else
