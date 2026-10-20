@@ -139,31 +139,43 @@ body.mirror-ui{--sidebar:352px}
 .mirror-ui .maker-option{isolation:isolate;overflow:hidden;transition:background-color .22s,border-color .22s,box-shadow .22s}
 .mirror-ui .maker-option::before{content:'';position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 50% 25%,color-mix(in srgb,var(--brand-color) 20%,transparent),transparent 78%);opacity:0;transition:opacity .22s}
 .mirror-ui .maker-option img{filter:grayscale(1);opacity:.65;transform:scale(.95);transition:filter .22s,opacity .22s,transform .22s}
-.mirror-ui .maker-option:is(:hover,:focus-visible){background:color-mix(in srgb,var(--brand-color) 7%,#172226);border-color:color-mix(in srgb,var(--brand-color) 65%,transparent);box-shadow:inset 0 -2px var(--brand-color),0 5px 18px #0002;color:#e8efec}
-.mirror-ui .maker-option:is(:hover,:focus-visible)::before{opacity:1}
-.mirror-ui .maker-option:is(:hover,:focus-visible) img{filter:grayscale(0) drop-shadow(0 3px 8px #0005);opacity:1;transform:scale(1.22)}
-.mirror-ui .maker-option:is(:hover,:focus-visible) .maker-model-count{color:var(--brand-color)}
+.mirror-ui .maker-option.is-logo-preview{background:color-mix(in srgb,var(--brand-color) 7%,#172226);border-color:color-mix(in srgb,var(--brand-color) 65%,transparent);box-shadow:inset 0 -2px var(--brand-color),0 5px 18px #0002;color:#e8efec}
+.mirror-ui .maker-option.is-logo-preview::before{opacity:1}
+.mirror-ui .maker-option.is-logo-preview img{filter:grayscale(0) drop-shadow(0 3px 8px #0005);opacity:1;transform:scale(1.22)}
+.mirror-ui .maker-option.is-logo-preview .maker-model-count{color:var(--brand-color)}
 .mirror-ui .maker-option[aria-pressed=true]{border-color:color-mix(in srgb,var(--brand-color) 60%,transparent);box-shadow:inset 0 -2px var(--brand-color)}
 .mirror-ui .maker-option[aria-pressed=true] img{filter:none;opacity:1}
-@media(prefers-reduced-motion:reduce){.mirror-ui .maker-option,.mirror-ui .maker-option::before,.mirror-ui .maker-option img{transition:none}.mirror-ui .maker-option:is(:hover,:focus-visible) img{transform:none}}
+@media(prefers-reduced-motion:reduce){.mirror-ui .maker-option,.mirror-ui .maker-option::before,.mirror-ui .maker-option img{transition:none}.mirror-ui .maker-option.is-logo-preview img{transform:none}}
 .mirror-ui .maker-option.has-color-logo img{width:60px;height:34px}
-.mirror-ui .maker-option.has-color-logo:is(:hover,:focus-visible) img{transform:scale(1.18)}
-@media(prefers-reduced-motion:reduce){.mirror-ui .maker-option.has-color-logo:is(:hover,:focus-visible) img{transform:none}}
+.mirror-ui .maker-option.has-color-logo.is-logo-preview img{transform:scale(1.18)}
+@media(prefers-reduced-motion:reduce){.mirror-ui .maker-option.has-color-logo.is-logo-preview img{transform:none}}
 /* Icon-only manufacturer tiles, with an identical optical frame for every logo. */
 .mirror-ui .maker-options{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .mirror-ui .maker-option{height:88px;min-height:88px;padding:16px;display:grid;place-items:center}
 .mirror-ui .maker-option>span,.mirror-ui .maker-model-count{display:none}
 .mirror-ui .maker-option img,.mirror-ui .maker-option.has-color-logo img{width:100%;height:44px;max-width:64px;object-fit:contain;object-position:center;margin:0;grid-area:1/1}
 .mirror-ui .maker-option .maker-hover-logo{opacity:0;filter:none;pointer-events:none}
-.mirror-ui .maker-option.has-custom-hover:is(:hover,:focus-visible)>img:not(.maker-hover-logo){opacity:0}
-.mirror-ui .maker-option.has-custom-hover:is(:hover,:focus-visible)>.maker-hover-logo{opacity:1;filter:none;transform:scale(1.12)}
+.mirror-ui .maker-option.has-custom-hover.is-logo-preview>img:not(.maker-hover-logo){opacity:0}
+.mirror-ui .maker-option.has-custom-hover.is-logo-preview>.maker-hover-logo{opacity:1;filter:none;transform:scale(1.12)}
 @media(max-width:760px){.mirror-ui .maker-option{height:84px;min-height:84px;padding:14px}}
-@media(prefers-reduced-motion:reduce){.mirror-ui .maker-option.has-custom-hover:is(:hover,:focus-visible)>.maker-hover-logo{transform:none}}
+@media(prefers-reduced-motion:reduce){.mirror-ui .maker-option.has-custom-hover.is-logo-preview>.maker-hover-logo{transform:none}}
 /* Curated symbols stay legible on dark surfaces, without synthetic brand colors. */
 .mirror-ui .maker-option.has-curated-mono>img:not(.maker-hover-logo),
-.mirror-ui .maker-option.has-curated-mono:is(:hover,:focus-visible)>img:not(.maker-hover-logo){filter:brightness(0) invert(1);opacity:.8}
-.mirror-ui .maker-option.has-curated-mono.has-custom-hover:is(:hover,:focus-visible)>img:not(.maker-hover-logo){opacity:0}
+.mirror-ui .maker-option.has-curated-mono.is-logo-preview>img:not(.maker-hover-logo){filter:brightness(0) invert(1);opacity:.8}
+.mirror-ui .maker-option.has-curated-mono.has-custom-hover.is-logo-preview>img:not(.maker-hover-logo){opacity:0}
 .mirror-ui .maker-toggle.has-wordmark #maker-value{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 .mirror-ui .maker-toggle.has-wordmark .maker-emblem{width:145px;height:30px;margin:auto}
 .mirror-ui .maker-toggle.has-wordmark .maker-emblem img{width:100%;height:100%;max-width:145px;max-height:30px;object-fit:contain}
 .mirror-ui .maker-toggle.mono-wordmark .maker-emblem img{filter:brightness(0) invert(1)}
+
+/* Preview is independent from selection and never writes to either search input. */
+.mirror-ui .maker-toggle{position:relative}
+.mirror-preview{display:none}
+.mirror-ui .maker-preview{display:none;position:absolute;inset:0;align-items:center;gap:12px;padding:10px 14px;pointer-events:none;text-align:left}
+.mirror-ui .maker-toggle.is-previewing>.maker-preview{display:flex;visibility:visible}
+.mirror-ui .maker-toggle.is-previewing>:not(.maker-preview){visibility:hidden}
+.mirror-ui .maker-preview img{width:32px;height:30px;object-fit:contain;flex-shrink:0}
+.mirror-ui .maker-preview .mono-preview{filter:brightness(0) invert(1)}
+.mirror-ui .maker-preview>span{color:var(--text);font-size:12px}
+.mirror-ui .maker-option:not(.is-logo-preview)>.maker-hover-logo{opacity:0;transform:none}
+.mirror-ui .maker-option.has-curated-mono:not(.is-logo-preview)>img:not(.maker-hover-logo){opacity:.8;filter:brightness(0) invert(1);transform:scale(.95)}

@@ -58,6 +58,35 @@
   makerSearch.hidden = true;
   const logoBase = new URL('brand-logos/', document.currentScript.src);
   let curatedLogos = {};
+  let keyboardNavigation = false;
+  document.addEventListener('keydown', () => { keyboardNavigation = true; }, true);
+  document.addEventListener('pointerdown', () => { keyboardNavigation = false; }, true);
+  const makerPreview = document.createElement('span');
+  makerPreview.className = 'maker-preview';
+  makerPreview.setAttribute('aria-hidden', 'true');
+  const previewIcon = document.createElement('img');
+  previewIcon.alt = '';
+  const previewName = document.createElement('span');
+  makerPreview.append(previewIcon, previewName);
+  $('maker-toggle').append(makerPreview);
+  const clearPreview = button => {
+    button.classList.remove('is-logo-preview');
+    if (makerPreview.dataset.code === button.dataset.manufacturerCode) {
+      $('maker-toggle').classList.remove('is-previewing');
+    }
+  };
+  const showPreview = (button, maker) => {
+    button.classList.add('is-logo-preview');
+    const art = curatedLogos[maker.code];
+    const logo = art?.color || art?.mono;
+    if (!logo) return;
+    previewIcon.src = new URL(logo.file, logoBase).href;
+    previewIcon.classList.toggle('mono-preview', !art.color);
+    previewName.textContent = maker.name;
+    makerPreview.dataset.code = maker.code;
+    $('maker-toggle').classList.add('is-previewing');
+  };
+
   // Accent the original logo artwork; never recolor the logo pixels themselves.
   const manufacturerColors = {
     AEGS: '#83b7cf', ANVL: '#d65d56', XNAA: '#c7a1df', ARGO: '#48d8f2',
@@ -95,6 +124,17 @@
           button.append(hover);
         }
         button.style.setProperty('--brand-color', manufacturerColors[maker.code] || '#b8f4d6');
+        if (!button.dataset.previewBound) {
+          button.dataset.previewBound = 'true';
+          button.addEventListener('pointerenter', event => {
+            if (event.pointerType !== 'touch') showPreview(button, maker);
+          });
+          button.addEventListener('pointerleave', () => clearPreview(button));
+          button.addEventListener('focus', () => { if (keyboardNavigation) showPreview(button, maker); });
+          button.addEventListener('blur', () => clearPreview(button));
+          button.addEventListener('click', () => clearPreview(button));
+        }
+
         if (button.querySelector('.maker-model-count')) return;
         const count = document.createElement('small');
         count.className = 'maker-model-count';
