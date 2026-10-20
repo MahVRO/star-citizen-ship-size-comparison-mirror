@@ -258,3 +258,18 @@ body.mirror-ui{--sidebar:352px}
 @media(prefers-reduced-motion:reduce){.mirror-ui .ship-row,.mirror-ui .ship-art img{transition:none}.mirror-ui .ship-row:hover,.mirror-ui .ship-row:focus-within,.mirror-ui .ship-row:hover .ship-art img{transform:none}}
 .mirror-ui .ship-check>span:not(.ship-art){flex:0 0 auto;margin-top:auto;padding:0 12px}
 .mirror-ui .ship-row:has(input[type=checkbox]:checked){border-color:#b8f4d68c;box-shadow:0 0 0 1px #b8f4d61c,0 6px 20px #0003}
+/* Keep the original floating workflow; simplify the surface treatment. */
+.mirror-ui .add-panel{background:#192326;border-color:#3b494b;border-radius:7px;box-shadow:none;backdrop-filter:none}
+.mirror-ui .add-title{font-size:14px;text-transform:none;letter-spacing:0;font-weight:600;margin-bottom:17px}
+.mirror-ui .maker-toggle{border-radius:3px;background:#121d21;box-shadow:none}
+.mirror-ui .maker-option{border-radius:4px;box-shadow:none}
+.mirror-ui .maker-option::before{display:none}
+.mirror-ui .maker-option.is-logo-preview,.mirror-ui .maker-option[aria-pressed=true]{box-shadow:inset 0 -2px var(--brand-color)}
+.mirror-ui .ship-row{border-radius:5px;box-shadow:none;transform:none}
+.mirror-ui .ship-row:hover,.mirror-ui .ship-row:focus-within{box-shadow:none;transform:none}
+.mirror-ui .ship-row:has(input[type=checkbox]:checked){box-shadow:inset 0 -2px var(--mint)}
+.mirror-ui .ship-check>input{border-radius:3px;box-shadow:none;backdrop-filter:none}
+.mirror-ui .ship-check>input:checked{box-shadow:none}
+.mirror-ui .ship-row-actions{border-radius:3px;backdrop-filter:none;background:#101d22b3}
+.mirror-ui .primary,.mirror-ui .view-tools,.mirror-ui .camera-tools{border-radius:4px;box-shadow:none}
+.mirror-ui .maker-option,.mirror-ui .ship-row,.mirror-ui .ship-art img{transition:none}

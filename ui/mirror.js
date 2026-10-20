@@ -3,7 +3,7 @@
   const $ = id => document.getElementById(id);
   if (!$('workspace')) return;
   document.body.classList.add('mirror-ui');
-  document.querySelector('.add-title').textContent = 'Catalogue';
+  document.querySelector('.add-title').textContent = 'Ships';
   $('ship-search').placeholder = 'Search ships…';
   $('ship-search').setAttribute('aria-keyshortcuts', '/');
   $('fleet-drop').textContent = 'Import JSON / CSV';
