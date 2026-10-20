@@ -146,3 +146,6 @@ body.mirror-ui{--sidebar:352px}
 .mirror-ui .maker-option[aria-pressed=true]{border-color:color-mix(in srgb,var(--brand-color) 60%,transparent);box-shadow:inset 0 -2px var(--brand-color)}
 .mirror-ui .maker-option[aria-pressed=true] img{filter:none;opacity:1}
 @media(prefers-reduced-motion:reduce){.mirror-ui .maker-option,.mirror-ui .maker-option::before,.mirror-ui .maker-option img{transition:none}.mirror-ui .maker-option:is(:hover,:focus-visible) img{transform:none}}
+.mirror-ui .maker-option.has-color-logo img{width:60px;height:34px}
+.mirror-ui .maker-option.has-color-logo:is(:hover,:focus-visible) img{transform:scale(1.18)}
+@media(prefers-reduced-motion:reduce){.mirror-ui .maker-option.has-color-logo:is(:hover,:focus-visible) img{transform:none}}
