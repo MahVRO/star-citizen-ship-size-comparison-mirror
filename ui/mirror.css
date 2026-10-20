@@ -149,3 +149,13 @@ body.mirror-ui{--sidebar:352px}
 .mirror-ui .maker-option.has-color-logo img{width:60px;height:34px}
 .mirror-ui .maker-option.has-color-logo:is(:hover,:focus-visible) img{transform:scale(1.18)}
 @media(prefers-reduced-motion:reduce){.mirror-ui .maker-option.has-color-logo:is(:hover,:focus-visible) img{transform:none}}
+/* Icon-only manufacturer tiles, with an identical optical frame for every logo. */
+.mirror-ui .maker-options{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.mirror-ui .maker-option{height:88px;min-height:88px;padding:16px;display:grid;place-items:center}
+.mirror-ui .maker-option>span,.mirror-ui .maker-model-count{display:none}
+.mirror-ui .maker-option img,.mirror-ui .maker-option.has-color-logo img{width:100%;height:44px;max-width:64px;object-fit:contain;object-position:center;margin:0;grid-area:1/1}
+.mirror-ui .maker-option .maker-hover-logo{opacity:0;filter:none;pointer-events:none}
+.mirror-ui .maker-option.has-custom-hover:is(:hover,:focus-visible)>img:not(.maker-hover-logo){opacity:0}
+.mirror-ui .maker-option.has-custom-hover:is(:hover,:focus-visible)>.maker-hover-logo{opacity:1;filter:none;transform:scale(1.12)}
+@media(max-width:760px){.mirror-ui .maker-option{height:84px;min-height:84px;padding:14px}}
+@media(prefers-reduced-motion:reduce){.mirror-ui .maker-option.has-custom-hover:is(:hover,:focus-visible)>.maker-hover-logo{transform:none}}

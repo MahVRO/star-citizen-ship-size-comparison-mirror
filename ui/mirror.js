@@ -66,16 +66,28 @@
     KRIG: '#ce5550', MRAI: '#d0635c', MISC: '#81a9c8', ORIG: '#a7c7e2',
     RSI: '#f5a72a', TMBL: '#c2a16b', VNCL: '#d36c5d',
   };
+  const hoverLogosReady = fetch(new URL('hover/manifest.json', logoBase))
+    .then(r => r.ok ? r.json() : {}).catch(() => ({}));
   fetch(new URL('catalog.json', document.currentScript.src)).then(r => {
     if (!r.ok) throw new Error('Catalogue unavailable');
     return r.json();
-  }).then(catalog => {
+  }).then(async catalog => {
+    const hoverLogos = await hoverLogosReady;
     const enhance = () => {
       const buttons = [...$('maker-options').querySelectorAll('.maker-option')];
       if (buttons.length !== catalog.manufacturers.length) return;
       buttons.forEach((button, index) => {
         const maker = catalog.manufacturers[index];
         const artwork = button.querySelector('img');
+        if (hoverLogos[maker.code] && !button.querySelector('.maker-hover-logo')) {
+          const hover = document.createElement('img');
+          hover.className = 'maker-hover-logo';
+          hover.alt = '';
+          hover.src = new URL('hover/' + hoverLogos[maker.code], logoBase).href;
+          hover.addEventListener('load', () => button.classList.add('has-custom-hover'), {once:true});
+          hover.addEventListener('error', () => { button.classList.remove('has-custom-hover'); hover.remove(); }, {once:true});
+          button.append(hover);
+        }
         if (artwork && colorLogos[maker.code]) {
           artwork.src = new URL(colorLogos[maker.code], logoBase).href;
           button.classList.add('has-color-logo');
