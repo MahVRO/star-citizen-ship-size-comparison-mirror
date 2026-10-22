@@ -3,11 +3,12 @@ from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 import os
+import re
 from pathlib import Path
 import shutil
 import subprocess
 
-from model_assets import download_model, stats, pack_model
+from model_assets import download_model, stats, pack_model, fetch
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -55,6 +56,10 @@ def upgrade_models(output: Path, prefix: str) -> None:
             old_path = ship['path']
             ship.update(path=paths[ship['id']], modelSource=entry['source'],
                         modelProvider='FleetYards', modelTriangles=entry['triangles'])
+            legacy = next((item for item in manifest.get('legacy', [])
+                           if item.get('id') == ship['id']), None)
+            if legacy:
+                ship['fallbackPath'] = legacy['path']
             # The replacement already contains its reviewed orientation wrapper.
             # Existing catalogue rotation, length calibration and stable IDs stay.
             if old_path != ship['path']:
@@ -62,6 +67,16 @@ def upgrade_models(output: Path, prefix: str) -> None:
     catalog['modelSources'] = 'models.json'
     catalogue.write_text(json.dumps(catalog, indent=2) + '\n')
     (output / 'viewer' / 'models.json').write_text(json.dumps(manifest, indent=2) + '\n')
+    # Preserve compatibility for existing tabs that predate the Draco rollout.
+    # The new catalogue still selects the high-detail asset, never this fallback.
+    for legacy in manifest.get('legacy', []):
+        data = ((ROOT / legacy['bundled']).read_bytes() if legacy.get('bundled')
+                else fetch(legacy['source'], cache / 'legacy' / legacy['sha256']))
+        if hashlib.sha256(data).hexdigest() != legacy['sha256']:
+            raise ValueError(f"Legacy source changed: {legacy['path']}")
+        target = output / legacy['path']
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(data)
 
     # Pin the decoder to the same Three.js release as the mirrored viewer.
     examples = ROOT / 'node_modules' / 'three' / 'examples'
@@ -74,6 +89,19 @@ def upgrade_models(output: Path, prefix: str) -> None:
         shutil.copyfile(examples / relative, target)
     viewer = output / 'viewer' / 'viewer.js'
     source = viewer.read_text()
+    helper = ROOT / 'ui' / 'model-loading.js'
+    shutil.copyfile(helper, output / 'viewer' / helper.name)
+    version = hashlib.sha256(helper.read_bytes()).hexdigest()[:12]
+    source = re.sub(r"import \{ loadModel \} from [^\n]+\n", '', source)
+    source = f"import {{ loadModel }} from './model-loading.js?v={version}';\n" + source
+    source = re.sub(r'  const gltf = await (?:loader\.loadAsync|loadModel)\([^\n]+;',
+                    '  const gltf = await loadModel(loader, ship, '
+                    + json.dumps(prefix + 'viewer/catalog.json') + ', ' + json.dumps(prefix) + ');', source, count=1)
+    source = source.replace('  const model = gltf.scene;',
+                            "  if (ship.modelLoadWarning) notify(ship.modelLoadWarning);\n  const model = gltf.scene;")
+    # Keep repeated local builds from duplicating the notification hook.
+    source = source.replace("  if (ship.modelLoadWarning) notify(ship.modelLoadWarning);\n" * 2,
+                            "  if (ship.modelLoadWarning) notify(ship.modelLoadWarning);\n")
     if "import { DRACOLoader }" not in source:
         source = "import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';\n" + source
     replacement = ("const dracoLoader = new DRACOLoader().setWorkerLimit(2).setDecoderPath("
