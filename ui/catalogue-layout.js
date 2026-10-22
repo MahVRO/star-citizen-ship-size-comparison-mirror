@@ -52,12 +52,12 @@
     split.classList.toggle('has-both', both);
     split.classList.toggle('makers-closed', $('maker-options').hidden);
     divider.hidden = !both;
-    if (both) setRatio(ratio);
+    if (both && split.clientHeight > 0) setRatio(ratio);
   };
   for (const element of [$('maker-options'), $('ship-section')]) {
     new MutationObserver(updateLayout).observe(element, {attributes: true, attributeFilter: ['hidden']});
   }
-  new ResizeObserver(() => { if (!divider.hidden) setRatio(ratio); }).observe(split);
+  new ResizeObserver(() => { if (!divider.hidden && split.clientHeight > 0) setRatio(ratio); }).observe(split);
   let activePointer = null;
   let grabOffset = 0;
   divider.addEventListener('pointerdown', event => {

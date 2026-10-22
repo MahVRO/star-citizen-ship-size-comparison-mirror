@@ -10,7 +10,7 @@ def customize(output: Path, prefix: str) -> None:
     assets = Path(__file__).resolve().parents[1] / 'ui'
     destination = output / 'viewer'
     destination.mkdir(parents=True, exist_ok=True)
-    for name in ('mirror.css', 'mirror.js', 'catalogue-layout.js'):
+    for name in ('mirror.css', 'mirror.js', 'catalogue-layout.js', 'mobile-layout.js'):
         shutil.copyfile(assets / name, destination / name)
     # The manufacturer gallery is a persistent catalogue section. Choosing a
     # manufacturer or searching ships must not collapse it.
@@ -49,6 +49,8 @@ def customize(output: Path, prefix: str) -> None:
     custom_js.write_text(custom_js.read_text().replace('__SHIP_ART_VERSION__', ship_version))
     index = output / 'index.html'
     html = index.read_text()
+    html = html.replace('content="width=device-width, initial-scale=1"',
+                        'content="width=device-width, initial-scale=1, viewport-fit=cover"')
     viewer_version = hashlib.sha256(viewer.read_bytes()).hexdigest()[:12]
     html = re.sub(r'(src="[^" ]*viewer/viewer\.js)(?:\?[^" ]*)?"',
                   lambda match: match[1] + '?v=' + viewer_version + '"', html)
@@ -57,6 +59,7 @@ def customize(output: Path, prefix: str) -> None:
         ('mirror.css', '<link rel="stylesheet" href="{url}">'),
         ('mirror.js', '<script src="{url}" defer></script>'),
         ('catalogue-layout.js', '<script src="{url}" defer></script>'),
+        ('mobile-layout.js', '<script src="{url}" defer></script>'),
     ):
         version = hashlib.sha256((destination / name).read_bytes()).hexdigest()[:12]
         url = f'{prefix}viewer/{name}?v={version}'

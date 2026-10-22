@@ -54,3 +54,7 @@ With Playwright and Chromium installed, run `FLEET_VIEWER_URL=http://127.0.0.1:8
 When manufacturers and ships are visible together, drag the divider between them to trade space between the two independently scrolling sections. The split is saved in browser local storage. The focused divider supports Arrow Up/Down, Shift for larger steps, Home/End and double-click to reset. `scripts/check_catalogue_resize.cjs` verifies resize behavior and logo alignment with Playwright; pass the running site as `FLEET_VIEWER_URL`.
 
 Manufacturer logo canvases are fitted to their nontransparent artwork at runtime so uneven source padding does not offset the icon in its tile. Source files and brand colors are retained.
+
+On phones and touch tablets, the bottom navigation switches between the full-height Ships catalogue and the unobstructed Hangar. A successful add returns to the Hangar; selections remain available when reopening Ships. Walk mode exposes touch movement buttons, while Free mode supports the viewer's orbit/pan/zoom gestures. Portrait resizing remains available; short landscape screens arrange manufacturer and ship sections side by side. Notch/home-indicator space and the visible viewport are accounted for, and inputs use 16px text to avoid focus zoom.
+
+Use `scripts/check_mobile_workspace.cjs` and `scripts/check_mobile_walking.cjs` with Playwright/Chromium and `FLEET_VIEWER_URL` to check small phones, portrait/landscape, tablet navigation, loading, walking movement and secondary-page overflow.
