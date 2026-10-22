@@ -1,3 +1,4 @@
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
 import { parseFleet, matchShip } from './fleet-import.js?v=20260911-2';
 import * as THREE from 'three';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
@@ -15,7 +16,8 @@ let transform, selectionBox, selectedShipId = null;
 const keys = new Set(), up = new THREE.Vector3(0, 1, 0);
 const EYE_HEIGHT = 1.75;
 let cameraMode = 'free', walkLook = null;
-const loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
+const dracoLoader = new DRACOLoader().setWorkerLimit(2).setDecoderPath("/star-citizen-ship-size-comparison-mirror/viewer/vendor/examples/jsm/libs/draco/gltf/");
+const loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).setDRACOLoader(dracoLoader);
 const viewport = $('viewport');
 
 function notify(message) {
@@ -70,7 +72,7 @@ function renderShips() {
   if (!ships.length) { const p = document.createElement('p'); p.textContent = 'No ships found.'; $('ship-list').append(p); }
 }
 async function initCatalogue() {
-  const response = await fetch('/star-citizen-ship-size-comparison-mirror/viewer/catalog.json');
+  const response = await fetch('/star-citizen-ship-size-comparison-mirror/viewer/catalog.json?v=d8b05e47a806');
   if (!response.ok) throw new Error('Catalogue unavailable. Reload the page to try again.');
   makers = (await response.json()).manufacturers;
   for (const maker of makers) {

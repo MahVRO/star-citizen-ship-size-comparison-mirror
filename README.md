@@ -1,0 +1,73 @@
+# Fleet Viewer — personal mirror
+
+Static mirror of https://fleet-viewer.com/ with its original layout, controls, catalogue, logos and ship models. Runtime assets are hosted together, so opening the viewer does not require access to the original domain.
+
+## Enable the website
+
+1. Wait for **Actions → Build Fleet Viewer mirror** to finish.
+2. Open **Settings → Pages**.
+3. Select **Deploy from a branch**, branch **gh-pages**, folder **/ (root)**, then **Save**.
+4. Open https://mahvro.github.io/star-citizen-ship-size-comparison-mirror/
+
+The Actions workflow downloads the public site and all catalogue models, adapts root paths for this repository, validates the model files and publishes the static output to the gh-pages branch. To refresh the snapshot, run the workflow manually from the Actions tab. There is no scheduled refresh.
+
+## Attribution
+
+Original Fleet Viewer design and application: https://fleet-viewer.com/.
+Star Citizen, ship models and trademarks belong to Cloud Imperium Games / their respective owners. Original branding, referral links and credits are retained. This repository does not claim ownership of those works.
+
+GitHub Pages is public. Robots directives request that crawlers not index this mirror; they do not restrict access.
+
+## Local development and UI customizations
+
+Requires Python 3.12+, Node.js 22+, and HTTPS access to `fleet-viewer.com` and `api.fleetyards.net`. No Python packages are required.
+
+```sh
+npm ci --ignore-scripts
+MIRROR_OUTPUT=/workspace/fleet-viewer-runtime/star-citizen-ship-size-comparison-mirror python3 scripts/build_mirror.py
+python3 -m http.server 8000 --directory /workspace/fleet-viewer-runtime
+```
+
+Open the server at the `/star-citizen-ship-size-comparison-mirror/` path. The path prefix must match `GITHUB_REPOSITORY` (defaults to this repository).
+
+The mirror downloads upstream files, rewrites their paths, then applies our local viewer UI using `scripts/customize_mirror.py`. Edit `ui/mirror.css` and `ui/mirror.js`, rather than downloaded files: these customizations are automatically included by the existing Pages build. The upstream Three.js viewer, catalogue, imports, controls and attribution are retained. Resources and referral content are available in the expandable community section.
+
+## Higher-detail ship models
+
+`models/upgrades.json` records the reviewed FleetYards replacements, original and final triangle counts, source URLs, input/output SHA-256 hashes, and orientation corrections. It also lists every retained ship and the reason it was retained. A replacement is selected only when its compressed output has more geometry than our previous model; unavailable or lower-detail alternatives keep the original mesh.
+
+After the upstream download, `scripts/upgrade_models.py` fetches and verifies those pinned inputs, converts them to self-contained Draco GLBs, and updates the catalogue. Exact duplicate vertices/meshes are shared and degenerate faces may be removed; no mesh simplification is applied. Ship IDs and catalogue length calibration stay stable. Glass and other source material groups remain available. This changes geometry detail, not the viewer's existing gray presentation or its lack of ship paint textures.
+
+The browser decoder is hosted locally and pinned to Three.js 0.180.0. Hashed model filenames and a versioned catalogue prevent old cached meshes from hiding replacements. Neither FleetYards nor an external decoder CDN is contacted while using the published site. The old models replaced by upgrades are removed from the published snapshot to avoid shipping two libraries. `MODEL_CACHE` can select a build cache directory (default `/tmp/fleet-model-cache`). Changed source contents fail the build and require review rather than silently changing the model.
+
+Run `scripts/check_model_upgrades.cjs` with Playwright/Chromium and `FLEET_VIEWER_URL` to load every replacement through the actual browser GLTF/Draco loader and verify finite bounds, catalogue scale, and retained catalogue coverage. Detailed geometry increases memory and rendering costs, especially for large fleets on mobile.
+
+Model metadata and replacement meshes: [FleetYards](https://fleetyards.net/). Star Citizen assets remain the property of Cloud Imperium Games / their respective owners.
+
+For quick UI iteration against an already built snapshot, without redownloading models:
+
+```sh
+PYTHONPATH=scripts python3 -c "from pathlib import Path; from customize_mirror import customize; customize(Path('/workspace/fleet-viewer-runtime/star-citizen-ship-size-comparison-mirror'), '/star-citizen-ship-size-comparison-mirror/')"
+```
+
+Check desktop and mobile layouts, catalogue search and manufacturer selection, loading/removing a model, camera controls and JSON/CSV imports before publishing. `/` focuses search; Escape clears it. Browser sessions retain the upstream hangar state. No deployment is performed by these local commands.
+
+## Publication troubleshooting
+
+Pages must serve the generated site from **gh-pages / (root)**, not the source branch `main`. The generated branch contains `index.html`, the models and `.nojekyll`.
+
+If Actions reports “The job was not started because your account is locked due to a billing issue”, no build steps ran: resolve the account billing restriction in GitHub settings. Changing the Python build cannot fix that restriction. A locally generated snapshot can still be pushed to `gh-pages`; Pages may also refuse deployment until GitHub removes the account restriction.
+
+With Playwright and Chromium installed, run `FLEET_VIEWER_URL=http://127.0.0.1:8000/star-citizen-ship-size-comparison-mirror/ node scripts/check_manufacturer_states.cjs` against a running mirror to check all 19 manufacturer hover/selection states, including manufacturers without separate color assets. The check verifies enlargement persists after clicking and leaving, with exactly one visible logo.
+
+Ship rows use bundled RSI thumbnails and the catalogue's model lengths. To refresh artwork after a catalogue update, run `MIRROR_OUTPUT=/path/to/built/mirror python3 scripts/update_ship_art.py`, then rebuild the UI layer. Artwork uses exact ship source paths or unique names within a manufacturer; unmatched models use a neutral fallback. See `ui/ships/manifest.json` for source URLs.
+
+With Playwright and Chromium installed, run `FLEET_VIEWER_URL=http://127.0.0.1:8000/star-citizen-ship-size-comparison-mirror/ node scripts/check_ship_panel.cjs` to check ship thumbnails, lengths, selection, quantities, loading/removal and mobile bounds.
+
+When manufacturers and ships are visible together, drag the divider between them to trade space between the two independently scrolling sections. The split is saved in browser local storage. The focused divider supports Arrow Up/Down, Shift for larger steps, Home/End and double-click to reset. `scripts/check_catalogue_resize.cjs` verifies resize behavior and logo alignment with Playwright; pass the running site as `FLEET_VIEWER_URL`.
+
+Manufacturer logo canvases are fitted to their nontransparent artwork at runtime so uneven source padding does not offset the icon in its tile. Source files and brand colors are retained.
+
+On phones and touch tablets, the bottom navigation switches between the full-height Ships catalogue and the unobstructed Hangar. A successful add returns to the Hangar; selections remain available when reopening Ships. Walk mode exposes touch movement buttons, while Free mode supports the viewer's orbit/pan/zoom gestures. Portrait resizing remains available; short landscape screens arrange manufacturer and ship sections side by side. Notch/home-indicator space and the visible viewport are accounted for, and inputs use 16px text to avoid focus zoom.
+
+Use `scripts/check_mobile_workspace.cjs` and `scripts/check_mobile_walking.cjs` with Playwright/Chromium and `FLEET_VIEWER_URL` to check small phones, portrait/landscape, tablet navigation, loading, walking movement and secondary-page overflow.

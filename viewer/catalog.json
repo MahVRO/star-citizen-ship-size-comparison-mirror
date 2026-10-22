@@ -10,7 +10,7 @@
         {
           "id": "Aegis Dynamics/Avenger Stalker.glb",
           "name": "Avenger Stalker",
-          "path": "Assets/Aegis Dynamics/Avenger Stalker.glb",
+          "path": "Assets/HighDetail/36d3243669fb72d0527a.glb",
           "length": 20,
           "rotation": [
             0,
@@ -18,12 +18,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Stalker"
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Stalker",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImI5NWQ3ZTRiLTYxNTUtNDUxYi04MGFhLWZmMjE1MjFlZjY4NiIsInB1ciI6ImJsb2JfaWQifX0=--da4bcd42ad77dde6be77227e7940232b6d3564b2/holo-v2-36bcff17-5e58-49e8-be73-ff4b19320005.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 654277
         },
         {
           "id": "Aegis Dynamics/Avenger Titan.glb",
           "name": "Avenger Titan",
-          "path": "Assets/Aegis Dynamics/Avenger Titan.glb",
+          "path": "Assets/HighDetail/ed6f547c790aa3253146.glb",
           "length": 20,
           "rotation": [
             0,
@@ -31,12 +34,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Titan"
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Titan",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjhhYjM0YWU2LWQwM2ItNDIzOS04NWQzLWEzM2RhMThhYzJmNiIsInB1ciI6ImJsb2JfaWQifX0=--a776d568d66fd7a5d2e139e97d24b46113429dc9/holo-b596060d-e07e-4c67-bbb7-55b0ca7ac01d.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 298994
         },
         {
           "id": "Aegis Dynamics/Avenger Titan Renegade.glb",
           "name": "Avenger Titan Renegade",
-          "path": "Assets/Aegis Dynamics/Avenger Titan Renegade.glb",
+          "path": "Assets/HighDetail/ed6f547c790aa3253146.glb",
           "length": 20,
           "rotation": [
             0,
@@ -44,12 +50,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Titan-Renegade"
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Titan-Renegade",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjI4YjY1NTI4LTExMzYtNDU3YS04ZGQ2LTE0YmNhYmQxNjRlOCIsInB1ciI6ImJsb2JfaWQifX0=--441fbbc141eb654cd3968bcd4658c5b8845b2a3f/holo-4461503b-e940-4abe-90c8-2af9394288db.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 298994
         },
         {
           "id": "Aegis Dynamics/Avenger Warlock.glb",
           "name": "Avenger Warlock",
-          "path": "Assets/Aegis Dynamics/Avenger Warlock.glb",
+          "path": "Assets/HighDetail/ed6f547c790aa3253146.glb",
           "length": 20,
           "rotation": [
             0,
@@ -57,12 +66,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Warlock"
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Warlock",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjA2OGRmYjFjLWIyZDAtNDBlYS1iNTFiLTBmZWQyMGJjN2NjZiIsInB1ciI6ImJsb2JfaWQifX0=--b554cfaa4c625c4b6266616afb96aa71a26109b8/holo-9cbd0f05-d7c9-45b4-a7ac-82c23c028f50.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 298994
         },
         {
           "id": "Aegis Dynamics/Eclipse.glb",
           "name": "Eclipse",
-          "path": "Assets/Aegis Dynamics/Eclipse.glb",
+          "path": "Assets/HighDetail/c90dd135043f9a3ac830.glb",
           "length": 24.5,
           "rotation": [
             0,
@@ -70,12 +82,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/eclipse/Eclipse"
+          "source": "https://robertsspaceindustries.com/pledge/ships/eclipse/Eclipse",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijg2N2M1MDIzLTAzNmUtNGIzZS1hYTYwLTcwMjYyYmZhYTA1NSIsInB1ciI6ImJsb2JfaWQifX0=--0ddc0a9eceef086619cbb68d31536d94dc18821e/holo-5754fcf7-06a2-46ca-a226-01537927757c.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 318678
         },
         {
           "id": "Aegis Dynamics/Gladius.glb",
           "name": "Gladius",
-          "path": "Assets/Aegis Dynamics/Gladius.glb",
+          "path": "Assets/HighDetail/0d81526c6dcca82bacad.glb",
           "length": 21,
           "rotation": [
             0,
@@ -83,12 +98,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/gladius/Gladius"
+          "source": "https://robertsspaceindustries.com/pledge/ships/gladius/Gladius",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjEyMTJjNmRkLTgyMjAtNDA5MS04ZDdkLTk5YTJiM2U2ZDQ1MCIsInB1ciI6ImJsb2JfaWQifX0=--5a92e734e9e5e03686b7ce891bd1250030edac8a/holo-792b771d-1643-464d-bbd7-324fd6449bbb.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1107270
         },
         {
           "id": "Aegis Dynamics/Hammerhead.glb",
           "name": "Hammerhead",
-          "path": "Assets/Aegis Dynamics/Hammerhead.glb",
+          "path": "Assets/HighDetail/05e4cae8d5ca4226f167.glb",
           "length": 120,
           "rotation": [
             0,
@@ -96,12 +114,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/hammerhead/Hammerhead"
+          "source": "https://robertsspaceindustries.com/pledge/ships/hammerhead/Hammerhead",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjA1Mzg4Y2E5LWUxNzktNGI5Yi05OWNiLTE5NDczMjk2OWZmZiIsInB1ciI6ImJsb2JfaWQifX0=--3b304b9eda1c905b9db3246175f9a7c1fe1c9e28/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 4051213
         },
         {
           "id": "Aegis Dynamics/Idris-M.glb",
           "name": "Idris-M",
-          "path": "Assets/Aegis Dynamics/Idris-M.glb",
+          "path": "Assets/HighDetail/acb95581df61da41c73c.glb",
           "length": 243,
           "rotation": [
             0,
@@ -112,12 +133,15 @@
           "source": "https://robertsspaceindustries.com/pledge/ships/aegis-idris/Idris-M",
           "aliases": [
             "Idris-M Frigate"
-          ]
+          ],
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjI1YWM1MjBlLTQxYTAtNDA4MC1hOTc5LTAxMzIzNGYxMTI5MCIsInB1ciI6ImJsb2JfaWQifX0=--d218676eaded9a18aed54650b00a2bcd22100555/holo-e11a7915-8442-47e4-991d-bf6ae9ab96e0.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1394727
         },
         {
           "id": "Aegis Dynamics/Idris-P.glb",
           "name": "Idris-P",
-          "path": "Assets/Aegis Dynamics/Idris-P.glb",
+          "path": "Assets/HighDetail/acb95581df61da41c73c.glb",
           "length": 243,
           "rotation": [
             0,
@@ -128,12 +152,15 @@
           "source": "https://robertsspaceindustries.com/pledge/ships/aegis-idris/Idris-P",
           "aliases": [
             "Idris-P Frigate"
-          ]
+          ],
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM3MDNlMzdmLTI0ZDYtNDA1MS1iZTMyLWYxYzA0YWI5NmJkMCIsInB1ciI6ImJsb2JfaWQifX0=--56a004efcace5b380e4218c67c5dec838a3cc272/holo-638277eb-5764-4ad8-be14-34eeae273fb1.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1394727
         },
         {
           "id": "Aegis Dynamics/Javelin.glb",
           "name": "Javelin",
-          "path": "Assets/Aegis Dynamics/Javelin.glb",
+          "path": "Assets/HighDetail/4cffa6e99eb7f1ab04a9.glb",
           "length": null,
           "rotation": [
             0,
@@ -141,7 +168,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-javelin/Javelin"
+          "source": "https://robertsspaceindustries.com/pledge/ships/aegis-javelin/Javelin",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijc2MWE0NjNlLWVhYWQtNGMxYS1iZGU5LWVlNjVmZWFjMzA4NSIsInB1ciI6ImJsb2JfaWQifX0=--b798b181023f614a78424b5fdf03678a281bdd71/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 4191730
         },
         {
           "id": "Aegis Dynamics/Nautilus.glb",
@@ -159,7 +189,7 @@
         {
           "id": "Aegis Dynamics/Reclaimer.glb",
           "name": "Reclaimer",
-          "path": "Assets/Aegis Dynamics/Reclaimer.glb",
+          "path": "Assets/HighDetail/de706b28bdff658ffe85.glb",
           "length": 160,
           "rotation": [
             0,
@@ -167,12 +197,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/reclaimer/Reclaimer"
+          "source": "https://robertsspaceindustries.com/pledge/ships/reclaimer/Reclaimer",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImQzYTRkZGU4LTYzODgtNDgyMy1hNWM0LTcxYzZiNTQwMzQxOSIsInB1ciI6ImJsb2JfaWQifX0=--17535e255929e52af69a4eee3217b3c3ce05b5a4/holo-5d3aba1c-0596-4bb1-b39f-c1702b21a597.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 683986
         },
         {
           "id": "Aegis Dynamics/Redeemer.glb",
           "name": "Redeemer",
-          "path": "Assets/Aegis Dynamics/Redeemer.glb",
+          "path": "Assets/HighDetail/b971201983c3b4c36489.glb",
           "length": 51,
           "rotation": [
             0,
@@ -180,7 +213,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/redeemer/Redeemer"
+          "source": "https://robertsspaceindustries.com/pledge/ships/redeemer/Redeemer",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImVhMzgwYTQ0LWUwMTAtNDg4YS04ZThkLWM4YjllM2E2ZDhhYyIsInB1ciI6ImJsb2JfaWQifX0=--a5ceade035420e1f8b6748af690b03d1ee07e277/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2360788
         },
         {
           "id": "Aegis Dynamics/Retaliator.glb",
@@ -198,7 +234,7 @@
         {
           "id": "Aegis Dynamics/Sabre.glb",
           "name": "Sabre",
-          "path": "Assets/Aegis Dynamics/Sabre.glb",
+          "path": "Assets/HighDetail/354295f297b2c2dcf59e.glb",
           "length": 24.5,
           "rotation": [
             0,
@@ -206,12 +242,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre"
+          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImM0YTZlMDVhLWQwYWMtNGRmZS04YTY4LTUwMGY0YWJmZjdmZiIsInB1ciI6ImJsb2JfaWQifX0=--f91f9142d3926f504ffc302ce844772e72087856/holo-efa2e5fd-824c-4124-8a82-736366b1aaef.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 526714
         },
         {
           "id": "Aegis Dynamics/Sabre Comet.glb",
           "name": "Sabre Comet",
-          "path": "Assets/Aegis Dynamics/Sabre Comet.glb",
+          "path": "Assets/HighDetail/4136446a765546e3a3ee.glb",
           "length": 24.5,
           "rotation": [
             0,
@@ -219,12 +258,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Comet"
+          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Comet",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjA5NDRmMWIwLWEwMmMtNGQ1Ni1hYjAzLTVjMmNhNmMzODYwYyIsInB1ciI6ImJsb2JfaWQifX0=--715bf0f5bd0d2e9d06628f86e65e194112cd61a6/holo-f01e060d-9dae-4985-ae27-41c9ce38224e.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 464888
         },
         {
           "id": "Aegis Dynamics/Sabre Firebird.glb",
           "name": "Sabre Firebird",
-          "path": "Assets/Aegis Dynamics/Sabre Firebird.glb",
+          "path": "Assets/HighDetail/ec0962a6037847ace7e6.glb",
           "length": 24.5,
           "rotation": [
             0,
@@ -232,12 +274,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Firebird"
+          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Firebird",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjI5NDExNmM4LTMyMGUtNDY1MC1hMWQyLWM5MjY3N2QwMjNmZSIsInB1ciI6ImJsb2JfaWQifX0=--cfbeeee0b59ec7e3bfaf8da5d7581d3df1831cf0/holo-40723c52-51b4-44c9-8cc0-ed00716d05ad.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 696151
         },
         {
           "id": "Aegis Dynamics/Sabre Peregrine.glb",
           "name": "Sabre Peregrine",
-          "path": "Assets/Aegis Dynamics/Sabre Peregrine.glb",
+          "path": "Assets/HighDetail/dda4833f748e53b5abb3.glb",
           "length": 24.5,
           "rotation": [
             0,
@@ -246,12 +291,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Peregrine",
-          "modelSource": "https://media.robertsspaceindustries.com/7dvlji7ppe2s4/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImQ2YmNhM2YzLTdjMzMtNGQzNy04YTQ4LWU2ZjgyNWVhZWVhNyIsInB1ciI6ImJsb2JfaWQifX0=--160ba631cba694fc9098c02c493c882361745c4d/holo-56d9304c-db8e-4249-aa4f-5bc71fd44811.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 150654
         },
         {
           "id": "Aegis Dynamics/Sabre Raven.glb",
           "name": "Sabre Raven",
-          "path": "Assets/Aegis Dynamics/Sabre Raven.glb",
+          "path": "Assets/HighDetail/06878907e1ee037a4b1e.glb",
           "length": 24.5,
           "rotation": [
             0,
@@ -259,12 +306,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Raven"
+          "source": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Raven",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImQ5M2U2ZGRhLTgzMzItNGQ5Ni04Mjg3LTczYTc0ZjExOGQzYiIsInB1ciI6ImJsb2JfaWQifX0=--80660aff5a1a70b06e5c70d6655d66761a8ddc90/holo-458b2d81-0e5d-49d6-84b3-66b177dd30a3.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 402501
         },
         {
           "id": "Aegis Dynamics/Tiburon.glb",
           "name": "Tiburon",
-          "path": "Assets/Aegis Dynamics/Tiburon.glb",
+          "path": "Assets/HighDetail/35d72b856e3b67ecee12.glb",
           "length": 121,
           "rotation": [
             0,
@@ -273,12 +323,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/tiburon/Tiburon",
-          "modelSource": "https://media.robertsspaceindustries.com/h8ltm795547gf/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjE0MzFjZTE5LTc5YzgtNGIzNy05ZDdjLTIyZTQyNDEwMTk4YSIsInB1ciI6ImJsb2JfaWQifX0=--e6a8d55cac43020ab9178750e29ddc7f1dd36925/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 3134273
         },
         {
           "id": "Aegis Dynamics/Vanguard Harbinger.glb",
           "name": "Vanguard Harbinger",
-          "path": "Assets/Aegis Dynamics/Vanguard Harbinger.glb",
+          "path": "Assets/HighDetail/686894c176528898f515.glb",
           "length": 48,
           "rotation": [
             0,
@@ -287,12 +339,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Harbinger",
-          "modelSource": "https://media.robertsspaceindustries.com/gnuun3ggh8pe3/source.ctm"
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImUxZDQxZTMyLTNiMzMtNGI1Yi1hNzdmLTAyMzQzN2I5ZmYzNyIsInB1ciI6ImJsb2JfaWQifX0=--fbe284f5ebcd5aa20cff8ab47a4495da3f140f4c/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1191492
         },
         {
           "id": "Aegis Dynamics/Vanguard Hoplite.glb",
           "name": "Vanguard Hoplite",
-          "path": "Assets/Aegis Dynamics/Vanguard Hoplite.glb",
+          "path": "Assets/HighDetail/f8112db55ec15fed2169.glb",
           "length": 48,
           "rotation": [
             0,
@@ -300,12 +354,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Hoplite"
+          "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Hoplite",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImJjMzdhMTljLTQ3MjUtNGQxYi1hOWYyLTgzNzczYjYxOTZkNiIsInB1ciI6ImJsb2JfaWQifX0=--8b9199a486e79be1fbf9e4c340194029c5b6b385/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1233300
         },
         {
           "id": "Aegis Dynamics/Vanguard Sentinel.glb",
           "name": "Vanguard Sentinel",
-          "path": "Assets/Aegis Dynamics/Vanguard Sentinel.glb",
+          "path": "Assets/HighDetail/183d32b5ac0edc7bb23b.glb",
           "length": 48,
           "rotation": [
             0,
@@ -313,12 +370,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Sentinel"
+          "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Sentinel",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjYyMmM3MmJiLWMzYWEtNDhkMi05ZWVmLTc5NmJjNDMyNWU0OSIsInB1ciI6ImJsb2JfaWQifX0=--bbd11387d3dad811c6d41b96a89b99296bed0fb8/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1349056
         },
         {
           "id": "Aegis Dynamics/Vanguard Warden.glb",
           "name": "Vanguard Warden",
-          "path": "Assets/Aegis Dynamics/Vanguard Warden.glb",
+          "path": "Assets/HighDetail/366fc5ed2d4c2b1fd831.glb",
           "length": 48,
           "rotation": [
             0,
@@ -326,7 +386,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Warden"
+          "source": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Warden",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjVkOWI1NDEwLWE0ZDAtNDk0Mi1hYjBjLTVkMzg2ZmVlNjIyMCIsInB1ciI6ImJsb2JfaWQifX0=--195455e21e7fdf32a46011029d8fb0e335f1b585/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1246653
         },
         {
           "id": "Aegis Dynamics/Vulcan.glb",
@@ -352,7 +415,7 @@
         {
           "id": "Anvil Aerospace/Arrow.glb",
           "name": "Arrow",
-          "path": "Assets/Anvil Aerospace/Arrow.glb",
+          "path": "Assets/HighDetail/a9d8cfcd2bfebd5bda05.glb",
           "length": 17.25,
           "rotation": [
             0,
@@ -360,12 +423,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-arrow/Arrow"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-arrow/Arrow",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQxYmZhMjE0LTZlNzEtNGE4Zi1hMjBlLWEwODJkNWNjMGZmZCIsInB1ciI6ImJsb2JfaWQifX0=--ed12550a0ad8550b24d58702d16e165d97cd989e/holo-40556eaa-e2b5-47e4-b5b6-2976b710fbff.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 419243
         },
         {
           "id": "Anvil Aerospace/Asgard.glb",
           "name": "Asgard",
-          "path": "Assets/Anvil Aerospace/Asgard.glb",
+          "path": "Assets/HighDetail/b2e142bdccb4c070fe45.glb",
           "length": 48,
           "rotation": [
             0,
@@ -373,12 +439,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-asgard/Asgard"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-asgard/Asgard",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjRkYzZiM2IwLWU4NDktNDUxYS05MzM2LTZhY2Y4ZTQ4NDM2YiIsInB1ciI6ImJsb2JfaWQifX0=--d4a0c8e897f40e3be3eda42276a82ca591c0f2ab/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2205343
         },
         {
           "id": "Anvil Aerospace/Ballista.glb",
           "name": "Ballista",
-          "path": "Assets/Anvil Aerospace/Ballista.glb",
+          "path": "Assets/HighDetail/b7ae3138f8ef20b9863d.glb",
           "length": 17,
           "rotation": [
             0,
@@ -386,12 +455,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-ballista/Ballista"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-ballista/Ballista",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjdhNTZlNmI5LTI4NzctNGY3My1hYTQ5LWY1OWFjOGY1MjBlMyIsInB1ciI6ImJsb2JfaWQifX0=--9e8c44b8caddc25bb5e49c5a3627f8486250d150/holo-v2-fc13c813-5ac3-4f22-8daa-4d0446cc8b37.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 471404
         },
         {
           "id": "Anvil Aerospace/C8 Pisces.glb",
           "name": "C8 Pisces",
-          "path": "Assets/Anvil Aerospace/C8 Pisces.glb",
+          "path": "Assets/HighDetail/3d27049c24b03f85e16c.glb",
           "length": 16,
           "rotation": [
             0,
@@ -399,12 +471,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-pisces/C8-Pisces"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-pisces/C8-Pisces",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjljMmVhYjA3LWY1YmEtNDI1NC1iMjZmLWE3MjkzNGVhMGUzZCIsInB1ciI6ImJsb2JfaWQifX0=--a50c0146174720c62eeda4e08465e1c3fdac0e0c/holo-8e3302ea-3b9d-4888-858f-fb89b2d4a704.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 110604
         },
         {
           "id": "Anvil Aerospace/Carrack.glb",
           "name": "Carrack",
-          "path": "Assets/Anvil Aerospace/Carrack.glb",
+          "path": "Assets/HighDetail/06bc236b46c720780fcb.glb",
           "length": 126,
           "rotation": [
             0,
@@ -413,12 +488,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/carrack/Carrack",
-          "modelSource": "https://media.robertsspaceindustries.com/5d19z1ni409r5/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijg0MDM1ZmQwLWRlMGEtNDRhMi04NzNmLTI3M2FhY2Y5NmU1NiIsInB1ciI6ImJsb2JfaWQifX0=--f964913a0a2f7c4076ac722cb947696f3be50887/holo-4f86536f-09bf-4736-9e35-753aa5544f94.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 184500
         },
         {
           "id": "Anvil Aerospace/Centurion.glb",
           "name": "Centurion",
-          "path": "Assets/Anvil Aerospace/Centurion.glb",
+          "path": "Assets/HighDetail/19d0e021e2ae8e19d996.glb",
           "length": 17,
           "rotation": [
             0,
@@ -426,7 +503,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/centurion/Centurion"
+          "source": "https://robertsspaceindustries.com/pledge/ships/centurion/Centurion",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjdkNmE3M2NhLTI2NTItNGQzMi1hYmJjLTY5MGU5MTcyM2M0NyIsInB1ciI6ImJsb2JfaWQifX0=--1496d62f11537410e05bdee887eed406b386cb18/holo-76ee3f5d-d997-4b04-806c-bc4c463c4bba.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 930634
         },
         {
           "id": "Anvil Aerospace/Crucible.glb",
@@ -444,7 +524,7 @@
         {
           "id": "Anvil Aerospace/F7A Hornet Mk I.glb",
           "name": "F7A Hornet Mk I",
-          "path": "Assets/Anvil Aerospace/F7A Hornet Mk I.glb",
+          "path": "Assets/HighDetail/6f860bfa6ca197bcc44b.glb",
           "length": 28.25,
           "rotation": [
             0,
@@ -452,12 +532,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7A-Hornet-Mk-I"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7A-Hornet-Mk-I",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFhNjg2OWZmLWNhODgtNDA0NS1iNzBlLWI0M2VlYzU3OTgzZCIsInB1ciI6ImJsb2JfaWQifX0=--94fc17342a1e533b86ed8bf2816402f2839fe321/holo-fe400223-2ce2-4124-ac21-d28e7d048718.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 273839
         },
         {
           "id": "Anvil Aerospace/F7A Hornet Mk II.glb",
           "name": "F7A Hornet Mk II",
-          "path": "Assets/Anvil Aerospace/F7A Hornet Mk II.glb",
+          "path": "Assets/HighDetail/976356aa1b405964fa4e.glb",
           "length": 22.5,
           "rotation": [
             0,
@@ -465,12 +548,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7A-Hornet-Mk-II"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7A-Hornet-Mk-II",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjlmNTgxMTFlLTk2MTEtNDdlMS1iNTM4LWM0MjIzZWI3OWEzZiIsInB1ciI6ImJsb2JfaWQifX0=--a840cd483d5e23ebbf7b843d0ae6ff23ea651fae/holo-758593ae-a68b-46b6-b550-168cc3e7898a.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 707895
         },
         {
           "id": "Anvil Aerospace/F7C Hornet Mk I.glb",
           "name": "F7C Hornet Mk I",
-          "path": "Assets/Anvil Aerospace/F7C Hornet Mk I.glb",
+          "path": "Assets/HighDetail/6f860bfa6ca197bcc44b.glb",
           "length": 28.25,
           "rotation": [
             0,
@@ -478,12 +564,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-Hornet-Mk-I"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-Hornet-Mk-I",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImIwZjEzYjE5LTI4YmUtNDhlNy1hZjIxLWIwZGZhYzJhOTc4NSIsInB1ciI6ImJsb2JfaWQifX0=--7445972725ededc1db1c8e6ac439fbd5ba6c99f5/holo-40883263-4ecf-4d25-8f73-4e2e74a17b21.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 273839
         },
         {
           "id": "Anvil Aerospace/F7C Hornet Mk II.glb",
           "name": "F7C Hornet Mk II",
-          "path": "Assets/Anvil Aerospace/F7C Hornet Mk II.glb",
+          "path": "Assets/HighDetail/396b8de2235a26cb7a4e.glb",
           "length": 22.5,
           "rotation": [
             0,
@@ -491,12 +580,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-Hornet-Mk-II"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-Hornet-Mk-II",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImI4NjI3MDA5LTlmMzMtNDZmMS04OWM0LTM3MGY4ZjU1NWY1ZCIsInB1ciI6ImJsb2JfaWQifX0=--7adaf7545471b34051da789574a7785bbd87a3d4/holo-519ae5da-4a24-49a5-b63b-08f44bf207df.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 585482
         },
         {
           "id": "Anvil Aerospace/F7C Hornet Wildfire Mk I.glb",
           "name": "F7C Hornet Wildfire Mk I",
-          "path": "Assets/Anvil Aerospace/F7C Hornet Wildfire Mk I.glb",
+          "path": "Assets/HighDetail/c3e945599b71d7aeb539.glb",
           "length": 28.25,
           "rotation": [
             0,
@@ -504,12 +596,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-Hornet-Wildfire-Mk-I"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-Hornet-Wildfire-Mk-I",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImM4MzczOTE2LWExZmItNDgyMS04MTFiLTc1MmY0OTI4ZjhiYSIsInB1ciI6ImJsb2JfaWQifX0=--bb6bbe51e69a6975844f103f59f02299f7ce076e/holo-8bc57345-429f-4088-b0b2-3ed83ddabf82.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 344135
         },
         {
           "id": "Anvil Aerospace/F7C-M Super Hornet Heartseeker Mk I.glb",
           "name": "F7C-M Super Hornet Heartseeker Mk I",
-          "path": "Assets/Anvil Aerospace/F7C-M Super Hornet Heartseeker Mk I.glb",
+          "path": "Assets/HighDetail/b0352c87c061ef03f4f6.glb",
           "length": 28.25,
           "rotation": [
             0,
@@ -517,12 +612,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-M-Super-Hornet-Heartseeker-Mk-I"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-M-Super-Hornet-Heartseeker-Mk-I",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY4YTY2Yjc1LWRkMTUtNDk5NC1iNmI3LTFiNzY5MzViNDlmYyIsInB1ciI6ImJsb2JfaWQifX0=--d81eba60b1232e243df52b240cf525ee01c5ff71/holo-cbf20bea-530f-44aa-81b8-b521d55a850b.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 407161
         },
         {
           "id": "Anvil Aerospace/F7C-M Super Hornet Mk I.glb",
           "name": "F7C-M Super Hornet Mk I",
-          "path": "Assets/Anvil Aerospace/F7C-M Super Hornet Mk I.glb",
+          "path": "Assets/HighDetail/b0352c87c061ef03f4f6.glb",
           "length": 28.25,
           "rotation": [
             0,
@@ -530,12 +628,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-M-Super-Hornet-Mk-I"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-M-Super-Hornet-Mk-I",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjAwZTU4Yjg4LWJkYjctNGQwNy04M2U1LTM5ODVmYWVmYzUzMiIsInB1ciI6ImJsb2JfaWQifX0=--f7e0dfd6a8b7885d506b8f5db8828fa1641c8104/holo-fb2d0930-171f-4d9c-b54a-1d7677e9afa8.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 407161
         },
         {
           "id": "Anvil Aerospace/F7C-M Super Hornet Mk II.glb",
           "name": "F7C-M Super Hornet Mk II",
-          "path": "Assets/Anvil Aerospace/F7C-M Super Hornet Mk II.glb",
+          "path": "Assets/HighDetail/724bf6e950667b73bd90.glb",
           "length": 24,
           "rotation": [
             0,
@@ -543,12 +644,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-M-Super-Hornet-Mk-II"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-M-Super-Hornet-Mk-II",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ4ODMyZWRiLWJkYmMtNGYxZC1hNzA5LTBiYjljYWQ3MGJiMiIsInB1ciI6ImJsb2JfaWQifX0=--c451799328fc92929c744a2e3e677063a5151615/holo-c65c6c35-5495-4917-8422-a27f5d1f885d.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 379558
         },
         {
           "id": "Anvil Aerospace/F7C-R Hornet Tracker Mk I.glb",
           "name": "F7C-R Hornet Tracker Mk I",
-          "path": "Assets/Anvil Aerospace/F7C-R Hornet Tracker Mk I.glb",
+          "path": "Assets/HighDetail/0637c72a7e3b24bbf8f0.glb",
           "length": 28.25,
           "rotation": [
             0,
@@ -556,12 +660,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker-Mk-I"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker-Mk-I",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijc4OWY2NGE3LWJiNDgtNDA5YS04OGM2LTFhNmJhM2Q4MzNkZSIsInB1ciI6ImJsb2JfaWQifX0=--e8500894d708588a67166a389c589ce306b3eb85/holo-3436b2d2-21e4-4bf6-92a3-82de1f2eb77e.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 332831
         },
         {
           "id": "Anvil Aerospace/F7C-R Hornet Tracker Mk II.glb",
           "name": "F7C-R Hornet Tracker Mk II",
-          "path": "Assets/Anvil Aerospace/F7C-R Hornet Tracker Mk II.glb",
+          "path": "Assets/HighDetail/259588c9155489cc45ed.glb",
           "length": 22.5,
           "rotation": [
             0,
@@ -569,12 +676,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-R-Hornet-Tracker-Mk-II"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-R-Hornet-Tracker-Mk-II",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjA5NjAyYTZhLWQ4YWMtNDEyMS05MjRhLTgwMzA0NDgwNjA4MCIsInB1ciI6ImJsb2JfaWQifX0=--54289fd2400bcae03b088e7cfc431fcf1cdb33c0/holo-8e7f63e9-73e3-4b9c-8e2e-675606bd149c.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 209846
         },
         {
           "id": "Anvil Aerospace/F7C-S Hornet Ghost Mk I.glb",
           "name": "F7C-S Hornet Ghost Mk I",
-          "path": "Assets/Anvil Aerospace/F7C-S Hornet Ghost Mk I.glb",
+          "path": "Assets/HighDetail/2072048cb3cbe73b3759.glb",
           "length": 28.25,
           "rotation": [
             0,
@@ -582,12 +692,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-S-Hornet-Ghost-Mk-I"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-S-Hornet-Ghost-Mk-I",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM4NTcyZjNiLWE1ODAtNDQzNy1hY2MzLTA1NGRhYzE3YTg1ZSIsInB1ciI6ImJsb2JfaWQifX0=--159e1beddae5ffa4276d7182d542abba8e5a6649/holo-aaebeb10-e883-486d-8dd8-021a728f18d0.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 278115
         },
         {
           "id": "Anvil Aerospace/F7C-S Hornet Ghost Mk II.glb",
           "name": "F7C-S Hornet Ghost Mk II",
-          "path": "Assets/Anvil Aerospace/F7C-S Hornet Ghost Mk II.glb",
+          "path": "Assets/HighDetail/4c1ec6fb12c6f608a513.glb",
           "length": 22.5,
           "rotation": [
             0,
@@ -595,12 +708,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-S-Hornet-Ghost-Mk-II"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet-mkii/F7C-S-Hornet-Ghost-Mk-II",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImUxOWRjYmQ4LTAyNGQtNDFjOS1hOTVmLWI5MDYyNmI3MzdjYiIsInB1ciI6ImJsb2JfaWQifX0=--0d8781f4b1ec87195fa9e056b06d6f649b80b4f5/holo-ba67556c-b584-4c13-a58c-81a10ef8004f.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 180122
         },
         {
           "id": "Anvil Aerospace/F8C Lightning.glb",
           "name": "F8C Lightning",
-          "path": "Assets/Anvil Aerospace/F8C Lightning.glb",
+          "path": "Assets/HighDetail/8e1d4ea399227ec0d2f7.glb",
           "length": 26,
           "rotation": [
             0,
@@ -608,12 +724,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/lightning/F8C-Lightning"
+          "source": "https://robertsspaceindustries.com/pledge/ships/lightning/F8C-Lightning",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ0MTMzNzFlLTBjOWMtNGMyNi05OTU5LTk5NDUwMzdlMWUzMCIsInB1ciI6ImJsb2JfaWQifX0=--eadc0b4e55b89d16ea8c0f8dd3d5af6deec0e8ea/holo-v2-ff1e3f63-f1c4-4b84-b8a7-6048f1af2365.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 657934
         },
         {
           "id": "Anvil Aerospace/Gladiator.glb",
           "name": "Gladiator",
-          "path": "Assets/Anvil Aerospace/Gladiator.glb",
+          "path": "Assets/HighDetail/a34097d9c459598ae53c.glb",
           "length": 22.75,
           "rotation": [
             0,
@@ -621,12 +740,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-gladiator/Gladiator"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-gladiator/Gladiator",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImRjY2U2ZmVjLWViYmQtNDM4Ni04NWY2LWJhODg3YzhkNGVhMSIsInB1ciI6ImJsb2JfaWQifX0=--1001f2635407bab45409fa3074040443785f5998/holo-e948aff0-c432-4675-951d-f2e7f2a6181f.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1029687
         },
         {
           "id": "Anvil Aerospace/Hawk.glb",
           "name": "Hawk",
-          "path": "Assets/Anvil Aerospace/Hawk.glb",
+          "path": "Assets/HighDetail/18367bfbc5e841a1d2f7.glb",
           "length": 23,
           "rotation": [
             0,
@@ -634,12 +756,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/hawk/Hawk"
+          "source": "https://robertsspaceindustries.com/pledge/ships/hawk/Hawk",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjAyZTRkZWIyLWQ1MWItNDU4MC1iZTQ1LTQ2NzQ1Y2JhYTA5OSIsInB1ciI6ImJsb2JfaWQifX0=--9bf31b1daac4cd30e48d77b4364938bee819b0f2/holo-c9a66bc8-3ab4-4767-a913-36610c489dd7.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 606746
         },
         {
           "id": "Anvil Aerospace/Hurricane.glb",
           "name": "Hurricane",
-          "path": "Assets/Anvil Aerospace/Hurricane.glb",
+          "path": "Assets/HighDetail/b5dc30ef6456b48d3b27.glb",
           "length": 24,
           "rotation": [
             0,
@@ -647,7 +772,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/hurricane/Hurricane"
+          "source": "https://robertsspaceindustries.com/pledge/ships/hurricane/Hurricane",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImJkYjdjYTZiLTE0ZjQtNDAxZC05OGNiLTBjM2Q1NjA3MmE0MiIsInB1ciI6ImJsb2JfaWQifX0=--5c543e4e833e2d055a760de4616e061409ba6cd0/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 862979
         },
         {
           "id": "Anvil Aerospace/Legionnaire.glb",
@@ -678,7 +806,7 @@
         {
           "id": "Anvil Aerospace/Odin.glb",
           "name": "Odin",
-          "path": "Assets/Anvil Aerospace/Odin.glb",
+          "path": "Assets/HighDetail/e00032ddcee3708c4d52.glb",
           "length": 752,
           "rotation": [
             0,
@@ -687,12 +815,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/odin/Odin",
-          "modelSource": "https://media.robertsspaceindustries.com/mhwmpvt2e8h0w/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFjODk3YjA1LTQyYjgtNDYxNS1iY2MwLTIzMzhjMjExOTJkZSIsInB1ciI6ImJsb2JfaWQifX0=--00c9c203f293f05a57a8973f2167f180c6974bd2/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 262543
         },
         {
           "id": "Anvil Aerospace/Paladin.glb",
           "name": "Paladin",
-          "path": "Assets/Anvil Aerospace/Paladin.glb",
+          "path": "Assets/HighDetail/00a869f7e5a6fb0ef1dd.glb",
           "length": 53,
           "rotation": [
             0,
@@ -700,12 +830,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/paladin/Paladin"
+          "source": "https://robertsspaceindustries.com/pledge/ships/paladin/Paladin",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM2MWVmYTYwLWU4YjAtNDkxZC04MGM2LTQyZjVlNWIxOTFjOCIsInB1ciI6ImJsb2JfaWQifX0=--c01a330eba37385957a861760c952bd39abc86f4/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2219200
         },
         {
           "id": "Anvil Aerospace/Spartan.glb",
           "name": "Spartan",
-          "path": "Assets/Anvil Aerospace/Spartan.glb",
+          "path": "Assets/HighDetail/802f9c682b396497ce91.glb",
           "length": 17,
           "rotation": [
             0,
@@ -713,12 +846,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/spartan/Spartan"
+          "source": "https://robertsspaceindustries.com/pledge/ships/spartan/Spartan",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjZlYjIwMzRjLWNhZGItNGUwZC1iYTI4LTM5MTk5MGNmNzQ0YiIsInB1ciI6ImJsb2JfaWQifX0=--334389e7d9b074ecde9e97c26fa594f633b4d5a0/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 494601
         },
         {
           "id": "Anvil Aerospace/Terrapin.glb",
           "name": "Terrapin",
-          "path": "Assets/Anvil Aerospace/Terrapin.glb",
+          "path": "Assets/HighDetail/3fdf85c10c8e6419c3f8.glb",
           "length": 20,
           "rotation": [
             0,
@@ -726,12 +862,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin"
+          "source": "https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjVkOTU3YTgyLTVlYzQtNDFiNi1hNGZhLTUxZTQ2ZjgzOTA0OSIsInB1ciI6ImJsb2JfaWQifX0=--f15a7ce6dd9b8dd2812a682d8edaf3e8cf4ddc8e/holo-ae90b168-eedf-4aa5-ad49-ec26ccbd26d2.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 100804
         },
         {
           "id": "Anvil Aerospace/Terrapin Medic.glb",
           "name": "Terrapin Medic",
-          "path": "Assets/Anvil Aerospace/Terrapin Medic.glb",
+          "path": "Assets/HighDetail/6d54a3cd3b4b0b38ecaa.glb",
           "length": 20,
           "rotation": [
             0,
@@ -739,12 +878,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin-Medic"
+          "source": "https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin-Medic",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjAwNDIxYzcyLTlkNjgtNDU0Yi1hMjdhLWJiNmFhNmNlYmVkOCIsInB1ciI6ImJsb2JfaWQifX0=--19c60a26f4cf68053ce810bed64b76a37fa991f3/holo-665a392b-be12-47a4-a72e-90841879c900.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 371515
         },
         {
           "id": "Anvil Aerospace/Valkyrie.glb",
           "name": "Valkyrie",
-          "path": "Assets/Anvil Aerospace/Valkyrie.glb",
+          "path": "Assets/HighDetail/720207fb2c6a7e6de58d.glb",
           "length": 48,
           "rotation": [
             0,
@@ -752,7 +894,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-valkyrie/Valkyrie"
+          "source": "https://robertsspaceindustries.com/pledge/ships/anvil-valkyrie/Valkyrie",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjU3NGNlOGYyLWUwODYtNDNhOC1hMGUzLTc5NDA5NjQ5NTA5OSIsInB1ciI6ImJsb2JfaWQifX0=--7b1a03d867d199368ddb0627973d84abf956ae54/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1809486
         }
       ]
     },
@@ -765,7 +910,7 @@
         {
           "id": "Aopoa/Khartu-Al.glb",
           "name": "Khartu-Al",
-          "path": "Assets/Aopoa/Khartu-Al.glb",
+          "path": "Assets/HighDetail/4f9147d300a95cbdc3fe.glb",
           "length": 32,
           "rotation": [
             0,
@@ -773,12 +918,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/khartu/Khartu-Al"
+          "source": "https://robertsspaceindustries.com/pledge/ships/khartu/Khartu-Al",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImJkMGY0OGYxLWM1MWQtNGU0Yy1hZDc5LTMxOTAwNzg2ZTk4OSIsInB1ciI6ImJsb2JfaWQifX0=--6450573cd47eee9f70037d609e67d310f137520d/holo-71243782-ca88-4171-9207-bd9527744004.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 106790
         },
         {
           "id": "Aopoa/Nox.glb",
           "name": "Nox",
-          "path": "Assets/Aopoa/Nox.glb",
+          "path": "Assets/HighDetail/ec11525eacaf246b90f0.glb",
           "length": 1.45,
           "rotation": [
             0,
@@ -786,12 +934,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/nox/Nox"
+          "source": "https://robertsspaceindustries.com/pledge/ships/nox/Nox",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjMwNGJhMWZhLWRhYTktNDJiNy05OWE2LTk4YzZhNTliNTA3MCIsInB1ciI6ImJsb2JfaWQifX0=--5ceb8c838d8c811702ad4e04659aaa7b9429ded8/holo-820a6445-2a6a-46f1-916d-c749b90523c7.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 145863
         },
         {
-          "id": "Aopoa/San'tok.yāi.glb",
-          "name": "San'tok.yāi",
-          "path": "Assets/Aopoa/San'tok.yāi.glb",
+          "id": "Aopoa/San'tok.y\u0101i.glb",
+          "name": "San'tok.y\u0101i",
+          "path": "Assets/HighDetail/3e7b86ce397825492a24.glb",
           "length": 24,
           "rotation": [
             0,
@@ -800,7 +951,9 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/aopoa-santokyai/Santoky-i",
-          "modelSource": "https://media.robertsspaceindustries.com/x363ia21xbtwy/source.ctm"
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjE4NGYwMjJlLTI2ZGQtNDRjNC04YzJkLTZhYWYyNzRhNWVkMyIsInB1ciI6ImJsb2JfaWQifX0=--fea576886ef049e7a4804cfc503e6a84b2f346b5/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1359643
         }
       ]
     },
@@ -813,7 +966,7 @@
         {
           "id": "Argo Astronautics/ATLS GEO.glb",
           "name": "ATLS GEO",
-          "path": "Assets/Argo Astronautics/ATLS GEO.glb",
+          "path": "Assets/HighDetail/20d30fc16e6b632b47c2.glb",
           "length": 1.8,
           "rotation": [
             0,
@@ -821,12 +974,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/atls/ATLS-GEO"
+          "source": "https://robertsspaceindustries.com/pledge/ships/atls/ATLS-GEO",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM3YmZkZWRlLTUzNzUtNGU5Yi05ZjIwLTZkNzNjZTQxNDU4OSIsInB1ciI6ImJsb2JfaWQifX0=--afe025ad8ee7a47513126353be0e7d8ca2d2268a/holo-d1e210ae-b01c-40c5-9182-65fd242e6c6b.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 359870
         },
         {
           "id": "Argo Astronautics/ATLS.glb",
           "name": "ATLS",
-          "path": "Assets/Argo Astronautics/ATLS.glb",
+          "path": "Assets/HighDetail/c67e1a2fc663b0c0960b.glb",
           "length": 1.8,
           "rotation": [
             0,
@@ -834,12 +990,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/atls/ATLS"
+          "source": "https://robertsspaceindustries.com/pledge/ships/atls/ATLS",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjllMTQ1OGU4LTljZjktNDMxMy1hOWFkLWFiNGYxZmNlODY3ZCIsInB1ciI6ImJsb2JfaWQifX0=--3e34ba1c0db3575d2506d9399a30a066c874b0b2/holo-44a44538-2ac3-4c06-829e-101a8388d9c5.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 246337
         },
         {
           "id": "Argo Astronautics/CSV-SM.glb",
           "name": "CSV-SM",
-          "path": "Assets/Argo Astronautics/CSV-SM.glb",
+          "path": "Assets/HighDetail/7e7a14048b76eb2b1be4.glb",
           "length": 6,
           "rotation": [
             0,
@@ -847,12 +1006,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/csv/CSV-SM"
+          "source": "https://robertsspaceindustries.com/pledge/ships/csv/CSV-SM",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImI2NTVjZjgzLTQ3MWYtNDExNC05YjZmLTc4YzM5NTc4M2JhNiIsInB1ciI6ImJsb2JfaWQifX0=--7ab3147df80780b22a22f841ad7e7b715aae66f6/holo-1d801006-43cb-453e-a7cb-4e14c09509d9.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 637820
         },
         {
           "id": "Argo Astronautics/MOLE.glb",
           "name": "MOLE",
-          "path": "Assets/Argo Astronautics/MOLE.glb",
+          "path": "Assets/HighDetail/7edefb0fccbc1ce4d5eb.glb",
           "length": 45,
           "rotation": [
             0,
@@ -860,12 +1022,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/argo-mole/MOLE"
+          "source": "https://robertsspaceindustries.com/pledge/ships/argo-mole/MOLE",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM3NjMwN2RmLTc0MjUtNDQ4Ny05YjdkLWI4YTcxOTY2YmIyMiIsInB1ciI6ImJsb2JfaWQifX0=--759ff37eabe98d82cc3d787b1729ebf7267b5756/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2230626
         },
         {
           "id": "Argo Astronautics/MOTH.glb",
           "name": "MOTH",
-          "path": "Assets/Argo Astronautics/MOTH.glb",
+          "path": "Assets/HighDetail/061bc30b3fc4dd8b5683.glb",
           "length": null,
           "rotation": [
             0,
@@ -873,12 +1038,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/moth/MOTH"
+          "source": "https://robertsspaceindustries.com/pledge/ships/moth/MOTH",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjU3OTVlNjc2LTQ0OTYtNGE4OC1iMjcyLTM4ZjI4MDZhNTQ4NyIsInB1ciI6ImJsb2JfaWQifX0=--c1c46d1ca6439cf48e2c9b8615e5f2693e766b39/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2078379
         },
         {
           "id": "Argo Astronautics/MPUV Cargo.glb",
           "name": "MPUV Cargo",
-          "path": "Assets/Argo Astronautics/MPUV Cargo.glb",
+          "path": "Assets/HighDetail/d001ed309043ef289d47.glb",
           "length": 10.5,
           "rotation": [
             0,
@@ -886,12 +1054,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Cargo"
+          "source": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Cargo",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ5OTJjMjczLTQ4MzctNDYyZC1iYzY2LWVjNzA1MzA3YzIxOSIsInB1ciI6ImJsb2JfaWQifX0=--e4609c56d40fb9932fe08655cc50259d8ea22da1/holo-5ab591ad-447c-4693-8f6b-4961b71ab63c.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 256175
         },
         {
           "id": "Argo Astronautics/MPUV Personnel.glb",
           "name": "MPUV Personnel",
-          "path": "Assets/Argo Astronautics/MPUV Personnel.glb",
+          "path": "Assets/HighDetail/6e1473bcc5bf342d609b.glb",
           "length": 10.5,
           "rotation": [
             0,
@@ -899,12 +1070,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Personnel"
+          "source": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Personnel",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijg0NGE3MjRmLTk3ZmItNGViMS1hNDJkLWJiZDkzMTNkMzcxOSIsInB1ciI6ImJsb2JfaWQifX0=--d7a60012710cd5f2a0fd245351308d98b27ea886/holo-9e45ed11-831e-4b97-9d84-e8931e2084bf.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 286430
         },
         {
           "id": "Argo Astronautics/MPUV Tractor.glb",
           "name": "MPUV Tractor",
-          "path": "Assets/Argo Astronautics/MPUV Tractor.glb",
+          "path": "Assets/HighDetail/464ec396af66b80dd244.glb",
           "length": 10.5,
           "rotation": [
             0,
@@ -912,12 +1086,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Tractor"
+          "source": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Tractor",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImE2ODM2NjNmLWU3ZTAtNDhhMy05NmQ3LTQ1ZTEwMTQ0NzE0OCIsInB1ciI6ImJsb2JfaWQifX0=--c489c6f46bb5c9ec84796ff2402738e268629984/holo-5cc0eca1-27fc-4286-b130-333ab2348764.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 492789
         },
         {
           "id": "Argo Astronautics/RAFT.glb",
           "name": "RAFT",
-          "path": "Assets/Argo Astronautics/RAFT.glb",
+          "path": "Assets/HighDetail/965e95492fd536af6a8b.glb",
           "length": 39.5,
           "rotation": [
             0,
@@ -925,12 +1102,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/raft/RAFT"
+          "source": "https://robertsspaceindustries.com/pledge/ships/raft/RAFT",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijc1MDM5MTkzLTJlYjAtNGZjZS1hMmY5LTczYzUyMGJiNjg3YyIsInB1ciI6ImJsb2JfaWQifX0=--dd4ba0399ce22aa80976ece2a80719394aa651af/holo-a859a6a2-7200-45aa-ac7f-26eda6afedc9.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2885673
         },
         {
           "id": "Argo Astronautics/SRV.glb",
           "name": "SRV",
-          "path": "Assets/Argo Astronautics/SRV.glb",
+          "path": "Assets/HighDetail/4492738ae3cb5ca48c54.glb",
           "length": 31.5,
           "rotation": [
             0,
@@ -938,7 +1118,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/argo-srv/SRV"
+          "source": "https://robertsspaceindustries.com/pledge/ships/argo-srv/SRV",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImViMWQ3ZmRkLTE3N2UtNDc3NS04MTkwLWRkMDM2NzA4OTUxOCIsInB1ciI6ImJsb2JfaWQifX0=--ecfe72742ff8c4a616da647580f54eb5f5d28147/holo-f7d7e8dd-10b5-490f-8cff-671a06f2ea9b.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1744384
         }
       ]
     },
@@ -951,7 +1134,7 @@
         {
           "id": "Banu/Defender.glb",
           "name": "Defender",
-          "path": "Assets/Banu/Defender.glb",
+          "path": "Assets/HighDetail/aa6f7341166c69929249.glb",
           "length": 24.5,
           "rotation": [
             0,
@@ -959,7 +1142,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/defender/Defender"
+          "source": "https://robertsspaceindustries.com/pledge/ships/defender/Defender",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ0OTU2YWEwLTI0MzUtNGIxYS05NWE5LTliM2MxNTcxYzVmOSIsInB1ciI6ImJsb2JfaWQifX0=--7cafe3bf6130ff92992538dc1c58a7b751bb69ce/holo-0bbb97fb-8606-40ac-ab71-2d28cd4c58dc.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 397976
         }
       ]
     },
@@ -972,7 +1158,7 @@
         {
           "id": "Consolidated Outland/HoverQuad.glb",
           "name": "HoverQuad",
-          "path": "Assets/Consolidated Outland/HoverQuad.glb",
+          "path": "Assets/HighDetail/f9b948c467b4d5a014a0.glb",
           "length": 1.45,
           "rotation": [
             0,
@@ -980,7 +1166,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/hoverquad/HoverQuad"
+          "source": "https://robertsspaceindustries.com/pledge/ships/hoverquad/HoverQuad",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjljOThhZTk4LTE5NTktNGE0OS04YWU2LTRhODJlYzAzNjMxOCIsInB1ciI6ImJsb2JfaWQifX0=--d1c8152a2ee3f3904f165b3ec8fb08a8b09770e9/holo-a4f17a50-9c9f-4bda-b9ea-314230c9b153.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 304331
         },
         {
           "id": "Consolidated Outland/Mustang Alpha Vindicator.glb",
@@ -998,7 +1187,7 @@
         {
           "id": "Consolidated Outland/Mustang Alpha.glb",
           "name": "Mustang Alpha",
-          "path": "Assets/Consolidated Outland/Mustang Alpha.glb",
+          "path": "Assets/HighDetail/91725e44ed75432c80a4.glb",
           "length": 21.5,
           "rotation": [
             0,
@@ -1006,12 +1195,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Alpha"
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Alpha",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY2OWJlZDQzLTVkNDAtNDUxYi1iYTE0LTdmYzcyNmFhNDIxMSIsInB1ciI6ImJsb2JfaWQifX0=--45081736d008ef27a8478a1225b3108a2cbfe85a/holo-00fe2f25-44e7-41bd-acf8-5279c14547f5.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 310091
         },
         {
           "id": "Consolidated Outland/Mustang Beta.glb",
           "name": "Mustang Beta",
-          "path": "Assets/Consolidated Outland/Mustang Beta.glb",
+          "path": "Assets/HighDetail/65a9bfd5242b8d0bcd3c.glb",
           "length": 21.5,
           "rotation": [
             0,
@@ -1019,12 +1211,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Beta"
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Beta",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQzODJhYTFjLWU5MjEtNDA2My05NGM3LTNjMDc0MDYyZGNjZCIsInB1ciI6ImJsb2JfaWQifX0=--7039cb5642135fde4c678ed818212a7c3dfef5da/holo-7d0c4c2d-24d2-45af-9a41-e4513b602b11.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 297206
         },
         {
           "id": "Consolidated Outland/Mustang Delta.glb",
           "name": "Mustang Delta",
-          "path": "Assets/Consolidated Outland/Mustang Delta.glb",
+          "path": "Assets/HighDetail/1486b28324639d90089a.glb",
           "length": 21.5,
           "rotation": [
             0,
@@ -1032,12 +1227,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Delta"
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Delta",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjNiMzRmMzVmLWMwYTgtNDg1OS05MmUzLTFmZmYzYzcyMTA3YSIsInB1ciI6ImJsb2JfaWQifX0=--a07713b223fbf5ec6ace8eb848fefc783b19ec89/holo-d60a89f8-76a3-424d-8710-d2c3498c4d03.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 402593
         },
         {
           "id": "Consolidated Outland/Mustang Gamma.glb",
           "name": "Mustang Gamma",
-          "path": "Assets/Consolidated Outland/Mustang Gamma.glb",
+          "path": "Assets/HighDetail/4da31e7150c9c59c3396.glb",
           "length": 21.5,
           "rotation": [
             0,
@@ -1045,12 +1243,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Gamma"
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Gamma",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImRkNDE1OWY5LTAxYjYtNDJkNi05NjZlLTJjNWI3MGYzOTIzZiIsInB1ciI6ImJsb2JfaWQifX0=--9dc4eccebf90d54297010eb825ef0185e2583c17/holo-2fd7c28d-2865-4a33-90f7-6d2941dc5ac3.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 276977
         },
         {
           "id": "Consolidated Outland/Mustang Omega.glb",
           "name": "Mustang Omega",
-          "path": "Assets/Consolidated Outland/Mustang Omega.glb",
+          "path": "Assets/HighDetail/0d7fca455c5d9a658aa7.glb",
           "length": 21.5,
           "rotation": [
             0,
@@ -1058,12 +1259,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Omega"
+          "source": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Omega",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijk4N2U2YzEyLTgxNmEtNDdiZC1hZGE3LTVmMWUwMTM0ODgwMCIsInB1ciI6ImJsb2JfaWQifX0=--3243be46b28f9c202e2ed42a761133b2c526e5e9/holo-ebe9ce79-3d71-434e-9180-73119b56b7b5.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 276977
         },
         {
           "id": "Consolidated Outland/Nomad.glb",
           "name": "Nomad",
-          "path": "Assets/Consolidated Outland/Nomad.glb",
+          "path": "Assets/HighDetail/cd9a63e38fb895c7768e.glb",
           "length": 19,
           "rotation": [
             0,
@@ -1071,7 +1275,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/nomad/Nomad"
+          "source": "https://robertsspaceindustries.com/pledge/ships/nomad/Nomad",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImZmN2RjZDlkLWNkNzAtNDI4Ny1hMTA2LWFmMDRkMzRhNDI4OSIsInB1ciI6ImJsb2JfaWQifX0=--e934f5fbb6fda00a5e02c0a408eead821a4a6c82/holo-ccfdca1c-9b7d-4637-a4d4-a8ba665a056c.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 283560
         },
         {
           "id": "Consolidated Outland/Pioneer.glb",
@@ -1097,7 +1304,7 @@
         {
           "id": "Crusader Industries/A1 Spirit.glb",
           "name": "A1 Spirit",
-          "path": "Assets/Crusader Industries/A1 Spirit.glb",
+          "path": "Assets/HighDetail/d69ea3c580baabaa363f.glb",
           "length": 44,
           "rotation": [
             0,
@@ -1105,12 +1312,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/spirit/A1-Spirit"
+          "source": "https://robertsspaceindustries.com/pledge/ships/spirit/A1-Spirit",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQwNmQyMmMyLTVhYjUtNGFjNC05NDhhLWIwMDU3NDM1NDE0NCIsInB1ciI6ImJsb2JfaWQifX0=--bc2ff5c9d4dc13fe7034aff58938f10cfe6463bd/holo-3e164c49-5dad-4a5c-90fc-642f0d5b31f8.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2101090
         },
         {
           "id": "Crusader Industries/A2 Hercules.glb",
           "name": "A2 Hercules",
-          "path": "Assets/Crusader Industries/A2 Hercules.glb",
+          "path": "Assets/HighDetail/435206697d3e7e1cfdbb.glb",
           "length": 70,
           "rotation": [
             0,
@@ -1118,12 +1328,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/A2-Hercules"
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/A2-Hercules",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjhmYmU4ZGJlLWRmMTktNDMwMi04NGYxLTVhOTA0NDE3NWMzYyIsInB1ciI6ImJsb2JfaWQifX0=--7637784164a76143461f24389090d953bdb616b0/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2639340
         },
         {
           "id": "Crusader Industries/Ares Inferno.glb",
           "name": "Ares Inferno",
-          "path": "Assets/Crusader Industries/Ares Inferno.glb",
+          "path": "Assets/HighDetail/2713137aa18ae92a5c1d.glb",
           "length": 27,
           "rotation": [
             0,
@@ -1131,12 +1344,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-ares/Ares-Inferno"
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-ares/Ares-Inferno",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjZmODJiMzkzLTI2MDgtNDZkMS1hMDNkLWY1OWY1ZTI4NThiYyIsInB1ciI6ImJsb2JfaWQifX0=--755aa8a2f1d9cd52bc8a5c138d09404219403511/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 834724
         },
         {
           "id": "Crusader Industries/Ares Ion.glb",
           "name": "Ares Ion",
-          "path": "Assets/Crusader Industries/Ares Ion.glb",
+          "path": "Assets/HighDetail/9aa5616dcdca079c2040.glb",
           "length": 27,
           "rotation": [
             0,
@@ -1144,12 +1360,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-ares/Ares-Ion"
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-ares/Ares-Ion",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjEwMTgwNWNhLWQ1ZTEtNDY3OS1hZmVlLTExOGU4NTY3OGU4MCIsInB1ciI6ImJsb2JfaWQifX0=--d325c40ce42a848ca9b1d673b41ed76dab4210ae/holo-0b9881b0-69eb-49a9-b59d-e876216ad51b.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 619350
         },
         {
           "id": "Crusader Industries/C1 Spirit.glb",
           "name": "C1 Spirit",
-          "path": "Assets/Crusader Industries/C1 Spirit.glb",
+          "path": "Assets/HighDetail/f8bf05124ca2d5cde2a9.glb",
           "length": 44,
           "rotation": [
             0,
@@ -1157,12 +1376,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/spirit/C1-Spirit"
+          "source": "https://robertsspaceindustries.com/pledge/ships/spirit/C1-Spirit",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFhZWEwMGRjLTI1MTktNGNhYi05ZjIwLTkyNDk2ZWM3Yzg3ZiIsInB1ciI6ImJsb2JfaWQifX0=--6a45fb6fa8c2dbd78957dbdc7acc61aff454bdc4/holo-57d59b6a-e1e0-4e2e-ba79-0030897c3e9e.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2069974
         },
         {
           "id": "Crusader Industries/C2 Hercules.glb",
           "name": "C2 Hercules",
-          "path": "Assets/Crusader Industries/C2 Hercules.glb",
+          "path": "Assets/HighDetail/f55ba6ba1dffeb1ae632.glb",
           "length": 70,
           "rotation": [
             0,
@@ -1170,7 +1392,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/C2-Hercules"
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/C2-Hercules",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjNlMjE3ZjExLTAyODgtNGQ0My04Y2Q4LTVkN2FlMDJjMjljNSIsInB1ciI6ImJsb2JfaWQifX0=--1571cd059bc6a105f2f500446437bab4e16758fe/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1900939
         },
         {
           "id": "Crusader Industries/E1 Spirit.glb",
@@ -1201,7 +1426,7 @@
         {
           "id": "Crusader Industries/Intrepid.glb",
           "name": "Intrepid",
-          "path": "Assets/Crusader Industries/Intrepid.glb",
+          "path": "Assets/HighDetail/638ea4f36c00126b811c.glb",
           "length": 23.07,
           "rotation": [
             0,
@@ -1209,12 +1434,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/intrepid/Intrepid"
+          "source": "https://robertsspaceindustries.com/pledge/ships/intrepid/Intrepid",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImIyYmE1MGQzLWQ4NDEtNGVkMC1hZjgzLWU2Mjk2ODMyNjAxZCIsInB1ciI6ImJsb2JfaWQifX0=--0095064045d989fcc9c2887e2e53d935cfe79bf3/holo-1c124ef9-0fed-4564-bf59-9a6dc9acfbcb.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 519249
         },
         {
           "id": "Crusader Industries/M2 Hercules.glb",
           "name": "M2 Hercules",
-          "path": "Assets/Crusader Industries/M2 Hercules.glb",
+          "path": "Assets/HighDetail/4e2b7867ad2efeb45246.glb",
           "length": 70,
           "rotation": [
             0,
@@ -1222,12 +1450,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/M2-Hercules"
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/M2-Hercules",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjIwMTZhYjg5LWNjOGUtNDkwNy1iZDIyLTZlZDBkMWFhM2IyMiIsInB1ciI6ImJsb2JfaWQifX0=--1201f1b27f9512e47750635761e00037bad1e6c8/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1965514
         },
         {
           "id": "Crusader Industries/Mercury.glb",
           "name": "Mercury",
-          "path": "Assets/Crusader Industries/Mercury.glb",
+          "path": "Assets/HighDetail/f3bbfa24404a75af1724.glb",
           "length": 51,
           "rotation": [
             0,
@@ -1235,7 +1466,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-mercury-star-runner/Mercury"
+          "source": "https://robertsspaceindustries.com/pledge/ships/crusader-mercury-star-runner/Mercury",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQyNTk2NjhhLTViZTUtNGRlOS1hNjMzLWI5MzJhYjViNmI2NyIsInB1ciI6ImJsb2JfaWQifX0=--4d40051e03e9d925680278fa021a1c97d1558b67/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1935414
         }
       ]
     },
@@ -1248,7 +1482,7 @@
         {
           "id": "Drake Interplanetary/Buccaneer.glb",
           "name": "Buccaneer",
-          "path": "Assets/Drake Interplanetary/Buccaneer.glb",
+          "path": "Assets/HighDetail/3c550efd7950ae8850bf.glb",
           "length": 15.25,
           "rotation": [
             0,
@@ -1256,12 +1490,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/drake-buccaneer/Buccaneer"
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-buccaneer/Buccaneer",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjkxMjhiZWJlLTdiMzQtNGUwNS04ZmU0LTQ1NzhiYTY2MTU0YSIsInB1ciI6ImJsb2JfaWQifX0=--3de18632847858020d23eebf40ec96fc5ca4bcb2/holo-v2-ed1fbefe-d26d-4521-ab42-e3046db9eb14.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 571819
         },
         {
           "id": "Drake Interplanetary/Caterpillar.glb",
           "name": "Caterpillar",
-          "path": "Assets/Drake Interplanetary/Caterpillar.glb",
+          "path": "Assets/HighDetail/46205903115ba511b821.glb",
           "length": 13.4,
           "rotation": [
             0,
@@ -1269,7 +1506,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/drake-caterpillar/Caterpillar"
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-caterpillar/Caterpillar",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjkxNDA2ZDUzLWYwZDQtNDJiNC05NzExLTkxNGE1NDFjY2RjYiIsInB1ciI6ImJsb2JfaWQifX0=--4e67fda4c74267b7586cadbb12671eac726b35df/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 4481041
         },
         {
           "id": "Drake Interplanetary/Caterpillar Best In Show Edition 2949.glb",
@@ -1287,7 +1527,7 @@
         {
           "id": "Drake Interplanetary/Clipper.glb",
           "name": "Clipper",
-          "path": "Assets/Drake Interplanetary/Clipper.glb",
+          "path": "Assets/HighDetail/dfe8f9b64a6952f84fb5.glb",
           "length": 26.5,
           "rotation": [
             0,
@@ -1295,12 +1535,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/clipper/Clipper"
+          "source": "https://robertsspaceindustries.com/pledge/ships/clipper/Clipper",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ5MmM3ZWRjLWRkZGEtNGQ2Zi1iYmJhLTAyZjQxYzRiMjAyOSIsInB1ciI6ImJsb2JfaWQifX0=--97dcbfaaa957f45407d6fe6b697dd533695cc8d2/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1796095
         },
         {
           "id": "Drake Interplanetary/Corsair.glb",
           "name": "Corsair",
-          "path": "Assets/Drake Interplanetary/Corsair.glb",
+          "path": "Assets/HighDetail/4fb29314202564eb1c32.glb",
           "length": 53,
           "rotation": [
             0,
@@ -1308,12 +1551,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/drake-corsair/Corsair"
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-corsair/Corsair",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjdjM2UzY2FiLTdmMTYtNGVmNi04OWQxLTA4NDBiMDJkZWJlNSIsInB1ciI6ImJsb2JfaWQifX0=--8b3a8b6b3f9793e7239041052fc3f06827e4734a/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 3611083
         },
         {
           "id": "Drake Interplanetary/Cutlass Black.glb",
           "name": "Cutlass Black",
-          "path": "Assets/Drake Interplanetary/Cutlass Black.glb",
+          "path": "Assets/HighDetail/b5a811b820b05c889ec7.glb",
           "length": 37.5,
           "rotation": [
             0,
@@ -1321,12 +1567,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Black"
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Black",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjA2NWRlNjE1LTNhZjEtNDVlNS05MjAyLThmYTM5MDMzNWI3MSIsInB1ciI6ImJsb2JfaWQifX0=--23aa423fce603c9b0abefd5596f6fa7ffedd3b6b/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1523507
         },
         {
           "id": "Drake Interplanetary/Cutlass Blue.glb",
           "name": "Cutlass Blue",
-          "path": "Assets/Drake Interplanetary/Cutlass Blue.glb",
+          "path": "Assets/HighDetail/f4ed836aec5a2ecd35e9.glb",
           "length": 37.5,
           "rotation": [
             0,
@@ -1334,12 +1583,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Blue"
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Blue",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImNlYzk1Yzc3LTI3NTMtNDIxNC1hMGY3LTE0Y2IwNWRkMTFmNCIsInB1ciI6ImJsb2JfaWQifX0=--2a1f1d2bdf84802456e649605aefff5594069a80/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1672259
         },
         {
           "id": "Drake Interplanetary/Cutlass Red.glb",
           "name": "Cutlass Red",
-          "path": "Assets/Drake Interplanetary/Cutlass Red.glb",
+          "path": "Assets/HighDetail/10fb964d76cc9f8d06c2.glb",
           "length": 37.5,
           "rotation": [
             0,
@@ -1347,12 +1599,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Red"
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Red",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjljMWIyNmIyLTQ0YWYtNGFlOC1hZWRmLTgwZGQyZjY0ZWFiYSIsInB1ciI6ImJsb2JfaWQifX0=--eed98200c4f5d92b3ee7ac78933bb993cd08bbdb/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1348896
         },
         {
           "id": "Drake Interplanetary/Cutlass Steel.glb",
           "name": "Cutlass Steel",
-          "path": "Assets/Drake Interplanetary/Cutlass Steel.glb",
+          "path": "Assets/HighDetail/cbb4a521f10bc1cf8b4a.glb",
           "length": 37.5,
           "rotation": [
             0,
@@ -1360,12 +1615,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Steel"
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Steel",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjUyOWM3N2ZkLThlZjEtNDk0OS1iY2YyLTJiZjFiNzZmYTBmYiIsInB1ciI6ImJsb2JfaWQifX0=--3b66de6593e45fa7f6ba2e3b0435b9b12d237951/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2086981
         },
         {
           "id": "Drake Interplanetary/Cutter.glb",
           "name": "Cutter",
-          "path": "Assets/Drake Interplanetary/Cutter.glb",
+          "path": "Assets/HighDetail/755a1d4a47af698bbe11.glb",
           "length": 20,
           "rotation": [
             0,
@@ -1373,12 +1631,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/cutter/Cutter"
+          "source": "https://robertsspaceindustries.com/pledge/ships/cutter/Cutter",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjAxZDNmMzg0LTUwZGEtNDFiNS1iMjU1LTE3ZTFlZDdkYmY5OCIsInB1ciI6ImJsb2JfaWQifX0=--2cc4bea376b0c4a03a791c2f2a80e74e258c5787/holo-c6130450-76b3-4b03-97f1-a5b93ba9a432.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2007721
         },
         {
           "id": "Drake Interplanetary/Cutter Rambler.glb",
           "name": "Cutter Rambler",
-          "path": "Assets/Drake Interplanetary/Cutter Rambler.glb",
+          "path": "Assets/HighDetail/d1dced00bc95421f9ef2.glb",
           "length": 20,
           "rotation": [
             0,
@@ -1386,7 +1647,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/cutter/Cutter-Rambler"
+          "source": "https://robertsspaceindustries.com/pledge/ships/cutter/Cutter-Rambler",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjI3NTZmZGRkLTkwZmMtNGY4OS1hZmFiLWU2YjFmODBmMzViNyIsInB1ciI6ImJsb2JfaWQifX0=--9c4911eba393259c19e00268270a2be016364e7c/holo-1439b0fb-e099-49aa-851d-5499c62073cd.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1903829
         },
         {
           "id": "Drake Interplanetary/Cutter Scout.glb",
@@ -1430,7 +1694,7 @@
         {
           "id": "Drake Interplanetary/Golem.glb",
           "name": "Golem",
-          "path": "Assets/Drake Interplanetary/Golem.glb",
+          "path": "Assets/HighDetail/d7430acfa4ccc8366054.glb",
           "length": 15.5,
           "rotation": [
             0,
@@ -1441,12 +1705,15 @@
           "source": "https://robertsspaceindustries.com/pledge/ships/golem/Golem",
           "lengthSource": "https://api.star-citizen.wiki/vehicles/drak-golem?version=4.10.0-LIVE.12519617",
           "lengthNote": "Game-data length 15.5 m; 7 m is the width. Corrects the RSI matrix length used for viewer scaling.",
-          "lengthCheckedAt": "2026-09-11"
+          "lengthCheckedAt": "2026-09-11",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjAyNDU0ZWI2LWUzNGUtNDRkOC1iNTU3LTg1N2RhNDEyODNkZSIsInB1ciI6ImJsb2JfaWQifX0=--8aacaf91cb1c87539da2b120f692d3c07b17e812/holo-b83330ae-5926-4f7e-853f-3f1f4926108e.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1329074
         },
         {
           "id": "Drake Interplanetary/Golem OX.glb",
           "name": "Golem OX",
-          "path": "Assets/Drake Interplanetary/Golem OX.glb",
+          "path": "Assets/HighDetail/4fdfb44a7a90bae7de3a.glb",
           "length": 7,
           "rotation": [
             0,
@@ -1454,12 +1721,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/golem/Golem-OX"
+          "source": "https://robertsspaceindustries.com/pledge/ships/golem/Golem-OX",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ5NTBmYWY1LTI5ZWMtNGRhZS05ZmE1LTQ2OTFiMDBkNWVmOSIsInB1ciI6ImJsb2JfaWQifX0=--262810c186707a68eadfc6e8f3b06e04bce23b3c/holo-937770af-922c-4f0f-b01c-12da1440808f.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1131966
         },
         {
           "id": "Drake Interplanetary/Herald.glb",
           "name": "Herald",
-          "path": "Assets/Drake Interplanetary/Herald.glb",
+          "path": "Assets/HighDetail/94fe6f9430dade6f0db5.glb",
           "length": 24.75,
           "rotation": [
             0,
@@ -1467,12 +1737,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/herald/Herald"
+          "source": "https://robertsspaceindustries.com/pledge/ships/herald/Herald",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImNmZmIwZDRiLTRkMWEtNDUxYS1iYjVmLTU5NDE5Yzk0ZWNjNyIsInB1ciI6ImJsb2JfaWQifX0=--ae5e5ba91f2a283c5216472b278654f3e77fa150/holo-7515cb2d-c2ab-41fe-afe9-f917bba4683d.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1090839
         },
         {
           "id": "Drake Interplanetary/Ironclad.glb",
           "name": "Ironclad",
-          "path": "Assets/Drake Interplanetary/Ironclad.glb",
+          "path": "Assets/HighDetail/0ba4cd38a5fc5df86252.glb",
           "length": 117,
           "rotation": [
             0,
@@ -1480,12 +1753,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/ironclad/Ironclad"
+          "source": "https://robertsspaceindustries.com/pledge/ships/ironclad/Ironclad",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImU0MDk2MjI3LWE5ODQtNDFhNi04NWQ1LWIyNGUxYzA5OGI3MiIsInB1ciI6ImJsb2JfaWQifX0=--8a00c83dd8d62230535fde7408ebdfa5b70e045d/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 7374496
         },
         {
           "id": "Drake Interplanetary/Ironclad Assault.glb",
           "name": "Ironclad Assault",
-          "path": "Assets/Drake Interplanetary/Ironclad Assault.glb",
+          "path": "Assets/HighDetail/d8382a30fd993a38d159.glb",
           "length": 117,
           "rotation": [
             0,
@@ -1493,7 +1769,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/ironclad/Ironclad-Assault"
+          "source": "https://robertsspaceindustries.com/pledge/ships/ironclad/Ironclad-Assault",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY3MjNkMTgyLTEyYTMtNDkyMC04MjViLTljNTgzYzYzOWNlMCIsInB1ciI6ImJsb2JfaWQifX0=--e3203aa987ff2462b7a46d4eff3c44642d6ae6b6/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 7899600
         },
         {
           "id": "Drake Interplanetary/Kraken.glb",
@@ -1524,7 +1803,7 @@
         {
           "id": "Drake Interplanetary/Mule.glb",
           "name": "Mule",
-          "path": "Assets/Drake Interplanetary/Mule.glb",
+          "path": "Assets/HighDetail/ec6898fa5eea4e27ef18.glb",
           "length": 6,
           "rotation": [
             0,
@@ -1532,12 +1811,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/mule/Mule"
+          "source": "https://robertsspaceindustries.com/pledge/ships/mule/Mule",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImZlM2Y1MmJjLTFhNjAtNDBlOS05YmZmLTllMWI0ZTY2NTM5YSIsInB1ciI6ImJsb2JfaWQifX0=--5a67be7c1de13bc5bd3a821117f7b62a92c88080/holo-981a49c8-9018-4c39-8458-74a70734ebae.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 539604
         },
         {
           "id": "Drake Interplanetary/Pitbull.glb",
           "name": "Pitbull",
-          "path": "Assets/Drake Interplanetary/Pitbull.glb",
+          "path": "Assets/HighDetail/f2ee86ee83b08c82d2b4.glb",
           "length": 6,
           "rotation": [
             0,
@@ -1546,12 +1828,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/pitbull/Pitbull",
-          "modelSource": "https://media.robertsspaceindustries.com/a7e2klipveiia/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImM2MGI2NTljLWM2NGItNDgzZi1hM2YwLTg0M2ZjYzM4NTBhMyIsInB1ciI6ImJsb2JfaWQifX0=--ccdb92e7fc65e2ab26072779725a989a0897013c/holo.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1252832
         },
         {
           "id": "Drake Interplanetary/Vulture.glb",
           "name": "Vulture",
-          "path": "Assets/Drake Interplanetary/Vulture.glb",
+          "path": "Assets/HighDetail/5a0f6649e59839f94a5d.glb",
           "length": 34,
           "rotation": [
             0,
@@ -1559,7 +1843,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/drake-vulture/Vulture"
+          "source": "https://robertsspaceindustries.com/pledge/ships/drake-vulture/Vulture",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjBjZTA5MjE1LTAxOWItNGJlMS1iZjBkLTIwNjlhOWFjMWE0NiIsInB1ciI6ImJsb2JfaWQifX0=--b3bcdcf5814e2a09996696c5e1661d94d831bc0c/holo-179d3ce8-7688-4567-9561-b03d8e5eb80c.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2255911
         }
       ]
     },
@@ -1572,7 +1859,7 @@
         {
           "id": "Esperia/Blade.glb",
           "name": "Blade",
-          "path": "Assets/Esperia/Blade.glb",
+          "path": "Assets/HighDetail/ddbd8710092aac7da702.glb",
           "length": 20.5,
           "rotation": [
             0,
@@ -1580,12 +1867,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/vanduul-blade/Blade"
+          "source": "https://robertsspaceindustries.com/pledge/ships/vanduul-blade/Blade",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjA5YmVmODc0LTYxNGYtNDY2ZS05OTI0LTUzNGQ4NTM0OGFiOSIsInB1ciI6ImJsb2JfaWQifX0=--d30fc99220b4617f201847d8fc7cd47c73e5f8f9/holo-c4dc54cb-3e82-4c63-8c44-603dd9b30e7d.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 534580
         },
         {
           "id": "Esperia/Glaive.glb",
           "name": "Glaive",
-          "path": "Assets/Esperia/Glaive.glb",
+          "path": "Assets/HighDetail/13e5f2571f3881d0fef4.glb",
           "length": 33,
           "rotation": [
             0,
@@ -1593,12 +1883,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/esperia-glaive/Glaive"
+          "source": "https://robertsspaceindustries.com/pledge/ships/esperia-glaive/Glaive",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM1OWM5MjJhLTg3MmMtNGIwNy1hOWMxLTc4YzUxMmJmY2ZlMyIsInB1ciI6ImJsb2JfaWQifX0=--32b6e2acdb1f17d07d284fc3a519dcb5c3528dbd/holo-e1c9f29c-91d9-4096-ae07-5971cffc9d13.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 206656
         },
         {
           "id": "Esperia/Prowler Utility.glb",
           "name": "Prowler Utility",
-          "path": "Assets/Esperia/Prowler Utility.glb",
+          "path": "Assets/HighDetail/4d7b316e42512838bae0.glb",
           "length": 34,
           "rotation": [
             0,
@@ -1606,12 +1899,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/prowler/Prowler-Utility"
+          "source": "https://robertsspaceindustries.com/pledge/ships/prowler/Prowler-Utility",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFiMTgyODViLTUxNzctNDBjZC1iM2EwLTY3NjhkMDg1MDFiZSIsInB1ciI6ImJsb2JfaWQifX0=--f322e4f6fafb3f0ef4d76009a5666979da9a1d20/holo-f0087a0a-21f1-4944-a46d-ec4af387c5d9.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 577937
         },
         {
           "id": "Esperia/Prowler.glb",
           "name": "Prowler",
-          "path": "Assets/Esperia/Prowler.glb",
+          "path": "Assets/HighDetail/55395739416e764640cb.glb",
           "length": 34,
           "rotation": [
             0,
@@ -1619,12 +1915,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/prowler/Prowler"
+          "source": "https://robertsspaceindustries.com/pledge/ships/prowler/Prowler",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImJkY2ViNDc2LTIxZWUtNDUxYS1hMTVjLWM3NDAyNzY1ZDJjOSIsInB1ciI6ImJsb2JfaWQifX0=--010203e7b4e0e54bdd40139885b985fbe50caca1/holo-bca81d37-efc9-448a-8e45-8eb159b43860.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 474091
         },
         {
           "id": "Esperia/Stinger.glb",
           "name": "Stinger",
-          "path": "Assets/Esperia/Stinger.glb",
+          "path": "Assets/HighDetail/b276684d4f5e97bc9faa.glb",
           "length": 36,
           "rotation": [
             0,
@@ -1632,12 +1931,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/stinger/Stinger"
+          "source": "https://robertsspaceindustries.com/pledge/ships/stinger/Stinger",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImQwMTBiNjAyLTg4ZGUtNDNjOS04MDBhLTExYzg0MjkwNjZlMiIsInB1ciI6ImJsb2JfaWQifX0=--3607e37933d0a8dc176a5517bc5c1c717a47c77e/holo.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1397357
         },
         {
           "id": "Esperia/Talon Shrike.glb",
           "name": "Talon Shrike",
-          "path": "Assets/Esperia/Talon Shrike.glb",
+          "path": "Assets/HighDetail/1b2273f117a5fd7fd3de.glb",
           "length": 24,
           "rotation": [
             0,
@@ -1645,12 +1947,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/talon/Talon-Shrike"
+          "source": "https://robertsspaceindustries.com/pledge/ships/talon/Talon-Shrike",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjhhNGJkYjc1LWEwNWEtNDY2MC1hYmQ1LWQ4Mzc5MzU0NGNhZCIsInB1ciI6ImJsb2JfaWQifX0=--af9ef675f2d60d43337878a7d2b6c9d435ca2137/holo-2ff77bf3-cb91-45d5-b2ac-afd03a43943d.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 461100
         },
         {
           "id": "Esperia/Talon.glb",
           "name": "Talon",
-          "path": "Assets/Esperia/Talon.glb",
+          "path": "Assets/HighDetail/44b095f89a9563ccd608.glb",
           "length": 24,
           "rotation": [
             0,
@@ -1658,7 +1963,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/talon/Talon"
+          "source": "https://robertsspaceindustries.com/pledge/ships/talon/Talon",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjFmYjI5ZDU1LWY0YzctNDBhMy04ODEwLTY3NzI5ODgyNTdmMSIsInB1ciI6ImJsb2JfaWQifX0=--b2591ac83d893f19c41357373e1dde348e5ddc63/holo-d0fa4d99-ce45-498a-8027-ab2393c9fd9d.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 489451
         }
       ]
     },
@@ -1671,7 +1979,7 @@
         {
           "id": "Gatac Manufacture/Railen.glb",
           "name": "Railen",
-          "path": "Assets/Gatac Manufacture/Railen.glb",
+          "path": "Assets/HighDetail/fd69bf47a7c55f3dd95d.glb",
           "length": 52,
           "rotation": [
             0,
@@ -1679,12 +1987,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/railen/Railen"
+          "source": "https://robertsspaceindustries.com/pledge/ships/railen/Railen",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImQzNWJhMjEyLTBkNTUtNDhlMi1hZGM3LWVkY2NkZmIzZjQ2OSIsInB1ciI6ImJsb2JfaWQifX0=--fac36265eb880760c6d8d7e363263ff4fccd2f6e/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2497679
         },
         {
           "id": "Gatac Manufacture/Syulen.glb",
           "name": "Syulen",
-          "path": "Assets/Gatac Manufacture/Syulen.glb",
+          "path": "Assets/HighDetail/8ca10343e8971cc2f623.glb",
           "length": 25,
           "rotation": [
             0,
@@ -1693,12 +2004,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/syulen/Syulen",
-          "modelSource": "https://media.robertsspaceindustries.com/qy4irmrigsx1a/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImRiMzExNTZkLWQ0YTEtNGQ2Yy1iYmM0LWIyNzRlMzg5Nzk4NSIsInB1ciI6ImJsb2JfaWQifX0=--c532218ac382e4629e0feaa04524848b2d618232/holo-48e1c937-1633-4b8d-964c-c5dedf2ffc22.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1215933
         },
         {
           "id": "Gatac Manufacture/Tyilui.glb",
           "name": "Tyilui",
-          "path": "Assets/Gatac Manufacture/Tyilui.glb",
+          "path": "Assets/HighDetail/503e354715f1bc9573ba.glb",
           "length": 52,
           "rotation": [
             0,
@@ -1707,7 +2020,9 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/tyilui/Tyilui",
-          "modelSource": "https://media.robertsspaceindustries.com/w7xq8tyc2esqv/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImM4OTE2NThkLWQyYzctNGZjMS05OGYyLWY4YWRjOGJlYWQzMiIsInB1ciI6ImJsb2JfaWQifX0=--fc520126defc5504beb58dd9203771ee175dd0ff/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 3146983
         }
       ]
     },
@@ -1734,7 +2049,7 @@
         {
           "id": "Grey's Market/Shiv.glb",
           "name": "Shiv",
-          "path": "Assets/Grey's Market/Shiv.glb",
+          "path": "Assets/HighDetail/d4f36103136f46a7e429.glb",
           "length": 37.5,
           "rotation": [
             0,
@@ -1742,7 +2057,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/shiv/Shiv"
+          "source": "https://robertsspaceindustries.com/pledge/ships/shiv/Shiv",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImZmZTgwMzYyLTllYmUtNDFkYy1iNjliLTc2MTM0NGE1NGZjNyIsInB1ciI6ImJsb2JfaWQifX0=--88d9821aab346dc75cc3449ff1dd21306fbc6f50/holo-72f98389-c745-490e-b80c-5681b2436701.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2013834
         }
       ]
     },
@@ -1755,7 +2073,7 @@
         {
           "id": "Greycat Industrial/MDC.glb",
           "name": "MDC",
-          "path": "Assets/Greycat Industrial/MDC.glb",
+          "path": "Assets/HighDetail/7f0f852010fc57c9ace9.glb",
           "length": 7,
           "rotation": [
             0,
@@ -1763,12 +2081,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/mdc/MDC"
+          "source": "https://robertsspaceindustries.com/pledge/ships/mdc/MDC",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjI1NjRjNmMyLWZmZDAtNDdiNS1hN2ViLWZmYmRkMmJlMGJlNCIsInB1ciI6ImJsb2JfaWQifX0=--ce156de48c80bedc91d608b3e51b90cc3700c109/holo-4ae917d8-2f54-43da-aef7-6fd5f03f0050.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 656515
         },
         {
           "id": "Greycat Industrial/MTC.glb",
           "name": "MTC",
-          "path": "Assets/Greycat Industrial/MTC.glb",
+          "path": "Assets/HighDetail/c918ca44eef2997ed3ef.glb",
           "length": 6,
           "rotation": [
             0,
@@ -1777,12 +2098,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/mtc/MTC",
-          "modelSource": "https://media.robertsspaceindustries.com/2rvc42zfjg5yn/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImU4MTBhMzgwLTI1NjYtNDZiMS1iMTllLTU0ZDMzMDg0MzZmMSIsInB1ciI6ImJsb2JfaWQifX0=--5608dc372970bc31a1cc1d4847d3065ff4bbb5dd/holo-0cb6f362-5b73-4f4e-8fe4-51b5f7e8003e.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 695843
         },
         {
           "id": "Greycat Industrial/ROC.glb",
           "name": "ROC",
-          "path": "Assets/Greycat Industrial/ROC.glb",
+          "path": "Assets/HighDetail/a9eb419375cac2684710.glb",
           "length": 6,
           "rotation": [
             0,
@@ -1790,12 +2113,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/roc/ROC"
+          "source": "https://robertsspaceindustries.com/pledge/ships/roc/ROC",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFlNDMwYWUxLTRiYTctNGEwNy1iM2I5LWU3YjY2Yjg1Y2UxMCIsInB1ciI6ImJsb2JfaWQifX0=--5d4957dd4e0e1a2fa2b441d63a5ef4b49a657401/holo-ac831ab6-d5ae-4f54-905a-997f001124ef.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 280830
         },
         {
           "id": "Greycat Industrial/ROC-DS.glb",
           "name": "ROC-DS",
-          "path": "Assets/Greycat Industrial/ROC-DS.glb",
+          "path": "Assets/HighDetail/2b5686bfd308511c0919.glb",
           "length": 6.6,
           "rotation": [
             0,
@@ -1803,12 +2129,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/roc/ROC-DS"
+          "source": "https://robertsspaceindustries.com/pledge/ships/roc/ROC-DS",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImRlZmQ2Njk1LTI1MWEtNGU4Mi04ZDlhLTlhZmQ0OGQwYTRkMSIsInB1ciI6ImJsb2JfaWQifX0=--3275b85686bc0866b00e52a50cd140de9b9e6735/holo-d1c3ddb9-b0ec-4986-b963-de899285809f.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 372295
         },
         {
           "id": "Greycat Industrial/STV.glb",
           "name": "STV",
-          "path": "Assets/Greycat Industrial/STV.glb",
+          "path": "Assets/HighDetail/7258984fb43cbebe1b52.glb",
           "length": 6,
           "rotation": [
             0,
@@ -1816,12 +2145,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/stv/STV"
+          "source": "https://robertsspaceindustries.com/pledge/ships/stv/STV",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM3M2NkOWZiLWZmYmEtNDAzMy04Yjk5LTQwZmMyNjAyNGEyMiIsInB1ciI6ImJsb2JfaWQifX0=--4b00f43fedd2dd8e0587b8b1297010d8a52c9afb/holo-3ef05700-ed47-407b-b0d3-497945e1de3f.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 426208
         },
         {
           "id": "Greycat Industrial/UTV.glb",
           "name": "UTV",
-          "path": "Assets/Greycat Industrial/UTV.glb",
+          "path": "Assets/HighDetail/7f177192a996f37daf6e.glb",
           "length": 4,
           "rotation": [
             0,
@@ -1830,7 +2162,9 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/utv/UTV",
-          "modelSource": "https://media.robertsspaceindustries.com/rtahvu6tt659t/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjVlNGE5Y2NjLTBiOTktNGE0OS1iMGY2LWEwOTY0YjYwNDcxNiIsInB1ciI6ImJsb2JfaWQifX0=--b41ca9f1c010fe793f4084419e1ae912b40f533c/holo.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 584149
         }
       ]
     },
@@ -1843,7 +2177,7 @@
         {
           "id": "Kruger Intergalactic/L-21 Wolf.glb",
           "name": "L-21 Wolf",
-          "path": "Assets/Kruger Intergalactic/L-21 Wolf.glb",
+          "path": "Assets/HighDetail/6b05e7e1202727131348.glb",
           "length": 21.5,
           "rotation": [
             0,
@@ -1851,12 +2185,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/wolf/L-21-Wolf"
+          "source": "https://robertsspaceindustries.com/pledge/ships/wolf/L-21-Wolf",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjJjODdkYzIyLTc3ZGYtNGUyYy1iNGIyLTVmNDdmMTBkY2I1NCIsInB1ciI6ImJsb2JfaWQifX0=--66c41138aee14117ae5bd5f2d2f132bc1b373322/holo-ed20af6e-e1a2-43a7-974f-e589c04aa162.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1609752
         },
         {
           "id": "Kruger Intergalactic/L-22 Alpha Wolf.glb",
           "name": "L-22 Alpha Wolf",
-          "path": "Assets/Kruger Intergalactic/L-22 Alpha Wolf.glb",
+          "path": "Assets/HighDetail/232c45bb8cb8927c9d53.glb",
           "length": 21.5,
           "rotation": [
             0,
@@ -1864,12 +2201,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/wolf/L-22-Alpha-Wolf"
+          "source": "https://robertsspaceindustries.com/pledge/ships/wolf/L-22-Alpha-Wolf",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijk4YzY1Y2MwLTcwNjEtNGRiMS04MjRkLWNjZmNjN2IwNzIxYSIsInB1ciI6ImJsb2JfaWQifX0=--90bca7d38f2b36cf103112c9672ddc64cbe98fd8/holo-577ff125-bdf4-43e4-b40c-1a790bbfa217.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1547111
         },
         {
           "id": "Kruger Intergalactic/P-52 Merlin.glb",
           "name": "P-52 Merlin",
-          "path": "Assets/Kruger Intergalactic/P-52 Merlin.glb",
+          "path": "Assets/HighDetail/3e985ab0e531d91bbac1.glb",
           "length": 12,
           "rotation": [
             0,
@@ -1877,12 +2217,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/p52-merlin/P-52-Merlin"
+          "source": "https://robertsspaceindustries.com/pledge/ships/p52-merlin/P-52-Merlin",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjUxN2I3Nzk5LTJmNDMtNGE3YS1iZGY4LTA3YzgwNzc3MWIzNSIsInB1ciI6ImJsb2JfaWQifX0=--7848d2374e8da6589e8e8b5ada8254053e930c3e/holo-7153814f-9d87-4390-b17b-920f6aca8efe.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 142446
         },
         {
           "id": "Kruger Intergalactic/P-72 Archimedes.glb",
           "name": "P-72 Archimedes",
-          "path": "Assets/Kruger Intergalactic/P-72 Archimedes.glb",
+          "path": "Assets/HighDetail/bd46b2f66544a3aa8f5d.glb",
           "length": 12,
           "rotation": [
             0,
@@ -1890,12 +2233,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/p72-archimedes/P-72-Archimedes"
+          "source": "https://robertsspaceindustries.com/pledge/ships/p72-archimedes/P-72-Archimedes",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImY3OWUwMTg0LTYyNmYtNDkzYy1hOWI1LTY4NGNkNzFmZTQ1MCIsInB1ciI6ImJsb2JfaWQifX0=--9d60e0aa64e67bd2c55d83ce44137021a2bbb7f1/holo-6c591f01-9539-4727-9656-852cf794fc48.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 334897
         },
         {
           "id": "Kruger Intergalactic/S-65 Stingray.glb",
           "name": "S-65 Stingray",
-          "path": "Assets/Kruger Intergalactic/S-65 Stingray.glb",
+          "path": "Assets/HighDetail/67040ed4f786c01e3eed.glb",
           "length": 24.5,
           "rotation": [
             0,
@@ -1904,7 +2250,9 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/s-65-stingray/S-65-Stingray",
-          "modelSource": "https://media.robertsspaceindustries.com/pmt7d034o4ery/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijg2ZmRlODQ4LWZlZjgtNGE0Ni1hOGQzLTA5ODE1NzM0ZDQwNSIsInB1ciI6ImJsb2JfaWQifX0=--a3e7365aebe7e7cf69d7b25a87b13c4442bbb3ec/holo.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1664044
         }
       ]
     },
@@ -1917,7 +2265,7 @@
         {
           "id": "Mirai/Fury.glb",
           "name": "Fury",
-          "path": "Assets/Mirai/Fury.glb",
+          "path": "Assets/HighDetail/d8e803a7a6909b9d4c67.glb",
           "length": 7,
           "rotation": [
             0,
@@ -1926,12 +2274,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/fury/Fury",
-          "modelSource": "https://media.robertsspaceindustries.com/kjtrayxqls6wk/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjMxYWRmMzYxLWU0NTQtNDRjNy1hMWYzLTIzODkyOWNmNWUzOSIsInB1ciI6ImJsb2JfaWQifX0=--83feccb9d7a1548769bc6f50dcfbb03a200e34f0/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 831309
         },
         {
           "id": "Mirai/Fury LX.glb",
           "name": "Fury LX",
-          "path": "Assets/Mirai/Fury LX.glb",
+          "path": "Assets/HighDetail/c5d044c1981fd87d0e4e.glb",
           "length": 7,
           "rotation": [
             0,
@@ -1939,12 +2289,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/fury/Fury-LX"
+          "source": "https://robertsspaceindustries.com/pledge/ships/fury/Fury-LX",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImNiOWRmNTE0LWY1MmMtNGQ3OS1hNTk1LTkzNThkNTNiMWJmNyIsInB1ciI6ImJsb2JfaWQifX0=--5c1ababc5a200d74325db360018815b81b237c22/holo-5a83f18e-ed57-4482-a47a-9e360d90b579.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 587679
         },
         {
           "id": "Mirai/Fury MX.glb",
           "name": "Fury MX",
-          "path": "Assets/Mirai/Fury MX.glb",
+          "path": "Assets/HighDetail/1be13bb24982c1ba30b2.glb",
           "length": 7,
           "rotation": [
             0,
@@ -1953,12 +2306,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/fury/Fury-MX",
-          "modelSource": "https://media.robertsspaceindustries.com/2bwvooii6vr0m/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImYwOWRiMGRlLWE1OWQtNDgyMy04NDFiLWY1Y2ZkMGYxOTQ1YiIsInB1ciI6ImJsb2JfaWQifX0=--7d2bc760fe55aa3b1802c20dc3e18b0bb6858b0d/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 782581
         },
         {
           "id": "Mirai/Guardian.glb",
           "name": "Guardian",
-          "path": "Assets/Mirai/Guardian.glb",
+          "path": "Assets/HighDetail/642f3b840a00fe239117.glb",
           "length": 24.3,
           "rotation": [
             0,
@@ -1966,12 +2321,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/guardian/Guardian"
+          "source": "https://robertsspaceindustries.com/pledge/ships/guardian/Guardian",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjIyMzVhYWUwLTA3YzYtNGQwZS05OGQ4LWQxMGNlMTM4ZWUwMyIsInB1ciI6ImJsb2JfaWQifX0=--dcb23f2457b43f0286fe6abf9608e3316b6a2b74/holo-7f61614a-3d6b-4eb8-b5f6-327ecca20406.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 623662
         },
         {
           "id": "Mirai/Guardian MX.glb",
           "name": "Guardian MX",
-          "path": "Assets/Mirai/Guardian MX.glb",
+          "path": "Assets/HighDetail/4cd4cc27462c04dcdc21.glb",
           "length": 26,
           "rotation": [
             0,
@@ -1979,12 +2337,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/guardian/Guardian-MX"
+          "source": "https://robertsspaceindustries.com/pledge/ships/guardian/Guardian-MX",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjBjZDcxYzcxLWEwYWQtNDI3OC1hNjZhLTZhYWU3ZGI4NjUwNSIsInB1ciI6ImJsb2JfaWQifX0=--4f18d9206aba1f7ef4f520a462b24387b8a06254/holo-f7fc989e-3ef3-4aad-9ac7-4f50dc346287.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 622723
         },
         {
           "id": "Mirai/Guardian QI.glb",
           "name": "Guardian QI",
-          "path": "Assets/Mirai/Guardian QI.glb",
+          "path": "Assets/HighDetail/f4e4468d577dac81cc3b.glb",
           "length": 24.3,
           "rotation": [
             0,
@@ -1992,12 +2353,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/guardian/Guardian-QI"
+          "source": "https://robertsspaceindustries.com/pledge/ships/guardian/Guardian-QI",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImU1ZTdmZGRmLTZjNDktNDUxMi05MWJmLTllYzM3MjE1YmVhNSIsInB1ciI6ImJsb2JfaWQifX0=--3e4c2b7fd428a68b7bc33cd5a0561a16fcb2440f/holo-61aa4bc7-7741-4f82-9574-71b6e7d68651.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2499689
         },
         {
           "id": "Mirai/Pulse.glb",
           "name": "Pulse",
-          "path": "Assets/Mirai/Pulse.glb",
+          "path": "Assets/HighDetail/fdb879c5094696cae41c.glb",
           "length": 3.5,
           "rotation": [
             0,
@@ -2005,12 +2369,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/mirai-pulse/Pulse"
+          "source": "https://robertsspaceindustries.com/pledge/ships/mirai-pulse/Pulse",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImE0YmM0YjhmLWM3MTUtNDcxNi05NDRjLWNiMzIyYjBmMzI2ZSIsInB1ciI6ImJsb2JfaWQifX0=--5892b9799695f63332553848c1c78951702f1e00/holo-95346be3-9b1d-45da-a136-bcadfe5f0702.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 435264
         },
         {
           "id": "Mirai/Pulse LX.glb",
           "name": "Pulse LX",
-          "path": "Assets/Mirai/Pulse LX.glb",
+          "path": "Assets/HighDetail/0d85e52956d2a25e8193.glb",
           "length": 3.5,
           "rotation": [
             0,
@@ -2018,12 +2385,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/mirai-pulse/Pulse-LX"
+          "source": "https://robertsspaceindustries.com/pledge/ships/mirai-pulse/Pulse-LX",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM5OWQyYTUzLWJlMWMtNDgxYy1hNDI0LTU5NTk4NzExNGQ5MyIsInB1ciI6ImJsb2JfaWQifX0=--3048cd7047f0532d5777b6827b9691530ce1ed37/holo-bc40a008-0850-4767-bd33-ae878afc0fde.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 430738
         },
         {
           "id": "Mirai/Razor.glb",
           "name": "Razor",
-          "path": "Assets/Mirai/Razor.glb",
+          "path": "Assets/HighDetail/2072031cd96c77c5d63a.glb",
           "length": 12.5,
           "rotation": [
             0,
@@ -2031,12 +2401,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/razor/Razor"
+          "source": "https://robertsspaceindustries.com/pledge/ships/razor/Razor",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjVjNzhjYzM4LWEwZWUtNGU1Yi1hZGYxLWVjNjZkZDU0NDRiYSIsInB1ciI6ImJsb2JfaWQifX0=--f3dfb7b0d9c4fbe1376c4eed89726df9713b428a/holo-1fac33eb-b3ef-4e9b-a8e3-a5c4011b96bf.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 132287
         },
         {
           "id": "Mirai/Razor EX.glb",
           "name": "Razor EX",
-          "path": "Assets/Mirai/Razor EX.glb",
+          "path": "Assets/HighDetail/444113834657c0e71703.glb",
           "length": 12.5,
           "rotation": [
             0,
@@ -2044,12 +2417,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/razor/Razor-EX"
+          "source": "https://robertsspaceindustries.com/pledge/ships/razor/Razor-EX",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY2YjBkMmUyLWRkMGUtNGY3MC1hOWRhLTI3NjYxMjBiYmI1YyIsInB1ciI6ImJsb2JfaWQifX0=--bb022075f83e9ca7c27873113aa490c31eb97e31/holo-c1945629-db9f-4236-997a-17a17ef76970.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 245769
         },
         {
           "id": "Mirai/Razor LX.glb",
           "name": "Razor LX",
-          "path": "Assets/Mirai/Razor LX.glb",
+          "path": "Assets/HighDetail/93bfddb206b052679ad1.glb",
           "length": 12.5,
           "rotation": [
             0,
@@ -2057,7 +2433,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/razor/Razor-LX"
+          "source": "https://robertsspaceindustries.com/pledge/ships/razor/Razor-LX",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjlhMjkyOTBmLTk4NGItNDMyZS1iMzRhLWRhNmJjOWRjNGQ4YiIsInB1ciI6ImJsb2JfaWQifX0=--83afe47fcc139947230a71930b5168ff8bef74b2/holo-ec7eac7e-e0fb-43d6-b0d7-879564f26529.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 259548
         }
       ]
     },
@@ -2096,7 +2475,7 @@
         {
           "id": "MISC/Fortune.glb",
           "name": "Fortune",
-          "path": "Assets/MISC/Fortune.glb",
+          "path": "Assets/HighDetail/85a958b852c8df455f78.glb",
           "length": 26.5,
           "rotation": [
             0,
@@ -2104,12 +2483,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/fortune/Fortune"
+          "source": "https://robertsspaceindustries.com/pledge/ships/fortune/Fortune",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImUwYzRhYzEyLWJjZGQtNGI1OS1iZjYyLWFiNzYxZWZmMTY3MiIsInB1ciI6ImJsb2JfaWQifX0=--b293f135c8d493a17dadcf2ead07eb2836563b05/holo-ac2536fb-9454-423f-8972-618233a55126.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 430725
         },
         {
           "id": "MISC/Freelancer.glb",
           "name": "Freelancer",
-          "path": "Assets/MISC/Freelancer.glb",
+          "path": "Assets/HighDetail/3b0ee79e2c90863042eb.glb",
           "length": 38,
           "rotation": [
             0,
@@ -2117,12 +2499,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer"
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjM0NWU3MjBhLTA1Y2EtNDg0Yi05M2UxLTZmYzQ4ZThjODE4NyIsInB1ciI6ImJsb2JfaWQifX0=--a491578fc9bb9854675030088ed35e32f2820cc9/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1943659
         },
         {
           "id": "MISC/Freelancer DUR.glb",
           "name": "Freelancer DUR",
-          "path": "Assets/MISC/Freelancer DUR.glb",
+          "path": "Assets/HighDetail/1013063c4db8a48a2cc6.glb",
           "length": 38,
           "rotation": [
             0,
@@ -2130,12 +2515,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-DUR"
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-DUR",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjUxOGExZWExLTY1NGItNDdhYi04YjY4LWMwMDkxMjJiYWE0MSIsInB1ciI6ImJsb2JfaWQifX0=--5ed5408756b453e0f0f043a28bf5ed3b2b657faf/holo-ddc43087-b842-4518-bb5d-d380f8cb53bb.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 388906
         },
         {
           "id": "MISC/Freelancer MAX.glb",
           "name": "Freelancer MAX",
-          "path": "Assets/MISC/Freelancer MAX.glb",
+          "path": "Assets/HighDetail/ea8dcbc9757f0e690446.glb",
           "length": 38,
           "rotation": [
             0,
@@ -2144,12 +2532,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-MAX",
-          "modelSource": "https://media.robertsspaceindustries.com/idapj2mzbcr98/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImU2NDBkZjIxLWY3ZWItNGE0My1hODU4LWIzZTcwMDE3NGFhNiIsInB1ciI6ImJsb2JfaWQifX0=--275483944a207d38ba9ad2294762c580827b0069/holo-2deafe0f-640f-4867-b6bb-3fc9f2afaa83.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 363255
         },
         {
           "id": "MISC/Freelancer MIS.glb",
           "name": "Freelancer MIS",
-          "path": "Assets/MISC/Freelancer MIS.glb",
+          "path": "Assets/HighDetail/ae85c6b900aad81b8e30.glb",
           "length": 38,
           "rotation": [
             0,
@@ -2157,12 +2547,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-MIS"
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-MIS",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijc4NmQ5YWQxLTA3NTgtNGIyYy04NjVjLTZmNTRiZDJjM2E1OSIsInB1ciI6ImJsb2JfaWQifX0=--196a333633c17a0ba7bc22f801632cb8fe497077/holo-6d33a4de-50a7-46d2-8ee3-3203231883a0.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 379924
         },
         {
           "id": "MISC/Hull A.glb",
           "name": "Hull A",
-          "path": "Assets/MISC/Hull A.glb",
+          "path": "Assets/HighDetail/e1970e7d3d19be80b826.glb",
           "length": 30,
           "rotation": [
             0,
@@ -2170,12 +2563,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-A"
+          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-A",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjBhOGIyNTMwLTYxZGMtNDY4OS1iYWMzLWJmZTA2ZGQwMDA5MCIsInB1ciI6ImJsb2JfaWQifX0=--6ab0e826621e8d2d109db43e7f553efaad462230/holo-4e1d3bdb-c282-45ce-9e46-66a0f75a30a4.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 522780
         },
         {
           "id": "MISC/Hull B.glb",
           "name": "Hull B",
-          "path": "Assets/MISC/Hull B.glb",
+          "path": "Assets/HighDetail/9120f503c4393b2956db.glb",
           "length": 71,
           "rotation": [
             0,
@@ -2183,12 +2579,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-B"
+          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-B",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImJjZTMyODQwLTYyYmQtNDg4Ni1iODA5LWU0YTI4YWQwMWVlMCIsInB1ciI6ImJsb2JfaWQifX0=--94f16c0df9416246110f17c3a621f2be349ee72e/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2523350
         },
         {
           "id": "MISC/Hull C.glb",
           "name": "Hull C",
-          "path": "Assets/MISC/Hull C.glb",
+          "path": "Assets/HighDetail/7eb252833d7f2c14a556.glb",
           "length": 91.17,
           "rotation": [
             0,
@@ -2196,7 +2595,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-C"
+          "source": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-C",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjcyMTBjZTA5LTFkZTktNDcwYy1hOTZkLTcxNjliNGE0OWU0NyIsInB1ciI6ImJsb2JfaWQifX0=--6be16ce476a82a8e811c6f86217f0d43fb5f60f0/holo-ee9a6f22-2fef-4a67-bab9-7bea693e86c6.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 834797
         },
         {
           "id": "MISC/Hull D.glb",
@@ -2240,7 +2642,7 @@
         {
           "id": "MISC/Prospector.glb",
           "name": "Prospector",
-          "path": "Assets/MISC/Prospector.glb",
+          "path": "Assets/HighDetail/8414769c0ff3f1e3ee02.glb",
           "length": 26.5,
           "rotation": [
             0,
@@ -2248,12 +2650,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/misc-prospector/Prospector"
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-prospector/Prospector",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjRkMjhmODM3LTU1ZWItNDU0ZC04ZWY0LWI3YmY0MzcyNDgwMyIsInB1ciI6ImJsb2JfaWQifX0=--5ab77f62be987fbdc94d20594c7c7392e5e6e6af/holo-ff58fc42-22b8-44b7-955d-00f8d8e44fc3.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 818523
         },
         {
           "id": "MISC/Reliant Kore.glb",
           "name": "Reliant Kore",
-          "path": "Assets/MISC/Reliant Kore.glb",
+          "path": "Assets/HighDetail/cd4fb008564506842852.glb",
           "length": 14.75,
           "rotation": [
             0,
@@ -2261,12 +2666,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Kore"
+          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Kore",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImRiZjQ5ZTg4LWNiZTktNDQxNS05OWI5LTg1MzY4ZTI0ZTJlZCIsInB1ciI6ImJsb2JfaWQifX0=--4e423c751d1bee61315a5922e445e0d184ce702c/holo-91d9757c-76cc-4f35-93b3-2720f552a0e5.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 717477
         },
         {
           "id": "MISC/Reliant Mako.glb",
           "name": "Reliant Mako",
-          "path": "Assets/MISC/Reliant Mako.glb",
+          "path": "Assets/HighDetail/fff3d361dcdf08071a0a.glb",
           "length": 14.75,
           "rotation": [
             0,
@@ -2274,12 +2682,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Mako"
+          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Mako",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImIwMDZmYmM3LTQxZmYtNDQ1Ny04ODQ4LWM0NWY0MmMwOTRjYiIsInB1ciI6ImJsb2JfaWQifX0=--6a3f975210b0918b1588636954f41c918d07f30a/holo-e031c2ac-f8c2-4eee-a55e-43c0e4a604d6.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 545842
         },
         {
           "id": "MISC/Reliant Sen.glb",
           "name": "Reliant Sen",
-          "path": "Assets/MISC/Reliant Sen.glb",
+          "path": "Assets/HighDetail/63a26eb8fe029a19df95.glb",
           "length": 14.75,
           "rotation": [
             0,
@@ -2287,12 +2698,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Sen"
+          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Sen",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjBhM2NhMTNhLTY2MjMtNDRmZi1hYTFkLThmODIyMzg0OGEwMCIsInB1ciI6ImJsb2JfaWQifX0=--e8bf503f986efe08f221dd6ef00bbfe4747ef57d/holo-075e803f-3447-49de-ad67-2f0552fb47c1.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 557530
         },
         {
           "id": "MISC/Reliant Tana.glb",
           "name": "Reliant Tana",
-          "path": "Assets/MISC/Reliant Tana.glb",
+          "path": "Assets/HighDetail/342812d324f853624e76.glb",
           "length": 14.75,
           "rotation": [
             0,
@@ -2300,12 +2714,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Tana"
+          "source": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Tana",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImEyYTEyYTEyLTgzZDItNGUxMi04NjllLTk0M2Q3MTdlY2Y1NiIsInB1ciI6ImJsb2JfaWQifX0=--c0e00246719920cccdf0b030eb3427e455e6592c/holo-85cf296b-f0d7-4779-a894-085e742dd4f6.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 604176
         },
         {
           "id": "MISC/Starfarer.glb",
           "name": "Starfarer",
-          "path": "Assets/MISC/Starfarer.glb",
+          "path": "Assets/HighDetail/9f4f8a5565d0f0d5b6eb.glb",
           "length": 102,
           "rotation": [
             0,
@@ -2313,12 +2730,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/misc-starfarer/Starfarer"
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-starfarer/Starfarer",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImRlNTQ1NmJlLWU4NTgtNDcyNi1iYjc3LTY3NjE5YjgyOTIwYyIsInB1ciI6ImJsb2JfaWQifX0=--86731e59133e37301e8264ccd4effdaed2d258e2/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 3081572
         },
         {
           "id": "MISC/Starfarer Gemini.glb",
           "name": "Starfarer Gemini",
-          "path": "Assets/MISC/Starfarer Gemini.glb",
+          "path": "Assets/HighDetail/14485e41d0bb8e431e30.glb",
           "length": 102,
           "rotation": [
             0,
@@ -2326,12 +2746,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/misc-starfarer/Starfarer-Gemini"
+          "source": "https://robertsspaceindustries.com/pledge/ships/misc-starfarer/Starfarer-Gemini",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ4NDYxYjIzLWIxMjItNDM1Ni1iZWZhLTkwYWU1YWUyYjFmOSIsInB1ciI6ImJsb2JfaWQifX0=--9b9aa3cf396eedf0e09b6adf748af2bbe7c4cb54/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 3113137
         },
         {
           "id": "MISC/Starlancer MAX.glb",
           "name": "Starlancer MAX",
-          "path": "Assets/MISC/Starlancer MAX.glb",
+          "path": "Assets/HighDetail/3f968f491a730bf2e7d1.glb",
           "length": 83,
           "rotation": [
             0,
@@ -2339,12 +2762,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/starlancer/Starlancer-MAX"
+          "source": "https://robertsspaceindustries.com/pledge/ships/starlancer/Starlancer-MAX",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjAyNzMyOWVmLWVmZDUtNGU3MC05NmUzLTEwNmUzYmYxNDdhMSIsInB1ciI6ImJsb2JfaWQifX0=--c4d001c2c2fc1f0d5151c0c08824cb6f6f4ed7ce/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 3273079
         },
         {
           "id": "MISC/Starlancer TAC.glb",
           "name": "Starlancer TAC",
-          "path": "Assets/MISC/Starlancer TAC.glb",
+          "path": "Assets/HighDetail/1636c4513b3ebfb51267.glb",
           "length": 90,
           "rotation": [
             0,
@@ -2352,12 +2778,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/starlancer/Starlancer-TAC"
+          "source": "https://robertsspaceindustries.com/pledge/ships/starlancer/Starlancer-TAC",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjAzM2U3MWZhLTc4MWUtNGZjNi04MGRmLTQyMTdiM2I4OThlYSIsInB1ciI6ImJsb2JfaWQifX0=--45ca8c627a6a8696fa5e334d3d9db783fe8dd447/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 3823209
         },
         {
           "id": "MISC/Starlite.glb",
           "name": "Starlite",
-          "path": "Assets/MISC/Starlite.glb",
+          "path": "Assets/HighDetail/4a381c3c8b029d5fcccc.glb",
           "length": 32,
           "rotation": [
             0,
@@ -2366,7 +2795,9 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/starlite/Starlite",
-          "modelSource": "https://media.robertsspaceindustries.com/lpj7ql9st3rse/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImYwYzM5MmFlLWFkNDktNDNlNS05NzkzLTM2YTNhZjQ2OTZmOSIsInB1ciI6ImJsb2JfaWQifX0=--ae954eb21a345530432a1de5cecd1001eedd66a9/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1857931
         }
       ]
     },
@@ -2379,7 +2810,7 @@
         {
           "id": "Origin Jumpworks/100i.glb",
           "name": "100i",
-          "path": "Assets/Origin Jumpworks/100i.glb",
+          "path": "Assets/HighDetail/69c898a5d076fccfe12c.glb",
           "length": 19,
           "rotation": [
             0,
@@ -2387,12 +2818,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/origin-100/100i"
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-100/100i",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImRkYjczNjQyLWFhMGItNGZjYi04YzJiLWYzOTc0MWE0N2Y2MyIsInB1ciI6ImJsb2JfaWQifX0=--48850688ca88d7961d7606657e385fff69f92282/holo-c96e2287-f40d-4ff9-a390-342dff90f67c.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 336162
         },
         {
           "id": "Origin Jumpworks/125a.glb",
           "name": "125a",
-          "path": "Assets/Origin Jumpworks/125a.glb",
+          "path": "Assets/HighDetail/0ef9e9a99ec8c19d46cb.glb",
           "length": 19,
           "rotation": [
             0,
@@ -2400,12 +2834,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/origin-100/125a"
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-100/125a",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImVjMjM2NjZiLTJjYTEtNDk5Yy1hYmE2LWJmMjM4OGMxNjBhNyIsInB1ciI6ImJsb2JfaWQifX0=--5ed88d42c089dad7791a2a987ab67c3ccdd759d8/holo-e91fd6f5-dd56-4182-88eb-9df572413dc9.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 356486
         },
         {
           "id": "Origin Jumpworks/135c.glb",
           "name": "135c",
-          "path": "Assets/Origin Jumpworks/135c.glb",
+          "path": "Assets/HighDetail/483a7d4233205ccf869a.glb",
           "length": 19,
           "rotation": [
             0,
@@ -2413,12 +2850,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/origin-100/135c"
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-100/135c",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjNhNGY1ZjZmLTM1ZjctNDFlZC1hODBkLTY5Njg2MGQ2ZTcwOSIsInB1ciI6ImJsb2JfaWQifX0=--d436843dd93f63ad42d86d63527f3b09d42fcf38/holo-3cd0ad01-af0d-4f7e-a8c8-7c445fad5427.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 383554
         },
         {
           "id": "Origin Jumpworks/300i.glb",
           "name": "300i",
-          "path": "Assets/Origin Jumpworks/300i.glb",
+          "path": "Assets/HighDetail/c3c03916813be6233f07.glb",
           "length": 27,
           "rotation": [
             0,
@@ -2426,12 +2866,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/300i"
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/300i",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImE5YWJlMGU2LTNlYTUtNDljZi04YzhmLWQ1NzUxYmEzOTE3ZSIsInB1ciI6ImJsb2JfaWQifX0=--426d40e2be79fb979c6b3116923e7cce6ed36da1/holo-v2-22eafbfe-ee0b-4cee-83c1-fa0af5bd2705.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 530150
         },
         {
           "id": "Origin Jumpworks/315p.glb",
           "name": "315p",
-          "path": "Assets/Origin Jumpworks/315p.glb",
+          "path": "Assets/HighDetail/380067dc4f595ce70d0d.glb",
           "length": 27,
           "rotation": [
             0,
@@ -2439,12 +2882,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/315p"
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/315p",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijc2NmMxNTE3LTIwNmItNGQ0MC04MGVjLWJjNGYwZjI3YmRlOCIsInB1ciI6ImJsb2JfaWQifX0=--da9366481ba281d7e2ab5cd5a65f712bcf10630f/holo-v2-c29ac409-b7ab-4259-b14f-8561d2d0dd5b.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 510726
         },
         {
           "id": "Origin Jumpworks/325a.glb",
           "name": "325a",
-          "path": "Assets/Origin Jumpworks/325a.glb",
+          "path": "Assets/HighDetail/538657af9c61f35e13b4.glb",
           "length": 27.5,
           "rotation": [
             0,
@@ -2452,12 +2898,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/325a"
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/325a",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImJlMWUxODFhLTNjNWUtNDk0OC1hODFkLWIzMGQ1ZTExYjU5MyIsInB1ciI6ImJsb2JfaWQifX0=--d6e97336586fcfe7984f0186887740f8dc9dfb9c/holo-d978ab87-0eef-4d99-93ed-c9513b6ff28e.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 241691
         },
         {
           "id": "Origin Jumpworks/350r.glb",
           "name": "350r",
-          "path": "Assets/Origin Jumpworks/350r.glb",
+          "path": "Assets/HighDetail/c51fb9deb8acbf4db410.glb",
           "length": 27,
           "rotation": [
             0,
@@ -2465,12 +2914,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/350r"
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-300/350r",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjgzYzUzZDBkLTRkOTAtNGUzOC05YmZkLWQyMjZhNzRkNzdlMiIsInB1ciI6ImJsb2JfaWQifX0=--44ede1e39ca3c42018ec4903bab0f29093d38006/holo-e2b01ebd-0b3e-4789-b920-6aaafc2bc8b7.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 245673
         },
         {
           "id": "Origin Jumpworks/400i.glb",
           "name": "400i",
-          "path": "Assets/Origin Jumpworks/400i.glb",
+          "path": "Assets/HighDetail/44e697fca41d977ca5ab.glb",
           "length": 56,
           "rotation": [
             0,
@@ -2478,12 +2930,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/400i/400i"
+          "source": "https://robertsspaceindustries.com/pledge/ships/400i/400i",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjIyNmUzNjg1LTQxMTUtNDY4NC1iNzg0LTBkOTBhMDRhNTY0YSIsInB1ciI6ImJsb2JfaWQifX0=--63bfd929a214787655fae68c4b9ec58c99b6bae8/holo-af2b4203-bda0-4951-871b-50ab615bd634.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1056711
         },
         {
           "id": "Origin Jumpworks/600i Explorer.glb",
           "name": "600i Explorer",
-          "path": "Assets/Origin Jumpworks/600i Explorer.glb",
+          "path": "Assets/HighDetail/cef153535de4b0c7aa69.glb",
           "length": 91.5,
           "rotation": [
             0,
@@ -2491,12 +2946,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/600i/600i-Explorer"
+          "source": "https://robertsspaceindustries.com/pledge/ships/600i/600i-Explorer",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImMwYWFmZWEyLWJmYWYtNDYzZC05YWRlLTI2ZjJmMzc4ZDRmNCIsInB1ciI6ImJsb2JfaWQifX0=--140bd88794fd9dba24607d590a15dde096d8fcd2/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2492745
         },
         {
           "id": "Origin Jumpworks/600i Touring.glb",
           "name": "600i Touring",
-          "path": "Assets/Origin Jumpworks/600i Touring.glb",
+          "path": "Assets/HighDetail/e5961ca8f63633a18514.glb",
           "length": 91.5,
           "rotation": [
             0,
@@ -2504,12 +2962,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/600i/600i-Touring"
+          "source": "https://robertsspaceindustries.com/pledge/ships/600i/600i-Touring",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjIyMGI1MWVjLTc1ZTAtNDQyYi05YTIxLWM1NTI0MzVmMzQ4OSIsInB1ciI6ImJsb2JfaWQifX0=--9afb59fd1a462ffe741bce5a21bff8416124aada/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2420602
         },
         {
           "id": "Origin Jumpworks/890 Jump.glb",
           "name": "890 Jump",
-          "path": "Assets/Origin Jumpworks/890 Jump.glb",
+          "path": "Assets/HighDetail/f4eb7f1bf36babf66f53.glb",
           "length": 210,
           "rotation": [
             0,
@@ -2517,7 +2978,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/890-jump/890-Jump"
+          "source": "https://robertsspaceindustries.com/pledge/ships/890-jump/890-Jump",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImYyNDgyMDg5LTVlOTQtNDYwMC05MjE5LTA4ODc1OWY1N2ViOCIsInB1ciI6ImJsb2JfaWQifX0=--7ccc1bc07486d29442d8dfc01c95e379852cdb3d/holo-11c2ea67-edab-4848-bc28-81be91d8525d.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 315046
         },
         {
           "id": "Origin Jumpworks/G12.glb",
@@ -2561,7 +3025,7 @@
         {
           "id": "Origin Jumpworks/M50.glb",
           "name": "M50",
-          "path": "Assets/Origin Jumpworks/M50.glb",
+          "path": "Assets/HighDetail/3f97ed7dd2f90fcf0fa1.glb",
           "length": 11.5,
           "rotation": [
             0,
@@ -2569,12 +3033,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/origin-m50/M50"
+          "source": "https://robertsspaceindustries.com/pledge/ships/origin-m50/M50",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjQ3NmMxMzgxLWJkMGMtNGE2MS1iZjk0LWY3ZTZmYzA5NDJjOSIsInB1ciI6ImJsb2JfaWQifX0=--3ba5455563c812c1bfdea4cccf2dc90102a5563f/holo-18a62989-c066-48a7-b687-de1c77f23768.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 293100
         },
         {
           "id": "Origin Jumpworks/M80.glb",
           "name": "M80",
-          "path": "Assets/Origin Jumpworks/M80.glb",
+          "path": "Assets/HighDetail/cf274c382963ac63ce6f.glb",
           "length": 11.5,
           "rotation": [
             0,
@@ -2583,12 +3050,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/m80/M80",
-          "modelSource": "https://media.robertsspaceindustries.com/vx75fqpeoj5nf/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFmMGUyNTBmLWYwNTUtNGU3OC04ZWQyLWEzMGE0MzM1OGU4NyIsInB1ciI6ImJsb2JfaWQifX0=--21e82fad6b5974527c220487ac9f26a06b4ab499/holo.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1623609
         },
         {
           "id": "Origin Jumpworks/X1.glb",
           "name": "X1",
-          "path": "Assets/Origin Jumpworks/X1.glb",
+          "path": "Assets/HighDetail/600d589bb700ba08590f.glb",
           "length": 1.55,
           "rotation": [
             0,
@@ -2596,12 +3065,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/x1/X1"
+          "source": "https://robertsspaceindustries.com/pledge/ships/x1/X1",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjUzZDJkNDY0LWQ2YmItNGJlMi05MjFkLTc1ODU5MzlhMDU2NyIsInB1ciI6ImJsb2JfaWQifX0=--e0f11cba843ae908db1e99178bc39e976680e43c/holo-7346a48e-ec08-4893-929b-a94be53a2b8c.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 423167
         },
         {
           "id": "Origin Jumpworks/X1 Force.glb",
           "name": "X1 Force",
-          "path": "Assets/Origin Jumpworks/X1 Force.glb",
+          "path": "Assets/HighDetail/faa6055284ed6898df76.glb",
           "length": 1.55,
           "rotation": [
             0,
@@ -2609,12 +3081,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/x1/X1-Force"
+          "source": "https://robertsspaceindustries.com/pledge/ships/x1/X1-Force",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjAzYWM5ZmUzLTcwMGItNDEyYy1hMTNjLTlkMjUyNDJiOTcyOSIsInB1ciI6ImJsb2JfaWQifX0=--be474a243be47d2ace6233891800a821c9827099/holo-b378dd57-b2be-4ad4-acdc-ac16cc3d1798.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 433921
         },
         {
           "id": "Origin Jumpworks/X1 Velocity.glb",
           "name": "X1 Velocity",
-          "path": "Assets/Origin Jumpworks/X1 Velocity.glb",
+          "path": "Assets/HighDetail/d224f8d8c498410de993.glb",
           "length": 1.55,
           "rotation": [
             0,
@@ -2622,7 +3097,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/x1/X1-Velocity"
+          "source": "https://robertsspaceindustries.com/pledge/ships/x1/X1-Velocity",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijc5NmU0ZjM3LWYwZjUtNDc5Yi1hY2QxLTcyMGY2ZGVkNTYwZCIsInB1ciI6ImJsb2JfaWQifX0=--28ae3f49269b9c25198e7e7bdc05057fbd975b8c/holo-dcdaf016-b9b0-4c8c-b03e-2021abfd81b7.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 439219
         }
       ]
     },
@@ -2635,7 +3113,7 @@
         {
           "id": "Roberts Space Industries/Apollo Medivac.glb",
           "name": "Apollo Medivac",
-          "path": "Assets/Roberts Space Industries/Apollo Medivac.glb",
+          "path": "Assets/HighDetail/74a883e37074a3c507fe.glb",
           "length": 54,
           "rotation": [
             0,
@@ -2643,12 +3121,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-apollo/Apollo-Medivac"
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-apollo/Apollo-Medivac",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImVkMGZjN2JiLWE2NDUtNDA5ZC1hZTQ2LTQxMTg2OWE1YTk5MSIsInB1ciI6ImJsb2JfaWQifX0=--4ceac1c31b33693334a67a288cc80cb240ff05ab/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2468236
         },
         {
           "id": "Roberts Space Industries/Apollo Triage.glb",
           "name": "Apollo Triage",
-          "path": "Assets/Roberts Space Industries/Apollo Triage.glb",
+          "path": "Assets/HighDetail/82a50f79563b5037d5d5.glb",
           "length": 54,
           "rotation": [
             0,
@@ -2656,12 +3137,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-apollo/Apollo-Triage"
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-apollo/Apollo-Triage",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjYwNTIxZTAwLTk4OGItNGYzZi1iOWRmLTBlMWI4Zjk5ZWIyOCIsInB1ciI6ImJsb2JfaWQifX0=--93bdcb07f636f71b38635c7ff5560ade608bc789/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2449901
         },
         {
           "id": "Roberts Space Industries/Arrastra.glb",
           "name": "Arrastra",
-          "path": "Assets/Roberts Space Industries/Arrastra.glb",
+          "path": "Assets/HighDetail/446f793fff4dafb3b5bf.glb",
           "length": 124,
           "rotation": [
             0,
@@ -2669,7 +3153,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/arrastra/Arrastra"
+          "source": "https://robertsspaceindustries.com/pledge/ships/arrastra/Arrastra",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFlYmJhNmExLTYxNzQtNDAzYy1iYjY5LWI5OGE1NWFmMmFjYyIsInB1ciI6ImJsb2JfaWQifX0=--2d8708a6083c01c10ba2964e3e87abd0532c46e1/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 67141
         },
         {
           "id": "Roberts Space Industries/Aurora CL.glb",
@@ -2742,7 +3229,7 @@
         {
           "id": "Roberts Space Industries/Aurora Mk I SE.glb",
           "name": "Aurora Mk I SE",
-          "path": "Assets/Roberts Space Industries/Aurora Mk I SE.glb",
+          "path": "Assets/HighDetail/f12245a27d3c75872816.glb",
           "length": 19,
           "rotation": [
             0,
@@ -2751,12 +3238,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-Mk-I-SE",
-          "modelSource": "https://media.robertsspaceindustries.com/4x6e0cz58vkxc/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjIzMzg1MWJiLTJhYWUtNDU4NC04MmRkLTE0ZTRhNjk5ZWZhNyIsInB1ciI6ImJsb2JfaWQifX0=--b76359066decedac0df6a266620d2aadbd1b7eb1/holo.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1026071
         },
         {
           "id": "Roberts Space Industries/Aurora Mk II.glb",
           "name": "Aurora Mk II",
-          "path": "Assets/Roberts Space Industries/Aurora Mk II.glb",
+          "path": "Assets/HighDetail/7d967578d558e8479836.glb",
           "length": 27.4,
           "rotation": [
             0,
@@ -2765,12 +3254,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/aurora-mk-ii/Aurora-Mk-II",
-          "modelSource": "https://media.robertsspaceindustries.com/btj5u1v7p3tw5/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImFjYzVkM2NmLTY1MDktNGEwMC05YjdjLTJlMDdjZDcxODhiMSIsInB1ciI6ImJsb2JfaWQifX0=--4b51218fa63e96a4b2d298b2325ae64da6a4c698/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1969737
         },
         {
           "id": "Roberts Space Industries/Constellation Andromeda.glb",
           "name": "Constellation Mk IV Andromeda",
-          "path": "Assets/Roberts Space Industries/Constellation Mk IV Andromeda.glb",
+          "path": "Assets/HighDetail/3fcdfa5d40d97a05b69f.glb",
           "length": 62,
           "rotation": [
             0,
@@ -2781,12 +3272,15 @@
           "source": "https://robertsspaceindustries.com/en/pledge/ships/rsi-constellation/Constellation-Mk-IV-Andromeda",
           "aliases": [
             "Constellation Andromeda"
-          ]
+          ],
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImM4YzIzMTI3LWE1NTEtNGJjNi04MGMzLTkwNmFkNjU0YjBmMSIsInB1ciI6ImJsb2JfaWQifX0=--1a8e3eb76ee4af1de43660a61bd8ecf0a3cf45c5/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 3431028
         },
         {
           "id": "Roberts Space Industries/Constellation Aquila.glb",
           "name": "Constellation Mk IV Aquila",
-          "path": "Assets/Roberts Space Industries/Constellation Mk IV Aquila.glb",
+          "path": "Assets/HighDetail/c5fba736e83a3b5269dc.glb",
           "length": 62,
           "rotation": [
             0,
@@ -2797,12 +3291,15 @@
           "source": "https://robertsspaceindustries.com/en/pledge/ships/rsi-constellation/Constellation-Mk-IV-Aquila",
           "aliases": [
             "Constellation Aquila"
-          ]
+          ],
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjYxZTRhYTM4LThkYzMtNDVkOC05NTIyLTRiZDA2ZjMwZTA0MSIsInB1ciI6ImJsb2JfaWQifX0=--1ef090a2070af1d04810e3a59bf3dfb5a2896504/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 3231745
         },
         {
           "id": "Roberts Space Industries/Constellation Phoenix.glb",
           "name": "Constellation Mk IV Phoenix",
-          "path": "Assets/Roberts Space Industries/Constellation Mk IV Phoenix.glb",
+          "path": "Assets/HighDetail/254d617b28a0f93f34c5.glb",
           "length": 62,
           "rotation": [
             0,
@@ -2813,12 +3310,15 @@
           "source": "https://robertsspaceindustries.com/en/pledge/ships/rsi-constellation/Constellation-Mk-IV-Phoenix",
           "aliases": [
             "Constellation Phoenix"
-          ]
+          ],
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjZjYzgwYjM4LTgxMDAtNGQ4NS1hNDc5LTIwZWRkM2VjZGU4MyIsInB1ciI6ImJsb2JfaWQifX0=--82f790f0c306bd666c3fa96e218267f0c08dd5c3/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 3507448
         },
         {
           "id": "Roberts Space Industries/Constellation Taurus.glb",
           "name": "Constellation Mk IV Taurus",
-          "path": "Assets/Roberts Space Industries/Constellation Mk IV Taurus.glb",
+          "path": "Assets/HighDetail/61ffa0a10c1a2098a7e5.glb",
           "length": 69,
           "rotation": [
             0,
@@ -2829,11 +3329,14 @@
           "source": "https://robertsspaceindustries.com/en/pledge/ships/rsi-constellation/Constellation-Mk-IV-Taurus",
           "aliases": [
             "Constellation Taurus"
-          ]
+          ],
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImYwZTRjNTJmLTkzNjAtNDE5MS1hM2E5LTI1MDI0OWFkNmM1ZCIsInB1ciI6ImJsb2JfaWQifX0=--67afc9bb5932d469b9893c99c7677726d1e956c3/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2628090
         },
         {
           "id": "Roberts Space Industries/Constellation Mk V Centaurus.glb",
-          "path": "Assets/Roberts Space Industries/Constellation Mk V Centaurus.glb",
+          "path": "Assets/HighDetail/9d8f18e0da63b2f072ff.glb",
           "rotation": [
             0,
             3.141592653589793,
@@ -2846,7 +3349,10 @@
           "aliases": [
             "Constellation Centaurus",
             "Centaurus"
-          ]
+          ],
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjgzMjc5NDIxLTIyNjUtNGJiYy1hOWZhLTQ1MjgwOTg2MTVjZSIsInB1ciI6ImJsb2JfaWQifX0=--bf6da6df609b08bceccef4622ff95fd717d3fa00/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 7208254
         },
         {
           "id": "Roberts Space Industries/Galaxy.glb",
@@ -2864,7 +3370,7 @@
         {
           "id": "Roberts Space Industries/Hermes.glb",
           "name": "Hermes",
-          "path": "Assets/Roberts Space Industries/Hermes.glb",
+          "path": "Assets/HighDetail/7589084422d3e2fb2c87.glb",
           "length": 58,
           "rotation": [
             0,
@@ -2872,12 +3378,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/hermes/Hermes"
+          "source": "https://robertsspaceindustries.com/pledge/ships/hermes/Hermes",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjZjYzQyYTE1LWYyOTYtNGJjYi1hYWI5LTJhODZkZjEzM2JjZCIsInB1ciI6ImJsb2JfaWQifX0=--4b1d0f852307e9bd72302b3561dff8efa164f4e7/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 2168448
         },
         {
           "id": "Roberts Space Industries/Lynx.glb",
           "name": "Lynx",
-          "path": "Assets/Roberts Space Industries/Lynx.glb",
+          "path": "Assets/HighDetail/cddc62f61f08a4082fcc.glb",
           "length": 7.75,
           "rotation": [
             0,
@@ -2885,12 +3394,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/ursa/Lynx"
+          "source": "https://robertsspaceindustries.com/pledge/ships/ursa/Lynx",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjRhOTg1NTZiLWI1NzUtNGQwOC04ZGVhLWVhYWUwYmEzNjc3ZSIsInB1ciI6ImJsb2JfaWQifX0=--b948790911a4f3ace07ef1422b346b1cc278c7d8/holo-3a44f63b-fb98-438a-83ee-6cfa38920e50.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 427872
         },
         {
           "id": "Roberts Space Industries/Mantis.glb",
           "name": "Mantis",
-          "path": "Assets/Roberts Space Industries/Mantis.glb",
+          "path": "Assets/HighDetail/ae307bfd20c425df30cb.glb",
           "length": 30,
           "rotation": [
             0,
@@ -2898,12 +3410,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-mantis/Mantis"
+          "source": "https://robertsspaceindustries.com/pledge/ships/rsi-mantis/Mantis",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImZlZTA5MTFlLTE1NDctNGExZS05MGExLTZlMDQyNWFhYTE2NyIsInB1ciI6ImJsb2JfaWQifX0=--f287d2c19d18d52e62599b771a6636cbeb64f409/holo-5bb741e1-3489-4bf8-bcd9-0310f8e107b3.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 86904
         },
         {
           "id": "Roberts Space Industries/Meteor.glb",
           "name": "Meteor",
-          "path": "Assets/Roberts Space Industries/Meteor.glb",
+          "path": "Assets/HighDetail/b305e4ccf225f6cb8946.glb",
           "length": 30,
           "rotation": [
             0,
@@ -2912,7 +3427,9 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/rsi-meteor/Meteor",
-          "modelSource": "https://media.robertsspaceindustries.com/0u646xp1k2qvl/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjJiMTdlODEyLTdjMjktNDFiNS1hODk3LTRlM2JhOWFjNWRiYiIsInB1ciI6ImJsb2JfaWQifX0=--303b248451abe40047ea3086f7d7aa768360a070/holo-267ea019-3fa8-4ece-8377-ad4de620aaa3.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1158554
         },
         {
           "id": "Roberts Space Industries/Orion.glb",
@@ -2927,12 +3444,12 @@
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/orion/Orion",
           "lengthSource": "https://starcitizen.tools/Orion",
-          "lengthNote": "Échelle de présentation 340 m demandée par le propriétaire du projet ; modèle Holoviewer existant redimensionné uniformément, sans refonte de sa géométrie."
+          "lengthNote": "\u00c9chelle de pr\u00e9sentation 340 m demand\u00e9e par le propri\u00e9taire du projet ; mod\u00e8le Holoviewer existant redimensionn\u00e9 uniform\u00e9ment, sans refonte de sa g\u00e9om\u00e9trie."
         },
         {
           "id": "Roberts Space Industries/Perseus.glb",
           "name": "Perseus",
-          "path": "Assets/Roberts Space Industries/Perseus.glb",
+          "path": "Assets/HighDetail/2334d0dde7e72d1bd180.glb",
           "length": 100,
           "rotation": [
             0,
@@ -2940,12 +3457,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/perseus/Perseus"
+          "source": "https://robertsspaceindustries.com/pledge/ships/perseus/Perseus",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjMxZmZhYzQ3LTFiNDItNDBmOC1iMTM5LTUyNGMwMjE3MmIxNiIsInB1ciI6ImJsb2JfaWQifX0=--d1f23fd0360ab9675a8aff4a75fae2bafaedcce6/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 5773013
         },
         {
           "id": "Roberts Space Industries/Polaris.glb",
           "name": "Polaris",
-          "path": "Assets/Roberts Space Industries/Polaris.glb",
+          "path": "Assets/HighDetail/56e4e01f5a13217ff4e2.glb",
           "length": 181,
           "rotation": [
             0,
@@ -2953,12 +3473,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/polaris/Polaris"
+          "source": "https://robertsspaceindustries.com/pledge/ships/polaris/Polaris",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImIwMzRiNDkwLTZhM2QtNDUwNC1iZDZkLWEyMmRhM2FhNzg1NyIsInB1ciI6ImJsb2JfaWQifX0=--52bdd6a98ea6ab1a8f4d7472a71b73531f5d20cf/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 5644839
         },
         {
           "id": "Roberts Space Industries/Salvation.glb",
           "name": "Salvation",
-          "path": "Assets/Roberts Space Industries/Salvation.glb",
+          "path": "Assets/HighDetail/0846fa75870b68cb93db.glb",
           "length": 14.5,
           "rotation": [
             0,
@@ -2966,12 +3489,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/salvation/Salvation"
+          "source": "https://robertsspaceindustries.com/pledge/ships/salvation/Salvation",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjI5YWJhNzQ0LTEzZTYtNDcxNy1iZjBkLWZhMmQ5YWQ2YmM4YSIsInB1ciI6ImJsb2JfaWQifX0=--1fe3775532517d60e50e4b6f9344bdc9e2165946/holo-e13ea0b3-45bb-4ed9-8e4f-3eff71d1f3eb.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 997790
         },
         {
           "id": "Roberts Space Industries/Scorpius.glb",
           "name": "Scorpius",
-          "path": "Assets/Roberts Space Industries/Scorpius.glb",
+          "path": "Assets/HighDetail/b6ab2abc43bc6382046a.glb",
           "length": 32,
           "rotation": [
             0,
@@ -2979,12 +3505,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/scorpius/Scorpius"
+          "source": "https://robertsspaceindustries.com/pledge/ships/scorpius/Scorpius",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjI4ZmVkZDFlLTA2MjYtNDNlOC05NDdiLWMzMzUzMmQ2ZDlmNyIsInB1ciI6ImJsb2JfaWQifX0=--fd8f5b67cc1226934af0714d25754331c3cc112e/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1155850
         },
         {
           "id": "Roberts Space Industries/Scorpius Antares.glb",
           "name": "Scorpius Antares",
-          "path": "Assets/Roberts Space Industries/Scorpius Antares.glb",
+          "path": "Assets/HighDetail/226c02ae6e51e509d9c5.glb",
           "length": 32,
           "rotation": [
             0,
@@ -2992,12 +3521,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/scorpius/Scorpius-Antares"
+          "source": "https://robertsspaceindustries.com/pledge/ships/scorpius/Scorpius-Antares",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjVkZmM4NDM2LWE2YmUtNGVkMy05OGZlLTUxMDQ3N2FlMmU5YiIsInB1ciI6ImJsb2JfaWQifX0=--87be3c122c9a5d5ad085a83b1df58d54997555f2/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1017138
         },
         {
           "id": "Roberts Space Industries/Ursa Medivac.glb",
           "name": "Ursa Medivac",
-          "path": "Assets/Roberts Space Industries/Ursa Medivac.glb",
+          "path": "Assets/HighDetail/e0a7d9365155058aa06b.glb",
           "length": 6,
           "rotation": [
             0,
@@ -3006,12 +3538,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/ursa/Ursa-Medivac",
-          "modelSource": "https://media.robertsspaceindustries.com/01ym5jdsmj116/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjViOTUyMjE1LTUwYjMtNDY4My04MWIxLTRmMTQxYTEzOTYxOCIsInB1ciI6ImJsb2JfaWQifX0=--0ff33231554605a1c5cdda29e9f3321cd6ad9c88/holo-ea2cdfae-492f-4139-90dc-d2aaaab010ab.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 341199
         },
         {
           "id": "Roberts Space Industries/Zeus Mk II CL.glb",
           "name": "Zeus Mk II CL",
-          "path": "Assets/Roberts Space Industries/Zeus Mk II CL.glb",
+          "path": "Assets/HighDetail/abc95e63c566c785f93d.glb",
           "length": 46,
           "rotation": [
             0,
@@ -3020,12 +3554,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-CL",
-          "modelSource": "https://media.robertsspaceindustries.com/jiqmrhig5saho/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjE3YzJkYTk0LWU3Y2EtNDdhMS1iOTljLWE1ZjFlYjM0NjEzMyIsInB1ciI6ImJsb2JfaWQifX0=--eb00faaa5f625b629a5baaef9d86543ca76b8e6d/holo-5114f906-83c8-46ed-bed9-737fbc0a3c58.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 182516
         },
         {
           "id": "Roberts Space Industries/Zeus Mk II ES.glb",
           "name": "Zeus Mk II ES",
-          "path": "Assets/Roberts Space Industries/Zeus Mk II ES.glb",
+          "path": "Assets/HighDetail/abc95e63c566c785f93d.glb",
           "length": 46,
           "rotation": [
             0,
@@ -3034,12 +3570,14 @@
           ],
           "scale": 0.01,
           "source": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-ES",
-          "modelSource": "https://media.robertsspaceindustries.com/3pkp6c6k9ulya/source.ctm"
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImE2ZTFiYmQzLWIzNjctNDcyOC05ZGZlLWU2OWQ0MTkzMDY1NCIsInB1ciI6ImJsb2JfaWQifX0=--b548f8e0802a24ccaaa75125c44ef2a769bb2f98/holo-0aaeded7-9f87-41a3-9710-6ee1316c46ef.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 182516
         },
         {
           "id": "Roberts Space Industries/Zeus Mk II MR.glb",
           "name": "Zeus Mk II MR",
-          "path": "Assets/Roberts Space Industries/Zeus Mk II MR.glb",
+          "path": "Assets/HighDetail/0f796f68d529b477f01e.glb",
           "length": 45.7,
           "rotation": [
             0,
@@ -3047,7 +3585,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-MR"
+          "source": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-MR",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijk0OWJiOWEzLTM1N2ItNGRkZC1iMThmLTJjMDkwNzM0NTQ1NCIsInB1ciI6ImJsb2JfaWQifX0=--30a0ab8e40d65d4931055394e18974d0f19301d3/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 240386
         }
       ]
     },
@@ -3073,7 +3614,7 @@
         {
           "id": "Tumbril/Cyclone MT.glb",
           "name": "Cyclone MT",
-          "path": "Assets/Tumbril/Cyclone MT.glb",
+          "path": "Assets/HighDetail/24b8a1c0500a2dd52250.glb",
           "length": 6,
           "rotation": [
             0,
@@ -3081,7 +3622,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-MT"
+          "source": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-MT",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjBmMThlNTgyLWM0NWYtNGI0Ni05NWU4LTZkZTk3NDg0ZDMyOCIsInB1ciI6ImJsb2JfaWQifX0=--df52942ea7aeac51c69ef7b88b6d7ecc2d556a5d/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 431917
         },
         {
           "id": "Tumbril/Cyclone RC.glb",
@@ -3125,7 +3669,7 @@
         {
           "id": "Tumbril/Cyclone.glb",
           "name": "Cyclone",
-          "path": "Assets/Tumbril/Cyclone.glb",
+          "path": "Assets/HighDetail/18d9f61308a63a7476fd.glb",
           "length": 6,
           "rotation": [
             0,
@@ -3133,12 +3677,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone"
+          "source": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImY2YWUxZTYzLTQ1MDgtNGFjZS04N2NkLWUxNWQ5ZDIxNWRkNyIsInB1ciI6ImJsb2JfaWQifX0=--7db5ca041ff616ceae39e830e8ced8598a9bb1d3/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 309967
         },
         {
           "id": "Tumbril/Nova.glb",
           "name": "Nova",
-          "path": "Assets/Tumbril/Nova.glb",
+          "path": "Assets/HighDetail/5dd1c0b84639b54fb6c9.glb",
           "length": 20,
           "rotation": [
             0,
@@ -3146,7 +3693,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/nova-tank/Nova"
+          "source": "https://robertsspaceindustries.com/pledge/ships/nova-tank/Nova",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImJlZDU0MGJlLTYzZjgtNGVhMS1hOTA2LWUyNjRiZTcxMGNiNSIsInB1ciI6ImJsb2JfaWQifX0=--09df50f956d9dd359e638fb2a774a2a159c573ab/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 664845
         },
         {
           "id": "Tumbril/Ranger CV.glb",
@@ -3190,7 +3740,7 @@
         {
           "id": "Tumbril/Storm AA.glb",
           "name": "Storm AA",
-          "path": "Assets/Tumbril/Storm AA.glb",
+          "path": "Assets/HighDetail/9eed19249b882ff9ebbb.glb",
           "length": 7.65,
           "rotation": [
             0,
@@ -3198,12 +3748,15 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/storm/Storm-AA"
+          "source": "https://robertsspaceindustries.com/pledge/ships/storm/Storm-AA",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijg3NTQ5NjU2LThjZGEtNDMxMC05ODNkLTIyMTUzN2VkNDcwMyIsInB1ciI6ImJsb2JfaWQifX0=--1cfe084efc52d01bb60d1fdbe99e99b215d412c3/holo-b7fdf09c-9dd4-4b45-b3b5-1b682b537130.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 1726256
         },
         {
           "id": "Tumbril/Storm.glb",
           "name": "Storm",
-          "path": "Assets/Tumbril/Storm.glb",
+          "path": "Assets/HighDetail/98305cf53ca581af2287.glb",
           "length": 7.65,
           "rotation": [
             0,
@@ -3211,7 +3764,10 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/storm/Storm"
+          "source": "https://robertsspaceindustries.com/pledge/ships/storm/Storm",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImZmZTQ2NTFhLTM3MDItNGFjZS04ZDVhLWU0YjU0YjEwZDU5OSIsInB1ciI6ImJsb2JfaWQifX0=--72158ab10aed6c8841346bb0727485c009735328/holo-cdab1e5b-d40c-4205-8bd3-f252cf1aaac3.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 333662
         }
       ]
     },
@@ -3224,7 +3780,7 @@
         {
           "id": "Vanduul/Scythe.glb",
           "name": "Scythe",
-          "path": "Assets/Vanduul/Scythe.glb",
+          "path": "Assets/HighDetail/18997e19b3e680a1b61f.glb",
           "length": 33,
           "rotation": [
             0,
@@ -3232,9 +3788,13 @@
             0
           ],
           "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/scythe/Scythe"
+          "source": "https://robertsspaceindustries.com/pledge/ships/scythe/Scythe",
+          "modelSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImU0NWUzZmE3LWVkZGYtNGEzZC04NjhmLWRkOWIxNjMzMDhkOSIsInB1ciI6ImJsb2JfaWQifX0=--69affc27350ae037a763234a46b28055d1cb3114/holo-f8f1f705-7ed6-4f20-9140-32893f8e04a2.gltf/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 329016
         }
       ]
     }
-  ]
+  ],
+  "modelSources": "models.json"
 }
