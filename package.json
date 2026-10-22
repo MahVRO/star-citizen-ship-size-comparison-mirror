@@ -1,0 +1,13 @@
+{
+  "name": "fleet-viewer-mirror-build",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/extensions": "4.5.1",
+    "@gltf-transform/functions": "4.5.1",
+    "draco3dgltf": "1.5.9",
+    "meshoptimizer": "1.3.0",
+    "three": "0.180.0"
+  }
+}

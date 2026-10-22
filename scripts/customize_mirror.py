@@ -21,6 +21,9 @@ def customize(output: Path, prefix: str) -> None:
         "$('maker-options').hidden = true; $('maker-toggle').setAttribute('aria-expanded', 'false');",
         "$('maker-options').hidden = false; $('maker-toggle').setAttribute('aria-expanded', 'true');",
     )
+    catalog_version = hashlib.sha256((destination / 'catalog.json').read_bytes()).hexdigest()[:12]
+    source = re.sub(r"(viewer/catalog\.json)(?:\?[^'\"]*)?(['\"])",
+                    lambda match: match[1] + '?v=' + catalog_version + match[2], source)
     viewer.write_text(source)
     shutil.copytree(assets / 'brand-logos', destination / 'brand-logos', dirs_exist_ok=True)
     aliases = {

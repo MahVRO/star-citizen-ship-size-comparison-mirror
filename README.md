@@ -20,9 +20,10 @@ GitHub Pages is public. Robots directives request that crawlers not index this m
 
 ## Local development and UI customizations
 
-Requires Python 3.12+, with HTTPS access to `fleet-viewer.com`. No Python packages are required.
+Requires Python 3.12+, Node.js 22+, and HTTPS access to `fleet-viewer.com` and `api.fleetyards.net`. No Python packages are required.
 
 ```sh
+npm ci --ignore-scripts
 MIRROR_OUTPUT=/workspace/fleet-viewer-runtime/star-citizen-ship-size-comparison-mirror python3 scripts/build_mirror.py
 python3 -m http.server 8000 --directory /workspace/fleet-viewer-runtime
 ```
@@ -30,6 +31,18 @@ python3 -m http.server 8000 --directory /workspace/fleet-viewer-runtime
 Open the server at the `/star-citizen-ship-size-comparison-mirror/` path. The path prefix must match `GITHUB_REPOSITORY` (defaults to this repository).
 
 The mirror downloads upstream files, rewrites their paths, then applies our local viewer UI using `scripts/customize_mirror.py`. Edit `ui/mirror.css` and `ui/mirror.js`, rather than downloaded files: these customizations are automatically included by the existing Pages build. The upstream Three.js viewer, catalogue, imports, controls and attribution are retained. Resources and referral content are available in the expandable community section.
+
+## Higher-detail ship models
+
+`models/upgrades.json` records the reviewed FleetYards replacements, original and final triangle counts, source URLs, input/output SHA-256 hashes, and orientation corrections. It also lists every retained ship and the reason it was retained. A replacement is selected only when its compressed output has more geometry than our previous model; unavailable or lower-detail alternatives keep the original mesh.
+
+After the upstream download, `scripts/upgrade_models.py` fetches and verifies those pinned inputs, converts them to self-contained Draco GLBs, and updates the catalogue. Exact duplicate vertices/meshes are shared and degenerate faces may be removed; no mesh simplification is applied. Ship IDs and catalogue length calibration stay stable. Glass and other source material groups remain available. This changes geometry detail, not the viewer's existing gray presentation or its lack of ship paint textures.
+
+The browser decoder is hosted locally and pinned to Three.js 0.180.0. Hashed model filenames and a versioned catalogue prevent old cached meshes from hiding replacements. Neither FleetYards nor an external decoder CDN is contacted while using the published site. The old models replaced by upgrades are removed from the published snapshot to avoid shipping two libraries. `MODEL_CACHE` can select a build cache directory (default `/tmp/fleet-model-cache`). Changed source contents fail the build and require review rather than silently changing the model.
+
+Run `scripts/check_model_upgrades.cjs` with Playwright/Chromium and `FLEET_VIEWER_URL` to load every replacement through the actual browser GLTF/Draco loader and verify finite bounds, catalogue scale, and retained catalogue coverage. Detailed geometry increases memory and rendering costs, especially for large fleets on mobile.
+
+Model metadata and replacement meshes: [FleetYards](https://fleetyards.net/). Star Citizen assets remain the property of Cloud Imperium Games / their respective owners.
 
 For quick UI iteration against an already built snapshot, without redownloading models:
 

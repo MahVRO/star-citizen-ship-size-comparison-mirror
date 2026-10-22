@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 import json, os, re, struct, urllib.parse, urllib.request
 from pathlib import Path
 from customize_mirror import customize
+from upgrade_models import upgrade_models
 ORIGIN = 'https://fleet-viewer.com/'
 OUT = Path(os.environ.get('MIRROR_OUTPUT', 'public'))
 PREFIX = '/' + os.environ.get('GITHUB_REPOSITORY', 'MahVRO/star-citizen-ship-size-comparison-mirror').split('/')[-1] + '/'
@@ -91,4 +92,5 @@ assert all((OUT / s['path']).is_file() for s in ships)
 assert (OUT / 'viewer/vendor/build/three.core.js').is_file()
 print(f'Complete: {len(ships)} ships, {len(seen)} files, {sum(f.stat().st_size for f in OUT.rglob("*") if f.is_file()) / 1048576:.1f} MiB')
 
+upgrade_models(OUT, PREFIX)
 customize(OUT, PREFIX)
