@@ -4387,5 +4387,15 @@
       "candidateTriangles": 275914,
       "candidateSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjAwMThkMGYzLTIzOTktNDAwMy1iMTliLWE3ZmUzNjM2NzM0MiIsInB1ciI6ImJsb2JfaWQifX0=--a81cd69e8b3068dd83af145b891b892ad07ad3ed/flight_holo.glb/"
     }
+  ],
+  "legacy": [
+    {
+      "path": "Assets/Roberts Space Industries/Polaris.glb",
+      "source": "https://fleet-viewer.com/Assets/Roberts%20Space%20Industries/Polaris.glb",
+      "sha256": "0f165a760fb17c6f739dcb2d3f7ed80d29aed9fc6e2fabad5d2eedd2f81aed8f",
+      "reason": "Keep Polaris loadable in tabs opened before the high-detail model rollout",
+      "id": "Roberts Space Industries/Polaris.glb",
+      "bundled": "models/legacy/polaris.glb"
+    }
   ]
 }

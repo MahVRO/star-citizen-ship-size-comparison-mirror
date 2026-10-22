@@ -1,3 +1,4 @@
+import { loadModel } from './model-loading.js?v=9b19104a1465';
 import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
 import { parseFleet, matchShip } from './fleet-import.js?v=20260911-2';
 import * as THREE from 'three';
@@ -72,7 +73,7 @@ function renderShips() {
   if (!ships.length) { const p = document.createElement('p'); p.textContent = 'No ships found.'; $('ship-list').append(p); }
 }
 async function initCatalogue() {
-  const response = await fetch('/star-citizen-ship-size-comparison-mirror/viewer/catalog.json?v=d8b05e47a806');
+  const response = await fetch('/star-citizen-ship-size-comparison-mirror/viewer/catalog.json?v=9537058a73e6');
   if (!response.ok) throw new Error('Catalogue unavailable. Reload the page to try again.');
   makers = (await response.json()).manufacturers;
   for (const maker of makers) {
@@ -332,7 +333,8 @@ function updateGrid() {
   grid.material.uniforms.worldToClip.value.multiplyMatrices(camera.projectionMatrix,camera.matrixWorldInverse);
 }
 async function createShip(ship) {
-  const gltf = await loader.loadAsync('/star-citizen-ship-size-comparison-mirror/' + ship.path.split('/star-citizen-ship-size-comparison-mirror/').map(encodeURIComponent).join('/star-citizen-ship-size-comparison-mirror/'));
+  const gltf = await loadModel(loader, ship, "/star-citizen-ship-size-comparison-mirror/viewer/catalog.json?v=9537058a73e6", "/star-citizen-ship-size-comparison-mirror/");
+  if (ship.modelLoadWarning) notify(ship.modelLoadWarning);
   const model = gltf.scene;
   try {
     const group = new THREE.Group(); group.add(model); model.rotation.set(...ship.rotation);

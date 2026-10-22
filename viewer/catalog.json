@@ -3476,7 +3476,8 @@
           "source": "https://robertsspaceindustries.com/pledge/ships/polaris/Polaris",
           "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImIwMzRiNDkwLTZhM2QtNDUwNC1iZDZkLWEyMmRhM2FhNzg1NyIsInB1ciI6ImJsb2JfaWQifX0=--52bdd6a98ea6ab1a8f4d7472a71b73531f5d20cf/flight_holo.glb/",
           "modelProvider": "FleetYards",
-          "modelTriangles": 5644839
+          "modelTriangles": 5644839,
+          "fallbackPath": "Assets/Roberts Space Industries/Polaris.glb"
         },
         {
           "id": "Roberts Space Industries/Salvation.glb",

@@ -40,6 +40,8 @@ After the upstream download, `scripts/upgrade_models.py` fetches and verifies th
 
 The browser decoder is hosted locally and pinned to Three.js 0.180.0. Hashed model filenames and a versioned catalogue prevent old cached meshes from hiding replacements. Neither FleetYards nor an external decoder CDN is contacted while using the published site. The old models replaced by upgrades are removed from the published snapshot to avoid shipping two libraries. `MODEL_CACHE` can select a build cache directory (default `/tmp/fleet-model-cache`). Changed source contents fail the build and require review rather than silently changing the model.
 
+If a tab holds an older catalogue and a model URL fails, the loader fetches the current catalogue without caching and retries the same ship at its new URL. The original Polaris URL is also retained for tabs opened before the Draco rollout; a fresh tab still selects the detailed model. If that detailed model fails, Polaris can load its standard model and displays a notice explaining the fallback. `node scripts/check_model_loading.mjs` verifies retry behavior, and `scripts/check_polaris_loading.cjs` checks stale-catalogue recovery, actual Polaris rendering and compatibility with the old loader.
+
 Run `scripts/check_model_upgrades.cjs` with Playwright/Chromium and `FLEET_VIEWER_URL` to load every replacement through the actual browser GLTF/Draco loader and verify finite bounds, catalogue scale, and retained catalogue coverage. Detailed geometry increases memory and rendering costs, especially for large fleets on mobile.
 
 Model metadata and replacement meshes: [FleetYards](https://fleetyards.net/). Star Citizen assets remain the property of Cloud Imperium Games / their respective owners.
