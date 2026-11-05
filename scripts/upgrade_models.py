@@ -13,7 +13,7 @@ from model_assets import download_model, stats, pack_model, fetch
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def upgrade_models(output: Path, prefix: str) -> None:
+def upgrade_models(output: Path, prefix: str, only_ids=None) -> None:
     manifest = json.loads((ROOT / 'models' / 'upgrades.json').read_text())
     cache = Path(os.environ.get('MODEL_CACHE', '/tmp/fleet-model-cache'))
 
@@ -34,7 +34,10 @@ def upgrade_models(output: Path, prefix: str) -> None:
             raise ValueError(f"Converted model differs from reviewed output: {entry['id']}")
         measured = stats(data)
         assert measured['triangles'] == entry['triangles'], entry['id']
-        assert measured['triangles'] > entry['previousTriangles'], entry['id']
+        # A newly released hull can replace a more densely tessellated concept.
+        # Such changes require an explicit per-model review, never an auto-match.
+        updated_design = entry.get('replacementKind') == 'updated-design' and entry.get('reviewed')
+        assert measured['triangles'] > entry['previousTriangles'] or updated_design, entry['id']
         assert len(data) < 99 * 1024**2, entry['id']
         relative = f"Assets/HighDetail/{entry['outputSha256'][:20]}.glb"
         target = output / relative
@@ -43,8 +46,11 @@ def upgrade_models(output: Path, prefix: str) -> None:
         return entry['id'], relative
 
     # Large ships can consume substantial RAM during decoding/conversion.
+    selected = [entry for entry in manifest['upgrades'] if only_ids is None or entry['id'] in only_ids]
+    if only_ids is not None and set(only_ids) != {entry['id'] for entry in selected}:
+        raise ValueError('Unknown ship ID in model update selection')
     with ThreadPoolExecutor(max_workers=2) as pool:
-        paths = dict(pool.map(prepare, manifest['upgrades']))
+        paths = dict(pool.map(prepare, selected))
     entries = {entry['id']: entry for entry in manifest['upgrades']}
     catalogue = output / 'viewer' / 'catalog.json'
     catalog = json.loads(catalogue.read_text())
@@ -56,6 +62,9 @@ def upgrade_models(output: Path, prefix: str) -> None:
             old_path = ship['path']
             ship.update(path=paths[ship['id']], modelSource=entry['source'],
                         modelProvider='FleetYards', modelTriangles=entry['triangles'])
+            for key in ('length', 'rotation', 'scale'):
+                if key in entry.get('catalogue', {}):
+                    ship[key] = entry['catalogue'][key]
             legacy = next((item for item in manifest.get('legacy', [])
                            if item.get('id') == ship['id']), None)
             if legacy:

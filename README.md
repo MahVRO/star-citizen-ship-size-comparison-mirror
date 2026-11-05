@@ -34,7 +34,9 @@ The mirror downloads upstream files, rewrites their paths, then applies our loca
 
 ## Higher-detail ship models
 
-`models/upgrades.json` records the reviewed FleetYards replacements, original and final triangle counts, source URLs, input/output SHA-256 hashes, and orientation corrections. It also lists every retained ship and the reason it was retained. A replacement is selected only when its compressed output has more geometry than our previous model; unavailable or lower-detail alternatives keep the original mesh.
+`models/upgrades.json` records the reviewed FleetYards replacements, original and final triangle counts, source URLs, input/output SHA-256 hashes, and orientation corrections. It also lists every retained ship and the reason it was retained. Replacements normally require more geometry than the previous model. An explicitly reviewed `updated-design` entry may instead replace an older concept hull, even when it has fewer triangles. Unavailable or otherwise lower-detail alternatives keep the original mesh.
+
+Galaxy uses the updated FleetYards asset published on November 4, 2026, with its measured/FleetYards length of 119.99 m and a matching thumbnail. The earlier RSI matrix entry still says 110 m; the model-specific catalogue override keeps the updated mesh and card dimensions consistent. Its stable ship ID is retained, and the old concept mesh remains available for existing tabs and fallback loading.
 
 After the upstream download, `scripts/upgrade_models.py` fetches and verifies those pinned inputs, converts them to self-contained Draco GLBs, and updates the catalogue. Exact duplicate vertices/meshes are shared and degenerate faces may be removed; no mesh simplification is applied. Ship IDs and catalogue length calibration stay stable. Glass and other source material groups remain available. This changes geometry detail, not the viewer's existing gray presentation or its lack of ship paint textures.
 
@@ -43,6 +45,8 @@ The browser decoder is hosted locally and pinned to Three.js 0.180.0. Hashed mod
 If a tab holds an older catalogue and a model URL fails, the loader fetches the current catalogue without caching and retries the same ship at its new URL. The original Polaris URL is also retained for tabs opened before the Draco rollout; a fresh tab still selects the detailed model. If that detailed model fails, Polaris can load its standard model and displays a notice explaining the fallback. `node scripts/check_model_loading.mjs` verifies retry behavior, and `scripts/check_polaris_loading.cjs` checks stale-catalogue recovery, actual Polaris rendering and compatibility with the old loader.
 
 Run `scripts/check_model_upgrades.cjs` with Playwright/Chromium and `FLEET_VIEWER_URL` to load every replacement through the actual browser GLTF/Draco loader and verify finite bounds, catalogue scale, and retained catalogue coverage. Detailed geometry increases memory and rendering costs, especially for large fleets on mobile.
+
+`scripts/check_galaxy.cjs` verifies the updated Galaxy card, model scale/alignment, rendering and saved-fleet restoration on desktop and mobile. For incremental updates to an existing snapshot, `upgrade_models(output, prefix, only_ids={ship_id})` applies only the selected reviewed model; full builds still apply the complete manifest.
 
 Model metadata and replacement meshes: [FleetYards](https://fleetyards.net/). Star Citizen assets remain the property of Cloud Imperium Games / their respective owners.
 

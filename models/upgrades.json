@@ -4078,6 +4078,39 @@
       "bytes": 1235736,
       "previousTriangles": 225982,
       "inputTriangles": 329120
+    },
+    {
+      "id": "Roberts Space Industries/Galaxy.glb",
+      "name": "Galaxy",
+      "source": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY5OTBlMDc0LTgwYWYtNDU5MC05NzFkLWFhZjRmY2QwZTZiYSIsInB1ciI6ImJsb2JfaWQifX0=--487962430b83190171c49d3d4013b6917b5f78b6/flight_holo.glb/",
+      "slug": "rsi-galaxy",
+      "sourceSha256": "3cf13fdab21579cd62249a3bba82dc1742e7af223e4528c643edc53eee2b3664",
+      "outputSha256": "3254d989ee6ec740d537bb78f47c0e4ca195160883c1bfd0e5abff5588adcdfd",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "triangles": 300019,
+      "vertices": 431750,
+      "bytes": 1423840,
+      "previousTriangles": 318240,
+      "inputTriangles": 302153,
+      "replacementKind": "updated-design",
+      "reviewed": "2026-11-05",
+      "reason": "Replace the old concept hull with the updated Galaxy asset published by FleetYards on 2026-11-04",
+      "sourceUpdatedAt": "2026-11-04T21:31:44Z",
+      "catalogue": {
+        "length": 119.99,
+        "scale": 1
+      },
+      "dimensionSource": "https://api.fleetyards.net/v1/models/galaxy",
+      "measuredDimensions": {
+        "length": 119.99405670166016,
+        "beam": 62.88646697998047,
+        "height": 20.830318450927734
+      }
     }
   ],
   "retained": [
@@ -4316,14 +4349,6 @@
       "candidateSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjcwODZmYWJkLWRjOTMtNDg4YS1iOTI2LTkwMGQ5MDMzOWJmZSIsInB1ciI6ImJsb2JfaWQifX0=--09a3b4e24c30f17518d07b71509b7e913ab3feb8/holo-891aa9b8-b936-4c3e-8da2-df6e0bfe17e1.gltf/"
     },
     {
-      "id": "Roberts Space Industries/Galaxy.glb",
-      "name": "Galaxy",
-      "reason": "Available alternative has fewer triangles than the current model",
-      "triangles": 318240,
-      "candidateTriangles": 100170,
-      "candidateSource": "https://fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjMxM2Q4MjBhLTlmNGQtNDVkMC1hZmY4LWEyMGE2ODAzNWUwYiIsInB1ciI6ImJsb2JfaWQifX0=--60fc2909c3d6a9bb6ef49cf614bdfa1a6bd7c670/flight_holo.glb/"
-    },
-    {
       "id": "Roberts Space Industries/Orion.glb",
       "name": "Orion",
       "reason": "Available alternative has fewer triangles than the current model",
@@ -4396,6 +4421,15 @@
       "reason": "Keep Polaris loadable in tabs opened before the high-detail model rollout",
       "id": "Roberts Space Industries/Polaris.glb",
       "bundled": "models/legacy/polaris.glb"
+    },
+    {
+      "id": "Roberts Space Industries/Galaxy.glb",
+      "path": "Assets/Roberts Space Industries/Galaxy.glb",
+      "source": "https://fleet-viewer.com/Assets/Roberts%20Space%20Industries/Galaxy.glb",
+      "sha256": "6e3f9ca5b927eacf16ffcfe3a3d0fb960afe9512052d7e4d4f0b82c1d4df3a8c",
+      "bundled": "models/legacy/galaxy-concept.glb",
+      "reason": "Keep the concept model available for existing tabs and loading recovery"
     }
-  ]
+  ],
+  "updated": "2026-11-05"
 }

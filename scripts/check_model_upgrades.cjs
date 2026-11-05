@@ -42,7 +42,7 @@ const assert=require('node:assert/strict');
           if(!geometries.has(node.geometry))triangles+=(node.geometry.index?.count??node.geometry.attributes.position.count)/3;
           geometries.add(node.geometry);for(const mat of [node.material].flat())materials.add(mat);
         }});
-        if(!meshes||triangles<entry.previousTriangles)throw Error('Geometry is not an upgrade');
+        if(!meshes||(triangles<entry.previousTriangles&&entry.replacementKind!=='updated-design'))throw Error('Geometry is not the reviewed replacement');
         for(const geometry of geometries)geometry.dispose();
         for(const material of materials){for(const value of Object.values(material))if(value?.isTexture)value.dispose();material.dispose();}
       }catch(e){failures.push({ship:entry.id,error:e.message});}
