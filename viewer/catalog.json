@@ -3357,15 +3357,19 @@
         {
           "id": "Roberts Space Industries/Galaxy.glb",
           "name": "Galaxy",
-          "path": "Assets/Roberts Space Industries/Galaxy.glb",
-          "length": 110,
+          "path": "Assets/HighDetail/3254d989ee6ec740d537.glb",
+          "length": 119.99,
           "rotation": [
             0,
             3.141592653589793,
             0
           ],
-          "scale": 0.01,
-          "source": "https://robertsspaceindustries.com/pledge/ships/galaxy/Galaxy"
+          "scale": 1,
+          "source": "https://robertsspaceindustries.com/pledge/ships/galaxy/Galaxy",
+          "modelSource": "https://api.fleetyards.net/files/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjY5OTBlMDc0LTgwYWYtNDU5MC05NzFkLWFhZjRmY2QwZTZiYSIsInB1ciI6ImJsb2JfaWQifX0=--487962430b83190171c49d3d4013b6917b5f78b6/flight_holo.glb/",
+          "modelProvider": "FleetYards",
+          "modelTriangles": 300019,
+          "fallbackPath": "Assets/Roberts Space Industries/Galaxy.glb"
         },
         {
           "id": "Roberts Space Industries/Hermes.glb",

@@ -10,7 +10,7 @@
   $('fleet-drop').title = 'Import or drop a fleet file';
   $('load-ships').innerHTML = 'Add to hangar <span aria-hidden="true">↗</span>';
   const shipArtBase = new URL('ships/', document.currentScript.src);
-  const shipArtworkReady = fetch(new URL('manifest.json?v=0d9c7fad55c5', shipArtBase))
+  const shipArtworkReady = fetch(new URL('manifest.json?v=53def0483942', shipArtBase))
     .then(r => r.ok ? r.json() : {}).catch(() => ({}));
   shipArtworkReady.then(artwork => {
     const enhanceShips = () => {
